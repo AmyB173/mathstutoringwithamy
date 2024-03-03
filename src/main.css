@@ -11981,4 +11981,9 @@ body {
 .main-photo {
   width: 100%;
   max-width: 300px;
+}
+
+.call-to-action {
+  max-width: 150px;
+  min-width: 130px;
 }/*# sourceMappingURL=main.css.map */

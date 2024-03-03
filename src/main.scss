@@ -1,0 +1,11 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: teal;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Custom CSS
+.side-panel {
+    height: 100vh;
+}

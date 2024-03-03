@@ -11976,4 +11976,9 @@ body {
 
 .side-panel {
   height: 100vh;
+}
+
+.main-photo {
+  width: 100%;
+  max-width: 300px;
 }/*# sourceMappingURL=main.css.map */

@@ -11965,6 +11965,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 60px;
+}
+
 .side-panel {
   height: 100vh;
 }/*# sourceMappingURL=main.css.map */

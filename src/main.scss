@@ -15,7 +15,7 @@ body {
     font-size: 60px;
 }
 .side-panel {
-    height: 100vh;
+   max-height: 1000px;
 }
 
 .main-photo { 
@@ -24,6 +24,15 @@ body {
 }
 
 .call-to-action {
-    max-width: 150px;
-    min-width: 130px;
+    max-width: 170px;
+    min-width: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+    .side-panel {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        bottom: 0;
+    }
 }

@@ -11965,8 +11965,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Alegreya Sans", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
 }
 
 .hero-title {

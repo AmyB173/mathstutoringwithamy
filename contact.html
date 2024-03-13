@@ -87,62 +87,67 @@
                                     <label for="fname">Full Name</label>
                                     <input type="text" id="fname" name="fname" class="form-control" aria-required="true"
                                         required>
+                                    
                                     <label for="email_address">Email Address</label>
                                     <input type="email" id="email_address" name="email" class="form-control"
                                         aria-required="true" autocomplete="on" required>
+                                    
                                     <label for="phone_number">Phone Number</label>
                                     <input type="text" id="phone_number" name="phone" class="form-control"
                                         aria-required="true" autocomplete="on" required>
+                                    
                                     <fieldset class="border rounded-3 p-3 my-4 d-flex  flex-column justify-content-center">
-                                        <legend class="float-none w-auto px-3 fs-6">What do you need help with?</legend>
+                                        <legend class="float-none w-auto px-3 fs-6">Year group?</legend>
                                         <p class="fw-light fst-italic">If it's the summer, please choose the year you will be in September</p>
                                         <div class="d-flex justify-content-center">
-                                            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                                            <label class="btn btn-primary mx-2" for="option1">Year 10</label>
+                                            <input type="radio" class="btn-check" name="year-group" id="y10" autocomplete="off" checked>
+                                            <label class="btn btn-primary mx-2" for="y10">Year 10</label>
 
-                                            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-                                            <label class="btn btn-primary mx-2" for="option2">Year 11</label>
+                                            <input type="radio" class="btn-check" name="year-group" id="y11" autocomplete="off">
+                                            <label class="btn btn-primary mx-2" for="y11">Year 11</label>
 
-                                            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
-                                            <label class="btn btn-primary mx-2" for="option3">Year 12</label>
+                                            <input type="radio" class="btn-check" name="year-group" id="y12" autocomplete="off">
+                                            <label class="btn btn-primary mx-2" for="y12">Year 12</label>
                                         </div>
                                     </fieldset>
+
                                     <fieldset class="border rounded-3 p-3 my-4 d-flex justify-content-center">
                                         <legend class="float-none w-auto px-3 fs-6">What do you need help with?</legend>
-                                        <input type="radio" class="btn-check" name="options1" id="option4" autocomplete="off" checked>
-                                        <label class="btn btn-primary mx-2" for="option4">GCSE/IGCSE Maths </label>
+                                        <input type="radio" class="btn-check" name="qual" id="gcse" autocomplete="off" checked>
+                                        <label class="btn btn-primary mx-2" for="gcse">GCSE/IGCSE Maths </label>
 
-                                        <input type="radio" class="btn-check" name="options1" id="option5" autocomplete="off">
-                                        <label class="btn btn-primary mx-2" for="option5">GCSE Further Maths</label>
+                                        <input type="radio" class="btn-check" name="qual" id="f-maths" autocomplete="off">
+                                        <label class="btn btn-primary mx-2" for="f-maths">GCSE Further Maths</label>
 
-                                        <input type="radio" class="btn-check" name="options1" id="option6" autocomplete="off">
-                                        <label class="btn btn-primary mx-2" for="option6">Transition to A Level </label>
+                                        <input type="radio" class="btn-check" name="qual" id="bridge" autocomplete="off">
+                                        <label class="btn btn-primary mx-2" for="bridge">Transition to A Level </label>
                                     </fieldset>
+
                                     <fieldset class="border rounded-3 p-3 my-4 d-flex justify-content-center">
                                  
                                         <legend class="float-none w-auto px-3 fs-6">Mock GCSE Maths grade?</legend>
                                         
-                                        <input type="radio" class="btn-check m-2" name="options3" id="option7" autocomplete="off" checked>
-                                        <label class="btn btn-primary mx-2" for="option7">7</label>
+                                        <input type="radio" class="btn-check m-2" name="mock" id="grade7" autocomplete="off" checked>
+                                        <label class="btn btn-primary mx-2" for="grade7">7</label>
 
-                                        <input type="radio" class="btn-check" name="options3" id="option8" autocomplete="off">
-                                        <label class="btn btn-primary mx-2" for="option8">8</label>
+                                        <input type="radio" class="btn-check" name="mock" id="grade8" autocomplete="off">
+                                        <label class="btn btn-primary mx-2" for="grade8">8</label>
 
-                                        <input type="radio" class="btn-check" name="options3" id="option9" autocomplete="off">
-                                        <label class="btn btn-primary mx-2" for="option9">9</label>
+                                        <input type="radio" class="btn-check" name="mock" id="grade9" autocomplete="off">
+                                        <label class="btn btn-primary mx-2" for="grade9">9</label>
 
-                                        <input type="radio" class="btn-check" name="options3" id="option10" autocomplete="off">
-                                        <label class="btn btn-primary mx-2" for="option10">N/A</label>
-                                    
+                                        <input type="radio" class="btn-check" name="mock" id="gradeNA" autocomplete="off">
+                                        <label class="btn btn-primary mx-2" for="gradeNA">N/A</label>
                                 </fieldset>
-                                    <label for="description" class="mt-3">Please provide some details about what your
-                                        child is struggling with and what help you would like: </label>
-                                    <textarea id="description" name="description" class="form-control"
-                                        required></textarea>
+
+                                <label for="description" class="mt-3">Please provide some details about what your
+                                    child is struggling with and what help you would like: </label>
+                                <textarea id="description" name="description" class="form-control"
+                                    required></textarea>
                                 </div>
                             </div>
-                            <input type="Submit" id="submit" value="Send"
-                                        class="bg-primary text-white form-button p-2">
+                            <input type="submit" id="submit" value="Send"
+                                        class="bg-primary text-white form-button d-flex justify-content-center p-2">
                         </div>
                     </form>
                 </div>

@@ -2,7 +2,8 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary: teal;
+// $primary: teal;
+$primary: rgb(7, 116, 116);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //Custom CSS
@@ -11,6 +12,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     font-family: "Quicksand", sans-serif;
+}
+/* To create a consistent look across all boxes */
+.rounded-border {
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hero-title {
@@ -38,4 +45,48 @@ p {
         top: 0;
         bottom: 0;
     }
+}
+
+/* --------------------------------------------Contact page form*/
+#contact-form {
+    font-family: "Quicksand", sans-serif;
+}
+
+input[type=text],
+input[type=email] {
+    width: 200px;
+    padding: 5px;
+    margin: 8px 0;
+    /* This includes the padding and border in the total size of the box */
+    box-sizing: border-box;
+}
+
+input[type=textarea] {
+    max-width: 768px;
+    height: 200px;
+    padding: 5px;
+    margin: 8px;
+}
+
+.form-wrapper {
+    padding: 30px;
+    max-width: 768px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px;
+}
+
+.form-button {
+    max-width: 236px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border:rgb(7, 116, 116);
+}
+
+#description {
+    height: 150px;
+    margin: 5px auto 15px;
+}
+
+label {
+    display: block;
 }

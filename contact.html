@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="h-100">
+    <!-- Navbar -->
+    <div class="row">
+        <div class="col text-white ">
+            <!-- navbar code taken directly from bootstrap documentation -->
+            <nav class="navbar navbar-light navbar-expand-sm">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/assets/images/logo.png"height=50 alt="The maths tutoring with Amy logo - a circle with an A in it"> 
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main "middle" section -->
+    <div class="row">
+        <div class="col-12 col-md-9 g-0">
+            <!-- Title Banner -->
+            <div class="row bg-primary py-4">
+                <div class="g-0 col-3 bg-primary text-white">
+                    <img class="w-50 ms-5" src="/assets/images/logo-white.png" alt="Maths tutoring with Amy Logo and title - with subheading Go Beyond Good">                                   
+                </div>
+                <div class="g-0 col-8 bg-primary d-flex align-items-center">
+                    <img class="w-100 m-1" src="/assets/images/picturetopeople.org-5c236b0a960d34270565cbb3dcf16a4455413b79432e2738de.png">
+                </div>
+            </div>
+            
+                <!-- Contact Form -->
+            <section class="" id="contact-form">
+                <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank" rel="noopener noreferrer">
+                    <h2 class="text-center m-4">Or, get in contact here: </h2>
+                    <div class="form-wrapper rounded-border ms-1 mt-4">
+                        <div class="row">
+                            <div class="col-11 col-md-5">
+                                <label for="fname">Full Name</label>
+                                <input type="text" id="fname" name="fname" class="form-control" aria-required="true" required>
+                                <label for="email_address">Email Address</label>
+                                <input type="email" id="email_address" name="email" class="form-control" aria-required="true"
+                                    autocomplete="on" required>
+                                <label for="phone_number">Phone Number</label>
+                                <input type="text" id="phone_number" name="phone" class="form-control" aria-required="true"
+                                    autocomplete="on" required>
+                            </div>
+                            <div class="row">
+                                <label for="description" class="mt-3">Please provide some details about what your child is struggling with and what help you would like: </label>
+                                <textarea id="description" name="description" class="form-control" required></textarea>
+                                <input type="Submit" id="submit" value="Send" class="bg-primary text-white form-button p-2">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="side-panel g-0 col-12 col-md-3 bg-secondary text-white">
+            <div class="m-4">
+                <h2 class="p-3">No false promises</h2>
+                <p>You will often find programmes guaranteeing you results in your exams. We don't do that here, and no one can guarantee a grade. What we <em>do</em> promise is you will recieve a high-quality programme designed by an experienced teacher to help boost your understanding and improve your confidence,</em></p>
+            </div>
+            <div class="m-4">
+                <h2 class="p-3">Welcoming and friendly</h2>
+                <p>You will often find programmes guaranteeing you results in your exams. We don't do that here, and no one can guarantee a grade. What we <em>do</em> promise is you will recieve a high-quality programme designed by an experienced teacher to help boost your understanding and improve your confidence,</em></p>
+            </div>
+            <div class="m-4">
+                <h2 class="p-3">Motivation to succeed</h2>
+                <p>You will often find programmes guaranteeing you results in your exams. We don't do that here, and no one can guarantee a grade. What we <em>do</em> promise is you will recieve a high-quality programme designed by an experienced teacher to help boost your understanding and improve your confidence,</em></p>
+            </div>
+        </div>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

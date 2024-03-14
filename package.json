@@ -1,7 +1,6 @@
 {
   "name": "mathstutoringwithamy",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -13,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "bootstrap": "^5.3.3"
-  }
+  },
+  "description": ""
 }

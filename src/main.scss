@@ -3,15 +3,23 @@
 
 // Include any default variable overrides here (though functions won't be available)
 $primary: #8fa5b3;
+$secondary: #DBC4B2;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //Custom CSS
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Alegreya Sans", sans-serif;
 }
-p {
-    font-family: "Quicksand", sans-serif;
+#call-to-action {
+    background-color: #8FB3AF;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
 }
 /* To create a consistent look across all boxes */
 .rounded-border {

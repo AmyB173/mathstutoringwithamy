@@ -12012,6 +12012,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   min-width: 150px;
 }
 
+#what-if {
+  width: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .side-panel { /* Safari */
     position: sticky;

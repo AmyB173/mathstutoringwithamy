@@ -2,7 +2,7 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary: #8fa5b3;
+$primary: #637380;
 $secondary: #DBC4B2;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -16,13 +16,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Alegreya Sans", sans-serif;
 }
 #call-to-action-1 {
-    background-color: rgba(143,165,179, 0.9);
-    font-weight: 600;
+    background-color: #637380;
+    font-family: "Quicksand", serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
     color: white;
-    border-radius: 50px;
-    width: 300px;
+    border-radius: 15px;
+    width: 150px;
+
 }
 #call-to-action-1:hover {
+    background-color: white;
     color:#485963;
 }
 /* To create a consistent look across all boxes */
@@ -32,6 +36,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 30px;
 }
 .hero-banner {
+    // Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+.hero-banner-contact {
     // Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.jpg);
     background-position: center;
@@ -45,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
-   background-color: rgba(143,165,179, 0.5);
+   background-color: rgba(99,115,128, 0.5);
 }
 
 #hero-logo {
@@ -54,8 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .side-panel {
-   
-   background-color: #8fa5b3;
    display: flex;
    align-items: center;
    margin-bottom: 20px;

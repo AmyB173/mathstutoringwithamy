@@ -11996,13 +11996,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .hero-banner {
-  background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.jpg);
+  background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.webp);
   background-position: right;
   background-size: cover;
 }
 
 .hero-banner-contact {
-  background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.jpg);
+  background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash-crop.webp);
   background-position: center;
   background-size: contain;
 }

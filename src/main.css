@@ -12122,11 +12122,18 @@ label {
 }
 
 #four-reasons-landing {
-  background-image: url(../assets/images/markus-spiske-k0rVudBoB4c-unsplash.jpg);
-  background-repeat: none;
-  background-size: cover;
+  background-color: #383838;
 }
 
-.pdf-prev {
-  background-color: rgba(255, 255, 255, 0.8);
+.title-img {
+  width: 90vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .title-img {
+    width: 75vw;
+  }
+}
+.pdf-prev img {
+  margin: 50px;
 }/*# sourceMappingURL=main.css.map */

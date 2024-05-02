@@ -63,46 +63,6 @@ The purpose of this website it to attract customers for my online Maths tutoring
 
 ### Strategy - User Stories
 
-#### First-time visitor (novice or experienced)
- 
-
-#### Novice guitar owner (first-time visit)
-
-
-#### Experienced guitar owner (first-time visit)
-
-
-
-
-#### Returning Visitor (second+ repair)
-
-### Strategy - Importance vs Viability 
-
-| Opportunity/Problem | Importance | Viability
-| ----------- | ----------- | ----------- 
-| To provide information about the core purpose of the business | 5 | 5 |
-| To provide cost information | 5 | 5
-| To showcase the owner's guitar playing ability | 2 | 5 |
-| To increase following to owner's band | 2 | 5
-| To showcase the types of repairs completed by the business | 4 | 5
-| To highlight good reviews of the business | 5 | 5
-| To provide contact details of the business | 5 | 5
-| To provide information about the owner's work history as a race car mechanic | 3 | 5
-| Totals | 31 | 40
-
-As these totals are quite different, this has highlighted that not all of these should be implemented. 
-
-| Opportunity/Problem | Importance | Viability
-| ----------- | ----------- | ----------- 
-| To provide information about the core purpose of the business | 5 | 5 |
-| To provide cost information | 5 | 5
-| To showcase the types of repairs completed by the business | 4 | 5
-| To highlight good reviews of the business | 5 | 5
-| To provide contact details of the business | 5 | 5
-| Totals | 24 | 25
-
-By removing three of the opportunities the totals come closer and it has created a more manageable set of goals.
-
 ### Scope
 
 
@@ -191,10 +151,10 @@ GitHub Pages was used to deploy the live website. The instructions to achieve th
 ### Local Development
 
 #### How to Fork:
-To fork the double-seven-guitars repository:
+To fork the mathstutoringwithamy repository:
 
 1. Log in to GitHub
-2. Go to the repository for this project (double-seven-guitars)
+2. Go to the repository for this project (mathstutoringwithamy)
 3. Click the Fork button on the top right
 
 #### How to Clone
@@ -202,14 +162,14 @@ To fork the double-seven-guitars repository:
 ##### In VS Code: 
 1. Open VS Code
 2. Select "Clone Git repository"
-3. Type in https://github.com/AmyB173/double-seven-guitars.git 
+3. Type in https://github.com/AmyB173/mathstutoringwithamy.git 
 4. Choose a local destination for the folder
 5. Click open
 
 ##### In Gitpod 
 1. Sign in to Gitpod
 2. Select new workspace 
-3. Type in https://github.com/AmyB173/double-seven-guitars.git 
+3. Type in https://github.com/AmyB173/mathstutoringwithamy.git 
 
 ## Credits
 

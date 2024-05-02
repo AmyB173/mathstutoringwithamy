@@ -131,6 +131,14 @@ The purpose of this website it to attract customers for my online Maths tutoring
 
 ## Testing and Validation
 
+### HTML AND CSS VALIDATION
+
+| Page         | HTML /CSS Checker |
+| ------------ | ----------------- |
+| index        | No errors         |
+| contact      | No errors         |
+| four reasons | No errors         |
+| thank you    | No errors         |
 
 
 ## Deployment and local development

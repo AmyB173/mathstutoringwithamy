@@ -5,5 +5,5 @@ Allow: /index.html
 Allow: /contact.html
 Allow: /four-reasons.html
 Allow: /assets/
-
+Allow: /sitemap.xml
 

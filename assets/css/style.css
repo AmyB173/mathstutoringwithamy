@@ -1,4 +1,4 @@
-
+/* GENERAL */
 h1,
 h2,
 h3,
@@ -12,12 +12,19 @@ h6 {
     background-color: #383838;
 }
 
+/* To create a consistent look across all boxes */
+.rounded-border {
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* FOOTER */
 #landing-footer {
     background-color: #fff;
     z-index: 10;
 }
-
+/* HERO */
 #call-to-action-1 {
     background-color: #383838;
     font-family: "Quicksand", serif;
@@ -32,13 +39,6 @@ h6 {
 #call-to-action-1:hover {
     background-color: white;
     color: #383838;
-}
-
-/* To create a consistent look across all boxes */
-.rounded-border {
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .hero-banner {
@@ -70,6 +70,7 @@ h6 {
     max-width: 200px;
 }
 
+/* SIDE PANEL */
 .side-panel {
     display: flex;
     align-items: center;
@@ -88,9 +89,7 @@ h6 {
 }
 
 .what-if {
-    width: 90%;
-    
-    border-radius: 15px;
+    min-width: 300px;
 }
 
 @media only screen and (min-width: 768px) {

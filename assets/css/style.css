@@ -24,6 +24,11 @@ h6 {
     background-color: #fff;
     z-index: 10;
 }
+
+#socials a {
+    color: #383838;
+}
+
 /* HERO */
 #call-to-action-1 {
     background-color: #383838;

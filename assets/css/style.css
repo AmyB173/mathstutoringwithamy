@@ -70,6 +70,11 @@ h6 {
     max-width: 200px;
 }
 
+#photo-credit-btn {
+    font-size: 10px;
+    background-color: #d74331;
+}
+
 /* SIDE PANEL */
 .side-panel {
     display: flex;
@@ -90,6 +95,7 @@ h6 {
 
 .what-if {
     min-width: 100px;
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {

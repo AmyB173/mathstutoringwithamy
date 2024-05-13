@@ -1,1 +1,5 @@
 AddType application/xml xml
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^mathstutoringwithamy.co.uk [NC]
+RewriteRule ^(.*)$ http://www.mathstutoringwithamy.co.uk [L,R=301]

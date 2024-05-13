@@ -80,6 +80,20 @@ h6 {
     background-color: #d74331;
 }
 
+#about-me {
+    border-top: solid #d74331 25px;
+    border-bottom: solid #d74331 25px;
+}
+
+#about-pg {
+    border-top: solid #d74331 25px;
+}
+
+#advert {
+    object-fit: contain;
+    width: 100%;
+}
+
 /* SIDE PANEL */
 .side-panel {
     display: flex;
@@ -171,7 +185,7 @@ label {
 
 #four-reasons-landing {
     background-color: #383838;
- }
+}
 
 .title-img {
     width: 90vw;

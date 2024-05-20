@@ -1,3 +1,4 @@
+
 /* GENERAL */
 h1,
 h2,
@@ -83,6 +84,10 @@ h6 {
 #about-me {
     border-top: solid #d74331 25px;
     border-bottom: solid #d74331 25px;
+}
+
+#about-me img {
+    width: 100%;
 }
 
 #about-pg {

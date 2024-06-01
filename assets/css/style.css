@@ -89,7 +89,7 @@ h6 {
 #photo-credit-btn {
     font-size: 10px;
     background-color: #d74331;
-    color: blue
+    color: white;
 }
 
 #about-me {
@@ -215,4 +215,10 @@ label {
 
 .pdf-prev img {
     margin: 50px;
+}
+
+/* REVIEWS */
+
+#carouselReviews {
+    max-width: 500px;
 }

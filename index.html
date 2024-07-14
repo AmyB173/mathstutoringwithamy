@@ -53,21 +53,15 @@
         </div>
     </div>
     <!-- Main section -->
-    <div class="row">
-        <div class="col-12 col-md-9 g-0">
+    <div class="row border-top border-5">
+        <div class="col-12">
             <!-- Hero image and call to action -->
             <div class="row">
                 <div class="g-0 hero-banner col text-white d-flex flex-column align-items-center">
-                    <img id="hero-logo" class="mt-5 mb-3" src="./assets/images/logo-white.png"
-                        alt="Maths tutoring with Amy Logo and title - with subheading Go Beyond Good">
-                    <div class="hero-title d-flex justify-content-center mb-3">
-                        <img class="w-75 m-3"
-                            src="./assets/images/picturetopeople.org-5c236b0a960d34270565cbb3dcf16a4455413b79432e2738de.png"
-                            alt="Maths Tutoring With Amy">
-
-                    </div>
+                    <img class="d-none d-md-flex" width="100%" src="./assets/images/hero.png">
+                    <img class="d-md-none" width="100%" src="./assets/images/hero-small.png">
                     <!-- BOOK A GAME PLAN CALL BUTTON -->
-                    <a id="call-to-action-1" href="./contact.html" class="btn shadow mb-5 mt-0 p-3 text-align-center">
+                    <a id="call-to-action-1" href="./contact.html" class="btn text-align-center">
                         <h2>Book your <br>A Level Rescue<br> call now</h2>
                     </a>
                 </div>
@@ -101,23 +95,43 @@
                     <img class="main-photo m-2 object-fit-contain" src="./assets/images/amy-circle.webp"
                         alt="a headshot of Amy">
                 </div>
-                <div class="col-11 g-0 p-3 col-sm-10 col-xl-5 d-flex  mx-2 flex-column align-items-center fs-5">
-                    <p>This website is in the process of being built. Come back soon for some exciting news.</p>
-                    <!-- <p>I help students in Year 10 and Year 11 get the <em>top grades</em> in the Edexcel Maths
-                        GCSE/IGCSE
-                        without doubting
-                        themselves or their abilities. After working with me, they will see mistakes as strengths, be
-                        able to quiet their self-doubt and be capable of tackling the toughest questions with a clear
-                        mind.</p> -->
-                    <img class="what-if mt-2" src="./assets/images/what-if-i-fly.webp"
-                        alt="An image with a yellow background and a woman in the bottom corner, the text says 'What if I fly?'">
+                <div class="col-11 g-0 p-3 col-sm-10 col-xl-7 d-flex mx-2 flex-column justify-content-center fs-5">
+                    <p>I’m Amy – an expert Maths teacher with a passion helping A Level students turn around a poor start to A Level Maths.</p>
+                        <p>
+                        <strong>Has A Level Maths become a bit of a nightmare?</strong> If so, please know that all is not lost. With a
+                        bit of guidance and hard work, the confidence and success can return, so don’t give up.
+                        At times, it can feel frustrating, embarrassing, hard-work and like there is no solution but don't give up.</p>
+                        <p><strong>I have a firm “back-to-basics” approach </strong>where we build the solid foundation from the ground up
+                        to achieve SECURE knowledge and confidence. In the same way that professional footballers don’t
+                        train to be professional footballers by constantly only doing 90 minute elite level games over
+                        and over again, you shouldn’t be trying to the hardest questions to get better at the hardest
+                        questions.
+                    </p>
                 </div>
             </div>
-           
+            <!-- MIN COURSE -->
+            <div id="mini-course" class="row p-5 d-flex flex-row justify-content-center">
+                <h2 class="text-center p">JOIN MY FREE MINI-COURSE: </h2>
+                <h3 class="text-center pb-5 fs-5">Year 1 Differentiation and Integration mini-course</h3>
+                <div class="col-12 col-xl-4">
+                    <h4>A lesson from the course:</h4>
+                    <div style="padding:58.89% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/982641919?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Module 2 Lesson 4 - Stationary Points"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="col-12 col-xl-6 py-3">
+                    <p>Differentiation and Integration are two of the most important topics to get right in A Level Maths. They have many layers and will be built upon a lot in the second year. If you want to turn around a poor start to A Level, this is a fantastic place to start.</p>
 
+                    <p>This mini-course includes: 
+                        <ul>
+                            <li>a comprehensive overview of the topics</li>
+                            <li>video tutorials</li>
+                            <li>worksheets with full written solutions to practice and check against</li>
+                        </ul>
+                        Good luck with your journey to better and better results in A Level Maths 💪🫡</p>
+                </div>
+            </div>
             <!-- ABOUT ME -->
             <!-- <div id="about-me" class="row py-5  d-flex flex-row justify-content-center">
-                <h2 class="text-center">So who am I?</h2>
+                <h2 class="text-center">About me:</h2>
                 <div
                     class="fade-in-section d-flex justify-content-center align-items-center col-12 col-sm-10 col-xl-4 p-3 g-0 fs-5">
                     <ul>
@@ -134,7 +148,7 @@
                 </div>
             </div> -->
             <!-- TESTIMONIALS -->
-            <div class="d-flex flex-column justify-content-center align-items-center">
+            <div id="testimonials" class="d-flex flex-column justify-content-center align-items-center">
                 <h2 class="mt-5">What people say about Amy</h2>
                 <div id="carouselReviews" class="carousel slide mb-5" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -171,12 +185,12 @@
 
         </div>
         <!-- SIDE PANEL -->
-        <div class="side-panel g-0 col-12 col-md-3 text-white bg-grey">
+        <!-- <div class="side-panel g-0 col-12 col-md-3 text-white bg-grey">
             <div class="m-4">
                 <h2 class="p-3">Exciting things ahead!</h2>
                 <p>Watch this space for some exciting news about building confidence with Maths &#x1F64C;</p>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- FOOTER -->
     <div class="row text-center text-md-left border-top">
@@ -193,14 +207,16 @@
         <div class="col-md-4 mx-auto mt-3 p-2">
             <h5 class="mb-4 fw-bold">Get excited about doing Maths with me: </h5>
             <div id="socials" class="d-flex justify-content-evenly align-items-center">
-                <a href="https://www.facebook.com/gcse.maths.tutoring.with.amy/" target="_blank"
+                <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
                     rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Facebook page">
                     <div class=" fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
                 </a>
-                <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Instagram page">
+                <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Go to Maths Tutoring with Amy Instagram page">
                     <div class="fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
                 </a>
-                <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy youtube channel">
+                <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
+                    aria-label="Go to Maths Tutoring with Amy youtube channel">
                     <div class="fs-3 m-2"><i class="fa-brands fa-youtube"></i></div>
                 </a>
             </div>

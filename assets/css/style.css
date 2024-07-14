@@ -48,7 +48,7 @@ h6 {
     font-size: 15px;
     color: white;
     border-radius: 35px;
-    width: 200px;
+    max-width: 300px;
 
 }
 
@@ -57,12 +57,7 @@ h6 {
     color: #383838;
 }
 
-.hero-banner {
-    /* Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
-    background-image: url(../images/markus-spiske-k0rVudBoB4c-unsplash-crop-original.jpg);
-    background-position: right;
-    background-size: cover;
-}
+
 
 .hero-banner-contact {
     /* Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
@@ -86,17 +81,13 @@ h6 {
     max-width: 200px;
 }
 
-#photo-credit-btn {
-    font-size: 10px;
-    background-color: #d74331;
-    color: white;
+/* MINi COURSE */
+#mini-course {
+    background-color:#485963;
+    color:white;
 }
 
-#about-me {
-    border-top: solid #d74331 25px;
-    border-bottom: solid #d74331 25px;
-}
-
+/* ABOUT ME */
 #about-me img {
     width: 100%;
 }
@@ -105,11 +96,11 @@ h6 {
     border-top: solid #d74331 25px;
 }
 
-#advert {
-    object-fit: contain;
-    width: 100%;
-}
-
+/* TESTIMONIALS */
+/* #testimonials {
+    background-color: #485963;
+    color: white;
+} */
 /* SIDE PANEL */
 .side-panel {
     display: flex;

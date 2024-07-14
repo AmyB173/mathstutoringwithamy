@@ -209,3 +209,10 @@ label {
 #carouselReviews {
     max-width: 500px;
 }
+
+
+/* LANDING PAGE  */
+
+#landing-toggle {
+    margin: 0 auto;
+}

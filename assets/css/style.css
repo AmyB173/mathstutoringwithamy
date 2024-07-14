@@ -1,26 +1,22 @@
-
-/* TEMPORARY  */
-#workshops {
-    border-top: solid #d74331 25px;
-}
-
-#workshops img {
-    width: 70%;
-    
-}
-
 /* GENERAL */
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Alegreya Sans", sans-serif;
+    font-family: 'Glacial Indifference', sans-serif;
+                                                
 }
 
 .bg-grey {
-    background-color: #383838;
+    background-color:#485963;
 }
 
 /* To create a consistent look across all boxes */
@@ -42,7 +38,7 @@ h6 {
 
 /* HERO */
 #call-to-action-1 {
-    background-color: #383838;
+    background-color: #D74331;
     font-family: "Quicksand", serif;
     letter-spacing: 0.5px;
     font-size: 15px;

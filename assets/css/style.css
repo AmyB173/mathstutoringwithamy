@@ -81,6 +81,8 @@ h6 {
 #mini-course {
     background-color:#485963;
     color:white;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* ABOUT ME */
@@ -92,19 +94,6 @@ h6 {
     border-top: solid #d74331 25px;
 }
 
-/* TESTIMONIALS */
-/* #testimonials {
-    background-color: #485963;
-    color: white;
-} */
-/* SIDE PANEL */
-.side-panel {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: #383838;
-}
-
 .main-photo {
     width: 100%;
     max-width: 300px;
@@ -113,23 +102,6 @@ h6 {
 .call-to-action {
     max-width: 170px;
     min-width: 150px;
-}
-
-.what-if {
-    min-width: 100px;
-    width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-    .side-panel {
-        position: -webkit-sticky;
-        /* Safari */
-        position: sticky;
-        top: 0;
-        bottom: 0;
-        height: 100vh;
-        margin-bottom: 0;
-    }
 }
 
 /* --------------------------------------------Contact page form*/

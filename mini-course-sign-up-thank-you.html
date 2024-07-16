@@ -46,9 +46,15 @@
                     <p class="text-white text-center mb-5">Your access link to sign up to the course will appear below
                         the video shortly. In the meantime, watch below.</p>
                 </div>
-                <div class="col-12 d-flex justify-content-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <h1 class="text-center text-white mb-4">How to Get your Child Back on Track | A Level Rescue</h1>
+                <div class="col-12 col-lg-8">
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                            id="vimeo-player"
+                            src="https://player.vimeo.com/video/985024371?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Thank you page video"></iframe></div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <a id="call-to-action-1" href="https://calendly.com/mathstutoringwithamy/a-level-maths-rescue-call"
@@ -69,7 +75,7 @@
         </div>
         </p>
         <div id="buttons" class="d-none flex-column align-items-center">
-            <a id="student-signup" href="#" class="btn my-3">
+            <a id="student-signup" target="_blank" href="https://learn.mathstutoringwithamy.co.uk/products/courses/view/1170659/?action=signup" class="btn my-3">
                 <h2 class="fs-5">Access the course here (student sign up)</h2>
                 <p>This has also been emailed to you</p>
             </a>
@@ -250,11 +256,45 @@
                 $('#spinner').addClass('d-none');
                 $('#buttons').removeClass('d-none');
                 $('#buttons').addClass('d-flex');
-            }, 20000); // 30 seconds delay
+            }, 30000); // 30 seconds delay
         });
     </script>
 
+    <!-- Include the Vimeo Player API -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
 
+    <!-- Custom JavaScript to control the player -->
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the iframe element
+            var iframe = document.getElementById('vimeo-player');
+
+            // Initialize the Vimeo player
+            var player = new Vimeo.Player(iframe);
+
+            // Set the playback speed (e.g., 1.5 for 1.5x speed)
+            var desiredSpeed = 1.1;
+
+            // When the player is ready, set the playback speed
+            player.ready().then(function () {
+                player.setPlaybackRate(desiredSpeed).then(function (speed) {
+                    console.log('Playback speed set to ' + speed);
+                }).catch(function (error) {
+                    switch (error.name) {
+                        case 'RangeError':
+                            // The playback rate is not supported
+                            console.error('The playback speed is not supported.');
+                            break;
+                        default:
+                            // Some other error occurred
+                            console.error('An error occurred while setting the playback speed:', error);
+                            break;
+                    }
+                });
+            });
+        });
+    </script>
     <!-- FADE TEXT CODE -->
     <!-- <script>
     document.getElementById('read-more-btn').addEventListener('click', function() {

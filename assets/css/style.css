@@ -26,6 +26,19 @@ h6 {
     padding-bottom: 30px;
 }
 
+#circle-container {
+    width: 280px;
+    height: 280px;
+    padding: 30px;
+    border-style: solid;
+    border-color:#d74331;
+    background-color: #d74331;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
 /* FOOTER */
 #landing-footer {
     background-color: #fff;
@@ -52,8 +65,6 @@ h6 {
     background-color: white;
     color: #383838;
 }
-
-
 
 .hero-banner-contact {
     /* Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
@@ -156,35 +167,59 @@ label {
     background-color: #485963;
 }
 
-/* Landing page  */
+/* --------------------------------------------Landing Page*/
 
-#four-reasons-landing {
-    background-color: #383838;
+#landing-toggle {
+    margin: 0 auto;
 }
 
-.title-img {
-    width: 90vw;
-}
 
-@media only screen and (min-width: 768px) {
-    .title-img {
-        width: 75vw;
-    }
-}
-
-.pdf-prev img {
-    margin: 50px;
-}
-
-/* REVIEWS */
+/* --------------------------------------------TESTIMONIALS*/
 
 #carouselReviews {
     max-width: 500px;
 }
 
 
-/* LANDING PAGE  */
+/* mini-course thank you page*/
+#student-signup, #call-booking {
+    background-color: #a10a65;
+    font-family: "Quicksand", serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: white;
+    border-radius: 35px;
+    max-width: 300px;
+}
 
-#landing-toggle {
-    margin: 0 auto;
+#student-signup:hover, #call-booking:hover {
+    background-color: white;
+    color: #383838;
+}
+
+/* ---------------------------FADE TEXT CODE (NOT CURRENTLY BEING USED) */
+.fade-text {
+    height: 100px; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+.fade-text::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px; /* Height of fade effect */
+    background: linear-gradient(transparent, rgba(72, 89, 99, 0.9));
+    pointer-events: none;
+}
+.hidden-text {
+    display: none;
+}
+.no-fade {
+    height: auto !important;
+    overflow: visible !important;
+}
+.no-fade::before {
+    display: none !important;
 }

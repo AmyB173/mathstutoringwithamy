@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-    <!-- Meta tags amd title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Maths Tutoring with Amy | Thank You">
-    <title>Maths Tutoring With Amy | Thank you for Signing Up</title>
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
+    <meta name="description" content="Maths Tutoring with Amy | Thank you for signing up for the mini-course">
+    <title>Thank You | Maths Tutoring With Amy</title>
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/thank-you.html" />
     <!-- My own stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- BOOTSTRAP -->
@@ -24,75 +23,146 @@
     <!-- JQUERY-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <!-- FLODESK -->
-    <script>
-        (function (w, d, t, h, s, n) {
-            w.FlodeskObject = n;
-            var fn = function () {
-                (w[n].q = w[n].q || []).push(arguments);
-            };
-            w[n] = w[n] || fn;
-            var f = d.getElementsByTagName(t)[0];
-            var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-            var sm = d.createElement(t);
-            sm.async = true;
-            sm.type = 'module';
-            sm.src = h + s + '.mjs' + v;
-            f.parentNode.insertBefore(sm, f);
-            var sn = d.createElement(t);
-            sn.async = true;
-            sn.noModule = true;
-            sn.src = h + s + '.js' + v;
-            f.parentNode.insertBefore(sn, f);
-        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-    </script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="h-100 container-fluid bg-grey">
+<body class="h-100 container-fluid">
     <!-- Main section -->
-    <div class="row justify-content-center border-top border-5 bg-grey">
-        <!-- SPACER -->
-        <div class="m-5">
-        </div>
-        <!-- SIGN UP FORM -->
-        <div class="col-10 col-lg-7 ">
-            <div id="fd-form-6693ebec46da45b26daf269e"></div>
-            <script>
-                window.fd('form', {
-                    formId: '6693ebec46da45b26daf269e',
-                    containerEl: '#fd-form-6693ebec46da45b26daf269e'
-                });
-            </script>
-        </div>
-        <!-- Collapse button to reveal lesson from course -->
-        <div class="col-10 col-lg-7 m-5">
-            <div class="d-flex justify-content-center">
-                <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#exampleLesson" aria-expanded="false" aria-controls="collapseExample">
-                    Click here to see a lesson from the course
-                </button>
+    <div class="row border-top border-5">
+        <div class="col-12">
+            <!-- Hero image -->
+            <div class="row">
+                <div class="g-0 hero-banner col text-white d-flex flex-column align-items-center ">
+                    <img class="d-none d-md-flex border-5 border-bottom" width="100%" src="./assets/images/hero.png">
+                    <img class="d-md-none border-5 border-bottom" width="100%" src="./assets/images/hero-small.png">
+                </div>
             </div>
-            <div class="collapse m-2" id="exampleLesson">
-                <div class="card card-body">
-                    <div style="padding:58.89% 0 0 0;position:relative;"><iframe
-                            src="https://player.vimeo.com/video/982641919?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                            title="Module 2 Lesson 4 - Stationary Points"></iframe></div>
-                    <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <!-- Thank You Message and Video Placeholder -->
+            <div class="row bg-grey d-flex flex-column justify-content-center align-items-center">
+                <div class="col-12">
+                    <h2 class="text-white text-center mt-5">Thank You for Signing Up!</h2>
+                    <p class="text-white text-center mb-5">Your access link to sign up to the course will appear below
+                        the video shortly. In the meantime, watch below.</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <a id="call-to-action-1" href="./contact.html" class="btn text-align-center my-5">
+                        <h2 class="fs-5">Book an <br>A Level Rescue<br> call now</h2>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Buttons Section -->
+    <div class="row p-5 my-3 d-flex flex-column align-items-center">
+        <p id="loading-text" class="fs-5">
+            Your course link will be here shortly...
+        <div id="spinner" class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        </p>
+        <div id="buttons" class="d-none flex-column align-items-center">
+            <a id="student-signup" href="#" class="btn my-3">
+                <h2 class="fs-5">Access the course here (student sign up)</h2>
+            </a>
+        </div>
     </div>
+    <div class="row bg-grey d-flex justify-content-center align-items-center p-5">
+        <div class="col-12 col-xl-4 p-3">
+            <div class="row p-3 text-white">
+                <div class="col-12">
+                    <h3><strong>"The teacher explains things too quickly..."</strong></h3>
+                    <p>Yes, they probably do. There is so much to get throuh in A Level. This is why it's so important to find things out of class that can break it down for you - friends, other teachers, a tutor, videos online.</p>
+                </div>
+                <div class="col-12">
+                    <h3><strong>"I feel like I faked a good grade at GCSE"</strong></h3>
+                    <p>Even the most successful people suffer with imposter syndrome. Google celebrities with imposter syndrome and you will see. Just know, you <em>didn't</em> fake it, and you <em>can</em> get over this hurdle</p>
+                </div>
+                <div class="col-12">
+                    <h3><strong>"My teacher has given up on me getting a good grade ..."</strong></h3>
+                    <p>In my experience, it's likely to teacher is just super busy and that's why they don't seem supportive. <strong>However, </strong> eveery student-teacher relationship is different and if you don't feel comfortable with yours it's so important to find a support network outside of the classroom to help you - whether that be friends, other teachers, a tutor or an online community.</p>
+                </div>
+            </div>
+        </div>
+        <div id="circle-container" class="text-white p-3 d-flex align-items-center justify-content-center">
+            <h2 class="text-center p-3">Common feelings during the first year of A Level Maths</h2>
+        </div>
+        <div class="col-12 col-xl-4 p-3">
+            <div class="row p-3 text-white">
+                <div class="col-12">
+                    <h3><strong>"It's easy in class but then the questions seems so much harder when I try them alone"</strong></h3>
+                    <p>Yes. This is normal! I'm currently learning how to code and I rarely feel I can tackle a real challenge independetly right after being taught it. Usually, I need to go away and work on it independently for a while before I feel confident. I'm never afraid to ask for help, whether that be friends, tutors or youtube videos. Try to accept this and get help whenever you need it.</p>
+                </div>
+                <div class="col-12">
+                    <h3><strong>"I'm embarassed about my test grades"</strong></h3>
+                    <p>Tests are funny things - they make us feel as though that's the representation of all our skill and learning. This really isn't true, they are a brief snapshot at best. Just know, if you <strong>go back to basics</strong> and solidify the core concepts, the test grades will follow. Saying that, peer and community pressue can be strong. Make sure to surround yourself with positive people and people in a similar situation to keep your spirits up.</p>
+                </div>
+                <div class="col-12">
+                    <h3><strong>"I don't like to ask for help"</strong></h3>
+                    <p>I know, it's hard! But don't put it off, it's so important to get help. Try to find someone you're really comfortable with and start there, and then work your way up to asking a teacher in class.</p>
+                </div>
+
+
+                <!-- FADE TEXT CODE -->
+                <!-- <div class="container mt-5">
+                    <div class="fade-text" id="text-block">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, mauris ac fringilla sagittis, eros est scelerisque orci, at sollicitudin sapien nisi sed velit. Cras nec consectetur sem. Vivamus interdum, tortor ut fringilla convallis, purus urna gravida nulla, a suscipit ex est sed dui. Quisque malesuada turpis a mi fringilla, in pellentesque velit euismod. In in neque at ligula cursus hendrerit. Suspendisse venenatis, urna at posuere dapibus, augue libero hendrerit purus, nec tempor lacus lacus ut ex. Aenean eget gravida lacus. Duis nec lacus id sem dignissim fermentum in et dui. Sed vehicula, tortor a suscipit finibus, sapien lacus varius lacus, et ultricies eros est sit amet nunc.
+                        </p>
+                        <p class="hidden-text">
+                            Integer commodo sem eu libero dictum, ut ullamcorper dolor convallis. Donec laoreet scelerisque arcu, et dignissim ligula vulputate nec. Suspendisse potenti. Nulla facilisi. Mauris blandit quam in lacus ultrices, sed tincidunt nulla fermentum. Aenean mollis pharetra nulla, et aliquet nisl dignissim a. Nulla facilisi. Vestibulum venenatis dui a tincidunt aliquam. Nam non diam tortor. Curabitur at nisi et arcu bibendum sagittis. Nullam pharetra feugiat lorem, at iaculis eros bibendum sit amet.
+                        </p>
+                    </div>
+                    <button class="btn btn-primary mt-3" id="read-more-btn">Read More</button>
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- Main Script -->
-    <script src="./assets/js/index.js" type="module"></script>
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#loading-text').addClass('d-none');
+                $('#spinner').addClass('d-none');
+                $('#buttons').removeClass('d-none');
+                $('#buttons').addClass('d-flex');
+            }, 20000); // 30 seconds delay
+        });
+    </script>
+
+
+<!-- FADE TEXT CODE -->
+<!-- <script>
+    document.getElementById('read-more-btn').addEventListener('click', function() {
+        var hiddenText = document.querySelector('.hidden-text');
+        var textBlock = document.getElementById('text-block');
+        
+        if (hiddenText.style.display === 'none' || hiddenText.style.display === '') {
+            hiddenText.style.display = 'block';
+            textBlock.classList.add('no-fade');
+            this.textContent = 'Read Less';
+        } else {
+            hiddenText.style.display = 'none';
+            textBlock.classList.remove('no-fade');
+            this.textContent = 'Read More';
+        }
+    });
+</script> -->
+
 </body>
 
 </html>

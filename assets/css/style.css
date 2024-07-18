@@ -173,6 +173,11 @@ label {
     margin: 0 auto;
 }
 
+#landing-img {
+    width: 100%;
+    max-width: 500px;
+}
+
 
 /* --------------------------------------------TESTIMONIALS*/
 
@@ -222,5 +227,19 @@ label {
 }
 .no-fade::before {
     display: none !important;
+}
+
+
+
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 

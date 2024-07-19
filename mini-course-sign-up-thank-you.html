@@ -31,25 +31,42 @@
     <!-- Main section -->
     <div class="row border-top border-5">
         <div class="col-12">
-            <!-- Thank You Message and Video Placeholder -->
-            <div class="row bg-grey d-flex flex-column justify-content-center align-items-center">
+
+            <div class="row bg-grey ">
                 <div class="col-12">
                     <h2 class="text-white text-center mt-5">Thank You for Signing Up!</h2>
                     <p class="text-white text-center mb-5">Your access link to sign up to the course will appear below
                         the video shortly. In the meantime, watch below.</p>
                 </div>
-                <h1 class="text-center text-white mb-4 mt-5">How to Get your Child Back on Track | A Level Rescue</h1>
+            </div>
+            <!-- Thank You Message and Video Placeholder -->
+            <div class="row flex flex-column justify-content-center align-items-center">
+
+                <h1 class="text-center mb-4 mt-5">How to Get your Child Back on Track | A Level Rescue</h1>
                 <div class="col-12 col-lg-8">
-                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-                            id="vimeo-player"
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe id="vimeo-player"
                             src="https://player.vimeo.com/video/986255757?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                             frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                             style="position:absolute;top:0;left:0;width:100%;height:100%;"
                             title="Thank you page video FINAL"></iframe></div>
                     <script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
-                <div class="col-12 d-flex flex-column align-items-center justify-content-center">
-                    <h3 class="text-white text-center mt-5">Are you considering getting a Maths tutor? If so, book a call below</h3>
+            </div>
+            <div class="row bg-grey mt-5 p-5 d-flex align-items-center justify-content-center">
+                <h3 class="text-white text-center mt-5 mb-5"><strong>Are you considering getting a Maths tutor? If so, book a
+                    call below</strong></h3>
+                <div class="col-12 col-md-3 mt-md-5 d-flex justify-content-center justify-content-md-end ">
+                    <img width="100%" id="thank-you-img" src="./assets/images/amy-circle.png">
+                </div>
+                <div class="col-12 col-md-5 mt-5 text-white justify-content-center justify-content-md-start fs-6">
+                    <p>In this call we will: </p>
+                    <ul>
+                        <li>Get to the bottom of what went wrong</li>
+                        <li>Make 3 commitments that you and your child can stick to to start turning things around</li>
+                        <li>Discuss how I might be able to help you going forward</li>
+                    </ul>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
                     <a id="call-to-action-1" href="https://calendly.com/mathstutoringwithamy/a-level-maths-rescue-call"
                         target="_blank" class="btn text-align-center my-5">
                         <h2 class="fs-5">Book an <br>A Level Rescue<br> call now</h2>
@@ -58,9 +75,18 @@
             </div>
         </div>
     </div>
+    </div>
 
     <!-- Buttons Section -->
     <div class="row p-5 my-3 d-flex flex-column align-items-center">
+        <h2 class="text-center"><strong>Sign up link for students:</strong></h2>
+        <div class="col-12 col-md-4 mt-3 ">
+            <p class="fs-5">You can either: </p>
+            <ul>
+                <li>Click the button below to get your child logged in</li>
+                <li>Sign up from the link you have been emailed</li>
+            </ul>
+        </div>
         <p id="loading-text" class="fs-5">
             Your course link will be here shortly...
         <div id="spinner" class="spinner-border text-primary" role="status">

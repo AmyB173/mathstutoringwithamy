@@ -51,7 +51,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -59,11 +59,11 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '511364944565161');
+        fbq('init', '1033388488412213');
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=511364944565161&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id=1033388488412213&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 </head>
 
@@ -72,8 +72,10 @@
     <div class="row m-3 m-md-5 p-md-5 bg-white justify-content-center border-top border-5 bg-grey">
         <!-- SIGN UP FORM -->
         <h1 class="text-center p-5">Is A Level Maths making your child feel like a failure?</h1>
-        <p class="text-center fs-5">Sign up below to start their journey to more confidence and success in Maths A Level</p>
-        <div class="col-10 col-xl-6 d-flex border border-lg-none justify-content-center justify-content-xl-end align-items-center">
+        <p class="text-center fs-5">Sign up below to start their journey to more confidence and success in Maths A Level
+        </p>
+        <div
+            class="col-10 col-xl-6 d-flex border border-lg-none justify-content-center justify-content-xl-end align-items-center">
             <div id="fd-form-669965789307629fc5a9913b"></div>
             <script>
                 window.fd('form', {
@@ -82,28 +84,11 @@
                 });
             </script>
         </div>
-        <div class="col-11 col-xl-6 p-3 bg-white d-flex justify-content-center justify-content-xl-start align-items-center">
+        <div
+            class="col-11 col-xl-6 p-3 bg-white d-flex justify-content-center justify-content-xl-start align-items-center">
             <img id="landing-img" src="./assets/images/fb-ad-for-site.png">
         </div>
     </div>
-
-    <!-- Add the Meta Pixel Lead event tracking script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Wait for the Flodesk form to load and render
-            var interval = setInterval(function () {
-                var signUpButton = document.querySelector('#fd-form-669965789307629fc5a9913b button[type="submit"]');
-                if (signUpButton) {
-                    clearInterval(interval); // Stop checking once the button is found
-
-                    // Add click event listener to the sign up button
-                    signUpButton.addEventListener('click', function () {
-                        fbq('track', 'Lead');
-                    });
-                }
-            }, 500); // Check every 500ms
-        });
-    </script>
 </body>
 
 </html>

@@ -25,6 +25,26 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '511364944565161');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=511364944565161&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="h-100 container-fluid">
@@ -53,8 +73,9 @@
                 </div>
             </div>
             <div class="row bg-grey mt-5 p-5 d-flex align-items-center justify-content-center">
-                <h3 class="text-white text-center mt-5 mb-5"><strong>Are you considering getting a Maths tutor? If so, book a
-                    call below</strong></h3>
+                <h3 class="text-white text-center mt-5 mb-5"><strong>Are you considering getting a Maths tutor? If so,
+                        book a
+                        call below</strong></h3>
                 <div class="col-12 col-md-3 mt-md-5 d-flex justify-content-center justify-content-md-end ">
                     <img width="100%" id="thank-you-img" src="./assets/images/amy-circle.png">
                 </div>

@@ -24,6 +24,25 @@
     <!-- JQUERY-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '511364944565161');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=511364944565161&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="h-100 container-fluid">
@@ -92,7 +111,8 @@
                         alt="a headshot of Amy">
                 </div>
                 <!-- Intro text -->
-                <div class="col-11 g-0 py-5 col-sm-10 col-xl-7 d-flex mx-2 flex-column justify-content-center fs-5  slide-in">
+                <div
+                    class="col-11 g-0 py-5 col-sm-10 col-xl-7 d-flex mx-2 flex-column justify-content-center fs-5  slide-in">
                     <p>I’m Amy – an expert Maths teacher with a passion helping A Level students turn around a poor
                         start to A Level Maths.</p>
                     <p>
@@ -128,13 +148,14 @@
                     <script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
                 <div class="col-12 col-lg-5 py-3 align-items-center slide-in">
-                    <p class="">Differentiation and Integration are two of the most important topics to get right in A Level
+                    <p class="">Differentiation and Integration are two of the most important topics to get right in A
+                        Level
                         Maths. They have many layers and will be built upon a lot in the second year. If you want to
                         turn around a poor start to A Level, this is a fantastic place to start.</p>
 
                     <p class="">This mini-course includes:</p>
                     <ul class="">
-                        <li >a comprehensive overview of the topics</li>
+                        <li>a comprehensive overview of the topics</li>
                         <li>video tutorials</li>
                         <li>worksheets with full written solutions to practice and check against</li>
                     </ul>
@@ -174,7 +195,7 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">

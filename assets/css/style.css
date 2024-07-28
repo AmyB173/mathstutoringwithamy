@@ -1,8 +1,14 @@
+/* Font size 18px for all body
+Heading size 35px
+Subheading 30px */
+
 /* GENERAL */
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
+    text-align: justify;
 }
 
 h1,
@@ -31,15 +37,15 @@ h6 {
     height: 280px;
     padding: 30px;
     border-style: solid;
-    border-color:#d74331;
-    background-color: #d74331;
+    border-color:#2280bf;
+    background-color: #2280bf;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 
-/* FOOTER */
+/* ---------------------------------------------------FOOTER */
 #landing-footer {
     background-color: #fff;
     z-index: 10;
@@ -49,47 +55,13 @@ h6 {
     color: #383838;
 }
 
-/* HERO */
-#call-to-action-1 {
-    background-color: #D74331;
-    font-family: "Quicksand", serif;
-    letter-spacing: 0.5px;
-    font-size: 15px;
-    color: white;
-    border-radius: 35px;
-    max-width: 500px;
-    box-shadow: 10px 10px lightblue;
-
+/* ---------------------------------------------------INTRO SECTION */
+.main-photo {
+    width: 100%;
+    max-width: 300px;
 }
 
-#call-to-action-1:hover {
-    background-color: white;
-    color: #383838;
-}
-
-.hero-banner-contact {
-    /* Photo by <a href="https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Spiske</a> on <a href="https://unsplash.com/photos/yellow-orange-red-green-and-blue-abstract-painting-k0rVudBoB4c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
-    background-image: url(../images/markus-spiske-k0rVudBoB4c-unsplash-crop.webp);
-    background-position: center;
-    background-size: contain;
-}
-
-.photo-credit {
-    font-weight: 100;
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-.hero-title {
-    background-color: rgba(56, 56, 56, 0.5)
-}
-
-#hero-logo {
-    width: 25%;
-    max-width: 200px;
-}
-
-/* MINi COURSE */
+/* ----------------------------------------------------MINi COURSE */
 #mini-course {
     background-color:#485963;
     color:white;
@@ -97,24 +69,32 @@ h6 {
     padding-bottom: 80px;
 }
 
-/* ABOUT ME */
-#about-me img {
-    width: 100%;
+/* --------------------------------------------Testimonials index*/
+.testimonial {
+    background-color: #f8f9fa;
+    border-left: 4px solid #2280bf;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+.testimonial-title {
+    font-weight: bold;
+    color: #2280bf;
+    margin-bottom: 10px;
+}
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.testimonial-author {
+    font-weight: bold;
+    color: #6c757d;
 }
 
-#about-pg {
-    border-top: solid #d74331 25px;
-}
 
-.main-photo {
-    width: 100%;
-    max-width: 300px;
-}
-
-.call-to-action {
-    max-width: 170px;
-    min-width: 150px;
-}
 
 /* --------------------------------------------Contact page form*/
 #contact-form {

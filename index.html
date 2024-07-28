@@ -24,6 +24,50 @@
     <!-- JQUERY-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- FLODESK FORM FOR MINICOURSE -->
+    <script>
+        (function (w, d, t, h, s, n) {
+            w.FlodeskObject = n;
+            var fn = function () {
+                (w[n].q = w[n].q || []).push(arguments);
+            };
+            w[n] = w[n] || fn;
+            var f = d.getElementsByTagName(t)[0];
+            var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+            var sm = d.createElement(t);
+            sm.async = true;
+            sm.type = 'module';
+            sm.src = h + s + '.mjs' + v;
+            f.parentNode.insertBefore(sm, f);
+            var sn = d.createElement(t);
+            sn.async = true;
+            sn.noModule = true;
+            sn.src = h + s + '.js' + v;
+            f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+    </script>
+    <!-- FOR guide -->
+    <script>
+        (function (w, d, t, h, s, n) {
+            w.FlodeskObject = n;
+            var fn = function () {
+                (w[n].q = w[n].q || []).push(arguments);
+            };
+            w[n] = w[n] || fn;
+            var f = d.getElementsByTagName(t)[0];
+            var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+            var sm = d.createElement(t);
+            sm.async = true;
+            sm.type = 'module';
+            sm.src = h + s + '.mjs' + v;
+            f.parentNode.insertBefore(sm, f);
+            var sn = d.createElement(t);
+            sn.async = true;
+            sn.noModule = true;
+            sn.src = h + s + '.js' + v;
+            f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+    </script>
 </head>
 
 <body class="h-100 container-fluid">
@@ -67,19 +111,20 @@
                 <div class="g-0 hero-banner col text-white d-flex flex-column align-items-center ">
                     <img class="d-none d-md-flex border-5 border-bottom" width="100%" src="./assets/images/hero.png">
                     <img class="d-md-none border-5 border-bottom" width="100%" src="./assets/images/hero-small.png">
-
                 </div>
             </div>
 
 
-            <!-- Call booking button -->
+            <!-- Sign up for the guide -->
             <div class="row bg-grey">
-                <div class="g-0 hero-banner col text-white d-flex flex-column align-items-center ">
-                    <a id="call-to-action-1" target="_blank"
-                        href="https://calendly.com/mathstutoringwithamy/a-level-maths-rescue-call"
-                        class="btn text-align-center my-5">
-                        <h2 class="fs-5">Book an <br>A Level Rescue<br> call now</h2>
-                    </a>
+                <div class="g-0 my-3 hero-banner col text-white d-flex flex-column align-items-center ">
+                    <div id="fd-form-66a4bd385a5e88aee0899c7e"></div>
+                    <script>
+                        window.fd('form', {
+                            formId: '66a4bd385a5e88aee0899c7e',
+                            containerEl: '#fd-form-66a4bd385a5e88aee0899c7e'
+                        });
+                    </script>
                 </div>
             </div>
 
@@ -87,133 +132,67 @@
             <!-- INTRO -->
             <div class="row p-5 my-3 d-flex flex-row justify-content-center">
                 <!-- AMY IMAGE -->
-                <div class="d-flex justify-content-center col-12 col-sm-10 col-xl-4 p-3 mx-2 g-0  slide-in">
-                    <img class="main-photo m-2 object-fit-contain" src="./assets/images/amy-circle.webp"
+                <div class="d-flex justify-content-center col-12 col-sm-10 col-lg-4 p-3 mx-2 g-0  slide-in">
+                    <img class="main-photo m-2 object-fit-contain" src="./assets/images/amy-professional.jpg"
                         alt="a headshot of Amy">
                 </div>
                 <!-- Intro text -->
                 <div
-                    class="col-11 g-0 py-5 col-sm-10 col-xl-7 d-flex mx-2 flex-column justify-content-center fs-5  slide-in">
-                    <p>I’m Amy – an expert Maths teacher with a passion helping A Level students turn around a poor
-                        start to A Level Maths.</p>
-                    <p>
-                        <strong>Has A Level Maths become a bit of a nightmare?</strong> Has the jump from GCSE to A
-                        Level surprised you? If so, please know that all is not lost. With a
-                        bit of guidance and hard work, the confidence and success can return, so don’t give up.
-                    </p>
-                    <p><strong>I have a “back-to-basics” approach </strong>where we build the solid foundation from the
-                        ground up
-                        to achieve SECURE knowledge and confidence. This is the <em><strong>only</strong></em> way to
-                        get better at the more difficult exam-style questions.
-                    </p>
+                    class="col-11 g-0 py-5 col-sm-10 col-lg-4 d-flex text-justify mx-2 flex-column justify-content-center slide-in">
+                    <h1>Welcome to Maths Tutoring with Amy</h1>
+                        <h4>Meet me</h4>
+                            <p class="text-justify mt-2">I’m Amy – an expert Maths teacher with a passion helping A
+                                Level students
+                                turn around a poor
+                                start to A Level Maths.</p>
+                            <p class="text-justify">
+                                <strong>Has A Level Maths become a bit of a nightmare?</strong> Has the jump from GCSE
+                                to A
+                                Level surprised you? If so, please know that all is not lost. With a
+                                bit of guidance and hard work, the confidence and success can return, so don’t give up.
+                            </p>
+                            <p><strong>I have a “back-to-basics” approach </strong>where we build the solid foundation
+                                from the
+                                ground up
+                                to achieve SECURE knowledge and confidence. This is the <em><strong>only</strong></em>
+                                way to
+                                get better at the more difficult exam-style questions.
+                            </p>
+                            <p>Need some help with A Level Maths? Email me at contact@mathstutoringwithamy.co.uk</p>
                 </div>
             </div>
 
 
             <!-- MINI COURSE -->
-            <div id="mini-course" class="row px-4 my-5 d-flex flex-row justify-content-center">
-                <div class="col-12 d-flex flex-column align-items-center ">
+            <div id="mini-course" class="row px-4 mt-5 d-flex flex-row justify-content-center">
+                <div class="col-12 d-flex flex-column align-items-center mt-5">
                     <h2 class="text-center  slide-in"><strong>JOIN MY FREE MINI-COURSE</strong></h2>
-                    <h3 class="text-center  fs-5  slide-in">Year 1 Differentiation and Integration mini-course</h3>
-                    <a id="call-to-action-1" href="./mini-course-landing.html" class="btn text-align-center mb-5">
-                        <h2 class="fs-5 px-3 pt-1  slide-in">Sign Up</h2>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-5 align-items-center">
-                    <h4 class="slide-in">A lesson from the course:</h4>
-                    <div style="padding:58.89% 0 0 0;position:relative;"><iframe id="vimeo-player" class="slide-in"
-                            src="https://player.vimeo.com/video/982641919?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                            title="Module 2 Lesson 4 - Stationary Points"></iframe></div>
-                    <script src="https://player.vimeo.com/api/player.js"></script>
-                </div>
-                <div class="col-12 col-lg-5 py-3 align-items-center slide-in">
-                    <p class="">Differentiation and Integration are two of the most important topics to get right in A
-                        Level
-                        Maths. They have many layers and will be built upon a lot in the second year. If you want to
-                        turn around a poor start to A Level, this is a fantastic place to start.</p>
+                    <h3 class="text-center slide-in">Year 1 Differentiation and Integration mini-course</h3>
 
-                    <p class="">This mini-course includes:</p>
-                    <ul class="">
-                        <li>a comprehensive overview of the topics</li>
-                        <li>video tutorials</li>
-                        <li>worksheets with full written solutions to practice and check against</li>
-                    </ul>
-                    <p class="">Good luck with your journey to better and better results in A Level Maths 💪🫡</p>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div id="fd-form-669965789307629fc5a9913b"></div>
+                    <script>
+                        window.fd('form', {
+                            formId: '669965789307629fc5a9913b',
+                            containerEl: '#fd-form-669965789307629fc5a9913b'
+                        });
+                    </script>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 py-3 align-items-center">
+                    <img width="100%" src="./assets/images/mini-course-product-img.png">
                 </div>
             </div>
-
-
-            <!-- ABOUT ME -->
-            <!-- <div id="about-me" class="row py-5  d-flex flex-row justify-content-center">
-                <h2 class="text-center">About me:</h2>
-                <div
-                    class="fade-in-section d-flex justify-content-center align-items-center col-12 col-sm-10 col-xl-4 p-3 g-0 fs-5">
-                    <ul>
-                        <li>Fully Qualified Secondary School Maths Teacher</li>
-                        <li>10 Years Teaching Experience</li>
-                        <li>Experience teaching GCSE/IGCSE Maths, Further Maths and A Level Maths</li>
-                        <li>Experience in both state and private schools</li>
-                        <li>DBS Checked</li>
-                    </ul>
-                </div>
-                <div class="d-flex justify-content-center col-12 col-sm-10 col-xl-5 p-3 g-0">
-                    <img class="rounded" src="./assets/images/amy-working.webp"
-                        alt="A picture of Amy tutoring Maths at her laptop">
-                </div>
-            </div> -->
-
 
             <!-- TESTIMONIALS -->
-            <div id="testimonials" class="d-flex flex-column justify-content-center align-items-center">
-                <h2 class="mt-5">What people say about Amy</h2>
-                <div id="carouselReviews" class="carousel slide mb-5" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/images/ethan-review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/images/olivia-review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item ">
-                            <img src="./assets/images/lydi-review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/images/pete-review.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselReviews"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselReviews"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+            <div class="container mt-5">
+                <h2 class="text-center my-4">What people say</h2>
+                <div class="row" id="testimonials-container">
+                    <!-- Testimonials will be dynamically added here -->
                 </div>
             </div>
-
         </div>
-        <!-- SIDE PANEL -->
-        <!-- <div class="side-panel g-0 col-12 col-md-3 text-white bg-grey">
-            <div class="m-4">
-                <h2 class="p-3">Exciting things ahead!</h2>
-                <p>Watch this space for some exciting news about building confidence with Maths &#x1F64C;</p>
-            </div>
-        </div> -->
+
     </div>
     <!-- FOOTER -->
     <div class="row text-center text-md-left border-top">
@@ -244,47 +223,12 @@
             </div>
         </div>
     </div>
+
     <!-- scripts -->
+    <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-    <!-- Include the Vimeo Player API -->
-    <script src="https://player.vimeo.com/api/player.js"></script>
-
-    <!-- Custom JavaScript to control the player -->
-    <script>
-        // Wait for the DOM to be fully loaded
-        document.addEventListener('DOMContentLoaded', function () {
-            // Get the iframe element
-            var iframe = document.getElementById('vimeo-player');
-
-            // Initialize the Vimeo player
-            var player = new Vimeo.Player(iframe);
-
-            // Set the playback speed (e.g., 1.5 for 1.5x speed)
-            var desiredSpeed = 1.25;
-
-            // When the player is ready, set the playback speed
-            player.ready().then(function () {
-                player.setPlaybackRate(desiredSpeed).then(function (speed) {
-                    console.log('Playback speed set to ' + speed);
-                }).catch(function (error) {
-                    switch (error.name) {
-                        case 'RangeError':
-                            // The playback rate is not supported
-                            console.error('The playback speed is not supported.');
-                            break;
-                        default:
-                            // Some other error occurred
-                            console.error('An error occurred while setting the playback speed:', error);
-                            break;
-                    }
-                });
-            });
-        });
-    </script>
-
     <!-- Main Script -->
     <script src="./assets/js/index.js" type="module"></script>
     <!-- FONT AWESOME -->

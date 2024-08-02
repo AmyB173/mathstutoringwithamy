@@ -17,9 +17,28 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+
     <!-- EmailJS SDK -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1237029190796334');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1237029190796334&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="h-100 container-fluid">
@@ -62,7 +81,8 @@
             <div class="row">
                 <div class="col-md-8 mx-auto mt-5">
                     <h1 class="text-center mb-4">Contact Maths Tutoring with Amy</h1>
-                    <p class="text-center">Enquiries about tutoring here. Fill out the form below to get in touch! I look forward to hearing from you.</p>
+                    <p class="text-center">Enquiries about tutoring here. Fill out the form below to get in touch! I
+                        look forward to hearing from you.</p>
                     <form id="contact-form" class="mt-4 border shadow p-5">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -75,7 +95,8 @@
                         <div class="mb-3">
                             <label class="form-label">Maths help for:</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="mathsLevel" id="ks3" value="KS3" required>
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="ks3" value="KS3"
+                                    required>
                                 <label class="form-check-label" for="ks3">KS3</label>
                             </div>
                             <div class="form-check">
@@ -83,7 +104,8 @@
                                 <label class="form-check-label" for="gcse">GCSE</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="mathsLevel" id="aLevel" value="A Level">
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="aLevel"
+                                    value="A Level">
                                 <label class="form-check-label" for="aLevel">A Level</label>
                             </div>
                             <div class="form-check">

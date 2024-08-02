@@ -24,13 +24,33 @@
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1237029190796334');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1237029190796334&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="h-100 container-fluid bg-grey">
     <!-- Main section -->
     <div class="row m-3 m-md-5 p-md-5 bg-white justify-content-center border-top border-5 bg-grey">
         <!-- SIGN UP FORM -->
-        <h1 class="text-center p-2 mt-4 mb-3"><strong>The 14 week program to transform their A Level grades</strong></h1>
+        <h1 class="text-center p-2 mt-4 mb-3"><strong>The 14 week program to transform their A Level grades</strong>
+        </h1>
 
 
         <div class="col-lg-8">
@@ -49,9 +69,11 @@
                 to have a bigger impact. By being able to create my own tutoring program, I can focus exclusively on
                 what I know works without any distractions, to get the best outcome for my students.</p>
         </div>
-        <div class="col-10 d-flex justify-content-center"><h1 class="text-center mt-1 mb-5 mb-lg-0 col-lg-5 fs-3 fs-lg-1">Let's have a chat! Book in below.
-        </h1></div>
-        
+        <div class="col-10 d-flex justify-content-center">
+            <h1 class="text-center mt-1 mb-5 mb-lg-0 col-lg-5 fs-3 fs-lg-1">Let's have a chat! Book in below.
+            </h1>
+        </div>
+
 
         <!-- Calendly inline widget begin -->
         <div class="calendly-inline-widget"

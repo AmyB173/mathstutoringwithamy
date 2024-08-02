@@ -4,56 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Maths Tutoring with Amy | Book a call to see if we can help">
-    <title>Maths Tutoring With Amy | Contact Page</title>
+    <meta name="description" content="Contact Maths Tutoring with Amy | Enquire about tutoring services">
+    <title>Contact | Maths Tutoring With Amy</title>
+
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/contact.html" />
-    <!-- My own stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <!-- BOOTSTRAP -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-                publicKey: "k1hA0o1HzShiQtmFq",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                let currentForm = document.getElementById("contact-form");
-                emailjs.sendForm('service_pnqn1sn', 'tutoring_request', currentForm)
-                    .then(() => {
-                        console.log('SUCCESS!');
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 
-<body class="h-100">
-    <!-- Navbar -->
+<body class="h-100 container-fluid">
+    <!-- Navbar section -->
     <div class="row">
-        <div class="col text-white ">
-            <!-- navbar code taken directly from bootstrap documentation -->
+        <div class="col text-white">
             <nav class="navbar navbar-light navbar-expand-sm">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
-                        <img src="./assets/images/logo.png" height=50
+                        <img src="./assets/images/logo.png" height="50"
                             alt="The maths tutoring with Amy logo - a circle with an A in it">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -64,10 +40,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Get in contact</a>
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk"
+                                    target="_blank">Course Login</a>
                             </li>
                         </ul>
                     </div>
@@ -75,102 +55,97 @@
             </nav>
         </div>
     </div>
-    <!-- Main "middle" section -->
-    <div class="row">
-        <div class="col-12 col-md-9 g-0">
-            <!-- Title Banner -->
-            <div class="row py-4 hero-banner-contact">
-                <div class="g-0 col-4 hero-title text-white ">
-                    <img class="w-25 ms-5" src="./assets/images/logo-white.png"
-                        alt="Maths tutoring with Amy Logo and title - with subheading Go Beyond Good">
-                </div>
-                <div class="g-0 col-8 hero-title d-flex align-items-center">
-                    <img class="w-75 m-1"
-                        src="./assets/images/picturetopeople.org-5c236b0a960d34270565cbb3dcf16a4455413b79432e2738de.png"
-                        alt="Image of the word Maths Tutoring With Amy">
-                </div>
-            </div>
 
-
-            <!-- Calendly inline widget begin -->
-            <h2 class="text-center mt-4">Book a GAME PLAN call with me:</h2>
-            <div class="calendly-inline-widget" data-url="https://calendly.com/mathstutoringwithamy/30min"
-                style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <div id="carouselReviews" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselReviews" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+    <!-- Main content section -->
+    <div class="row border-top border-5">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-md-8 mx-auto mt-5">
+                    <h1 class="text-center mb-4">Contact Maths Tutoring with Amy</h1>
+                    <p class="text-center">Enquiries about tutoring here. Fill out the form below to get in touch! I look forward to hearing from you.</p>
+                    <form id="contact-form" class="mt-4 border shadow p-5">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Maths help for:</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="ks3" value="KS3" required>
+                                <label class="form-check-label" for="ks3">KS3</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="gcse" value="GCSE">
+                                <label class="form-check-label" for="gcse">GCSE</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="aLevel" value="A Level">
+                                <label class="form-check-label" for="aLevel">A Level</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="mathsLevel" id="adult" value="Adult">
+                                <label class="form-check-label" for="adult">Adult</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="examBoard" class="form-label">Exam Board (if relevant)</label>
+                            <input type="text" class="form-control" id="examBoard" name="examBoard">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info text-white"><strong>Send Message</strong></button>
+                    </form>
+                    <div id="success-message" class="alert alert-success mt-3" style="display: none;">
+                        Your message has been sent successfully!
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/images/lydi-review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/images/pete-review.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/images/ethan-review.png" class="d-block w-100" alt="...">
-                        </div>
+                    <div id="error-message" class="alert alert-danger mt-3" style="display: none;">
+                        There was an error sending your message. Please try again.
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselReviews"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselReviews"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-            </div>
-        </div>
-        <!-- SIDE PANEL -->
-        <div class="side-panel g-0 col-12 col-md-3 text-white bg-grey">
-            <div class="m-4">
-                <h2 class="p-3">Exciting things ahead!</h2>
-                <p>Watch this space for some exciting news about my Grade 8/9 GCSE Maths programme where we quiet
-                    self-doubt and be the best we can be &#x1F64C;</p>
             </div>
         </div>
     </div>
-    <!-- FOOTER -->
-    <div class="row text-center text-md-left border-top">
-        <div class="col-md-4 mx-auto mt-2 p-2">
-            <h5 class="mb-4 fw-bold"> <i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy</h5>
+
+    <!-- Footer section -->
+    <div class="row text-center text-md-left border-top mt-5">
+        <div class="col-md-4 mx-auto mt-3 p-2">
+            <h5 class="mb-4 fw-bold"><i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy</h5>
             <a href="privacy.html">Privacy Policy</a>
         </div>
         <div class="col-md-4 mt-3 p-2 text-center">
             <h5 class="mb-4 fw-bold">Contact</h5>
             <p class="email">Email me at contact@mathstutoringwithamy.co.uk</p>
-            <p><a href="contact.html">Book a call with me</a></p>
         </div>
         <div class="col-md-4 mx-auto mt-3 p-2">
             <h5 class="mb-4 fw-bold">Get excited about doing Maths with me: </h5>
             <div id="socials" class="d-flex justify-content-evenly align-items-center">
-                <a href="https://www.facebook.com/gcse.maths.tutoring.with.amy/" target="_blank"
-                    rel="noopener noreferrer">
-                    <div class=" fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
+                <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
+                    rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Facebook page">
+                    <div class="fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
                 </a>
-                <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer">
-                    <div class=" fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
+                <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Go to Maths Tutoring with Amy Instagram page">
+                    <div class="fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
                 </a>
-                <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
+                    aria-label="Go to Maths Tutoring with Amy YouTube channel">
                     <div class="fs-3 m-2"><i class="fa-brands fa-youtube"></i></div>
                 </a>
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/contact.js"></script>
 </body>
 
 </html>

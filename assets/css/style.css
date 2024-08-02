@@ -183,39 +183,15 @@ label {
     color: #383838;
 }
 
-/* ---------------------------FADE TEXT CODE (NOT CURRENTLY BEING USED) */
-.fade-text {
-    height: 100px; /* Adjust height as needed */
-    overflow: hidden;
-    position: relative;
-}
-.fade-text::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px; /* Height of fade effect */
-    background: linear-gradient(transparent, rgba(72, 89, 99, 0.9));
-    pointer-events: none;
-}
-.hidden-text {
-    display: none;
-}
-.no-fade {
-    height: auto !important;
-    overflow: visible !important;
-}
-.no-fade::before {
-    display: none !important;
-}
-
-
-
-
 .slide-in {
     opacity: 0;
     transform: translateX(-100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-in-other {
+    opacity: 0;
+    transform: translateX(100%);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
@@ -223,8 +199,11 @@ label {
     opacity: 1;
     transform: translateX(0);
 }
-
-
+ 
+.slide-in-other.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
 
 #thank-you-img {
     max-width: 200px;

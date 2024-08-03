@@ -3,6 +3,10 @@ Heading size 35px
 Subheading 30px */
 
 /* GENERAL */
+body {
+    overflow-x: hidden;
+}
+
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -43,7 +47,33 @@ h6 {
     border-radius: 50%;
     margin: 0 auto;
 }
+/* ...................................header */
 
+/* Section with fixed background image */
+.fixed-bg {
+    position: relative;
+    background-image: url('../images/hero-no-words.png'); /* Replace with your image path */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+/* Overlay styling */
+.overlay {
+    text-align: center;
+}
+
+/* Highlighted text styling */
+.overlay h1, .overlay p {
+    display: inline-block;
+    background-color: #2280bf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    /* text-transform: uppercase; */
+}
 
 /* ---------------------------------------------------FOOTER */
 #landing-footer {

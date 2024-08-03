@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 entry.target.classList.add('visible');
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.01 });
 
     sections.forEach(section => {
         observer.observe(section);
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 entry.target.classList.add('visible');
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.05 });
 
     sections.forEach(section => {
         observer.observe(section);

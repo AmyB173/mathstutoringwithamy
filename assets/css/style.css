@@ -27,6 +27,9 @@ h6 {
 .bg-grey {
     background-color:#485963;
 }
+.bg-blue {
+   background-color: #E1EBFF;
+}
 
 /* To create a consistent look across all boxes */
 .rounded-border {

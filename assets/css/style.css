@@ -43,8 +43,8 @@ h6 {
     height: 280px;
     padding: 30px;
     border-style: solid;
-    border-color:#2280bf;
-    background-color: #2280bf;
+    border-color:#5271ff;
+    background-color: #5271ff;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -80,27 +80,28 @@ h6 {
 /* Section with fixed background image */
 .fixed-bg {
     position: relative;
-    background-image: url('../images/hero-no-words.png'); /* Replace with your image path */
+    background-image: url('../images/hero-no-words.png');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Overlay styling */
-.overlay {
-    text-align: center;
+.hero-image-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 15px;
 }
 
-/* Highlighted text styling */
-.overlay h1, .overlay p {
-    display: inline-block;
-    background-color: #2280bf;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px 0;
-    /* text-transform: uppercase; */
+#index-hero {
+    max-width: 100%;
+    height: auto;
+}
+#intro-text h2 {
+    font-weight: bold;
 }
 
 /* ---------------------------------------------------FOOTER */
@@ -130,7 +131,7 @@ h6 {
 /* --------------------------------------------Testimonials index*/
 .testimonial {
     background-color: #f8f9fa;
-    border-left: 4px solid #2280bf;
+    border-left: 4px solid #5271ff;
     padding: 20px;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
@@ -140,8 +141,9 @@ h6 {
 }
 .testimonial-title {
     font-weight: bold;
-    color: #2280bf;
+    color: #5271ff;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .testimonial-text {
     font-style: italic;
@@ -252,12 +254,12 @@ label {
 }
 
 #contact-form button[type="submit"] {
-    background-color: #2280bf;
+    background-color: #5271ff;
     border: none;
 }
 
 #contact-form button[type="submit"]:hover {
-    background-color: #1a6491;
+    background-color: #5271ff;
 }
 
 /* -------------------------------------------------CALL BOOKING PAGE */
@@ -305,7 +307,7 @@ label {
 }
 
 .booking-page .btn-primary {
-    background-color: #2280bf;
+    background-color: #5271ff;
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
@@ -315,7 +317,7 @@ label {
 }
 
 .booking-page .btn-primary:hover {
-    background-color: #1a6491;
+    background-color: #5271ff;
 }
 
 .booking-page #testimonials {
@@ -329,7 +331,7 @@ label {
 
 .booking-page .testimonial {
     background-color: white;
-    border-left: 4px solid #2280bf;
+    border-left: 4px solid #5271ff;
     padding: 20px;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
@@ -341,7 +343,7 @@ label {
 
 .booking-page .testimonial-title {
     font-weight: bold;
-    color: #2280bf;
+    color: #5271ff;
     margin-bottom: 10px;
 }
 

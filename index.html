@@ -44,6 +44,11 @@
             f.parentNode.insertBefore(sn, f);
         })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
     </script>
+    <script>
+        window.fd('form', {
+            formId: '66bc41a3e22ad17be6abdeef'
+        });
+    </script>
     <!-- FACEBOOK PIXEL -->
     <!-- Meta Pixel Code -->
     <script>
@@ -66,200 +71,178 @@
     <!-- End Meta Pixel Code -->
 </head>
 
-<body class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-8 col-sm-6 col-md-4">
-            <img src="./assets/images/logo-writing-A.png" width="100%" alt="Maths tutoring with amy logo">
+<body>
+    <!-- MATHS TUTORING WITH AMY LOGO -->
+    <header class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-8 col-sm-6 col-md-4 mt-4">
+                <img src="./assets/images/logo-writing-A.png" class="img-fluid" alt="Maths tutoring with amy logo">
+            </div>
         </div>
-    </div>
-    <!-- Navbar section using Bootstrap's navbar component -->
-    <div class="row">
-        <div class="col text-white">
-            <nav class="navbar navbar-light navbar-expand-sm">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="./assets/images/logo.png" height="50"
-                            alt="The maths tutoring with Amy logo - a circle with an A in it">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk"
-                                    target="_blank">Course Login</a>
-                            </li>
-                        </ul>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-light navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" height="50"
+                        alt="The maths tutoring with Amy logo - a circle with an A in it">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk" target="_blank"
+                                rel="noopener noreferrer">Course Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="container-fluid p-0">
+            <div class="row border-top border-5 fixed-bg">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="hero-image-container">
+                        <img id="index-hero" class="img-fluid" src="./assets/images/hero-index.png" alt="Hero image">
                     </div>
                 </div>
-            </nav>
-        </div>
-    </div>
+            </div>
+        </section>
 
-    <!-- Main content section -->
-    <div class="row border-top border-5">
-        <div class="col-12">
-            <!-- HERO -->
-            <section class="fixed-bg">
-                <div class="overlay d-flex flex-column justify-content-center align-items-center ">
-                    <h1><strong>Person-centered maths tutoring to turn around grades without pressure</strong></h1>
-                    <p class="text-center">For students, parents and people generally who need someone to show them it's possible</p>
-                </div>
-            </section>
-
-            <!-- Flodesk form section -->
-            <div class="row bg-grey">
-                <div class="g-0 my-3 hero-banner col p-4 text-white d-flex flex-column align-items-center">
-                    <div id="fd-form-66a4bd385a5e88aee0899c7e"></div>
-                    <script>
-                        window.fd('form', {
-                            formId: '66a4bd385a5e88aee0899c7e',
-                            containerEl: '#fd-form-66a4bd385a5e88aee0899c7e'
-                        });
-                    </script>
+        <!-- Intro Information section -->
+        <section class="container-fluid bg-grey">
+            <div class="row d-flex flex-column align-items-center justify-content-center text-center">
+                <div id="intro-text"
+                    class="g-0 my-3 hero-banner col col-md-8 col-lg-5 p-4 text-white d-flex flex-column align-items-center justify-content-center text-center">
+                    <h2>Edexcel A Level</h2>
+                    <p>Intensive programmes, small group and 1:1 Tutoring to show students it's <strong>possible to
+                            rapidly improve grades</strong></p>
+                    <h2>Edexcel GCSE and IGCSE Maths</h2>
+                    <p>Small group and 1:1 Tutoring</p>
+                    <h2>Maths for Adults</h2>
+                    <p>I'm developing a new online community for adults wanting to change their relationship with maths
+                        and improve their confidence.</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- First Row -->
-    <div class="row align-items-center justify-content-center mt-5 p-3">
-        <div class="col-8 col-sm-8 col-lg-4  p-4 order-md-1">
-            <img src="./assets/images/amy-professional.jpg" alt="An image of Amy at work" width="100%" class="image">
-        </div>
-        <div class=" col-11 col-sm-10 col-lg-5 order-md-2">
-            <div class="slide-in-other">
-                <h1 class="">Welcome to Maths Tutoring with Amy</h1>
-                <p class="">Whether you're a parent with a child navigating their first steps into A Level Maths
-                    or
-                    an adult looking
-                    to build confidence in the subject, I'm here to support and guide you. My teaching style is all
-                    about
-                    keeping things simple and going back to basics, ensuring a strong foundation and secure
-                    understanding.
-                </p>
-                <h2 class="">Meet Me</h2>
-                <p class="mb-5">After a decade of being a Maths teacher, and helping hundreds of students
-                    through
-                    their Maths challenges
-                    in the classroom, I decided to turn my hand to tutoring. I decided to do this to help students using
-                    the
-                    tools I know work best not only for their grades but for them as a person too. To me, it’s just as
-                    important that students feel positivity around the subject as it is to maximise the score they get
-                    on a
-                    test.</p>
-                <a href="/contact.html"
-                    class="btn btn-secondary text-white p-3 rounded text-decoration-none shadow">Enquire
-                    about tutoring</a>
+        </section>
+
+        <!-- Intro to Amy and Tutoring -->
+        <section class="container mt-5">
+            <div class="row align-items-center justify-content-center p-3">
+                <div class="col-12 col-sm-8 col-lg-4 p-4 order-md-1">
+                    <img src="./assets/images/amy-professional.jpg" alt="An image of Amy at work" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-10 col-lg-5 order-md-2">
+                    <div class="slide-in-other">
+                        <h1>Welcome to Maths Tutoring with Amy</h1>
+                        <p>Whether you're a parent with a child navigating their first steps into A Level Maths or an
+                            adult looking to build confidence in the subject, I'm here to support and guide you. My
+                            teaching style is all about keeping things simple and going back to basics, ensuring a
+                            strong foundation and secure understanding.</p>
+                        <h2>Meet Me</h2>
+                        <p class="mb-5">After a decade of being a Maths teacher, and helping hundreds of students
+                            through their Maths challenges in the classroom, I decided to turn my hand to tutoring. I
+                            decided to do this to help students using the tools I know work best not only for their
+                            grades but for them as a person too. To me, it's just as important that students feel
+                            positivity around the subject as it is to maximise the score they get on a test.</p>
+                        <a href="/contact.html"
+                            class="btn btn-secondary text-white p-3 rounded text-decoration-none shadow">Enquire about
+                            tutoring</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who do I help -->
+        <section class="container mt-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-sm-10 col-lg-6 p-4">
+                    <div class="slide-in">
+                        <h1><strong>Who Do I Help?</strong></h1>
+                        <h2>For A Level Students</h2>
+                        <p>Is your child feeling overwhelmed by the jump from GCSE to A Level Maths? Have they had a
+                            tricky start and need help turning things around? Don't worry, you're not alone, and all is
+                            not lost! With my approach of taking things back-to-basics and ensuring a secure foundation
+                            in all of the Year 1 A Level content, they <strong>CAN</strong> regain their confidence and
+                            success in the subject.</p>
+                        <h2>Helping Adults Regain Confidence</h2>
+                        <p>Maths can be daunting, especially if you haven't tackled it in a while. If you're an adult
+                            feeling underconfident about your maths skills, I'm here to help you. My approach is to
+                            simplify maths concepts and provide you with the tools to grasp them easily. Maths can be
+                            daunting, especially when it's explained in an unnecessarily complicated way and I'm so
+                            confident that with better help and instruction, anyone can get better at Maths. We'll work
+                            together to increase your confidence and make learning maths an enjoyable experience.</p>
+                        <h2>One-on-One Tutoring for KS3, GCSE, and A Level</h2>
+                        <p class="mb-5">Every learner is unique, and so is my tutoring approach. I offer personalised
+                            one-on-one sessions for students at KS3, GCSE, and A Level, tailoring each lesson to meet
+                            your specific needs and learning pace. With patience, encouragement, and a "back-to-basics"
+                            approach, I have seen students in all circumstances make fantastic progress and improve
+                            their confidence.</p>
+                        <a href="/contact.html"
+                            class="btn btn-secondary text-white p-3 rounded text-decoration-none">Enquire about
+                            tutoring</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-lg-3 p-3 d-flex justify-content-center">
+                    <img src="./assets/images/philosophy.png" alt="Tutoring Sessions" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="container mt-5">
+            <h2 class="text-center my-4">What people say</h2>
+            <div class="row" id="testimonials-container">
+                <!-- Testimonials will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="container-fluid border-top">
+        <div class="row text-center text-md-left">
+            <div class="col-md-4 mx-auto mt-3 p-2">
+                <h5 class="mb-4 fw-bold"><i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy</h5>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="col-md-4 mt-3 p-2 text-center">
+                <h5 class="mb-4 fw-bold">Contact</h5>
+                <p class="email">Email me at contact@mathstutoringwithamy.co.uk</p>
+            </div>
+            <div class="col-md-4 mx-auto mt-3 p-2">
+                <h5 class="mb-4 fw-bold">Get excited about doing Maths with me: </h5>
+                <div id="socials" class="d-flex justify-content-evenly align-items-center">
+                    <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Facebook page">
+                        <div class="fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
+                    </a>
+                    <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Go to Maths Tutoring with Amy Instagram page">
+                        <div class="fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
+                    </a>
+                    <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
+                        aria-label="Go to Maths Tutoring with Amy YouTube channel">
+                        <div class="fs-3 m-2"><i class="fa-brands fa-youtube"></i></div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 
-    <!-- Second Row -->
-    <div class="row align-items-center justify-content-center mt-4">
-        <div class="col-11 col-sm-10 col-lg-6  p-4 ">
-            <div class="slide-in">
-                <h1 class=""><strong>Who Do I Help?</strong></h1>
-                <h2 class="">For A Level Students</h2>
-                <p class="">Is your child feeling overwhelmed by the jump from GCSE to A Level Maths? Have they
-                    had a tricky start
-                    and need help turning things around? Don't worry, you're not alone, and all is not lost! With my
-                    approach of taking things back-to-basics and ensuring a secure foundation in all of the Year 1 A
-                    Level
-                    content, they <strong>CAN</strong> regain their confidence and success in the subject.</p>
-                <h2 class="">Helping Adults Regain Confidence</h2>
-                <p class="">Maths can be daunting, especially if you haven’t tackled it in a while. If you're an
-                    adult feeling
-                    underconfident about your maths skills, I'm here to help you. My approach is to simplify maths
-                    concepts
-                    and provide you with the tools to grasp them easily. Maths can be daunting, especially when it’s
-                    explained in an unnecessarily complicated way and I’m so confident that with better help and
-                    instruction, anyone can get better at Maths. We'll work together to increase your confidence and
-                    make
-                    learning maths an enjoyable experience.</p>
-                <h2 class="">One-on-One Tutoring for KS3, GCSE, and A Level</h2>
-                <p class="mb-5">Every learner is unique, and so is my tutoring approach. I offer personalised
-                    one-on-one sessions for
-                    students at KS3, GCSE, and A Level, tailoring each lesson to meet your specific needs and learning
-                    pace.
-                    With patience, encouragement, and a "back-to-basics" approach, I have seen students in all
-                    circumstances
-                    make fantastic progress and improve their confidence.</p>
-                <a href="/contact.html" class="btn btn-secondary text-white p-3 rounded text-decoration-none">Enquire
-                    about
-                    tutoring</a>
-            </div>
-        </div>
-        <div class="col-11 col-sm-10 col-lg-3 p-3 d-flex justify-content-center">
-            <img src="./assets/images/philosophy.png" alt="Tutoring Sessions" width="100%" class="image">
-        </div>
-    </div>
-
-    <!-- Mini course section with form and image -->
-    <div id="mini-course" class="row px-4 mt-5 d-flex flex-row justify-content-center">
-        <div class="col-12 d-flex flex-column align-items-center mt-5">
-            <h2 class="text-center"><strong>JOIN MY FREE MINI-COURSE</strong></h2>
-            <h3 class="text-center">Year 1 Differentiation and Integration mini-course</h3>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 d-flex align-items-center justify-content-center">
-            <div id="fd-form-669965789307629fc5a9913b"></div>
-            <script>
-                window.fd('form', { formId: '669965789307629fc5a9913b', containerEl: '#fd-form-669965789307629fc5a9913b' });
-            </script>
-        </div>
-        <div class="col-12 col-md-5 col-lg-4 py-3 align-items-center">
-            <img width="100%" src="./assets/images/mini-course-product-img.png">
-        </div>
-    </div>
-
-    <!-- Testimonials section -->
-    <div class="container mt-5">
-        <h2 class="text-center my-4">What people say</h2>
-        <div class="row" id="testimonials-container">
-            <!-- Testimonials will be dynamically added here -->
-        </div>
-    </div>
-    </div>
-    </div>
-
-    <!-- Footer section with contact info and social links -->
-    <div class="row text-center text-md-left border-top">
-        <div class="col-md-4 mx-auto mt-3 p-2">
-            <h5 class="mb-4 fw-bold"><i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy</h5>
-            <a href="privacy.html">Privacy Policy</a>
-        </div>
-        <div class="col-md-4 mt-3 p-2 text-center">
-            <h5 class="mb-4 fw-bold">Contact</h5>
-            <p class="email">Email me at contact@mathstutoringwithamy.co.uk</p>
-        </div>
-        <div class="col-md-4 mx-auto mt-3 p-2">
-            <h5 class="mb-4 fw-bold">Get excited about doing Maths with me: </h5>
-            <div id="socials" class="d-flex justify-content-evenly align-items-center">
-                <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
-                    rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Facebook page">
-                    <div class="fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
-                </a>
-                <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
-                    aria-label="Go to Maths Tutoring with Amy Instagram page">
-                    <div class="fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
-                </a>
-                <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
-                    aria-label="Go to Maths Tutoring with Amy YouTube channel">
-                    <div class="fs-3 m-2"><i class="fa-brands fa-youtube"></i></div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Scripts: Bootstrap, main JS, and Font Awesome -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

@@ -49,6 +49,27 @@
             formId: '66bc41a3e22ad17be6abdeef'
         });
     </script>
+    <script>
+        (function(w, d, t, h, s, n) {
+          w.FlodeskObject = n;
+          var fn = function() {
+            (w[n].q = w[n].q || []).push(arguments);
+          };
+          w[n] = w[n] || fn;
+          var f = d.getElementsByTagName(t)[0];
+          var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+          var sm = d.createElement(t);
+          sm.async = true;
+          sm.type = 'module';
+          sm.src = h + s + '.mjs' + v;
+          f.parentNode.insertBefore(sm, f);
+          var sn = d.createElement(t);
+          sn.async = true;
+          sn.noModule = true;
+          sn.src = h + s + '.js' + v;
+          f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+      </script>
     <!-- FACEBOOK PIXEL -->
     <!-- Meta Pixel Code -->
     <script>
@@ -76,7 +97,7 @@
     <header class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-8 col-sm-6 col-md-4 mt-4">
-                <img src="./assets/images/logo-writing-A.png" class="img-fluid" alt="Maths tutoring with amy logo">
+                <img src="./assets/images/writing-logo.png" class="img-fluid" alt="Maths tutoring with amy logo">
             </div>
         </div>
 
@@ -126,15 +147,14 @@
         <section class="container-fluid bg-grey">
             <div class="row d-flex flex-column align-items-center justify-content-center text-center">
                 <div id="intro-text"
-                    class="g-0 my-3 hero-banner col col-md-8 col-lg-5 p-4 text-white d-flex flex-column align-items-center justify-content-center text-center">
-                    <h2>Edexcel A Level</h2>
-                    <p>Intensive programmes, small group and 1:1 Tutoring to show students it's <strong>possible to
-                            rapidly improve grades</strong></p>
-                    <h2>Edexcel GCSE and IGCSE Maths</h2>
-                    <p>Small group and 1:1 Tutoring</p>
-                    <h2>Maths for Adults</h2>
-                    <p>I'm developing a new online community for adults wanting to change their relationship with maths
-                        and improve their confidence.</p>
+                    class="g-0 my-3 hero-banner col col-md-8 col-lg-8 p-4 text-white d-flex flex-column align-items-center justify-content-center text-center">
+                    <div id="fd-form-66cb7a9069d984f75c35ec81"></div>
+                    <script>
+                      window.fd('form', {
+                        formId: '66cb7a9069d984f75c35ec81',
+                        containerEl: '#fd-form-66cb7a9069d984f75c35ec81'
+                      });
+                    </script>
                 </div>
             </div>
         </section>

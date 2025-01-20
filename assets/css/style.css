@@ -33,25 +33,6 @@ h6 {
   background-color: #e1ebff;
 }
 
-/* To create a consistent look across all boxes */
-.rounded-border {
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#circle-container {
-  width: 280px;
-  height: 280px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #5271ff;
-  background-color: #5271ff;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
 /* SLIDE IN FUNCTIONALITY */
 .slide-in {
   opacity: 0;
@@ -74,9 +55,8 @@ h6 {
   opacity: 1;
   transform: translateX(0);
 }
-
+/* ............................................................INDEX PAGE */
 /* ...................................header */
-
 /* Section with fixed background image */
 .fixed-bg {
   position: relative;
@@ -114,25 +94,21 @@ h6 {
   color: #383838;
 }
 
-/* ---------------------------------------------------INTRO SECTION */
-.main-photo {
-  width: 100%;
-  max-width: 300px;
-}
 
-/* ----------------------------------------------------MINi COURSE */
-#mini-course {
-  background-color: #485963;
+
+/* Testimonials index*/
+
+
+
+/* ............................................................CONTACT PAGE */
+/* Form*/
+input[type="submit"] {
+  background-color: #5271ff;
   color: white;
-  padding-top: 30px;
-  padding-bottom: 80px;
-}
-
-/* --------------------------------------------Testimonials index*/
-
-/* --------------------------------------------Contact page form*/
-#contact-form {
-  font-family: "Quicksand", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 input[type="text"],
@@ -182,38 +158,6 @@ label {
   background-color: #485963;
 }
 
-/* --------------------------------------------Landing Page*/
-
-#landing-toggle {
-  margin: 0 auto;
-}
-
-#landing-img {
-  width: 100%;
-  max-width: 500px;
-}
-
-/* ---------------------------------------------mini-course thank you page*/
-#student-signup,
-#call-booking {
-  background-color: #a10a65;
-  font-family: "Quicksand", serif;
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  color: white;
-  border-radius: 35px;
-  max-width: 300px;
-}
-
-#student-signup:hover,
-#call-booking:hover {
-  background-color: white;
-  color: #383838;
-}
-
-#thank-you-img {
-  max-width: 200px;
-}
 /* -------------------------------------------------------CONTACT form page */
 #contact-form {
   max-width: 600px;
@@ -237,106 +181,4 @@ label {
   background-color: #5271ff;
 }
 
-/* -------------------------------------------------CALL BOOKING PAGE */
-/* NEW STYLES FOR CALL BOOKING PAGE */
 
-/* General styling for the booking page */
-.booking-page body {
-  overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
-}
-
-.booking-page header {
-  position: relative;
-  background-image: url("background.jpg"); /* Replace with your image path */
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-
-.booking-page header .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.booking-page main {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
-.booking-page #call-to-action ul {
-  list-style: none;
-  padding: 0;
-}
-
-.booking-page #call-to-action li {
-  padding: 5px 0;
-}
-
-.booking-page .btn-primary {
-  background-color: #5271ff;
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.booking-page .btn-primary:hover {
-  background-color: #5271ff;
-}
-
-.booking-page #testimonials {
-  background-color: #f8f9fa;
-  padding: 40px 0;
-}
-
-.booking-page #testimonials h2 {
-  margin-bottom: 30px;
-}
-
-.booking-page .testimonial {
-  background-color: white;
-  border-left: 4px solid #5271ff;
-  padding: 20px;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.booking-page .testimonial:hover {
-  transform: translateY(-5px);
-}
-
-.booking-page .testimonial-title {
-  font-weight: bold;
-  color: #5271ff;
-  margin-bottom: 10px;
-}
-
-.booking-page .testimonial-text {
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-.booking-page .testimonial-author {
-  font-weight: bold;
-  color: #6c757d;
-}
-
-.booking-page footer {
-  background-color: #485963;
-  color: white;
-}
-
-.booking-page footer p {
-  margin: 0;
-}

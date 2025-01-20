@@ -94,11 +94,7 @@ h6 {
   color: #383838;
 }
 
-
-
 /* Testimonials index*/
-
-
 
 /* ............................................................CONTACT PAGE */
 /* Form*/
@@ -180,5 +176,77 @@ label {
 #contact-form button[type="submit"]:hover {
   background-color: #5271ff;
 }
+/* -------------------------------------------------------Testimonial Carousel */
 
+.testimonial-card {
+  h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5271ff;
+    font-style: italic;
+  }
+  height: 100%;
+  transition: opacity 0.3s ease;
 
+  width: 90%; /* Default width for smaller screens */
+  max-width: 600px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the card */
+}
+
+@media (min-width: 768px) {
+  .testimonial-card {
+    width: 60%; /* Adjust width for medium screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonial-card {
+    width: 50%; /* Adjust width for larger screens */
+  }
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.stars {
+  color: gold;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+.carousel-control-next {
+  right: -50px;
+}
+
+@media (max-width: 992px) {
+  .carousel-control-prev {
+    left: -20px;
+  }
+  .carousel-control-next {
+    right: -20px;
+  }
+  .d-none.d-xl-block {
+    display: block !important;
+  }
+}

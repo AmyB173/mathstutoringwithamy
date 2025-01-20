@@ -79,6 +79,81 @@
         src="https://www.facebook.com/tr?id=1237029190796334&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
+    <style>
+      .testimonial-card {
+        h5 {
+          font-size: 30px;
+          font-weight: 700;
+          color: #5271ff;
+          font-style:italic;
+        }
+        height: 100%;
+        transition: opacity 0.3s ease;
+
+        width: 90%; /* Default width for smaller screens */
+        max-width: 600px; /* Limit the maximum width */
+        margin: 0 auto; /* Center the card */
+      }
+
+      @media (min-width: 768px) {
+        .testimonial-card {
+          width: 60%; /* Adjust width for medium screens */
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .testimonial-card {
+          width: 50%; /* Adjust width for larger screens */
+        }
+      }
+
+
+      .circle {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+
+      .stars {
+        color: gold;
+      }
+
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 40px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: none;
+        border-radius: 50%;
+        height: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+      }
+
+      .carousel-control-prev {
+        left: -50px;
+      }
+      .carousel-control-next {
+        right: -50px;
+      }
+
+      @media (max-width: 992px) {
+        .carousel-control-prev {
+          left: -20px;
+        }
+        .carousel-control-next {
+          right: -20px;
+        }
+        .d-none.d-xl-block {
+          display: block !important;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -272,12 +347,137 @@
       </section>
 
       <!-- Testimonials section -->
-      <section class="container mt-5">
-        <h2 class="text-center my-4">What people say</h2>
-        <div class="row" id="testimonials-container">
-          <!-- Testimonials will be dynamically added here -->
+      <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-1">
+            <h2 class="display-4 mb-4">
+              What Others Are Saying About Amy’s Tutoring
+            </h2>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="../assets/images/amy-circle-2.png"
+              alt="Amy"
+              class="img-fluid rounded"
+            />
+          </div>
         </div>
-      </section>
+      </div>
+      <div class="container my-5 mx-auto">
+        <div
+          id="testimonialCarousel"
+          class="carousel slide position-relative"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner mx-auto">
+            <!-- Individual testimonials -->
+            <div class="carousel-item active">
+              <div class="p-4 border rounded shadow-sm testimonial-card">
+                <h5>
+                  "Through her teaching methods I was able to achieve an A* and
+                  study Maths at University"
+                </h5>
+                <p class="text-muted">Ethan - Former Student</p>
+                <p>
+                  "Amy made sure all of her students understood the concepts
+                  before moving on. Thanks to her dedication, I was able to
+                  achieve an A* and pursue Maths at University."
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">E</div>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-4 border rounded shadow-sm testimonial-card">
+                <h5>"Amy is a wonder! She completely changed the game ..."</h5>
+                <p class="text-muted">Katy - Parent</p>
+                <p>
+                  "Amy is a wonder! She's completely changed the game for Fred.
+                  He's grown in confidence as Amy guided him through the content
+                  and showed what to do when he got stuck. The resources are so
+                  clear and structured it's made the sessions stress free."
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">K</div>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-4 border rounded shadow-sm testimonial-card">
+                <h5>
+                  "I am not sure I would have gone on to do A Level Maths if it
+                  wasn't for her"
+                </h5>
+                <p class="text-muted">Olivia - Former Student</p>
+                <p>
+                  "Amy taught me both Maths and Further Maths at GCSE level. Her
+                  teaching gave me such a solid foundation and confidence in the
+                  subject, which played a crucial role in my decision to pursue
+                  A Level Maths."
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">O</div>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-4 border rounded shadow-sm testimonial-card">
+                <h5>"He always comes away from the lessons on a high"</h5>
+                <p class="text-muted">Emma - Parent of Student</p>
+                <p>
+                  "Amy is great at getting my son engaged with the subject, and
+                  he always comes away from the lessons on a high. I'm really
+                  pleased with the progress he is making and the confidence he
+                  has gained under her guidance."
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">E</div>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-4 border rounded shadow-sm testimonial-card">
+                <h5>"Amy was often a catalyst for change"</h5>
+                <p class="text-muted">Pete - Former Colleague</p>
+                <p>
+                  "Amy was an extremely dedicated and hard-working member of the
+                  team. She often acted as a catalyst for positive change,
+                  developing excellent relationships with pupils, parents, and
+                  colleagues alike"
+                </p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">P</div>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </main>
 
     <!-- Footer section -->

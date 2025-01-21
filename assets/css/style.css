@@ -22,8 +22,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, 
+ul {
   font-family: "Poppins", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.big-title {
+  font-size: 40px;
+  /* text-transform: uppercase; */
+  letter-spacing: -0.04em;
 }
 
 .bg-grey {
@@ -31,6 +39,22 @@ h6 {
 }
 .bg-blue {
   background-color: #e1ebff;
+}
+
+
+.custom-border {
+  border: 5px solid #000; /* Black border */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.btn-primary {
+  background-color: #FFDA03;
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+  border-color: #FFDA03;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
 }
 
 /* SLIDE IN FUNCTIONALITY */
@@ -94,7 +118,8 @@ h6 {
   color: #383838;
 }
 
-/* Testimonials index*/
+/* Index problem value section */
+
 
 /* ............................................................CONTACT PAGE */
 /* Form*/
@@ -249,4 +274,30 @@ label {
   .d-none.d-xl-block {
     display: block !important;
   }
+}
+
+
+
+
+
+
+  /* Add spacing and alignment, without colors or fonts */
+  .hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section {
+    margin-top: 2rem;
+}
+
+.highlight-section {
+    padding: 1rem;
+}
+
+.highlight-section button {
+    width: 100%;
 }

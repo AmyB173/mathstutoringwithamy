@@ -94,6 +94,10 @@ ul {
   justify-content: center;
 }
 
+.logo-row {
+  background-color: #ff5757;
+}
+
 .hero-image-container {
   max-width: 800px;
   width: 100%;

@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
 // TESTIMONIALS
 const testimonials = [
     {
@@ -83,3 +85,5 @@ testimonials.forEach(testimonial => {
     `;
     testimonialsContainer.appendChild(testimonialElement);
 });
+
+

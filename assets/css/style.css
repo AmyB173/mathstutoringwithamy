@@ -41,6 +41,13 @@ ul {
   background-color: #e1ebff;
 }
 
+.bg-brand-blue {
+  /* background-color: rgba(82, 113, 255, .9); */
+  background-color: #74bdf2;
+  background-color:  rgba(255,87,87, 0.8);
+  background-color: #F8F8FF;
+}
+
 
 .custom-border {
   border: 5px solid #000; /* Black border */
@@ -48,37 +55,90 @@ ul {
 }
 
 .btn-primary {
-  background-color: #FFDA03;
+  background-color: #87F1E1 ;
+  color: #F8F9FA;
   /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   letter-spacing: -0.03em;
   font-weight: bold;
-  border-color: #FFDA03;
+  border-color: #66cdaa;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
 }
 
-/* SLIDE IN FUNCTIONALITY */
-.slide-in {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 1s ease-out, transform 1s ease-out;
+/*Responsive Font Size */
+.fs-responsive {
+  font-size: 1.5rem; /* Default */
 }
 
-.slide-in-other {
-  opacity: 0;
-  transform: translateX(100%);
-  transition: opacity 1s ease-out, transform 1s ease-out;
+@media (min-width: 768px) { /* md */
+  .fs-responsive {
+    font-size: 1.5rem;
+  }
 }
 
-.slide-in.visible {
-  opacity: 1;
-  transform: translateX(0);
+@media (min-width: 992px) { /* lg */
+  .fs-responsive {
+    font-size: 1.2rem;
+  }
 }
 
-.slide-in-other.visible {
-  opacity: 1;
-  transform: translateX(0);
+/*TYPING EFFECT */
+/* Container to control spacing */
+.typing-container {
+  display: inline-block;
+  white-space: normal; /* Allows text to wrap naturally */
+  word-break: break-word; /* Ensures long words break and wrap properly */
+  overflow: hidden;
+  animation: blink 0.8s infinite;
 }
+
+
+/* Blinking cursor */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Default Button Style */
+#cta-btn {
+  transition: transform 0.2s ease; /* Smooth transition for scaling effect */
+}
+
+/* Hand Click (Pointer) Effect */
+#cta-btn:hover {
+  cursor: pointer; /* Changes cursor to hand on hover */
+  transform: scale(1.1); /* Optional: Scales the button up on hover for emphasis */
+}
+
+#cta-btn:active {
+  transform: scale(1); /* Button goes back to normal size when clicked */
+}
+/*BOUNCE IN EFFECT*/
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-effect {
+  display: inline-block;
+  animation: bounceIn 1s ease-out;
+}
+
 /* ............................................................INDEX PAGE */
 /* ...................................header */
 /* Section with fixed background image */
@@ -110,6 +170,18 @@ ul {
 }
 #intro-text h2 {
   font-weight: bold;
+}
+
+#hero-col-heading { 
+  font-size: 40px;
+  font-weight: bold;
+  color:#333333;
+}
+@media (min-width: 768px) {
+  #hero-col-heading { 
+    font-size: 45px;
+    font-weight: bold;
+  }
 }
 
 /* ---------------------------------------------------FOOTER */

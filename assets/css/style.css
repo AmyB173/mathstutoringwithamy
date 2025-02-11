@@ -251,6 +251,11 @@ ul {
   }
 }
 
+/* ..................................Testimonial other*/
+.testimonial-amy-img {
+  max-width: min(100%, 400px);
+  height: auto;
+}
 /* ..................................FOOTER*/
 #landing-footer {
   background-color: #fff;

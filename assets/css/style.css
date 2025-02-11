@@ -28,17 +28,7 @@ ul {
   letter-spacing: -0.03em;
   color:#D6A7F6;
 }
-
-.big-title {
-  font-size: 40px;
-  /* text-transform: uppercase; */
-  letter-spacing: -0.04em;
-}
-
-.bg-grey {
-  background-color: #485963;
-}
-
+/*Colouring */
 .bg-off-white {
   background-color: #F8F8FF;
 }
@@ -47,10 +37,7 @@ ul {
   color: #ff5757;
 }
 
-.custom-border {
-  border: 5px solid #000; /* Black border */
-  border-radius: 5px; /* Optional rounded corners */
-}
+/* Fun text effects */
 .wavy-underline {
   text-decoration: underline;
   text-decoration-style: wavy;
@@ -68,18 +55,6 @@ ul {
     padding: 5px 10px;
   }
 }
-.btn-primary {
-  background-color: #87F1E1 ;
-  color: #F8F9FA;
-  /* text-transform: uppercase; */
-  font-family: "Poppins", sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  letter-spacing: -0.03em;
-  font-weight: bold;
-  border-color: #66cdaa;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
-}
-
 /* Hand Click (Pointer) Effect */
 #cta-btn:hover {
   cursor: pointer; /* Changes cursor to hand on hover */
@@ -115,8 +90,23 @@ ul {
   animation: bounceIn 1s ease-out;
 }
 
+/* Buttons */
+.btn-primary {
+  background-color: #87F1E1 ;
+  color: #F8F9FA;
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.03em;
+  font-weight: bold;
+  border-color: #66cdaa;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
+}
+
+
+
 /* ............................................................INDEX PAGE */
-/* NAVBAR */
+/* -----------------------------------NAVBAR */
 .logo-words {
   font-size: 20px;
   font-weight: bold;
@@ -125,7 +115,7 @@ ul {
 
 }
 
-/* ...................................header */
+/* ...................................HERO*/
 /* Section with fixed background image */
 .fixed-bg {
   position: relative;
@@ -154,14 +144,6 @@ ul {
   height:auto;
 }
 
-#index-hero {
-  max-width: 100%;
-  height: auto;
-}
-#intro-text h2 {
-  font-weight: bold;
-}
-
 #hero-col-heading { 
   font-size: 30px;
   font-weight: bold;
@@ -174,7 +156,102 @@ ul {
   }
 }
 
-/* ---------------------------------------------------FOOTER */
+/* ...................................A LEVEL / GCSE Sections */
+.hero {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-section {
+  margin-top: 2rem;
+}
+
+.highlight-section {
+  padding: 1rem;
+}
+
+.highlight-section button {
+  width: 100%;
+}
+
+/* ...................................TESTIMONIAL CAROUSEL*/
+
+.testimonial-card {
+  height: 100%;
+  transition: opacity 0.3s ease;
+  width: 90%; /* Default width for smaller screens */
+  max-width: 600px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the card */
+  h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3B3B3B;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonial-card {
+    width: 60%; /* Adjust width for medium screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonial-card {
+    width: 50%; /* Adjust width for larger screens */
+  }
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #D6A7F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.stars {
+  color: gold;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+.carousel-control-next {
+  right: -50px;
+}
+
+@media (max-width: 992px) {
+  .carousel-control-prev {
+    left: -20px;
+  }
+  .carousel-control-next {
+    right: -20px;
+  }
+  .d-none.d-xl-block {
+    display: block !important;
+  }
+}
+
+/* ..................................FOOTER*/
 #landing-footer {
   background-color: #fff;
   z-index: 10;
@@ -183,9 +260,6 @@ ul {
 #socials a {
   color: #383838;
 }
-
-/* Index problem value section */
-
 
 /* ............................................................CONTACT PAGE */
 /* Form*/
@@ -267,96 +341,4 @@ label {
 #contact-form button[type="submit"]:hover {
   background-color: #5271ff;
 }
-/* -------------------------------------------------------Testimonial Carousel */
 
-.testimonial-card {
-  height: 100%;
-  transition: opacity 0.3s ease;
-  width: 90%; /* Default width for smaller screens */
-  max-width: 600px; /* Limit the maximum width */
-  margin: 0 auto; /* Center the card */
-  h5 {
-    font-size: 25px;
-    font-weight: 700;
-    color: #3B3B3B;
-    font-style: italic;
-  }
-}
-
-@media (min-width: 768px) {
-  .testimonial-card {
-    width: 60%; /* Adjust width for medium screens */
-  }
-}
-
-@media (min-width: 1200px) {
-  .testimonial-card {
-    width: 50%; /* Adjust width for larger screens */
-  }
-}
-
-.circle {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #D6A7F6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-}
-
-.stars {
-  color: gold;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 40px;
-  background-color: rgba(0, 0, 0, 0.2);
-  border: none;
-  border-radius: 50%;
-  height: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-}
-
-.carousel-control-prev {
-  left: -50px;
-}
-.carousel-control-next {
-  right: -50px;
-}
-
-@media (max-width: 992px) {
-  .carousel-control-prev {
-    left: -20px;
-  }
-  .carousel-control-next {
-    right: -20px;
-  }
-  .d-none.d-xl-block {
-    display: block !important;
-  }
-}
-/* Add spacing and alignment, without colors or fonts */
-  .hero {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.content-section {
-    margin-top: 2rem;
-}
-
-.highlight-section {
-    padding: 1rem;
-}
-
-.highlight-section button {
-    width: 100%;
-}

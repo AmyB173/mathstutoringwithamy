@@ -84,13 +84,11 @@
   <body>
     <!-- MATHS TUTORING WITH AMY LOGO -->
     <header class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-10 col-md-8 col-lg-8 col-xl-6 mt-4">
-          <!-- <img
-            src="./assets/images/writing-logo.png"
-            class="img-fluid"
-            alt="Maths tutoring with amy logo"
-          /> -->
+      <div class="row">
+        <div class="col-10 ps-4 pt-3 m-0">
+          <p class="text-start brand-red-text logo-words">
+            Maths Tutoring with Amy
+          </p>
         </div>
       </div>
 
@@ -147,15 +145,12 @@
       <section class="container-fluid p-0">
         <div class="row flex-column border-5 fixed-bg justify-content-center">
           <div
-            class="col-10 col-md-8 p-3 px-xl-5 bg-brand-blue text-center my-5"
+            class="col-10 col-md-8 p-3 p-md-3 px-xl-5 bg-brand-blue text-center my-3 my-md-5"
           >
             <!-- Bootstrap Row -->
             <div class="row align-items-center justify-content-center">
               <!-- Text Column -->
-              <div class="col-11 col-lg-7 p-5">
-                <!-- <h1 id="hero-col-heading" class="fw-bold text-start">
-                  <span id="typing-text" class="typing-container"></span>
-                </h1> -->
+              <div class="col-11 col-lg-7 p-4  p-md-5">
                 <h1 id="hero-col-heading" class="fw-bold text-start bounce-effect">
                   Maths Tutoring that improves confidence, self-esteem, and grades.
                 </h1>
@@ -188,29 +183,9 @@
                   class="img-fluid rounded px-5 pt-5 pb-2"
                 />
                 <div class="">
-                  <h1 id="" class="fs-responsive fw-bold text-center p-2">
-                    Maths Tutoring With Amy
-                  </h1>
                 </div>
               </div>
-            </div>
-
-            <!-- <div class="row flex-start flex-column"
-              ><div class="col-11 col-lg-6 text-start">
-                <h1 class="fw-bold">GCSE & A&nbsp;Level Maths Tutoring</h1>
-              </div>
-
-              <div class="col-11 col-lg-6">
-                <p class="">
-                  Expert Edexcel A Level and GCSE Maths Tutoring in England,
-                  including London, Manchester, Oxford, Bristol, Birmingham, and
-                  more.
-                </p>
-              </div>
-            </div>
-            <div class="col-11 col-md-8 col-xl-6 p-0 g-0">
-              <img src="./assets/images/amy-pointing.png" alt="Amy" class="img-fluid rounded" />
-            </div> -->
+            </div>    
           </div>
         </div>
       </section>
@@ -497,21 +472,6 @@
       src="https://kit.fontawesome.com/9f7f10393d.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      const text = "Maths Tutoring that improves confidence, self-esteem, and grades.";
-      const speed = 50; // Adjust speed here (lower = faster)
-      let i = 0;
-      
-      function typeWriter() {
-        if (i < text.length) {
-          document.getElementById("typing-text").innerHTML += text.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-      
-      // Run typing effect when page loads
-      window.onload = typeWriter;
-      </script>
+
   </body>
 </html>

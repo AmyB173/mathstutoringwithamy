@@ -48,6 +48,9 @@ ul {
   background-color: #F8F8FF;
 }
 
+.brand-red-text {
+  color: #ff5757;
+}
 
 .custom-border {
   border: 5px solid #000; /* Black border */
@@ -64,23 +67,6 @@ ul {
   font-weight: bold;
   border-color: #66cdaa;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
-}
-
-/*Responsive Font Size */
-.fs-responsive {
-  font-size: 1.5rem; /* Default */
-}
-
-@media (min-width: 768px) { /* md */
-  .fs-responsive {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 992px) { /* lg */
-  .fs-responsive {
-    font-size: 1.2rem;
-  }
 }
 
 /*TYPING EFFECT */
@@ -140,6 +126,15 @@ ul {
 }
 
 /* ............................................................INDEX PAGE */
+/* NAVBAR */
+.logo-words {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.03em;
+
+}
+
 /* ...................................header */
 /* Section with fixed background image */
 .fixed-bg {
@@ -173,7 +168,7 @@ ul {
 }
 
 #hero-col-heading { 
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color:#333333;
 }

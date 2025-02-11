@@ -51,7 +51,23 @@ ul {
   border: 5px solid #000; /* Black border */
   border-radius: 5px; /* Optional rounded corners */
 }
-
+.wavy-underline {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #D6A7F6;
+}
+.brush-stroke {
+  background:  #D6A7F6; /* Highlight color */
+  padding: 2px 4px;
+  display: inline;
+  border-radius: 10px; /* Rounds the edges */
+  transform: skew(-50deg); /* Slants the highlight */
+}
+@media (min-width: 768px) {
+  .brush-stroke { 
+    padding: 5px 10px;
+  }
+}
 .btn-primary {
   background-color: #87F1E1 ;
   color: #F8F9FA;
@@ -62,27 +78,6 @@ ul {
   font-weight: bold;
   border-color: #66cdaa;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* More pronounced shadow */
-}
-
-/*TYPING EFFECT */
-/* Container to control spacing */
-.typing-container {
-  display: inline-block;
-  white-space: normal; /* Allows text to wrap naturally */
-  word-break: break-word; /* Ensures long words break and wrap properly */
-  overflow: hidden;
-  animation: blink 0.8s infinite;
-}
-
-
-/* Blinking cursor */
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
-/* Default Button Style */
-#cta-btn {
-  transition: transform 0.2s ease; /* Smooth transition for scaling effect */
 }
 
 /* Hand Click (Pointer) Effect */
@@ -155,8 +150,8 @@ ul {
 }
 
 #hero-amy-img {
-  max-width: 500px;
-  height: auto;
+  max-width: min(100%, 500px);
+  height:auto;
 }
 
 #index-hero {
@@ -345,13 +340,7 @@ label {
     display: block !important;
   }
 }
-
-
-
-
-
-
-  /* Add spacing and alignment, without colors or fonts */
+/* Add spacing and alignment, without colors or fonts */
   .hero {
     height: 60vh;
     display: flex;

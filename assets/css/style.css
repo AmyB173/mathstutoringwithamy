@@ -33,8 +33,19 @@ ul {
   background-color: #F8F8FF;
 }
 
+.bg-purple-white {
+  background-color: #F4F4FF;
+}
+
+.bg-grey {
+  background-color: #E3E8E1;
+}
+
 .brand-red-text {
   color: #ff5757;
+}
+.brand-grey-text {
+  color: #2B2B2B;
 }
 
 /* Fun text effects */

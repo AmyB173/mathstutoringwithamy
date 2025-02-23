@@ -168,24 +168,35 @@ ul {
   }
 }
 
-/* ...................................A LEVEL / GCSE Sections */
-.hero {
-  height: 60vh;
+/* ...................................Benefit Section Underline effect and height  */
+ /* Ensure each card takes full height of its container */
+ .col-d-flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: stretch;
 }
-
-.content-section {
-  margin-top: 2rem;
+.card {
+  flex: 1;
+  transition: transform 0.3s;
 }
-
-.highlight-section {
-  padding: 1rem;
+.card:hover {
+  transform: translateY(-5px);
 }
-
-.highlight-section button {
+/* Underline animation for headings */
+.underline {
+  position: relative;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background: #ff5757;
+  transition: width 0.5s;
+}
+.underline.active::after {
   width: 100%;
 }
 

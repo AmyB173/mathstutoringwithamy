@@ -1,3 +1,25 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const headings = document.querySelectorAll('.underline');
+    const observerOptions = {
+      threshold: 0.5 // Trigger when 50% of the element is visible
+    };
+  
+    headings.forEach((heading, index) => {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Delay based on the heading's index for a sequential effect
+            setTimeout(() => {
+              entry.target.classList.add('active');
+            }, index * 700);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+      observer.observe(heading);
+    });
+  });
+
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
@@ -87,3 +109,25 @@ testimonials.forEach(testimonial => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const headings = document.querySelectorAll('.underline');
+    const observerOptions = {
+      threshold: 0.5 // Trigger when 50% of the element is visible
+    };
+  
+    headings.forEach((heading, index) => {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Delay based on the heading's index for a sequential effect
+            setTimeout(() => {
+              entry.target.classList.add('active');
+            }, index * 700);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+      observer.observe(heading);
+    });
+  });
+  

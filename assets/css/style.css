@@ -251,6 +251,91 @@ header .fixed-top {
   font-weight: 500;
   margin: var(--spacing-md) 0;
 }
+/* 2025 Classes Section Styling */
+.bg-accent-light {
+  background-color: #f0e6fc;
+  border-top: 1px solid #e2d5f8;
+  border-bottom: 1px solid #e2d5f8;
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  vertical-align: middle;
+  padding: 6px 12px;
+  margin-left: 10px;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.feature-list li {
+  font-family: var(--font-body);
+  font-size: 18px;
+  margin-bottom: 0.8rem;
+  padding-left: 30px;
+  position: relative;
+}
+
+.feature-list li:before {
+  content: "✓";
+  color: var(--color-secondary);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.countdown-wrapper {
+  background-color: white;
+  border: 1px solid #e9d8ff;
+}
+
+.pulse-effect {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(135, 241, 225, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(135, 241, 225, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(135, 241, 225, 0);
+  }
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.waiting-list-meter {
+  margin-top: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .highlight-text {
+    display: block;
+  }
+  
+  .badge {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
 
 /* ---------------------------------------------------- TESTIMONIALS */
 .testimonial-card {
@@ -375,51 +460,3 @@ footer a:hover {
   background-color: #66cdaa;
 }
 
-/* Testimonial animation */
-.testimonial-container {
-  width: 100%;
-  height: 120px;
-  overflow: hidden;
-  position: relative;
-  margin: var(--spacing-md) 0;
-}
-
-.testimonial {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  animation: rotate 9s infinite;
-}
-
-.testimonial:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.testimonial:nth-child(2) {
-  animation-delay: 3s;
-}
-
-.testimonial:nth-child(3) {
-  animation-delay: 6s;
-}
-
-@keyframes rotate {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  10% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  30% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 0;
-  }
-}

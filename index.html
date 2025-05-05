@@ -80,45 +80,56 @@
 
 <body>
   <!-- HEADER WITH INTEGRATED NAVIGATION -->
-  <header class="container-fluid">
-    <div class="row fixed-top bg-white justify-content-between p-2">
-      <div class="col-5 mt-3 ms-3 flex align-items-center justify-content-center">
-        <p class="text-start">
-          <a class="brand-red-text logo-words text-decoration-none" href="index.html">Maths Tutoring with Amy</a>
-        </p>
-      </div>
-      <div class="col-5 d-flex justify-content-end align-items-center me-3 pe-3">
-        <a id="cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
-          class="btn btn-primary btn p-2 fs-6">
-          Book a Free Consultation
-        </a>
-      </div>
-    </div>
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-light navbar-expand-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/images/logo-red.png" height="50"
-            alt="The maths tutoring with Amy logo - a circle with an A in it" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <header class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
+      <div class="container-fluid px-3">
+        <!-- Logo and Brand Name (visible on all screens but sized differently) -->
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand me-1 me-md-2" href="index.html">
+            <img src="./assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
+          </a>
+          <!-- Brand name now visible on all screens -->
+          <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
+            Maths Tutoring with Amy
+          </a>
+        </div>
+        
+        <!-- Mobile CTA + Toggle Button -->
+        <div class="d-flex align-items-center">
+          <!-- CTA - Visible on all screens but styled differently on mobile -->
+          <a id="mobile-cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
+            class="btn btn-primary btn-sm me-2 d-lg-none">
+            Book
+          </a>
+          
+          <!-- Navbar Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#mainNavbar" aria-controls="mainNavbar" 
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        
+        <!-- Collapsible Navigation Content -->
+        <div class="collapse navbar-collapse mt-2 mt-lg-0" id="mainNavbar">
+          <!-- Navigation Links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk" target="_blank"
-                rel="noopener noreferrer">Course Login</a>
+              <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk" target="_blank">Course Login</a>
             </li>
           </ul>
+          
+          <!-- Desktop CTA - Only visible on large screens -->
+          <a id="desktop-cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
+            class="btn btn-primary d-none d-lg-block">
+            Book a Free Consultation
+          </a>
         </div>
       </div>
     </nav>
@@ -128,7 +139,7 @@
     <!-- HERO SECTION -->
     <section class="container-fluid p-0 m-0">
       <div class="row flex-column fixed-bg justify-content-center">
-        <div class="col-11 col-md-10 bg-purple-white text-center my-4 mx-auto">
+        <div class="col-11 col-md-10 bg-purple-white text-center my-4 mx-auto shadow rounded-3">
           <!-- Bootstrap Row -->
           <div class="row align-items-center justify-content-center">
             <!-- Text Column -->
@@ -421,41 +432,63 @@
     </div>
   </main>
   <!-- TUTORING FRAMEWORK SECTION -->
-<section class="container-fluid bg-white py-5 " id="framework-section">
-  <div class="row justify-content-center bg-purple-white py-5">
-    <div class="col-11 col-lg-10">
-      <div class="row align-items-center">
-        <div class="col-md-6 mb-4 mb-md-0">
-          <h2 class="mb-4">My tutoring framework - <span class="brand-red-text fw-bold">Enjoy. Engage. Excel.</span></h2>
-          <p class="lead">I've seen it time and again - students stop trying in maths not because they can't do it, but because they've convinced themselves they can't (or don't want to). That's why I build everything around helping them feel confident and engaged in their own learning.</p>
-          
-          <div class="mt-4">
-            <a href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank" class="btn btn-primary btn-lg">
-              Let's chat about how this approach can help your child
-            </a>
+  <section class="container-fluid bg-white py-5 " id="framework-section">
+    <div class="row justify-content-center bg-purple-white py-5">
+      <div class="col-11 col-lg-10">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h2 class="mb-4">My tutoring framework – <span class="brand-red-text fw-bold">Enjoy. Engage. Excel.</span></h2>
+            <p class="lead">Most students don’t struggle with maths because they can’t do it — they struggle because they believe they can’t. This framework is all about building confidence, helping students feel involved, and setting them up to thrive.</p>
+            <div class="mt-4">
+              <a href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank" class="btn btn-primary btn-lg">
+                Let's chat about how this approach can help your child
+              </a>
+            </div>
           </div>
-        </div>
-        
-        <div class="col-md-6">
-          <div class="framework-card shadow-sm p-4 rounded mb-4 border-start border-3 border-primary">
-            <h4 class="fw-bold"><i class="fa-solid fa-smile me-2"></i> Enjoy</h4>
-            <p>Lessons are calm and friendly. Making lessons fun is not making everything into a game but is about students feeling like the person teaching them is invested in them, is interested in them and talks to them like a real person. It's important students feel safe asking questions and don't worry about getting things wrong. That's when the learning really starts.</p>
-          </div>
-          
-          <div class="framework-card shadow-sm p-4 rounded mb-4 border-start border-3 border-primary">
-            <h4 class="fw-bold"><i class="fa-solid fa-brain me-2"></i> Engage</h4>
-            <p>Lessons are interactive and structured, so students stay involved and are not passive learners. You will see us talking through ideas, solving problems together, and really understanding what they're doing. For students to succeed, they need to feel ownership over their progress.</p>
-          </div>
-          
-          <div class="framework-card shadow-sm p-4 rounded mb-4 border-start border-3 border-primary">
-            <h4 class="fw-bold"><i class="fa-solid fa-award me-2"></i> Excel</h4>
-            <p>Once students are happy, enjoying and engaging with the lessons, that's where the real progress can start. With my 11 years of experience, I have developed a clear and structured style of teaching, using a variety of personal and evidence-based techniques that encourages long-term retention.</p>
+  
+          <div class="col-md-6">
+            <div class="framework-card shadow-sm p-4 rounded mb-4">
+              <h4 class="fw-bold">Enjoy</h4>
+              <ul class="mb-0">
+                <li>Lessons are calm, warm and built on trust</li>
+                <li>Rapport is built by sharing interests and showing students they're seen and heard</li>
+                <li>We talk openly about worries so students see that struggling is normal and doesn’t mean they’re “bad” at maths.</li>
+              </ul>
+            </div>
+  
+            <div class="framework-card shadow-sm p-4 rounded mb-4">
+              <h4 class="fw-bold">Engage</h4>
+              <ul class="mb-0">
+                <li> An interactive whiteboard where students:
+                  <ul>
+                    <li>Write their answers live</li>
+                    <li>Solve problems with me</li>
+                    <li>Have their own board for homework and extra tasks</li>
+                  </ul>
+                </li>
+                <li>Lessons are active — students are always solving, thinking, or explaining.</li>
+                <li>Thoughtful questions to make sure everyone is involved in a way that suits their confidence level.</li>
+              
+
+              </ul>
+            </div>
+  
+            <div class="framework-card shadow-sm p-4 rounded mb-4">
+              <h4 class="fw-bold">Excel</h4>
+              <ul class="mb-0">
+                <li>Low-stakes mini-assessments used to track progress and keep learning sticky</li>
+                <li>Every lesson is tailored to the student's specific strengths and gaps</li>
+                <li>Plus students get personalised video or voice note feedback on every homework</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  
+  
+  
 <!-- ABOUT ME SECTION -->
 <section id="about-me-section" class="container-fluid py-4">
   <div class="row justify-content-center">
@@ -537,35 +570,6 @@
     </div>
   </div>
 </section>
-
-<style>
-  .framework-card {
-    background-color: #f9f9f9;
-    transition: all 0.3s ease;
-  }
-  
-  .framework-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  }
-  
-  #framework-section {
-    position: relative;
-  }
-  
-  #framework-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0z' fill='%23f8f9fa' fill-opacity='0.4'/%3E%3C/svg%3E");
-    opacity: 0.3;
-    z-index: -1;
-  }
-</style>
-
   <!-- FOOTER SECTION -->
   <footer class="container-fluid border-top py-4">
     <div class="row gy-4">
@@ -607,6 +611,16 @@
     crossorigin="anonymous"></script>
   <script src="./assets/js/index.js" type="module"></script>
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+  <script>
+    // Optional: Adjust padding-top value based on actual navbar height
+    document.addEventListener('DOMContentLoaded', function() {
+      const navbar = document.querySelector('.navbar');
+      if (navbar) {
+        const navbarHeight = navbar.offsetHeight;
+        document.body.style.paddingTop = navbarHeight + 'px';
+      }
+    });
+  </script>
 </body>
 
 </html>

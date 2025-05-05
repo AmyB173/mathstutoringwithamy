@@ -14,6 +14,7 @@
   --spacing-lg: 3rem;
   --border-radius: 8px;
   --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --calm-blue: #5a7b9c;
 }
 
 /* -------------------------------------------------GENERAL */
@@ -234,6 +235,9 @@ header .fixed-top {
 }
 
 /* ---------------------------------------------------- MAIN CONTENT */
+
+/* --------------------------------- PAS Section */
+
 #PAS-section {
   padding: var(--spacing-lg) 0;
 }
@@ -251,7 +255,42 @@ header .fixed-top {
   font-weight: 500;
   margin: var(--spacing-md) 0;
 }
-/* 2025 Classes Section Styling */
+
+.quote-inline {
+  font-size: 1.5em;
+  font-family: Georgia, serif;
+  line-height: 0;
+  vertical-align: -0.1em;
+  color: #6c757d;
+  /* Using a gray color that's more subdued */
+}
+
+/* Family quotes in left column */
+.family-quote {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #f8f9fa;
+  /* Very subtle border */
+}
+
+.family-quote p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* Card style for testimonials in right column */
+.testimonial-card {
+  border-left: 4px solid var(--bs-primary);
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/*------------------------------- 2025 Classes Section Styling */
 .bg-accent-light {
   background-color: #f0e6fc;
   border-top: 1px solid #e2d5f8;
@@ -346,6 +385,9 @@ header .fixed-top {
   margin: 0 auto;
   border-radius: var(--border-radius);
   padding: var(--spacing-md);
+
+  border-left: 4px solid var(--calm-blue);
+ 
 }
 
 .testimonial-card h5 {
@@ -398,6 +440,113 @@ header .fixed-top {
   }
   .carousel-control-next {
     right: 0;
+  }
+}
+
+/* ABOUT ME SECTION STYLES */
+#about-me-section {
+  position: relative;
+  background-color: #fff;
+  padding: 3rem 0;
+}
+
+#about-me-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0z' fill='%23f8f9fa' fill-opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.about-image-container {
+  position: relative;
+}
+
+.about-image {
+  transition: all 0.3s ease;
+  border: 5px solid white;
+}
+
+.about-quote {
+  position: relative;
+  background-color: #5a7b9c; /* Calmer, deeper blue */
+  color: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+  margin-right: -1rem;
+  z-index: 2;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-quote p {
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.qualification-container {
+  padding: 0.5rem;
+}
+
+.qualification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualification-list li {
+  display: flex;
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.qualification-list li:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.qualification-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.qualification-content {
+  flex: 1;
+}
+
+.qualification-content p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.section-title .lead {
+  font-size: 1.1rem;
+  color: #5a7b9c; /* Matching calmer blue */
+}
+
+@media (max-width: 767.98px) {
+  .about-quote {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .qualification-list li {
+    padding: 0.4rem;
+    margin-bottom: 0.6rem;
   }
 }
 

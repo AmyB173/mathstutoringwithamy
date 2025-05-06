@@ -75,46 +75,56 @@
 </head>
 
 <body>
-  <!-- MATHS TUTORING WITH AMY LOGO -->
-  <header class="container-fluid">
-    <div class="row fixed-top bg-white justify-content-between p-2">
-      <div class="col-5 mt-3 ms-3 flex align-items-center justify-content-center">
-        <p class="text-start">
-          <a class="brand-red-text logo-words text-decoration-none" href="index.html">Maths Tutoring with Amy</a>
-        </p>
-      </div>
-      <div class="col-5 d-flex justify-content-end align-items-center me-3 pe-3">
-        <a id="cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
-          class="btn btn-primary btn p-2 fs-6">
-          Book a Free Consultation
-        </a>
-      </div>
-    </div>
+  <!-- HEADER WITH INTEGRATED NAVIGATION -->
+  <header class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
+      <div class="container-fluid px-3">
+        <!-- Logo and Brand Name (visible on all screens but sized differently) -->
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand me-1 me-md-2" href="index.html">
+            <img src="./assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
+          </a>
+          <!-- Brand name now visible on all screens -->
+          <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
+            Maths Tutoring with Amy
+          </a>
+        </div>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-light navbar-expand-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/images/logo-red.png" height="50"
-            alt="The maths tutoring with Amy logo - a circle with an A in it" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- Mobile CTA + Toggle Button -->
+        <div class="d-flex align-items-center">
+          <!-- CTA - Visible on all screens but styled differently on mobile -->
+          <a id="mobile-cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
+            class="btn btn-primary btn-sm me-2 d-lg-none">
+            Book
+          </a>
+
+          <!-- Navbar Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!-- Collapsible Navigation Content -->
+        <div class="collapse navbar-collapse mt-2 mt-lg-0" id="mainNavbar">
+          <!-- Navigation Links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link active" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk" target="_blank"
-                rel="noopener noreferrer">Course Login</a>
+              <a class="nav-link" href="https://learn.mathstutoringwithamy.co.uk" target="_blank">Course Login</a>
             </li>
           </ul>
+
+          <!-- Desktop CTA - Only visible on large screens -->
+          <a id="desktop-cta-btn" href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank"
+            class="btn btn-primary d-none d-lg-block">
+            Book a Free Consultation
+          </a>
         </div>
       </div>
     </nav>
@@ -125,12 +135,36 @@
     <section class="container-fluid p-0 m-0">
       <div class="row border-top border-5">
         <div class="col-12">
+          <!-- Contact Hero Section -->
+          <div class="row bg-purple-white py-5 mt-4">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+              <h1 class="fw-bold mb-4">Contact Maths Tutoring with Amy</h1>
+              <p class="lead mb-4">I'm excited to help your child succeed in maths! The best way to get started is with a quick chat.</p>
+              
+              <div class="info-card p-4 rounded shadow-sm mb-5">
+                <h3 class="mb-3">Why book a free consultation first?</h3>
+                <p>A 15-minute conversation helps me understand:</p>
+                <ul class="feature-list text-start">
+                  <li>Your child's specific needs and current challenges</li>
+                  <li>Learning style and personality to ensure we're a good fit</li>
+                  <li>What tutoring approach would work best for them</li>
+                </ul>
+                <div class="mt-4">
+                  <a href="https://app.reclaim.ai/m/mathstutoringwithamy" target="_blank" class="btn btn-primary btn-lg fw-bold">
+                    Book your free 15-minute consultation
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contact Form Section -->
           <div class="row">
-            <div class="col-md-8 mx-auto mt-5">
-              <h1 class="text-center mb-4 fw-bold">Contact Maths Tutoring with Amy</h1>
-              <p class="text-center">Enquiries about tutoring here. Fill out the form below to get in touch! I
-                look forward to hearing from you.</p>
-              <form id="contact-form" class="mt-4 border shadow p-5">
+            <div class="col-md-8 mx-auto mt-2 mb-5">
+              <h2 class="text-center mb-4">Prefer to send a message?</h2>
+              <p class="text-center mb-4">Fill out the form below with your enquiry and I'll get back to you as soon as possible.</p>
+              
+              <form id="contact-form" class="mt-4 border shadow p-4 p-md-5 rounded">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
                   <input type="text" class="form-control" id="name" name="name" required>
@@ -166,7 +200,9 @@
                   <label for="message" class="form-label">Message</label>
                   <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary fw-bold p-3">Send Message</button>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary fw-bold p-3">Send Message</button>
+                </div>
               </form>
               <div id="success-message" class="alert alert-success mt-3" style="display: none;">
                 Your message has been sent successfully!
@@ -179,37 +215,68 @@
         </div>
       </div>
     </section>
+    
+    <!-- Testimonials Mini Section -->
+    <section class="container mb-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h3 class="text-center mb-4">What parents and students say</h3>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="testimonial-card shadow-sm p-4 rounded h-100">
+                <p class="mb-3"><span class="quote-inline">"</span>Amy makes maths fun — my daughter says she now
+                  enjoys it and has progressed quicker than we thought was possible.<span class="quote-inline">"</span></p>
+                <div class="d-flex align-items-center">
+                  <div class="circle me-2">N</div>
+                  <strong>Parent of IGCSE Maths Student</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="testimonial-card shadow-sm p-4 rounded h-100">
+                <p class="mb-3"><span class="quote-inline">"</span>Amy has taken a truly bespoke and
+                  compassionate approach, consistently going above and beyond to boost our daughter's confidence.<span class="quote-inline">"</span></p>
+                <div class="d-flex align-items-center">
+                  <span class="circle me-2">S</span>
+                  <strong>Parent of GCSE Maths Student</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer section -->
-  <footer class="container-fluid border-top">
-    <div class="row text-center text-md-left">
-      <div class="col-md-4 mx-auto mt-3 p-2">
-        <h5 class="mb-4 fw-bold">
+  <footer class="container-fluid border-top py-4">
+    <div class="row gy-4">
+      <div class="col-md-4 text-center text-md-start px-4">
+        <h5 class="mb-3 fw-bold">
           <i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy
         </h5>
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="privacy.html" class="text-decoration-none">Privacy Policy</a>
       </div>
-      <div class="col-md-4 mt-3 p-2 text-center">
-        <h5 class="mb-4 fw-bold">Contact</h5>
-        <p class="email text-center">
+      <div class="col-md-4 text-center px-4">
+        <h5 class="mb-3 fw-bold">Contact</h5>
+        <p class="email mb-0">
           Email me at contact@mathstutoringwithamy.co.uk
         </p>
       </div>
-      <div class="col-md-4 mx-auto mt-3 p-2">
-        <h5 class="mb-4 fw-bold">Get excited about doing Maths with me:</h5>
-        <div id="socials" class="d-flex justify-content-evenly align-items-center">
+      <div class="col-md-4 text-center text-md-end px-4">
+        <h5 class="mb-3 fw-bold">Get excited about doing Maths with me:</h5>
+        <div id="socials" class="d-flex justify-content-center justify-content-md-end align-items-center">
           <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank" rel="noopener noreferrer"
             aria-label="Go to Maths Tutoring with Amy Facebook page">
-            <div class="fs-3 m-2"><i class="fa-brands fa-facebook"></i></div>
+            <div class="fs-3 mx-2"><i class="fa-brands fa-facebook"></i></div>
           </a>
           <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
             aria-label="Go to Maths Tutoring with Amy Instagram page">
-            <div class="fs-3 m-2"><i class="fa-brands fa-instagram"></i></div>
+            <div class="fs-3 mx-2"><i class="fa-brands fa-instagram"></i></div>
           </a>
           <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
             aria-label="Go to Maths Tutoring with Amy YouTube channel">
-            <div class="fs-3 m-2"><i class="fa-brands fa-youtube"></i></div>
+            <div class="fs-3 mx-2"><i class="fa-brands fa-youtube"></i></div>
           </a>
         </div>
       </div>
@@ -222,6 +289,16 @@
     crossorigin="anonymous"></script>
   <script src="./assets/js/contact.js"></script>
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+  <script>
+    // Adjust padding-top value based on actual navbar height
+    document.addEventListener('DOMContentLoaded', function () {
+      const navbar = document.querySelector('.navbar');
+      if (navbar) {
+        const navbarHeight = navbar.offsetHeight;
+        document.body.style.paddingTop = navbarHeight + 'px';
+      }
+    });
+  </script>
 </body>
 
 </html>

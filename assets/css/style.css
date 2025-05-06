@@ -355,6 +355,43 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+/* PAS Section Styling Improvements */
+#PAS-section {
+  position: relative;
+  background-color: #fff;
+  padding: 3rem 0;
+}
+
+#PAS-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0z' fill='%23f8f9fa' fill-opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.family-quote {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid var(--calm-blue);
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+}
+
+.family-quote:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.family-quote p {
+  margin-bottom: 0;
+  font-style: italic;
+}
 
 /*------------------------------- 2025 Classes Section Styling */
 .bg-accent-light {
@@ -440,6 +477,71 @@ body {
     margin-left: 0;
     margin-top: 10px;
   }
+}
+/* 2025 Classes Section Styling */
+.bg-purple-white {
+  background-color: var(--color-purple-light);
+  position: relative;
+}
+
+.bg-purple-white::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0z' fill='%23f8f9fa' fill-opacity='0.4'/%3E%3C/svg%3E");
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.info-card {
+  background-color: white;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--calm-blue);
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.highlight-text {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.feature-list li {
+  font-family: var(--font-body);
+  font-size: 18px;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0.5rem 0.5rem 30px;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.feature-list li:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.feature-list li:before {
+  content: "✓";
+  color: var(--color-secondary);
+  font-weight: bold;
+  position: absolute;
+  left: 0.5rem;
 }
 
 /* ---------------------------------------------------- TESTIMONIALS */

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework and Values | Maths Tutoring with Amy</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HEADER WITH INTEGRATED NAVIGATION -->
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
+            <div class="container-fluid px-3">
+                <!-- Logo and Brand Name (visible on all screens but sized differently) -->
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand me-1 me-md-2" href="index.html">
+                        <img src="./assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
+                    </a>
+                    <!-- Brand name now visible on all screens -->
+                    <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
+                        Maths Tutoring with Amy
+                    </a>
+                </div>
+
+                <!-- Mobile CTA + Toggle Button -->
+                <div class="d-flex align-items-center">
+                    <!-- CTA - Visible on all screens but styled differently on mobile -->
+                    <a id="mobile-cta-btn" href="contact.html" target="_blank"
+                        class="btn btn-primary btn-sm me-2 d-lg-none">
+                        Book
+                    </a>
+
+                    <!-- Navbar Toggle Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <!-- Collapsible Navigation Content -->
+                <div class="collapse navbar-collapse mt-2 mt-lg-0" id="mainNavbar">
+                    <!-- Navigation Links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Learn More About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Desktop CTA - Only visible on large screens -->
+                    <a id="desktop-cta-btn" href="contact.html" target="_blank"
+                        class="btn btn-primary d-none d-lg-block">
+                        Book a Free Consultation
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- FRAMEWORK SECTION -->
+    <section id="framework-section" class="container-fluid py-5 bg-white">
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-10">
+                <div class="section-title text-center mb-5">
+                    <h2 class="fw-bold section-heading">Framework and Values</h2>
+                </div>
+
+                <!-- Framework Introduction -->
+                <div class="text-center mb-5">
+                    <h3 class="fw-bold"><span class="">Enjoy. Engage. Excel.</span> — Our Tutoring
+                        Framework</h3>
+                    <p class="lead">At Maths Tutoring with Amy, we believe learning works best when students
+                        <strong>enjoy</strong> the process, actively <strong>engage</strong> with the material, and
+                        build the skills to <strong>excel</strong>. This approach guides everything we do:
+                    </p>
+                </div>
+
+                <!-- Framework Cards -->
+                <div class="row g-4 mb-5">
+                    <!-- Enjoy Card -->
+                    <div class="col-md-4">
+                        <div class="framework-card h-100 p-4 rounded-3 shadow-sm">
+                            <h4 class="fw-bold mb-3 text-center">Enjoy</h4>
+                            <p>We create a warm, supportive space where students feel comfortable and motivated. When
+                                maths feels approachable, students start to enjoy learning — even those who never
+                                thought they could.</p>
+                            <div class="testimonial-quote mt-3">
+                                <p class="fst-italic"><span class="quote-inline">"</span>Amy has even helped ignite a
+                                    love for maths — something our daughter never had before!<span
+                                        class="quote-inline">"</span></p>
+                                <p class="text-end mb-0"><strong>— Sian, parent</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Engage Card -->
+                    <div class="col-md-4">
+                        <div class="framework-card h-100 p-4 rounded-3 shadow-sm">
+                            <h4 class="fw-bold mb-3 text-center">Engage</h4>
+                            <p>Students learn best when they're involved and interested. Our lessons encourage
+                                questions, discussion, and problem-solving that deepen understanding and keep motivation
+                                high. We use an interactive whiteboard so that students are <em>always</em> actively
+                                involved, no passive learning here.</p>
+                            <div class="testimonial-quote mt-3">
+                                <p class="fst-italic"><span class="quote-inline">"</span>Amy is great at getting my son
+                                    engaged in the lessons at a level he understands.<span class="quote-inline">"</span>
+                                </p>
+                                <p class="text-end mb-0"><strong>— Emma, parent</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Excel Card -->
+                    <div class="col-md-4">
+                        <div class="framework-card h-100 p-4 rounded-3 shadow-sm">
+                            <h4 class="fw-bold mb-3 text-center">Excel</h4>
+                            <p>We know what we're doing and teach in a way that helps students get to their goals
+                                efficiently. With steady progress and confidence building, students achieve real,
+                                lasting results.</p>
+                            <div class="testimonial-quote mt-3">
+                                <p class="fst-italic"><span class="quote-inline">"</span>Amy has developed a real
+                                    friendship with our daughter ….. she has progressed quicker than we thought was
+                                    possible.<span class="quote-inline">"</span></p>
+                                <p class="text-end mb-0"><strong>— Jess, parent</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Values Section -->
+                <div class="values-section mt-5">
+                    <div class="text-center mb-5">
+                        <h3 class="fw-bold">Values</h3>
+                    </div>
+
+                    <div class="row g-4">
+                        <!-- People First Value -->
+                        <div class="col-md-6">
+                            <div class="value-card h-100 p-4 rounded-3 shadow-sm">
+                                <h4 class="fw-bold mb-3">People first</h4>
+                                <p>We treat people like people, not customers or clients. People come to us because they
+                                    want more than results, they want support that's real. We get to know each student
+                                    as a person, respect families, and make sure learning feels collaborative and human,
+                                    never just a transaction.</p>
+                            </div>
+                        </div>
+
+                        <!-- Bespoke Lessons Value -->
+                        <div class="col-md-6">
+                            <div class="value-card h-100 p-4 rounded-3 shadow-sm">
+                                <h4 class="fw-bold mb-3">Bespoke lessons</h4>
+                                <p>We plan every lesson specifically for each student, meeting them exactly where they
+                                    are. There are no standard lessons or generic PowerPoints. Every session is unique
+                                    and based on the student or students in front of us. Whether in one-to-one or small
+                                    group sessions, we focus on building progress in a manageable way so students can
+                                    steadily grow their confidence and understanding.</p>
+                            </div>
+                        </div>
+
+                        <!-- Excellence Always Value -->
+                        <div class="col-md-6">
+                            <div class="value-card h-100 p-4 rounded-3 shadow-sm">
+                                <h4 class="fw-bold mb-3">Excellence, always</h4>
+                                <p>We hold ourselves to the highest standards. Only tutors are all trained teachers and
+                                    experienced tutors who work with our students, bringing professionalism, deep
+                                    knowledge, and proven expertise. We know what we're doing, and we're committed to
+                                    delivering the best possible support every time.</p>
+                            </div>
+                        </div>
+
+                        <!-- Honesty Value -->
+                        <div class="col-md-6">
+                            <div class="value-card h-100 p-4 rounded-3 shadow-sm">
+                                <h4 class="fw-bold mb-3">Honesty</h4>
+                                <p>We don't make false promises. If something's going to take time, we'll say so. If a
+                                    student needs to hear the truth to move forward, we'll tell them kindly, but
+                                    clearly. Families trust us because we're upfront about progress and prospects, every
+                                    step of the way.</p>
+                            </div>
+                        </div>
+
+                        <!-- Progress Over Perfection Value -->
+                        <div class="col-12">
+                            <div class="value-card h-100 p-4 rounded-3 shadow-sm">
+                                <h4 class="fw-bold mb-3">Progress Over Perfection</h4>
+                                <p>Successful people learn to love their mistakes because mistakes mean progress. We
+                                    believe mistakes are the best part of learning. That's why we praise attitude,
+                                    effort, and the way students approach their work, not just the final answer.
+                                    Building confidence and understanding takes time, and steady progress matters more
+                                    than perfection.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="contact.html" target="_blank" class="btn btn-primary btn-lg">
+                        Book a free consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="container-fluid border-top py-4">
+    <div class="row gy-4">
+      <div class="col-md-4 text-center text-md-start px-4">
+        <h5 class="mb-3 fw-bold">
+          <i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy
+        </h5>
+        <a href="privacy.html" class="text-decoration-none">Privacy Policy</a>
+      </div>
+      <div class="col-md-4 text-center px-4">
+        <h5 class="mb-3 fw-bold">Contact</h5>
+        <p class="email mb-0">
+          Email me at contact@mathstutoringwithamy.co.uk
+        </p>
+      </div>
+      <div class="col-md-4 text-center text-md-end px-4">
+        <h5 class="mb-3 fw-bold">Get excited about doing Maths with me:</h5>
+        <div id="socials" class="d-flex justify-content-center justify-content-md-end align-items-center">
+          <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank" rel="noopener noreferrer"
+            aria-label="Go to Maths Tutoring with Amy Facebook page">
+            <div class="fs-3 mx-2"><i class="fa-brands fa-facebook"></i></div>
+          </a>
+          <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
+            aria-label="Go to Maths Tutoring with Amy Instagram page">
+            <div class="fs-3 mx-2"><i class="fa-brands fa-instagram"></i></div>
+          </a>
+          <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
+            aria-label="Go to Maths Tutoring with Amy YouTube channel">
+            <div class="fs-3 mx-2"><i class="fa-brands fa-youtube"></i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

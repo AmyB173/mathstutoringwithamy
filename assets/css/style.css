@@ -96,6 +96,10 @@ h5 {
   opacity: 0.3;
   z-index: -1;
 }
+ .bg-calm-blue {
+  background-color: var(--calm-blue);
+  color: white;
+ }
 
 .bg-grey {
   background-color: #E3E8E1;

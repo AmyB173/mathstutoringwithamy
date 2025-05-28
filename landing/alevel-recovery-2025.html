@@ -33,6 +33,8 @@
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet" />
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
   <!-- Stylesheet -->
   <link href="../assets/css/style.css" rel="stylesheet" />
@@ -41,239 +43,244 @@
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <style>
-    .section-heading {
-      color: #2c3e50;
-      margin-bottom: 1rem;
+    :root {
+      --primary-color: #dc3545;
+      --secondary-color: #6f42c1;
+      --light-purple: #f8f7ff;
+      --light-gray: #f8f9fa;
     }
 
-    .hero-gradient {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
+    body {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
     }
 
-    .problem-card {
-      background: white;
-      border-left: 4px solid var(--secondary-color);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .hero-section {
+      background: var(--light-purple);
+      padding: 80px 0 60px;
     }
 
-    .problem-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    }
-
-    .solution-highlight {
-      background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
-      border-radius: 15px;
-    }
-
-    .testimonial-card {
+    .info-card {
       background: white;
       border: 1px solid #e9ecef;
-      transition: transform 0.3s ease;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
 
-    .testimonial-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    .warning-sign {
+      background: white;
+      border-left: 4px solid var(--primary-color);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
-    .urgency-banner {
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-      }
-
-      50% {
-        transform: scale(1.05);
-      }
-
-      100% {
-        transform: scale(1);
-      }
-    }
-
-    .feature-icon {
-      width: 60px;
-      height: 60px;
-      background: var(--primary-color);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 24px;
-      margin: 0 auto 15px;
-    }
-
-    .cta-section {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-    }
-
-    .btn-secondary {
-      background-color: white;
+    .warning-sign h5 {
       color: var(--primary-color);
-      border: 2px solid white;
-      border-radius: 25px;
-      padding: 12px 30px;
       font-weight: 600;
-      transition: all 0.3s ease;
     }
 
-    .btn-secondary:hover {
-      background-color: transparent;
-      color: white;
-      border-color: white;
+    .mistake-card {
+      background: white;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      padding: 1.5rem;
+      height: 100%;
+      transition: transform 0.2s ease;
+    }
+
+    .mistake-card:hover {
       transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
 
     .mistake-number {
       background: var(--secondary-color);
       color: white;
       border-radius: 50%;
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: bold;
-      font-size: 14px;
+      margin: 0 auto 15px;
     }
 
-    .highlight-box {
-      background: linear-gradient(120deg, #f093fb 0%, #5a7b9c 100%);
+    .feature-icon {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-card {
+      background: white;
+      border: 1px solid #e9ecef;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+
+
+    .section-title {
+      color: #2c3e50;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    .urgency-banner {
+      background: #fff3cd;
+      border: 1px solid #ffeaa7;
+      color: #856404;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .confidence-highlight {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
       border-radius: 15px;
-      padding: 20px;
-      margin: 20px 0;
+      padding: 2rem;
+      margin: 2rem 0;
     }
 
-    .countdown-timer {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      padding: 15px;
-      text-align: center;
-      backdrop-filter: blur(10px);
+    .faq-item {
+      background: white;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+
+    .cta-section {
+      background: var(--light-purple);
+      padding: 60px 0;
+    }
+
+    .about-amy {
+      background: white;
+      padding: 60px 0;
+    }
+
+    .stars {
+      color: #ffc107;
     }
   </style>
 </head>
 
-<body class="p-1">
-  <header>
-    <img src="../assets/images/logo-red.png" alt="Maths Tutoring with Amy" height="40" class="logo p-2">
-    <!-- Brand name now visible on all screens -->
-    <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="">
-      Maths Tutoring with Amy
-    </a>
+<body>
+  <!-- HEADER WITH INTEGRATED NAVIGATION -->
+  <header class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
+      <div class="container-fluid px-3">
+        <!-- Logo and Brand Name (visible on all screens but sized differently) -->
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand me-1 me-md-2" href="index.html">
+            <img src="../assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
+          </a>
+          <!-- Brand name now visible on all screens -->
+          <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
+            Maths Tutoring with Amy
+          </a>
+        </div>
+
+        <!-- Mobile CTA + Toggle Button -->
+        <div class="d-flex align-items-center">
+          <!-- CTA - Visible on all screens but styled differently on mobile -->
+          <a id="mobile-cta-btn" href="contact.html" target="_blank"
+            class="btn btn-primary btn-sm me-2 d-lg-none">
+            Book a call
+          </a>
+
+
+
+          <!-- Desktop CTA - Only visible on large screens -->
+          <a id="desktop-cta-btn" href="#book-call" target="_blank"
+            class="btn btn-primary d-none d-lg-block">
+            Book a Call to Find Out More
+          </a>
+        </div>
+      </div>
+    </nav>
   </header>
-  <main>
-    <!-- HERO SECTION -->
-    <section class="bg-purple-white pt-5">
+
+  <main style="padding-top: 40px;">
+    <!-- 1. HEADLINE + SUBHEADLINE -->
+    <section class="hero-section">
       <div class="container">
-        <div class="row align-items-center pb-5">
-          <div class="col-lg-8 mx-auto text-center">
-            <h1 class="display-4 fw-bold mb-4">
-              Why is my child struggling with A Level Maths?
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1 class="display-4 mb-4">
+              <strong class="fw-bold">Get them back on track:</strong><br>
+              The 12-Week A Level Maths Recovery Programme
             </h1>
+
             <p class="lead mb-4">
-              This is the question that many parents ask themselves.
+              <strong>Why is my child struggling with A Level Maths? </strong>This is the question that many parents ask themselves.
               <strong>You're not alone.</strong>
               The jump from GCSE to A Level Maths is often bigger and more challenging than students expect. I've seen
               the stress and heartache this can cause. I created this 12 week programme to help students back onto the
               path of steady success before they start the pivotal final year of A Level Maths.
             </p>
-                    <div class="mt-4">
-              <a href="#book-call" class="btn btn-primary btn-lg me-3 my-5">
-                Interested in finding out more? Book a call
+            
+            <div class="urgency-banner">
+              <h5 class="mb-2 fw-bold">🚀 Next Cohort Starts: June 25th - Limited to Just 6 Students</h5>
+
+            </div>
+
+            <div class="mt-4">
+              <a href="#book-call" class="btn btn-primary btn-lg">
+                Book Your FREE 15-Minute Consultation
               </a>
             </div>
-            <div class="highlight-box">
-              <h3 class="mb-3">The 12-Week A Level Maths Recovery Programme</h3>
-              <p class="mb-0">An intensive and callborative system to rebuild foundations they learned in Year 1, boost
-                confidence, and improve grades</p>
-            </div>
-    
-          </div>
-        </div>
-    </section>
-
-    <!-- URGENCY BANNER -->
-    <section class="urgency-banner bg-calm-blue py-3">
-      <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col-md-8 mx-auto">
-            <h4 class="mb-2 fw-bold">🤩 Start Date: June 25th - Limited to Just 6 Students</h4>
-            <p class="mb-0">I'm excited to welcome my new cohort this June, and help them start seeing success again</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PROBLEM IDENTIFICATION -->
+    <!-- 2. THE PROBLEM (EMOTIONAL HOOK) -->
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="text-center mb-5">
-              <h2 class="section-heading">Does This Sound Familiar?</h2>
+              <h2 class="section-title">Why Is My Child Struggling With A Level Maths?</h2>
+              <p class="lead">If your child achieved Grade 6+ at GCSE but is now facing disappointing A Level grades, you're not alone. Here are the warning signs I see repeatedly:</p>
             </div>
 
             <div class="row g-4">
               <div class="col-md-6">
-                <div class="problem-card p-4 rounded-3 shadow-sm h-100">
-                  <h5 class="fw-bold mb-3">📉 The Grades Don't Make Sense</h5>
-                  <p class="mb-0">They achieved Grade 6+ at GCSE, but now they're facing declining grades, limited
-                    university options, and a growing sense that "maybe they're just not good enough for A Level Maths."
-                  </p>
+                <div class="warning-sign">
+                  <h5>📉 The Grades Don't Make Sense</h5>
+                  <p class="mb-0">They achieved Grade 6+ at GCSE, but now they're facing declining grades, limited university options, and a growing sense that "maybe they're just not good enough for A Level Maths."</p>
                 </div>
               </div>
 
               <div class="col-md-6">
-                <div class="problem-card p-4 rounded-3 shadow-sm h-100">
-                  <h5 class="fw-bold mb-3">😰 The Stress Is Real</h5>
-                  <p class="mb-0">They're either putting in hours with minimal improvement OR they've lost motivation
-                    entirely. Either way, it's causing stress at home and affecting the whole family.</p>
+                <div class="warning-sign">
+                  <h5>😰 The Stress Is Real</h5>
+                  <p class="mb-0">They're either putting in hours with minimal improvement OR they've lost motivation entirely. Either way, it's causing stress at home and affecting the whole family.</p>
                 </div>
               </div>
 
               <div class="col-md-6">
-                <div class="problem-card p-4 rounded-3 shadow-sm h-100">
-                  <h5 class="fw-bold mb-3">🔄 The Same Mistakes Keep Happening</h5>
-                  <p class="mb-0">They seem to understand in class but freeze in tests. They can follow examples but
-                    panic when questions look slightly different. The pattern keeps repeating.</p>
+                <div class="warning-sign">
+                  <h5>🔄 The Same Mistakes Keep Happening</h5>
+                  <p class="mb-0">They seem to understand in class but freeze in tests. They can follow examples but panic when questions look slightly different. The pattern keeps repeating.</p>
                 </div>
               </div>
 
               <div class="col-md-6">
-                <div class="problem-card p-4 rounded-3 shadow-sm h-100">
-                  <h5 class="fw-bold mb-3">💭 The Negative Self-Talk</h5>
-                  <p class="mb-0">"Maybe I'm not cut out for this." They're avoiding asking questions, procrastinating
-                    on Maths work, and developing a negative relationship with the subject they once enjoyed.</p>
+                <div class="warning-sign">
+                  <h5>💭 The Negative Self-Talk</h5>
+                  <p class="mb-0">"Maybe I'm not cut out for this." They're avoiding asking questions, procrastinating on Maths work, and developing a negative relationship with the subject they once enjoyed.</p>
                 </div>
-              </div>
-            </div>
-
-            <div class="text-center mt-5">
-              <div class="solution-highlight p-4">
-                <h4 class="fw-bold mb-3">But is it really possible for them to get back on track? </h4>
-                <p class="lead mb-0">Two of my core values are honesty and integrity, and so, the truth is, for some
-                  students it's unlikely and for others it's really likely. That's why I always encourage you to
-                  <strong>book a call</strong> so we can discuss your situation and see what potential there is for
-                  success for <strong>your child.</strong></p>
-                <p>Once we know where they're at, you can make the informed decision of whether to enrol them, or make
-                  other choices to support their future.</p>
-              </div>
-              <div>
-                <p>**Many tutors advertise the fact they can improve your child's grades by "x" amount. This is just not
-                  true and I'm really against this type of advertising. Each child is unique. There will be no false
-                  promises here.**</p>
               </div>
             </div>
           </div>
@@ -281,67 +288,140 @@
       </div>
     </section>
 
-    <!-- THE 5 CRITICAL MISTAKES -->
-    <section class="py-5 bg-white">
+    <!-- 3. YOUR UNIQUE SOLUTION -->
+    <section class="py-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="text-center mb-5">
-              <h2 class="section-heading">The 5 Critical Mistakes Turning Grade 6/7 Students Into Failing A Level
-                Students</h2>
+              <h2 class="section-title">This Isn't Just Tutoring – It's a Whole System of Support</h2>
+              <p class="lead">Unlike typical tutoring that tries to keep up with current work, this programme takes a step back to rebuild your child's mathematical foundation while targeting strategic "EASY WIN" topics for maximum grade improvement.</p>
+            </div>
+
+            <div class="info-card text-center">
+              <h4 class="fw-bold mb-4">The Complete Support Framework</h4>
+              <div class="row g-4">
+                <div class="col-12">
+                  <div class="d-flex justify-content-center align-items-center flex-wrap">
+                    <div class="text-center mx-3 my-2">
+                      <div class="feature-icon">📚</div>
+                      <small class="fw-bold">Weekly Live Lesson</small>
+                    </div>
+                    <div class="mx-2">→</div>
+                    <div class="text-center mx-3 my-2">
+                      <div class="feature-icon">🎥</div>
+                      <small class="fw-bold">Custom Videos</small>
+                    </div>
+                      <div class="mx-2">→</div>
+                                        <div class="text-center mx-3 my-2">
+                      <div class="feature-icon">📝</div>
+                      <small class="fw-bold">Weekly Homework</small>
+                    </div>
+                    <div class="mx-2">→</div>
+                    <div class="text-center mx-3 my-2">
+                      <div class="feature-icon">✍️</div>
+                      <small class="fw-bold">Video Feedback</small>
+                    </div>
+                    <div class="mx-2">→</div>
+                    <div class="text-center mx-3 my-2">
+                      <div class="feature-icon">📱</div>
+                      <small class="fw-bold">Check-In</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-3 mb-0">Complete <span class="brush-stroke">wrap-around support</span> for students who need a bit more structure and encouragement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WHO IT'S FOR -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center mb-4">
+              <h2 class="section-title">Is This Programme Right for Your Child?</h2>
+            </div>
+
+            <div class="info-card">
+              <h5 class="fw-bold mb-3 text-center">Perfect for students who:</h5>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2">✅ Achieved Grade 6+ at GCSE Maths</li>
+                    <li class="mb-2">✅ Are experiencing declining grades at A Level</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2">✅ Feel stressed or have lost confidence</li>
+                    <li class="mb-2">✅ Are ready to commit to a structured recovery plan</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. THE 5 CRITICAL MISTAKES -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="text-center mb-5">
+              <h2 class="section-title">The 5 Critical Mistakes Turning Grade 6/7 Students Into Failing A Level Students</h2>
             </div>
 
             <div class="row g-4">
               <div class="col-md-6 col-lg-4">
-                <div class="text-center p-4 bg-purple-white rounded-3 h-100">
-                  <div class="mistake-number mb-3">1</div>
+                <div class="mistake-card text-center">
+                  <div class="mistake-number">1</div>
                   <h5 class="fw-bold">Surface-Level Understanding</h5>
-                  <p class="mb-0">They memorised steps at GCSE but A Level demands real understanding. They freeze when
-                    questions look even slightly different.</p>
+                  <p class="mb-0">They memorised steps at GCSE but A Level demands real understanding. They freeze when questions look even slightly different.</p>
                 </div>
               </div>
 
               <div class="col-md-6 col-lg-4">
-                <div class="text-center p-4 bg-purple-white rounded-3 h-100">
-                  <div class="mistake-number mb-3">2</div>
+                <div class="mistake-card text-center">
+                  <div class="mistake-number">2</div>
                   <h5 class="fw-bold">Ineffective Practice</h5>
-                  <p class="mb-0">Spending hours making beautiful notes while avoiding actual problem-solving. They have
-                    extensive notes but still panic during tests.</p>
+                  <p class="mb-0">Spending hours making beautiful notes while avoiding actual problem-solving. They have extensive notes but still panic during tests.</p>
                 </div>
               </div>
 
               <div class="col-md-6 col-lg-4">
-                <div class="text-center p-4 bg-purple-white rounded-3 h-100">
-                  <div class="mistake-number mb-3">3</div>
+                <div class="mistake-card text-center">
+                  <div class="mistake-number">3</div>
                   <h5 class="fw-bold">Avoiding Difficult Topics</h5>
-                  <p class="mb-0">Repeatedly practicing what they already know while leaving challenging topics until
-                    exam time - when it's too late for deep learning.</p>
+                  <p class="mb-0">Repeatedly practicing what they already know while leaving challenging topics until exam time - when it's too late for deep learning.</p>
                 </div>
               </div>
 
               <div class="col-md-6 col-lg-4">
-                <div class="text-center p-4 bg-purple-white rounded-3 h-100">
-                  <div class="mistake-number mb-3">4</div>
+                <div class="mistake-card text-center">
+                  <div class="mistake-number">4</div>
                   <h5 class="fw-bold">Misusing Past Papers</h5>
-                  <p class="mb-0">Rushing through papers without real reflection or targeted revision. Making the same
-                    mistakes again and again without understanding why.</p>
+                  <p class="mb-0">Rushing through papers without real reflection or targeted revision. Making the same mistakes again and again without understanding why.</p>
                 </div>
               </div>
 
               <div class="col-md-6 col-lg-4">
-                <div class="text-center p-4 bg-purple-white rounded-3 h-100">
-                  <div class="mistake-number mb-3">5</div>
+                <div class="mistake-card text-center">
+                  <div class="mistake-number">5</div>
                   <h5 class="fw-bold">Negative Mindset</h5>
-                  <p class="mb-0">After initial setbacks, they develop a negative relationship with A Level Maths,
-                    creating a self-fulfilling prophecy of continued struggle.</p>
+                  <p class="mb-0">After initial setbacks, they develop a negative relationship with A Level Maths, creating a self-fulfilling prophecy of continued struggle.</p>
                 </div>
               </div>
 
               <div class="col-md-6 col-lg-4 d-flex align-items-center">
-                <div class="text-center p-4 bg-danger text-white rounded-3 w-100">
+                <div class="mistake-card text-center bg-danger text-white">
                   <h5 class="fw-bold mb-3">The Result?</h5>
-                  <p class="mb-0">A capable student who feels like they're failing, stressed parents, and university
-                    dreams slipping away.</p>
+                  <p class="mb-0">A capable student who feels like they're failing, stressed parents, and university dreams slipping away.</p>
                 </div>
               </div>
             </div>
@@ -350,90 +430,61 @@
       </div>
     </section>
 
-    <!-- THE SOLUTION -->
+    <!-- 6. PROGRAMME OVERVIEW -->
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="text-center mb-5">
-              <h2 class="section-heading">So What is My 12-Week Recovery Programme?</h2>
-              <p class="lead">An intensive tutoring system specifically designed for students in this exact situation
-              </p>
+              <h2 class="section-title">What's Included in the 12-Week Recovery Programme</h2>
             </div>
 
-            <div class="row align-items-center g-5">
-              <div class="col-lg-6">
-                <div class="bg-white p-4 rounded-3 shadow-sm">
-                  <h4 class="fw-bold mb-4">What Makes This Different</h4>
-                  <p class="mb-4">Unlike typical tutoring that tries to keep up with current work, this programme takes
-                    a step back to rebuild your child's mathematical foundation while targeting strategic "EASY WIN"
-                    topics for maximum grade improvement.</p>
-
-                  <h5 class="fw-bold mb-3">Who This Is For:</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2">✅ Achieved Grade 6+ at GCSE Maths</li>
-                    <li class="mb-2">✅ Now experiencing declining grades and motivation</li>
-                    <li class="mb-2">✅ University options becoming limited</li>
-                    <li class="mb-2">✅ Putting in hours with minimal improvement OR struggling with motivation</li>
-
-                  </ul>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-chalkboard-teacher feature-icon"></i>
+                  <h5 class="fw-bold">Weekly Live Lessons</h5>
+                  <p class="mb-0">Focused on a complete re-haul of Year 1 content with proper foundations and deep understanding</p>
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="row g-3">
-                  <div class="col-12">
-                    <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm">
-                      <div class="feature-icon me-3">📚</div>
-                      <div>
-                        <h6 class="fw-bold">Weekly Live Lessons</h6>
-                        <p class="mb-0 small">Focused on a complete re-haul of Year 1 content with proper foundations
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-video feature-icon"></i>
+                  <h5 class="fw-bold">Custom Video Resources</h5>
+                  <p class="mb-0">Videos created specifically for you to watch between lessons to maximise learning and retention</p>
+                </div>
+              </div>
 
-                  <div class="col-12">
-                    <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm">
-                      <div class="feature-icon me-3">🎥</div>
-                      <div>
-                        <h6 class="fw-bold">Custom Video Resources</h6>
-                        <p class="mb-0 small">Videos created by me to watch between lessons to maximise learning</p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-comments feature-icon"></i>
+                  <h5 class="fw-bold">Video-Marked Homework</h5>
+                  <p class="mb-0">Personalised video feedback on every homework assignment plus unlimited email support</p>
+                </div>
+              </div>
 
-                  <div class="col-12">
-                    <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm">
-                      <div class="feature-icon me-3">💬</div>
-                      <div>
-                        <h6 class="fw-bold">Personalised Feedback</h6>
-                        <p class="mb-0 small">Video feedback on every homework plus unlimited email support in between
-                          lessons</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm">
-                      <div class="feature-icon me-3">📱</div>
-                      <div>
-                        <h6 class="fw-bold">Bi-weekly check-ins</h6>
-                        <p class="mb-0 small">Small check-ins via message to keep them motivated and on track with that
-                          week's focus.</p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-mobile-alt feature-icon"></i>
+                  <h5 class="fw-bold">Bi-Weekly Check-Ins</h5>
+                  <p class="mb-0">Regular motivation and progress check-ins to keep your child on track with each week's focus</p>
+                </div>
+              </div>
 
-                  <div class="col-12">
-                    <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm">
-                      <div class="feature-icon me-3">👥</div>
-                      <div>
-                        <h6 class="fw-bold">Small Group Experience</h6>
-                        <p class="mb-0 small">Six students for the perfect blend of focussed attention and collaborate
-                          support and enthusiasm</p>
-                      </div>
-                    </div>
-                  </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-users feature-icon"></i>
+                  <h5 class="fw-bold">Small Group Environment</h5>
+                  <p class="mb-0">Maximum 6 students for the perfect blend of focused attention and collaborative support</p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="info-card text-center h-100">
+                  <i class="fas fa-brain feature-icon"></i>
+                  <h5 class="fw-bold">Confidence Rebuilding</h5>
+                  <p class="mb-0">Specific strategies to overcome maths anxiety and rebuild positive relationship with the subject</p>
                 </div>
               </div>
             </div>
@@ -442,45 +493,41 @@
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="py-5 bg-white">
+    <!-- 8. TESTIMONIALS -->
+    <section class="py-5 bg-light">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="text-center mb-5">
-              <h2 class="section-heading">What Parents & Students Are Saying</h2>
+              <h2 class="section-title">What Parents & Students Are Saying</h2>
             </div>
 
             <div class="row g-4">
               <div class="col-md-6">
-                <div class="testimonial-card p-4 rounded-3 shadow-sm h-100">
-                  <p class="mb-3">"Amy has taken a truly bespoke and compassionate approach... remarkably, she has even
-                    helped ignite a love for maths - something our daughter never had before! Thanks to Amy, we've seen
-                    <strong>fantastic progress in a short period of time</strong>."</p>
+                <div class="testimonial-card">
+                  <div class="stars mb-2">★★★★★</div>
+                  <p class="mb-3">"Amy is a wonder! She’s completely changed the game for Fred. He’s grown in confidence as Amy guided him through the content and showed what to do when he got stuck. The resources are so clear and structured it’s made the sessions stress free."</p>
                   <div class="d-flex align-items-center">
-                    <div
-                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2"
-                      style="width: 40px; height: 40px;">S</div>
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">S</div>
                     <div>
-                      <strong>Sian - Parent of GCSE Student</strong>
-                      <div class="text-warning">★★★★★</div>
+                      <strong>Katy</strong><br>
+                      <small class="text-muted">Parent of A Level Student</small>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-6">
-                <div class="testimonial-card p-4 rounded-3 shadow-sm h-100">
-                  <p class="mb-3">"Amy is incredibly patient and understands how to help my son stay motivated with A
-                    Level Maths. She sets reasonable goals and homework to keep him engaged, and her well-structured
-                    lessons are <strong>improving his understanding with each session</strong>."</p>
+                <div class="testimonial-card">
+                  <div class="stars mb-2">★★★★★</div>
+                  <p class="mb-3">"Amy is incredibly patient and organised and the lessons are well structured and engaging. 
+                    His understanding is improving each lesson. 
+                    <strong>He is now on target for a good grade and he has started to believe in himself. Maths now matters to him. </strong> Thank you, Amy."</p>
                   <div class="d-flex align-items-center">
-                    <div
-                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2"
-                      style="width: 40px; height: 40px;">H</div>
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">H</div>
                     <div>
-                      <strong>Helen - Parent of A Level Student</strong>
-                      <div class="text-warning">★★★★★</div>
+                      <strong>Helen</strong><br>
+                      <small class="text-muted">Parent of A Level Student</small>
                     </div>
                   </div>
                 </div>
@@ -491,26 +538,21 @@
       </div>
     </section>
 
-    <!-- ABOUT AMY -->
-    <section class="py-5 bg-purple-white">
+    <!-- 9. ABOUT AMY -->
+    <section class="about-amy">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-10">
             <div class="row align-items-center g-4">
               <div class="col-md-4 text-center">
-                <img src="./assets/images/amy-circle-2.png" alt="Amy - Maths Tutor"
-                  class="img-fluid rounded-circle shadow" style="max-width: 250px;" />
+                <img src="../assets/images/amy-circle-2.png" alt="Amy - Maths Tutor" class="img-fluid rounded-circle shadow" style="max-width: 250px;" />
               </div>
 
               <div class="col-md-8">
                 <h3 class="fw-bold mb-3">Why I Created This Programme</h3>
-                <p class="mb-3">I'm Amy - a fully qualified maths teacher with over a decade of experience. I'm
-                  particularly passionate about helping Year 12 students who are struggling to adjust to A Level
-                  demands.</p>
+                <p class="mb-3">I'm Amy - a fully qualified maths teacher with over a decade of experience. I'm particularly passionate about helping Year 12 students who are struggling to adjust to A Level demands.</p>
 
-                <p class="mb-4">I see this pattern every year: capable students who did well at GCSE suddenly finding
-                  themselves lost, stressed, and doubting their abilities. That's exactly why I created this intensive
-                  recovery system.</p>
+                <p class="mb-4">I see this pattern every year: capable students who did well at GCSE suddenly finding themselves lost, stressed, and doubting their abilities. The truth is, their potential hasn't changed - they just need the right system to bridge the gap. That's exactly why I created this intensive recovery programme.</p>
 
                 <div class="row g-3">
                   <div class="col-sm-6">
@@ -545,86 +587,105 @@
       </div>
     </section>
 
-    <!-- CTA SECTION -->
-    <section class="cta-section py-5" id="book-call">
+
+
+    <!-- 10. FAQ SECTION -->
+    <!-- <section class="py-5 bg-light">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="fw-bold mb-4">Not Sure If This Is Right For Your Child?</h2>
-            <p class="lead mb-4">Let's have a quick, no-pressure conversation. I'll help you understand exactly what
-              your child needs and whether this programme is the right fit.</p>
-
-            <div class="countdown-timer mb-4">
-              <h5 class="fw-bold mb-2">⏰ Programme Starts: June 25th</h5>
-              <p class="mb-0">Limited to 6 students - Previous programmes filled quickly</p>
+          <div class="col-lg-8">
+            <div class="text-center mb-5">
+              <h2 class="section-title">Frequently Asked Questions</h2>
             </div>
 
-            <div class="mb-4">
-              <a href="contact.html" target="_blank" class="btn btn-secondary btn-lg">
-                Book Your FREE 15-Minute Consultation
-              </a>
-            </div>
-
-            <div class="row justify-content-center mt-5">
-              <div class="col-md-8">
-                <h5 class="fw-bold mb-3">In our call, we'll discuss:</h5>
-                <div class="row g-3 text-start">
-                  <div class="col-md-6">
-                    <p class="mb-2">✓ Your child's specific challenges</p>
-                    <p class="mb-2">✓ What's been tried so far</p>
-                  </div>
-                  <div class="col-md-6">
-                    <p class="mb-2">✓ Whether this programme is right for them</p>
-                    <p class="mb-2">✓ Next steps (whatever you decide)</p>
+            <div class="accordion" id="faqAccordion">
+              <div class="faq-item">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                      <strong>How do you guarantee my child will improve?</strong>
+                    </button>
+                  </h2>
+                  <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      I don't make false promises about specific grade improvements - every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <p class="mt-4 mb-0"><small>No sales pressure. Just honest advice about what your child needs to
-                succeed.</small></p>
-          </div>
-        </div>
-      </div>
-    </section>
+              <div class="faq-item">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                      <strong>What if my child is too far behind?</strong>
+                    </button>
+                  </h2>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      If they achieved Grade 6+ at GCSE, they have the foundation we need to build on. The programme is specifically designed to go back to Year 1 content and rebuild it properly. During our consultation, we'll discuss whether this programme is right for your child's specific situation.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-    <!-- FINAL REASSURANCE -->
-    <section class="py-5 bg-light">
+              <div class="faq-item">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                      <strong>How much time will this require from my child?</strong>
+                    </button>
+                  </h2>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      The programme includes one 90-minute live lesson per week, plus approximately 2-3 hours of structured homework and video watching. This is intensive but manageable, and designed to be more effective than spending endless hours on ineffective study methods.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="accordion-item"> -->
+              
+
+      <section class="py-5 bg-light" >
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h3 class="fw-bold mb-4">Your Child's Potential Hasn't Changed</h3>
-            <p class="lead mb-4">The student who achieved Grade 6/7 at GCSE is still there. They just need the right
-              support to bridge the gap between GCSE and A Level success.</p>
+          <div class="col-lg-8 text-center" id="book-call">
+            <h3 class="fw-bold mb-4">Book a call to find out more </h3>
+  <p>This 20-minute call is for students (and parents) who are serious about turning things around in A Level Maths.</p>
+</div>
+            <div class="bg-white p-4 rounded-3 shadow-sm col-lg-7">
+              <h5 class="fw-bold brush-stroke">✅ What we’ll discuss on the call:</h5>
+              <h6 class="pulse-effect mt-5 text-center">Scroll down for the booking calendar</h6>
+  <p class="mt-3">This will be a conversation to see if we’re the right fit. We’ll talk through:</p>
 
-            <div class="bg-white p-4 rounded-3 shadow-sm">
-              <h5 class="fw-bold brand-red-text mb-3">Remember:</h5>
-              <p class="mb-0">Struggling with A Level Maths in Year 12 doesn't mean they lack ability - it means they
-                need specific skills and strategies that weren't required at GCSE. And that's exactly what this
-                programme provides.</p>
+  <ul>
+    <li><strong>Where you’re at now</strong> – Including recent results, confidence levels, and common struggles.</li>
+    <li><strong>What you’ve tried so far</strong> – and why it hasn’t worked (yet).</li>
+    <li><strong>What you want to achieve</strong> – short-term and long-term goals.</li>
+    <li><strong>What working together would look like</strong> – how I help students like you succeed.</li>
+  </ul>
+
+  <h5>💬 I’ll also be honest about three key things:</h5>
+  <ul>
+    <li><strong>Can I help you?</strong> – I only take on students I genuinely believe I can support.</li>
+    <li><strong>Are you the right fit for my approach?</strong> – My style is structured, supportive, and mindset-focused.</li>
+    <li><strong>Are you ready to commit?</strong> – Because real progress only comes with consistent effort on both sides.</li>
+  </ul>
             </div>
 
             <div class="mt-4">
-              <a href="contact.html" target="_blank" class="btn btn-primary btn-lg">
-                Let's chat about your child's journey
-              </a>
+            <div class="div">
+              <!-- Calendly inline widget begin -->
+              <div class="calendly-inline-widget"
+                data-url="https://calendly.com/mathstutoringwithamy/maths-call?hide_event_type_details=1&hide_gdpr_banner=1"
+                style="min-width: 320px; height: 700px"></div>
+              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+              <!-- Calendly inline widget end -->
+            </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="container-fluid border-top py-4 bg-white">
-    <div class="row gy-4">
-      <div class="col-md-4 text-center text-md-start px-4">
-        <h5 class="mb-3 fw-bold">© Maths Tutoring with Amy</h5>
-        <a href="privacy.html" class="text-decoration-none">Privacy Policy</a>
-      </div>
-      <div class="col-md-4 text-center px-4">
-        <h5 class="mb-3 fw-bold">Contact</h5>
-        <p class="mb-0">contact@mathstutoringwithamy.co.uk</p>
-      </div>
-      <div class="col-md-4 text-center text-md-end px-4">
-        <h5 class="mb-3 fw-

@@ -119,6 +119,10 @@ h5 {
   color: var(--color-dark);
 }
 
+.brand-light-blue-text {
+  color: a0d8ff;
+}
+
 /* Fun text effects */
 .wavy-underline {
   text-decoration: underline;

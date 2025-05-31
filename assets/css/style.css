@@ -15,6 +15,7 @@
   --border-radius: 8px;
   --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   --calm-blue: #5a7b9c;
+  --warm-yellow: #f8f3b4;
 }
 
 /* -------------------------------------------------GENERAL */
@@ -141,6 +142,18 @@ h5 {
   .brush-stroke { 
     padding: 5px 10px;
   }
+}
+
+.brush-stroke-light-blue {
+  background:#a0d8ff;
+  padding: 2px 8px;
+  display: inline;
+  border-radius: 8px;
+}
+
+.text-outline {
+    -webkit-text-stroke: 1px #58b1f1; /* Adjust width and color as needed */
+ 
 }
 
 /* Button styling */

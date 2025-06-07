@@ -10,10 +10,9 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-3F23DT2TY7");
   </script>
-  <!-- Meta tags for character set, viewport, and description -->
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
@@ -22,659 +21,653 @@
     Maths Tutoring With Amy | Build confidence and grades | Edexcel A Level
     and GCSE and IGCSE Maths Tutoring
   </title>
-  <!-- Stylesheets: Canonical link, custom styles, Bootstrap, and Google Fonts -->
+
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="assets/css/style-new.css" rel="stylesheet" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- Stylesheet -->
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <!-- jQuery for general JavaScript support -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <style>
 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 
 <body>
-  <!-- HEADER WITH INTEGRATED NAVIGATION -->
-  <header class="container-fluid p-0">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
-      <div class="container-fluid px-3">
-        <!-- Logo and Brand Name (visible on all screens but sized differently) -->
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand me-1 me-md-2" href="/index.html">
-            <img src="./assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
-          </a>
-          <!-- Brand name now visible on all screens -->
-          <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
-            Maths Tutoring with Amy
-          </a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="./assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
+        <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Learn More About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
+              <li><a class="dropdown-item" href="/landing/5-critical-mistakes.html">FREE GUIDE: 5 Critical Mistakes at
+                  A Level</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Tutoring Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/landing/alevel-recovery-2025.html">12 Week Intensive A Level Recovery
+                  Programme</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Book a Free Consultation</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+          <h1 class="hero-title">Why stress about Maths when they could be feeling confident, relaxed & achieving their
+            potential?😎</h1>
+          <p class="hero-subtitle">Hi, I'm Amy - an experienced GCSE and A Level Maths specialist. I am a tutor who
+            helps students who feel stuck in Maths to build confidence, enjoy learning again, and get the grades they're
+            aiming for. No pressure, no panic.</p>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="contact.html" class="btn btn-primary btn-lg">Let's see if we're the right fit – book a quick
+              call</a>
+          </div>
         </div>
 
-        <!-- Mobile CTA + Toggle Button -->
-        <div class="d-flex align-items-center">
-          <!-- CTA - Visible on all screens but styled differently on mobile -->
-          <a id="mobile-cta-btn" href="contact.html" target="_blank" class="btn btn-primary btn-sm me-2 d-lg-none">
-            Book
-          </a>
+        <div class="col-lg-6 hero-image mt-5 mt-lg-0">
+          <img src="./assets/images/amy-circle-2.png" class="img-fluid" alt="Amy sitting at her desk smiling" />
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <!-- Navbar Toggle Button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- What I Hear Section -->
+  <!-- New PAS Section -->
+  <section class="section fade-in" style="background: var(--warm-white);">
+    <div class="container">
+
+      <!-- Problem Section -->
+      <div class="section-title">
+        <h2>Does this sound familiar?</h2>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="family-quote">
+                <p>"We know they have the potential but it's frustrating to see them getting grades that are lower than
+                  what they should be getting"</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="family-quote">
+                <p>"They struggle to have the confidence to tackle questions alone and they're like a deer in headlights
+                  when trying to revise"</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="family-quote">
+                <p>"They're not connecting with their teacher and it's really affecting their motivation and test
+                  grades"</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="family-quote">
+                <p>"Their grades just aren't improving, we don't know what to do to help. It's causing us a lot of
+                  stress at home"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agitation Section -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
+          <div class="warm-card text-center"
+            style="background: var(--warm-cream); border-left: 4px solid var(--soft-coral);">
+            <h3 class="mb-4">Here's what this really costs your family</h3>
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <span class="me-3" style="font-size: 1.5rem;">😰</span>
+                  <div>
+                    <p class="mb-0"><strong>Homework battles</strong> that stress everyone out</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <span class="me-3" style="font-size: 1.5rem;">😔</span>
+                  <div>
+                    <p class="mb-0"><strong>Watching their confidence</strong> slowly disappear</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <span class="me-3" style="font-size: 1.5rem;">🚪</span>
+                  <div>
+                    <p class="mb-0"><strong>Worrying they'll miss out</strong> on the courses they want</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                  <span class="me-3" style="font-size: 1.5rem;">😞</span>
+                  <div>
+                    <p class="mb-0"><strong>The guilt of not knowing</strong> how to help</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Solution Section -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+              <div class="warm-card">
+                <h3 class="mb-3">There's a gentler way forward</h3>
+                <p class="lead mb-4">From my 11 years in the classroom, I’ve come to realise that the most important
+                  factor for a child’s success is how much they enjoy the lessons, and how connected they feel to their
+                  teacher/tutor. </p>
+
+                <p>As educators, we should be making sure that each and every lesson builds excitement for the subject
+                  and celebrates the progress the child makes in each lesson. </p>
+                <strong class="">The result for your family?</strong> A child who feels seen and heard, who has regained
+                some of their confidence and who is excited to put their minds to work so they can really make the most
+                progress possible.
+                </p>
+
+                <div class="text-center mt-4">
+                  <a href="#framework" class="btn btn-primary btn-lg">See how my approach works</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="text-center mb-4">
+                <img src="./assets/images/enjoy-engage-excel-amy.png" class="img-fluid rounded"
+                  alt="Enjoy Engage Excel framework" style="border-radius: 16px;" />
+              </div>
+
+              <div class="row g-3">
+                <div class="col-12">
+                  <div class="testimonial-card">
+                    <p class="mb-3">"Amy has developed a real friendship withour daughter. She makes maths fun — my
+                      daughter says she now enjoys it and has progressed quicker than we thought was possible."</p>
+                    <div class="testimonial-author">
+                      <div class="author-avatar">N</div>
+                      <strong>Parent of IGCSE Student</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="testimonial-card">
+                    <p class="mb-3">"Amy has acted a pro-active advocate for our daughter in liasing with the LA.
+                      Remarkably, she has even helped ignite a love for maths - something our daughter never had
+                      before!"</p>
+                    <div class="testimonial-author">
+                      <div class="author-avatar">S</div>
+                      <strong>Parent of GCSE Student</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section class="section classes-section fade-in">
+    <div class="container">
+      <div class="section-title">
+        <h2>Join us for September 2025 <span class="booking-badge">Now Booking</span></h2>
+        <p>Small, focused and friendly groups</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-5 mb-4">
+          <div class="warm-card">
+            <p class="lead">I'm really looking forward to welcoming new students in September.</p>
+            <p>It's really important that you get to know the tutor you choose. That's why I like to have a quick phone
+              or zoom call so I can really get to know what your child needs and we can see if we're a good fit!</p>
+          </div>
         </div>
 
-        <!-- Collapsible Navigation Content -->
-        <div class="collapse navbar-collapse mt-2 mt-lg-0" id="mainNavbar">
-          <!-- Navigation Links -->
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                aria-expanded="false">Learn More About Us</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-                <li><a class="dropdown-item" href="/landing/5-critical-mistakes.html">FREE GUIDE: 5 Critical Mistakes at
-                    A Level</a></li>
-              </ul>
-            </li>            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                aria-expanded="false">Tutoring Services</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/landing/alevel-recovery-2025.html">12 Week Intensive A Level Recovery Programme</a></li>
-              </ul>
-            </li>
+        <div class="col-md-7">
+          <h4 class="mb-4">Small, focused and friendly groups available for:</h4>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="class-card">
+                <h5 class="fw-bold">GCSE/IGCSE Higher</h5>
+                <span class="badge bg-secondary">Target Grade 7/8</span>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+              <div class="class-card">
+                <h5 class="fw-bold">GCSE/IGCSE Foundation</h5>
+                <span class="badge bg-secondary">Target Grade 4/5</span>
+              </div>
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+            <div class="col-md-4">
+              <div class="class-card">
+                <h5 class="fw-bold">A Level</h5>
+                <span class="badge bg-secondary">All modules</span>
+              </div>
+            </div>
+          </div>
 
-            <!-- Desktop CTA - Only visible on large screens -->
-            <a id="desktop-cta-btn" href="contact.html" target="_blank" class="btn btn-primary d-none d-lg-block">
-              Book a Free Consultation
+          <div class="text-center mt-4">
+            <a href="contact.html" class="btn btn-primary btn-lg">Book a free consultation</a>
+            <p class="text-muted mt-2 small">Sign ups before July 31st will receive a free one-off 1-1 mentoring session
+              to kickstart the year.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section fade-in" style="background: var(--warm-white);">
+    <div class="container">
+      <div class="section-title">
+        <h2>Hear from the lovely families that I work with</h2>
+      </div>
+
+      <div class="row">
+        <!-- Sian - GCSE -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"Remarkably, she even helped ignite a love for maths..."</h5>
+            <p class="mb-3">"Amy has taken a truly bespoke and compassionate approach, tailoring session lengths to suit
+              our daughter's limited concentration and consistently going above and beyond to boost her confidence.
+              Remarkably, she has even helped ignite a love for maths—something our daughter never had before! Thanks to
+              Amy, we've seen fantastic progress in maths in a short period of time."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div>
+                <strong>Sian</strong>
+                <div class="text-muted small">Parent of GCSE Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Helen - A Level -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"He's on track to get a good grade. Maths now matters to him"</h5>
+            <p class="mb-3">"Amy recognises the challenges my son has with motivation and suggests reasonable goals to
+              get him to engage. She is incredibly patient and organised and the lessons are well structured. His
+              understanding is improving each lesson and the one-to-one support is exactly what he needs. Maths now
+              matters to him"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">H</div>
+              <div>
+                <strong>Helen</strong>
+                <div class="text-muted small">Parent of A Level Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jess - IGCSE -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"Amy has developed a real friendship with our daughter ... she has made more progress than we thought
+              possible"</h5>
+            <p class="mb-3">"Amy has developed a real friendship with our daughter, enabling her to be open about her
+              maths difficulties. She has progressed quicker than we thought was possible. My daughter says she now
+              enjoys maths because Amy makes maths fun. This has been a significant advantage for our daughter who is
+              dyslexic."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">J</div>
+              <div>
+                <strong>Jess</strong>
+                <div class="text-muted small">Parent of IGCSE Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Katy - A Level -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"She completely changed the game for Fred..."</h5>
+            <p class="mb-3">"Amy is a wonder! She's completely changed the game for Fred. He's grown in confidence as
+              Amy guided him through the content and showed what to do when he got stuck. The resources are so clear and
+              structured it's made the sessions stress free."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">K</div>
+              <div>
+                <strong>Katy</strong>
+                <div class="text-muted small">Parent of A Level Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Emma - KS3 -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"He always comes away from the lessons on a high!"</h5>
+            <p class="mb-3">"My son was not happy about having a tutor at first, but he now looks forward to his
+              lessons. He always comes away from the lesson on a high. Amy is great at getting him engaged at a level he
+              understands. I'm really pleased with the progress and confidence he's gained."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">E</div>
+              <div>
+                <strong>Emma</strong>
+                <div class="text-muted small">Parent of KS3 Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add one more for visual balance -->
+        <div class="col-lg-6 mb-4">
+          <div class="testimonial-card">
+            <h5>"Amy gave me such a solid foundation ... I'm not sure I would have done A Level Maths without her"</h5>
+            <p class="mb-3">"I am not sure I would have gone on to do A Level Maths if it wasn't for her. Amy gave me
+              such a solid foundation and confidence in the subject, which played a crucial role in my decision to
+              pursue A Level Maths."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">O</div>
+              <div>
+                <strong>Olivia</strong>
+                <div class="text-muted small">Former IGCSE Student</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Framework Section -->
+  <section id="framework" class="section fade-in" style="background: var(--warm-cream);">
+    <div class="container">
+      <div class="section-title">
+        <h2>My tutoring framework – <span class="framework-highlight">Enjoy. Engage. Excel.</span></h2>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-5 mb-4">
+          <div class="warm-card">
+            <p class="lead">Most students don't struggle with maths because they can't do it — they struggle because
+              they believe they can't. This framework is all about building confidence, helping students feel involved,
+              and setting them up to thrive.</p>
+            <div class="text-center mt-4">
+              <a href="contact.html" class="btn btn-primary btn-lg">Let's chat about how this approach can help your
+                child</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="framework-card">
+            <h4 class="fw-bold mb-3">😊 Enjoy</h4>
+            <ul class="mb-0">
+              <li>Lessons are <strong>calm, warm and built on trust</strong></li>
+              <li>Rapport is built by sharing interests and <strong>showing students they're seen and heard</strong>
+              </li>
+              <li>We <strong>talk openly about worries</strong> so students see that struggling is normal and doesn't
+                mean they're "bad" at maths</li>
+              <li>We get excited about the <strong>fun</strong> there is to be had in learning maths</li>
+            </ul>
+          </div>
+
+          <div class="framework-card">
+            <h4 class="fw-bold mb-3">🎯 Engage</h4>
+            <ul class="mb-0">
+              <li>An <strong>interactive whiteboard</strong> where students write their answers live, solve problems
+                with me, and have their own board for homework and extra tasks</li>
+              <li>Lessons are active — students are always <strong>solving, thinking, or explaining</strong></li>
+              <li>Thoughtful questions to make sure <strong>everyone is involved</strong> in a way that suits their
+                confidence level</li>
+            </ul>
+          </div>
+
+          <div class="framework-card">
+            <h4 class="fw-bold mb-3">🚀 Excel</h4>
+            <ul class="mb-0">
+              <li>Low-stakes <strong>mini-assessments</strong> used to track progress and make learning stick</li>
+              <li>Every lesson is <strong>uniquely planned</strong> to close gaps to dramatically improve progress</li>
+              <li>Plus students get <strong>personalised video or voice note feedback</strong> on every homework</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section fade-in">
+    <div class="container">
+      <div class="section-title">
+        <h2>Meet Amy</h2>
+        <p>Qualified Maths Teacher and Tutor | 11 Years Classroom Experience | Confidence Builder</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <img src="./assets/images/amy-working.webp" alt="Amy - Maths Tutor" class="img-fluid about-image" />
+        </div>
+
+        <div class="col-md-6">
+          <div class="warm-card">
+            <div class="qualification-item">
+              <span class="qualification-icon">👩‍🏫</span>
+              <div>
+                <strong>11+ years' teaching experience</strong> in state & private schools
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">🎓</span>
+              <div>
+                <strong>PGCE in Mathematics Teaching</strong> (with Distinction)
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">📘</span>
+              <div>
+                <strong>Specialist in Edexcel GCSE, IGCSE & A Level Maths</strong>
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">💬</span>
+              <div>
+                Known for <strong>calm, clear explanations</strong> and mindset-focused support
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">✅</span>
+              <div>
+                <strong>DBS checked</strong> & experienced mentor of new teachers
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">🧠</span>
+              <div>
+                Currently training in <strong>counselling</strong> to support students holistically
+              </div>
+            </div>
+
+            <div class="qualification-item">
+              <span class="qualification-icon">🌿</span>
+              <div>
+                Nature-obsessed, campervan adventurer & dog mum - I believe learning should feel like fresh air:
+                <strong>clear, energising and freeing</strong>
+              </div>
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="contact.html" class="btn btn-primary btn-lg">Let's chat about your child's maths journey</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer
+    style="background-color: var(--warm-white); box-shadow: 0 -2px 20px rgba(0,0,0,0.08); border-top: 1px solid rgba(0,0,0,0.1);">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <!-- Logo and Brand -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center mb-3 mb-md-0">
+            <img src="./assets/images/logo-red.png" height="40" alt="Maths Tutoring with Amy" class="me-3" />
+            <div>
+              <div class="logo-words" style="font-size: 18px;">Maths Tutoring with Amy</div>
+              <p class="mb-0 small text-muted">© 2025 All rights reserved</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 text-center">
+          <div class="mb-2">
+            <span style="color: var(--warm-dark); font-weight: 500;">contact@mathstutoringwithamy.co.uk</span>
+          </div>
+          <a href="privacy.html" class="text-decoration-none"
+            style="color: var(--warm-dark); font-weight: 500; transition: color 0.3s ease;">Privacy Policy</a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="col-md-4 text-md-end text-center">
+          <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+            <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
+              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+              <i class="fab fa-facebook-f"></i>
             </a>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <!-- HERO SECTION -->
-    <section class="container-fluid p-0 m-0">
-      <div class="row flex-column fixed-bg justify-content-center">
-        <div class="col-11 col-md-10 bg-purple-white text-center my-4 mx-auto shadow rounded-3">
-          <!-- Bootstrap Row -->
-          <div class="row align-items-center justify-content-center">
-            <!-- Text Column -->
-            <div class="col-11 col-xl-7 py-4 px-4 px-md-5">
-              <h1 id="hero-col-heading" class="fw-bold text-start bounce-effect">
-                Why stress about Maths when they could be feeling confident,
-                relaxed & achieving their potential?😎
-              </h1>
-
-              <p class="text-start mt-4 mb-4">
-                Hi, I'm Amy - an experienced GCSE and A Level Maths specialist. </p>
-              <p>I help students who feel stuck in Maths to build confidence, enjoy learning again, and get the grades
-                they’re aiming for. No pressure, no panic.
-              </p>
-
-              <a id="cta-btn" href="contact.html" target="_blank" class="btn btn-primary btn-lg">
-                Let’s see if we’re the right fit – book a quick call
-              </a>
-            </div>
-
-            <div class="col-11 col-xl-5 p-0 mb-4 mb-xl-5 mt-3 mt-xl-0 text-center">
-              <img id="hero-amy-img" src="./assets/images/amy-circle-2.png" class="img-fluid"
-                alt="Amy sitting at her desk smiling" />
-            </div>
+            <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank"
+              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank"
+              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+              <i class="fab fa-youtube"></i>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- MAIN CONTENT SECTION -->
-    <div class="container-fluid p-0">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
-      <!-- PAS SECTION -->
-      <section id="PAS-section" class="container-fluid py-5 bg-light">
-        <div class="row justify-content-center">
-          <div class="col-11 col-lg-10">
-            <div class="section-title text-center mb-5">
-              <h2 class="fw-bold section-heading">What I hear from families all the time</h2>
-            </div>
-            <div class="row align-items-start justify-content-center g-4">
-              <!-- Left Column -->
-              <div class="col-11 col-lg-6">
-                <!-- Family quotes -->
-                <div class="family-quotes-container">
-                  <div class="family-quote p-4 rounded-3 shadow-sm mb-4">
-                    <p class="quote-text mb-0"><span class="quote-inline">"</span>They seem to be working hard, but
-                      struggle to remember during an exam<span class="quote-inline">"</span></p>
-                  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-                  <div class="family-quote p-4 rounded-3 shadow-sm mb-4">
-                    <p class="quote-text mb-0"><span class="quote-inline">"</span>They struggle to have the confidence
-                      to tackle questions alone and they're like a deer in headlights when trying to revise<span
-                        class="quote-inline">"</span></p>
-                  </div>
+  <!-- Custom JavaScript -->
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
 
-                  <div class="family-quote p-4 rounded-3 shadow-sm mb-4">
-                    <p class="quote-text mb-0"><span class="quote-inline">"</span>They're not connecting with their
-                      teacher and it's really affecting their motivation and test grades.<span
-                        class="quote-inline">"</span></p>
-                  </div>
+    // Fade in animation on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
 
-                  <div class="family-quote p-4 rounded-3 shadow-sm mb-4">
-                    <p class="quote-text mb-0"><span class="quote-inline">"</span>Their grades just aren't improving, we
-                      don't know what to do to help. It's causing us a lot of stress at home.<span
-                        class="quote-inline">"</span></p>
-                  </div>
-                </div>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
 
-                <div class="mt-5 p-4 bg-white rounded-3 shadow-sm">
-                  <p class="lead fw-normal">I'm passionate about showing students that better grades and happier mindset
-                    are possible. That's why my <span class="brand-red-text fw-bold fs-4">Enjoy. Engage. Excel.</span>
-                    framework for tutoring is designed to create <strong>real and lasting improvement</strong> in
-                    motivation, confidence and ultimately grades.</p>
-                  <div class="mt-4 text-center">
-                    <a href="#framework-section" class="btn btn-primary btn-lg fw-semi-bold">Find out more about my
-                      tutoring framework</a>
-                  </div>
-                </div>
-              </div>
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
 
-              <!-- Right Column -->
-              <div class="col-11 col-lg-6">
-                <div class="text-center mb-5">
-                  <img src="./assets/images/enjoy-engage-excel-amy.png" class="img-fluid shadow-sm rounded-3"
-                    alt="Enjoy Engage Excel framework" />
-                </div>
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.style.backgroundColor = 'rgba(255, 252, 247, 0.95)';
+      } else {
+        navbar.style.backgroundColor = 'var(--warm-white)';
+      }
+    });
+  </script>
 
-                <div class="testimonial-section">
-                  <h3 class="mb-4 fw-bold">What students and parents are saying...</h3>
-
-                  <!-- Card-style testimonials -->
-                  <div class="testimonial-card shadow-sm p-4 rounded-3 mb-4">
-                    <p class="testimonial-text mb-3"><span class="quote-inline">"</span>Amy makes maths fun — my
-                      daughter says she now enjoys it and has progressed quicker than we thought was possible.<span
-                        class="quote-inline">"</span></p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">N</div>
-                      <strong>Parent of IGCSE Maths Student</strong>
-                    </div>
-                  </div>
-
-                  <div class="testimonial-card shadow-sm p-4 rounded-3 mb-4">
-                    <p class="testimonial-text mb-3"><span class="quote-inline">"</span>Amy has taken a truly bespoke
-                      and compassionate approach, consistently going above and beyond to boost our daughter's
-                      confidence. Remarkably, she has even helped ignite a love for maths - something our daughter never
-                      had before! Thanks to Amy, we've seen fantastic progress in maths in a short period of time. Our
-                      only regret is not finding her sooner!<span class="quote-inline">"</span></p>
-                    <div class="d-flex align-items-center">
-                      <span class="circle-avatar me-2">S</span>
-                      <strong>Parent of GCSE Maths Student</strong>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 2025 CLASSES SECTION -->
-      <section class="container-fluid bg-purple-white py-5">
-        <div class="row justify-content-center">
-          <div class="col-11 col-lg-10">
-            <div class="section-title text-center mb-5">
-              <h2 class="fw-bold section-heading">Join us for September 2025 <span class="booking-badge">Now
-                  Booking</span></h2>
-            </div>
-
-            <div class="row align-items-center g-4">
-              <!-- Left Column -->
-              <div class="col-md-5">
-                <div class="welcome-message p-4 rounded-3 shadow-sm bg-white">
-                  <p class="lead fw-normal">I'm really looking forward to welcoming new students in September.</p>
-                  <p class="mb-0">It's really important that you get to know the tutor you choose. That's why I like to
-                    have a quick phone or zoom call so I can really get to know what your child needs and we can see if
-                    we're a good fit!</p>
-                </div>
-              </div>
-
-              <!-- Right Column -->
-              <div class="col-md-7">
-                <div class="classes-card p-4 rounded-3 shadow-sm bg-white">
-                  <h4 class="fw-bold mb-4">Small, focused and friendly groups available for:</h4>
-
-                  <div class="row g-3">
-                    <div class="col-md-4">
-                      <div class="class-option p-3 rounded-3 text-center">
-                        <h5 class="fw-bold">GCSE/IGCSE Higher</h5>
-                        <p class="mb-0 badge bg-secondary">Target Grade 7/8</p>
-                      </div>
-                    </div>
-
-                    <div class="col-md-4">
-                      <div class="class-option p-3 rounded-3 text-center">
-                        <h5 class="fw-bold">GCSE/IGCSE Foundation</h5>
-                        <p class="mb-0 badge bg-secondary">Target Grade 4/5</p>
-                      </div>
-                    </div>
-
-                    <div class="col-md-4">
-                      <div class="class-option p-3 rounded-3 text-center">
-                        <h5 class="fw-bold">A Level</h5>
-                        <p class="mb-0 badge bg-secondary">All modules</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="text-center mt-4">
-                    <a href="contact.html" target="_blank" class="btn btn-primary btn-lg">
-                      Book a free consultation
-                    </a>
-                    <p class="text-muted mt-2 special-offer">Sign ups before July 31st will receive a free one-off 1-1
-                      mentoring session to kickstart the year.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- TESTIMONIALS SECTION -->
-      <section class="container-fluid py-5 bg-white">
-        <div class="row justify-content-center">
-          <div class="col-11 col-lg-10">
-            <div class="section-title text-center mb-5">
-              <h2 class="fw-bold section-heading">Hear from the lovely families that I work with</h2>
-            </div>
-
-            <div id="testimonialCarousel" class="carousel slide shadow-sm rounded-3" data-bs-ride="false">
-              <div class="carousel-inner mx-auto">
-                <!-- Testimonial 0-->
-                <div class="carousel-item active">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"Amy has taken a truly bespoke and compassionate approach ... remarkably, she
-                      even ignited a love for Maths!"</h5>
-                    <p class="text-muted">Sian - Parent</p>
-                    <p>
-                      "Amy has taken a truly bespoke and compassionate approach, tailoring session lengths to suit our
-                      daughter's limited concentration and consistently going above and beyond to boost her confidence.
-                      Remarkably, she has <span class="brush-stroke">even helped ignite a love for
-                        maths</span>—something
-                      our daughter never had before!</p>
-
-                    <p>Amy quickly identified the gaps in knowledge and patiently worked through them, moving on to more
-                      challenging material when the time was right. She has also been <span class="brush-stroke">a
-                        proactive
-                        advocate</span>, communicating effectively with the LA tutors and providing clear, practical
-                      advice
-                      on how best to support our daughter's learning at home.</p>
-
-                    <p>Thanks to Amy, we've seen fantastic progress in maths in a short period of time. Our only regret
-                      is
-                      not finding her sooner!"
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">S</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Testimonial 1 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"Amy is a wonder! She completely changed the game ..."</h5>
-                    <p class="text-muted">Katy - Parent</p>
-                    <p>
-                      "Amy is a wonder! She's completely changed the game for Fred.
-                      He's <span class="brush-stroke">grown in confidence</span> as Amy guided him through the content
-                      and showed what to do when he got stuck. The resources are so
-                      clear and structured it's <span class="brush-stroke">made the sessions stress free.</span>"
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">K</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Testimonial 2 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"Amy has developed a real friendship with our daughter ... she has progressed
-                      quicker than we thought was possible."</h5>
-                    <p class="text-muted">Nancy - Parent</p>
-                    <p>
-                      "Amy was recommended by our school and I could not recommend Amy more highly for maths tutoring.
-                      She
-                      has developed a real friendship with our daughter, enabling our daughter to be open about her
-                      maths'
-                      concept difficulties and this has meant that she has progressed quicker than we thought was
-                      possible. My daughter says that she now enjoys maths because Amy makes maths fun. Amy's method of
-                      fostering true understanding has been a significant advantage for our daughter who is dyslexic and
-                      struggles with rote learning methods. We feel very fortunate in having Amy to support our daughter
-                      in her GCSE year."
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">N</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Additional testimonials continue with the same structure -->
-                <!-- Testimonial 3 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"Amy is incredibly patient and understands how to help my son stay motivated
-                      with A Level Maths."</h5>
-                    <p class="text-muted">Helen - Parent</p>
-                    <p>
-                      "Amy is incredibly patient and understands how to help my son stay motivated with A Level Maths.
-                      She
-                      sets reasonable goals and homework to keep him engaged, and her well-structured lessons are
-                      improving his understanding with each session. The one-to-one support is exactly what he needs."
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">H</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"He always comes away from the lessons on a high"</h5>
-                    <p class="text-muted">Emma - Parent</p>
-                    <p>
-                      "Amy is great at getting my son engaged with the subject, and
-                      he always comes away from the lessons on a high. I'm really
-                      pleased with the progress he is making and the confidence he
-                      has gained under her guidance."
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">E</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Testimonial 5 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"I am not sure I would have gone on to do A Level Maths if it wasn't for her"
-                    </h5>
-                    <p class="text-muted">Olivia - Student</p>
-                    <p>
-                      "Amy taught me both Maths and Further Maths at GCSE level. Her
-                      teaching gave me such a solid foundation and confidence in the
-                      subject, which played a crucial role in my decision to pursue
-                      A Level Maths."
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">O</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Testimonial 6 -->
-                <div class="carousel-item">
-                  <div class="testimonial-card p-4 rounded-3">
-                    <h5 class="fw-bold">"Through her teaching methods I was able to achieve an A* and study Maths at
-                      University"</h5>
-                    <p class="text-muted">Ethan - Student</p>
-                    <p>
-                      "Amy made sure all of her students understood the concepts
-                      before moving on. Thanks to her dedication, I was able to
-                      achieve an A* and pursue Maths at University."
-                    </p>
-                    <div class="d-flex align-items-center">
-                      <div class="circle-avatar me-2">E</div>
-                      <div class="stars">★★★★★</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Carousel Controls -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- TUTORING FRAMEWORK SECTION -->
-      <section class="container-fluid py-5" id="framework-section">
-        <div class="row justify-content-center">
-          <div class="col-11 col-lg-10">
-            <div class="section-title text-center mb-5">
-              <h2 class="fw-bold section-heading">My tutoring framework – <span class="brand-red-text fw-bold">Enjoy.
-                  Engage. Excel.</span></h2>
-            </div>
-
-            <div class="row align-items-center g-4">
-              <div class="col-md-5">
-                <div class="p-4 bg-white rounded-3 shadow-sm">
-                  <p class="lead">Most students don't struggle with maths because they can't do it — they struggle
-                    because they believe they can't. This framework is all about building confidence, helping students
-                    feel involved, and setting them up to thrive.</p>
-
-                  <div class="mt-4 text-center">
-                    <a href="contact.html" target="_blank" class="btn btn-primary btn-lg">
-                      Let's chat about how this approach can help your child
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-7">
-                <div class="framework-card shadow-sm p-4 rounded-3 mb-4">
-                  <h4 class="fw-bold">Enjoy</h4>
-                  <ul class="mb-0">
-                    <li>Lessons are calm, warm and built on trust</li>
-                    <li>Rapport is built by sharing interests and showing students they're seen and heard</li>
-                    <li>We talk openly about worries so students see that struggling is normal and doesn't mean they're
-                      "bad" at maths</li>
-                  </ul>
-                </div>
-
-                <div class="framework-card shadow-sm p-4 rounded-3 mb-4">
-                  <h4 class="fw-bold">Engage</h4>
-                  <ul class="mb-0">
-                    <li>An interactive whiteboard where students:
-                      <ul>
-                        <li>Write their answers live</li>
-                        <li>Solve problems with me</li>
-                        <li>Have their own board for homework and extra tasks</li>
-                      </ul>
-                    </li>
-                    <li>Lessons are active — students are always solving, thinking, or explaining</li>
-                    <li>Thoughtful questions to make sure everyone is involved in a way that suits their confidence
-                      level</li>
-                  </ul>
-                </div>
-
-                <div class="framework-card shadow-sm p-4 rounded-3 mb-4">
-                  <h4 class="fw-bold">Excel</h4>
-                  <ul class="mb-0">
-                    <li>Low-stakes mini-assessments used to track progress and keep learning sticky</li>
-                    <li>Every lesson is tailored to the student's specific strengths and gaps to dramatically improve
-                      progress</li>
-                    <li>Plus students get personalised video or voice note feedback on every homework</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ABOUT ME SECTION -->
-      <section id="about-me-section" class="container-fluid py-5">
-        <div class="row justify-content-center">
-          <div class="col-11 col-lg-10">
-            <div class="section-title text-center mb-5">
-              <h2 class="fw-bold section-heading">Meet Amy</h2>
-              <p class="lead">Qualified Maths Teacher and Tutor | 11 Years Classroom Experience | Confidence Builder</p>
-            </div>
-
-            <div class="row align-items-center g-4">
-              <div class="col-md-6">
-                <div class="about-image-container">
-                  <img src="./assets/images/amy-working.webp" alt="Amy - Maths Tutor"
-                    class="img-fluid rounded-3 shadow about-image" />
-
-                  <div class="about-quote">
-                    <p class="mb-0">"My mission? Help students find a way to enjoy maths, engage fully, and excel -
-                      wherever they're starting from."</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="bg-white p-4 rounded-3 shadow-sm">
-                  <div class="qualification-container">
-                    <ul class="qualification-list p-0 mb-4">
-                      <li>
-                        <span class="qualification-icon">👩‍🏫</span>
-                        <div class="qualification-content">
-                          <p class="mb-0"><strong>11+ years' teaching experience</strong> in state & private schools</p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">🎓</span>
-                        <div class="qualification-content">
-                          <p class="mb-0"><strong>PGCE in Mathematics Teaching</strong> (with Distinction)</p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">📘</span>
-                        <div class="qualification-content">
-                          <p class="mb-0"><strong>Specialist in Edexcel GCSE, IGCSE & A Level Maths</strong></p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">💬</span>
-                        <div class="qualification-content">
-                          <p class="mb-0">Known for <strong>calm, clear explanations</strong> and mindset-focused
-                            support</p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">✅</span>
-                        <div class="qualification-content">
-                          <p class="mb-0"><strong>DBS checked</strong> & experienced mentor of new teachers</p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">🧠</span>
-                        <div class="qualification-content">
-                          <p class="mb-0">Currently training in <strong>counselling</strong> to support students
-                            holistically</p>
-                        </div>
-                      </li>
-                      <li>
-                        <span class="qualification-icon">🌿</span>
-                        <div class="qualification-content">
-                          <p class="mb-0">Nature-obsessed, campervan adventurer & dog mum - I believe learning should
-                            feel like fresh air: <strong>clear, energising and freeing</strong></p>
-                        </div>
-                      </li>
-                    </ul>
-
-                    <div class="text-center">
-                      <a href="contact.html" target="_blank" class="btn btn-primary btn-lg">
-                        Let's chat about your child's maths journey
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- FOOTER SECTION -->
-      <footer class="container-fluid border-top py-4">
-        <div class="row gy-4">
-          <div class="col-md-4 text-center text-md-start px-4">
-            <h5 class="mb-3 fw-bold">
-              <i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy
-            </h5>
-            <a href="privacy.html" class="text-decoration-none">Privacy Policy</a>
-          </div>
-          <div class="col-md-4 text-center px-4">
-            <h5 class="mb-3 fw-bold">Contact</h5>
-            <p class="email mb-0">
-              Email me at contact@mathstutoringwithamy.co.uk
-            </p>
-          </div>
-          <div class="col-md-4 text-center text-md-end px-4">
-            <h5 class="mb-3 fw-bold">Get excited about doing Maths with me:</h5>
-            <div id="socials" class="d-flex justify-content-center justify-content-md-end align-items-center">
-              <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
-                rel="noopener noreferrer" aria-label="Go to Maths Tutoring with Amy Facebook page">
-                <div class="fs-3 mx-2"><i class="fa-brands fa-facebook"></i></div>
-              </a>
-              <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" rel="noopener noreferrer"
-                aria-label="Go to Maths Tutoring with Amy Instagram page">
-                <div class="fs-3 mx-2"><i class="fa-brands fa-instagram"></i></div>
-              </a>
-              <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" rel="noopener noreferrer"
-                aria-label="Go to Maths Tutoring with Amy YouTube channel">
-                <div class="fs-3 mx-2"><i class="fa-brands fa-youtube"></i></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <!-- Scripts -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-      <script src="./assets/js/index.js" type="module"></script>
-      <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
-      <script>
-        // Optional: Adjust padding-top value based on actual navbar height
-        document.addEventListener('DOMContentLoaded', function () {
-          const navbar = document.querySelector('.navbar');
-          if (navbar) {
-            const navbarHeight = navbar.offsetHeight;
-            document.body.style.paddingTop = navbarHeight + 'px';
-          }
-        });
-      </script>
 </body>
 
 </html>

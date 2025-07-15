@@ -30,44 +30,8 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="./assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
-                <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
-            </a>
-<a href="contact.html" class="btn btn-primary d-lg-none">Book a Free Call</a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto me-4">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Learn More About Us</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-                            <li><a class="dropdown-item" href="/landing/5-critical-mistakes.html">FREE GUIDE: 5 Critical Mistakes at A Level</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Tutoring Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./recovery.html">12 Week Intensive A Level Recovery Programme</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <a href="contact.html" class="btn btn-primary d-none d-lg-block">Book a Free Call</a>
-            </div>
-        </div>
-    </nav>
+  <!-- Navigation -->
+<?php include 'navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section">
@@ -233,7 +197,7 @@
                 <div class="col-lg-8">
                     <div class="warm-card text-center">
                         <h3 class="mb-4">Do these values resonate with you?</h3>
-                        <p class="lead mb-4">If this Enjoy. Engage. Excel. approach sounds like something you'd like tot find out more about for your child, feel free to book a call and we'll have a friendly no-pressure chat about what that might look like for your</p>
+                        <p class="lead mb-4">If this Enjoy. Engage. Excel. approach sounds like something you'd like to find out more about for your child, feel free to book a call and we'll have a friendly no-pressure chat about what that might look like for your child</p>
                         <a href="contact.html" class="btn btn-primary btn-lg">Book a free consultation</a>
                     </div>
                 </div>

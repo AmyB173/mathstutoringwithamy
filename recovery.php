@@ -38,35 +38,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="../index.html">
-        <img src="../assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
-        <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
-      </a>
-      <a href="#message-recovery" class="btn btn-primary d-lg-none">Message me</a>
-
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-4">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../framework-values.html">Framework and Values</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contact.html">Contact</a>
-          </li>
-        </ul>
-        <a href="#book-call" class="btn btn-primary d-none d-lg-block">Book a Call</a>
-      </div>
-    </div>
-  </nav>
-
+<?php include 'navbar.php'; ?>
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="container">

@@ -70,48 +70,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="./assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
-        <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
-      </a>
-      <a href="contact.html" class="btn btn-primary d-lg-none">Book a Free Call</a>
-
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-4">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Learn More About Us</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-              <li><a class="dropdown-item" href="/landing/5-critical-mistakes.html">FREE GUIDE: 5 Critical Mistakes at
-                  A Level</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Tutoring Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./recovery.html">12 Week Intensive A Level Recovery
-                  Programme</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-           <a href="contact.html" class="btn btn-primary d-none d-lg-block">Book a Free Call</a>
-      </div>
-    </div>
-  </nav>
+<?php include 'navbar.php'; ?>
 
   <!-- Hero Section -->
   <section id="home" class="hero-section">
@@ -120,16 +79,22 @@
         <div class="col-lg-6 hero-content">
           <h1 class="hero-title">Why stress about Maths when they could be feeling confident, relaxed & achieving their
             potential?😎</h1>
-          <p class="hero-subtitle">Small, supportive Edexcel GCSE tutoring groups - Foundation tier aiming for Grade 4/5 or Higher tier aiming for Grade 7/8</p>
-                      <!-- <p class="hero-subtitle">Hi, I'm Amy - an experienced GCSE and A Level Maths specialist. I am a tutor who
-            helps students who feel stuck in Maths to build confidence, enjoy learning again, and get the grades they're
-            aiming for. No pressure, no panic.</p> -->
+   <p class="hero-subtitle">Edexcel GCSE and A Level Maths Specialist online tutoring. <br> Enjoy → Engage → Excel</p>
+
+<!-- Social Proof Section -->
+<div class="text-center mb-4">
+  <div class="d-inline-flex align-items-center bg-white bg-opacity-20 rounded-pill px-3 py-2">
+    <small class="fw-medium">"Amy has developed a real friendship with our daughter ... she has made more progress than we thought possible"</small><div class="me-2">
+      ⭐⭐⭐⭐⭐
+    </div>
+    
+  </div>
+</div>
 
           <div class="d-flex flex-wrap gap-3">
-            <a href="contact.html" class="btn btn-primary btn-lg">Let's see if we're the right fit – book a quick
-              call</a>
+           <a href="contact.php" class="btn btn-primary btn-lg">Message me to find out more</a>
 <div class="whatsapp-float">
-  <a href="https://wa.me/44" target="_blank" class="whatsapp-float-button">
+  <a href="https://wa.me/447495483045" target="_blank" class="whatsapp-float-button">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
     </svg>
@@ -139,7 +104,7 @@
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
-          <img src="./assets/images/amy-circle-2.png" class="img-fluid" alt="Amy sitting at her desk smiling" />
+          <img src="./assets/images/amy-white-top.jpg" class="img-fluid" alt="Amy sitting at her desk smiling" />
         </div>
       </div>
     </div>
@@ -159,9 +124,20 @@
         <div class="col-lg-10">
           <div class="row g-4">
             <div class="col-md-6">
+  <div class="family-quote">
+    <p>"They are worried they won't get the grades for the course they want to get on to"</p>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="family-quote">
+    <p>"They feel like they're falling behind compared to their friends"</p>
+  </div>
+</div>
+            <div class="col-md-6">
               <div class="family-quote">
                 <p>"We know they have the potential but it's frustrating to see them getting grades that are lower than
-                  what they should be getting"</p>
+                  they could be getting"</p>
               </div>
             </div>
 
@@ -235,7 +211,16 @@
           </div>
         </div>
       </div>
-
+<!-- Large Quote Section -->
+<div class="row justify-content-center mb-5">
+  <div class="col-lg-8">
+    <div class="text-center">
+      <blockquote class="blockquote" style="font-size: 1.5rem; font-weight: 500; color: var(--warm-blue); font-style: italic; border-left: 4px solid var(--warm-blue); padding-left: 2rem; margin: 2rem 0;">
+        "Most students don't struggle with maths because they can't do it — they struggle because they believe they can't."
+      </blockquote>
+    </div>
+  </div>
+</div>
       <!-- Solution Section -->
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -255,7 +240,7 @@
                 </p>
 
                 <div class="text-center mt-4">
-                  <a href="#framework" class="btn btn-primary btn-lg">See how my approach works</a>
+                  <a href="#framework" class="btn btn-primary btn-lg">Read more about my Enjoy.Engage.Excel approach to tutoring</a>
                 </div>
               </div>
             </div>
@@ -297,58 +282,110 @@
 
     </div>
   </section>
+<!-- Updated Classes Section -->
+<section class="section classes-section fade-in">
+  <div class="container">
+    <div class="section-title">
+      <h2>Make September the fresh start your child needs in Maths<span class="booking-badge">6 spaces left</span></h2>
+      <p class="text-center">Start strong in September, see results by Christmas</p>
+    </div>
 
-  <!-- Classes Section -->
-  <section class="section classes-section fade-in">
-    <div class="container">
-      <div class="section-title">
-        <h2>Join us for September 2025 <span class="booking-badge">Now Booking</span></h2>
-        <p>Small, focused and friendly groups</p>
-      </div>
-
-      <div class="row align-items-center">
-        <div class="col-md-5 mb-4">
-          <div class="warm-card">
-            <p class="lead">I'm really looking forward to welcoming new students in September.</p>
-            <p>It's really important that you get to know the tutor you choose. That's why I like to have a quick phone
-              or zoom call so I can really get to know what your child needs and we can see if we're a good fit!</p>
-          </div>
-        </div>
-
-        <div class="col-md-7">
-          <h4 class="mb-4">Small, focused and friendly groups available for:</h4>
-          <div class="row g-3">
-            <div class="col-md-4">
-              <div class="class-card">
-                <h5 class="fw-bold">GCSE/IGCSE Higher</h5>
-                <span class="badge bg-secondary">Target Grade 7/8</span>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="warm-card" style="background: linear-gradient(135deg, var(--warm-cream) 0%, var(--light-gold) 100%);">
+          
+          <!-- Main Promise -->
+          <div class="text-center mb-5">
+            <h3 class="mb-4" style="color: var(--warm-blue);">Picture this: By Christmas, your is feeling confident and thriving in maths</h3>
+            
+            <!-- Transformation boxes -->
+            <div class="row g-3 mb-4">
+              <div class="col-md-3 col-6">
+                <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; height: 100%;">
+                  <div style="font-size: 2rem; margin-bottom: 0.5rem;">😊</div>
+                  <p class="mb-0 fw-bold small">Homework without battles</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; height: 100%;">
+                  <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+                  <p class="mb-0 fw-bold small">Confident in every test</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; height: 100%;">
+                  <div style="font-size: 2rem; margin-bottom: 0.5rem;">📈</div>
+                  <p class="mb-0 fw-bold small">Grades that reflect potential</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-6">
+                <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; height: 100%;">
+                  <div style="font-size: 2rem; margin-bottom: 0.5rem;">✨</div>
+                  <p class="mb-0 fw-bold small">Believes in themselves</p>
+                </div>
               </div>
             </div>
+          </div>
 
-            <div class="col-md-4">
-              <div class="class-card">
-                <h5 class="fw-bold">GCSE/IGCSE Foundation</h5>
-                <span class="badge bg-secondary">Target Grade 4/5</span>
-              </div>
+          <!-- Two Column Layout -->
+          <div class="row align-items-center">
+            <!-- Left: Why September + Testimonial -->
+            <div class="col-md-6 mb-4">
+              <h4 class="mb-3">Why September starters see the biggest wins</h4>
+              <ul style="list-style: none; padding-left: 0;" class="mb-4">
+                <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Master new content from the start</li>
+                <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Build confidence before exam pressure</li>
+                <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Get ahead and stay ahead all year</li>
+              </ul>
             </div>
-
-            <div class="col-md-4">
-              <div class="class-card">
-                <h5 class="fw-bold">A Level</h5>
-                <span class="badge bg-secondary">All modules</span>
-              </div>
+            
+            <!-- Right: Courses + CTA -->
+            <div class="col-md-6 text-center">
+              <h5 class="mb-3">Available for September 2025:</h5>
+              <div class="mb-4">
+                <div class="d-flex align-items-center justify-content-between mb-2" style="background: var(--warm-white); padding: 1rem; border-radius: 8px;">
+                  <div class="text-start">
+                    <div class="fw-bold" style="color: var(--warm-blue);">GCSE/IGCSE Foundation</div>
+                    <div class="small text-muted">Building confidence & core skills</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-2" style="background: var(--warm-white); padding: 1rem; border-radius: 8px;">
+                  <div class="text-start">
+                    <div class="fw-bold" style="color: var(--warm-purple);">GCSE/IGCSE Higher</div>
+                    <div class="small text-muted">Pushing for top grades</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-2" style="background: var(--warm-white); padding: 1rem; border-radius: 8px;">
+                  <div class="text-start">
+                    <div class="fw-bold" style="color: var(--success-green);">A Level</div>
+                    <div class="small text-muted">Getting the grades you need for University</div>
+                  </div>
+                </div>
+              </div>             
+              <a href="contact.php" class="btn btn-primary btn-lg px-4">Message me to enquire now</a>
             </div>
           </div>
 
-          <div class="text-center mt-4">
-            <a href="contact.html" class="btn btn-primary btn-lg">Book a free consultation</a>
-            <p class="text-muted mt-2 small">Sign ups before July 31st will receive a free one-off 1-1 mentoring session
-              to kickstart the year.</p>
-          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+  <!-- Money Back Guarantee Section -->
+<section class="section fade-in" style="background: var(--light-gold);">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="warm-card" style="border: 2px solid var(--success-green); background: var(--warm-white);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">✅</div>
+          <h3 class="mb-3">My Promise to You</h3>
+          <p class="lead mb-3">I only want students who absolutely love their tutoring, and so if you're not completely happy after two lessons you get a full refund - no questions asked.</p>
+          <p class="text-muted small">Your child's confidence and progress matter more than anything else.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Testimonials Section -->
   <section class="section fade-in" style="background: var(--warm-white);">
@@ -480,10 +517,6 @@
             <p class="lead">Most students don't struggle with maths because they can't do it — they struggle because
               they believe they can't. This framework is all about building confidence, helping students feel involved,
               and setting them up to thrive.</p>
-            <div class="text-center mt-4">
-              <a href="contact.html" class="btn btn-primary btn-lg">Let's chat about how this approach can help your
-                child</a>
-            </div>
           </div>
         </div>
 
@@ -584,14 +617,8 @@
             <div class="qualification-item">
               <span class="qualification-icon">🌿</span>
               <div>
-                Nature-obsessed, campervan adventurer & dog mum - I believe learning should feel like fresh air:
-                <strong>clear, energising and freeing</strong>
+                Nature-obsessed, campervan adventurer & dog mum.
               </div>
-            </div>
-
-            <div class="text-center mt-4">
-              <a href="contact.html" class="btn btn-primary btn-lg">Let's chat about your child's maths journey</a>
-            </div>
           </div>
         </div>
       </div>

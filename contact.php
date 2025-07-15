@@ -138,47 +138,9 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="./assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
-        <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
-      </a>
-      <a href="contact.html" class="btn btn-primary d-lg-none">Message Me</a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Navigation -->
+<?php include 'navbar.php'; ?>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-4">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Learn More About Us</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-              <li><a class="dropdown-item" href="/landing/5-critical-mistakes.html">FREE GUIDE: 5 Critical Mistakes at
-                  A Level</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Tutoring Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./recovery.html">12 Week Intensive A Level Recovery
-                  Programme</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: var(--brand-red) !important;">Contact</a>
-          </li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary d-none d-lg-block">Message Me</a>
-      </div>
-    </div>
-  </nav>
 
   <!-- Contact Hero Section -->
   <section class="hero-section">

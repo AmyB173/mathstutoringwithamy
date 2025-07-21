@@ -66,152 +66,36 @@
   </script>
   <noscript><img height="1" width="1" style="display: none"
       src="https://www.facebook.com/tr?id=1237029190796334&ev=PageView&noscript=1" /></noscript>
-
-  <style>
-    .info-icon {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      color: white;
-      margin: 0 auto 1.5rem;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    }
-
-    .icon-lesson {
-      background: linear-gradient(135deg, var(--warm-blue) 0%, var(--success-green) 100%);
-    }
-
-    .icon-group {
-      background: linear-gradient(135deg, var(--warm-purple) 0%, var(--soft-coral) 100%);
-    }
-
-    .icon-individual {
-      background: linear-gradient(135deg, var(--soft-gold) 0%, var(--warm-blue) 100%);
-      color: var(--warm-dark) !important;
-    }
-
-    .icon-requirements {
-      background: linear-gradient(135deg, var(--soft-coral) 0%, var(--warm-purple) 100%);
-    }
-
-    .icon-pricing {
-      background: linear-gradient(135deg, var(--success-green) 0%, var(--warm-blue) 100%);
-    }
-
-    .pricing-table {
-      background: var(--warm-white);
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    }
-
-    .pricing-header {
-      background: var(--warm-blue);
-      color: white;
-      padding: 1rem;
-      text-align: center;
-      font-weight: 700;
-    }
-
-    .pricing-row {
-      padding: 1rem;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .pricing-row:last-child {
-      border-bottom: none;
-    }
-
-    .pricing-row:nth-child(even) {
-      background: var(--warm-cream);
-    }
-
-    .price-amount {
-      font-weight: 700;
-      color: var(--warm-blue);
-      font-size: 1.1rem;
-    }
-
-    .feature-list {
-      list-style: none;
+      <style>
+    * {
+      margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
-
-    .feature-list li {
-      padding: 0.5rem 0;
-      position: relative;
-      padding-left: 2rem;
-    }
-
-    .feature-list li::before {
-      content: "✓";
-      position: absolute;
-      left: 0;
-      color: var(--success-green);
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    .equipment-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    .equipment-item {
-      text-align: center;
-      padding: 1.5rem;
-      background: var(--warm-white);
-      border-radius: 16px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-      transition: all 0.3s ease;
-    }
-
-    .equipment-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
-    }
-
-    .equipment-icon {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
     .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
 
-    .whatsapp-float-button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 60px;
-      height: 60px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      text-decoration: none;
-      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
-      transition: transform 0.3s ease;
-      font-size: 24px;
-    }
+.whatsapp-float-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s ease;
+}
 
-    .whatsapp-float-button:hover {
-      transform: scale(1.1);
-      color: white;
-      text-decoration: none;
-    }
+.whatsapp-float-button:hover {
+  transform: scale(1.1);
+}
   </style>
 </head>
 
@@ -227,7 +111,6 @@
           <h1 class="hero-title">Complete Tutoring Information Pack</h1>
           <p class="hero-subtitle">Everything you need to know about my online maths tutoring services for KS3, GCSE, and A Level students. From lesson formats to pricing - it's all here!</p>
           
-          <!-- Quick Contact Button -->
           <div class="text-center mb-4">
             <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I've%20read%20your%20info%20pack%20and%20I'm%20interested%20in%20tutoring%20for%20my%20child" 
                target="_blank" 
@@ -245,7 +128,7 @@
   <section class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <div class="warm-card">
             <h2>Welcome!</h2>
             <p>I'm so glad you've decided to opt for some tutoring for your child. Whether it's to boost their confidence, improve grades, or prepare for exams.</p>
@@ -255,104 +138,57 @@
             <p>Lessons are designed to be <span class="framework-highlight">welcoming, stress-free, and focused on building confidence and improving grades.</span></p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="text-center">
-            <div style="background: var(--warm-cream); border-radius: 20px; padding: 2rem; margin-bottom: 1rem;">
-              <img src="./assets/images/amy-working.webp" alt="Amy - Your Maths Tutor" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
-              <h4>Amy - Your Maths Tutor</h4>
-              <p class="mb-0">Qualified teacher with a passion for helping students succeed</p>
-            </div>
+            <img src="./assets/images/amy-white-top.jpg" alt="Amy - Your Maths Tutor" class="img-fluid" style="border-radius: 16px;">
+            <h4 class="mt-3">Amy - Your Maths Tutor</h4>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Lesson Details Section -->
+  <!-- How Lessons Work -->
   <section class="section fade-in" style="background: var(--warm-cream);">
     <div class="container">
-      <div class="section-title">
-        <div class="info-icon icon-lesson">
-          💻
+      <div class="row align-items-center">
+                <div class="col-lg-4">
+          <img src="./assets/images/pencil-lesson.png" alt="Pencil Spaces Platform" class="img-fluid" style="border-radius: 16px;">
         </div>
-        <h2>Lesson Details</h2>
-        <p>All lessons take place online, offering convenience and flexibility</p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <div class="warm-card">
-            <h4>Online Platform</h4>
-            <p>Lessons take place on <strong>Pencil Spaces</strong> (pencilspaces.com), an interactive platform with video call capabilities and a shared whiteboard.</p>
+            <h2>How Online Lessons Work</h2>
+            <p>All lessons take place on Pencil Spaces (pencilspaces.com), an interactive platform with video calls and shared whiteboards. Students create a free account and can join from home with just a laptop and camera.</p>
             
             <ul class="feature-list">
-              <li>Students need to make a free account to access</li>
               <li>Real-time collaboration with instant feedback</li>
               <li>Interactive whiteboard for working through problems</li>
-              <li>Join from the comfort of your home</li>
               <li>Easy scheduling around other activities</li>
+              <li>All homework completed and marked on the platform</li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="text-center">
-            <div style="background: var(--light-gold); border-radius: 20px; padding: 2rem;">
-              <div style="font-size: 4rem; margin-bottom: 1rem;">🖥️</div>
-              <h5>Interactive Learning</h5>
-              <p class="mb-3">Pencil Spaces provides a collaborative online classroom experience</p>
-              <div style="background: var(--warm-white); padding: 1rem; border-radius: 12px; margin-top: 1rem;">
-                <small class="text-muted">Platform features: Video calls, shared whiteboards, real-time collaboration</small>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Small Group Lessons Section -->
+  <!-- Small Group Option -->
   <section class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
-      <div class="section-title">
-        <div class="info-icon icon-group">
-          👥
-        </div>
-        <h2>Small Group Lessons</h2>
-        <p>Collaborative learning with maximum 5 students per group</p>
-      </div>
-
-      <div class="row g-4 align-items-center">
-        <div class="col-lg-8">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
           <div class="warm-card">
-            <h4>Why Small Groups Work</h4>
-            <p>I only take on small groups, with a maximum of 5 students. Students will be grouped with students working at and aiming for a similar grade.</p>
+            <h2>Small Group Lessons (Maximum 6 Students)</h2>I only take on small groups, with a maximum of 6 students. Students will be grouped with 
+students working at and aiming for a similar grade. The atmosphere in group lessons can be 
+fantastic, as students often encourage and learn from each other as they experience similar 
+issues. Generally, a question from one student can benefit the whole class.  Students work with others at their level in a collaborative environment. Each student has their own private whiteboard while benefiting from group discussion and peer learning.</p>
             
-            <ul class="feature-list">
-              <li>Students encourage and learn from each other</li>
-              <li>Questions from one student benefit the whole class</li>
-              <li>More relaxed environment than 1:1 sessions</li>
-              <li>Each student gets their own private whiteboard</li>
-              <li>Personalised feedback while working in a group</li>
-              <li>Students can participate at their own pace</li>
-            </ul>
-
             <div class="family-quote">
-              <p><strong>Will my child get enough attention in a group class?</strong></p>
-              <p>Pencil Spaces provides each student with their own private whiteboard, allowing them to answer questions individually while still receiving personalised feedback. Group lessons provide a more relaxed environment where students can take their time, think independently, and participate at their own pace.</p>
+              <p><strong>Will my child get enough attention?</strong> Yes - each student works on their own whiteboard and receives individual feedback, while enjoying the relaxed group atmosphere.</p>
             </div>
-
-            <div class="family-quote">
-              <p><strong>Will there be homework?</strong></p>
-              <p>Yes, homework is set each week and will be completed directly on Pencil Spaces for marking and feedback.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="text-center">
-            <div style="background: var(--warm-cream); border-radius: 20px; padding: 2rem;">
-              <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
-              <h5>Collaborative Learning</h5>
-              <p>Maximum 5 students per group, grouped by similar ability and goals</p>
+                        <div class="family-quote">
+              <p><strong>Will there be homework?</strong> Yes, homework is set each week and will be completed and marked on pencil spaces.</p>
             </div>
           </div>
         </div>
@@ -360,138 +196,55 @@
     </div>
   </section>
 
-  <!-- 1:1 Lessons Section -->
+  <!-- 1:1 Option -->
   <section class="section fade-in" style="background: var(--light-gold);">
     <div class="container">
-      <div class="section-title">
-        <div class="info-icon icon-individual">
-          🎯
-        </div>
-        <h2>1:1 Lessons</h2>
-        <p>Personalised attention and tailored learning plans</p>
-      </div>
-
-      <div class="row g-4 align-items-center">
+      <div class="row justify-content-center">
         <div class="col-lg-4">
-          <div class="text-center">
-            <div style="background: var(--warm-white); border-radius: 20px; padding: 2rem;">
-              <div style="font-size: 3rem; margin-bottom: 1rem;">🎓</div>
-              <h5>Focused Learning</h5>
-              <p>Complete attention and customised lesson plans for your child's specific needs</p>
-            </div>
-          </div>
+            <img src="./assets/images/pencil-workings.png" alt="1:1 Lessons" class="img-fluid" style="border-radius: 16px;">
         </div>
         <div class="col-lg-8">
           <div class="warm-card">
-            <h4>Personalised Excellence</h4>
-            <p>1:1 lessons foster a strong tutor-student relationship, creating a supportive and trusting environment. This allows your child to feel comfortable asking questions, expressing their thoughts, and tackling challenges with confidence.</p>
+            <h2>1:1 Lessons</h2>
+            <p>Completely personalised sessions with lesson plans tailored specifically to your child's needs and goals. Perfect for students who want focused attention or have specific areas to work on.</p>
             
-            <h5>These personalised sessions ensure:</h5>
-            <ul class="feature-list">
-              <li>Tailored lesson plans designed specifically around your child's needs and goals</li>
-              <li>A patient, encouraging atmosphere where your child feels at ease to learn at their own pace</li>
-              <li>Focused attention to nurture confidence and independence in tackling complex problems</li>
-            </ul>
-
-            <div class="family-quote">
-              <p>While 1:1 lessons are highly effective, some students find them intense, which is why I also offer small group lessons as a relaxed, collaborative alternative.</p>
-            </div>
+            <p>While highly effective, some students find 1:1 lessons intense, which is why small group lessons are also available as a more relaxed alternative.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Requirements Section -->
+  <!-- What You Need -->
   <section class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
-      <div class="section-title">
-        <div class="info-icon icon-requirements">
-          ⚙️
-        </div>
-        <h2>Requirements for Tutoring</h2>
-        <p>Everything you need to get started</p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-lg-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
           <div class="warm-card">
-            <h4>📋 Student Information</h4>
-            <p>Please complete the following form: <a href="https://forms.gle/qCLCxJmSZaU1um2p7" target="_blank" class="text-decoration-none fw-bold" style="color: var(--warm-blue);">Student Information Form</a></p>
+            <h2>What You Need to Get Started</h2>
             
-            <p><small>I only collect relevant information that is needed for tutoring and for safeguarding purposes. This information will only be stored and kept securely during the duration of the tutoring, and one year after.</small></p>
-
-            <h5>📹 Camera Requirements</h5>
-            <p>Students need to have access to a laptop with a camera, and cameras should be kept on in most cases. This is because building a good positive relationship is so important, and this is harder to do without the camera on.</p>
+            <p>Once we have agreed a time for an initial lesson you will be sent a student information form to fill out.</p>
             
-            <p><small>If there is any reason why the camera must be off (anxiety for example), please just let me know and I can of course accommodate this. Headphones might be useful depending on where they study.</small></p>
+            <p><strong>Equipment needed:</strong> Laptop with camera, pen and paper, calculator. A drawing pad (~£30) or tablet and pen is essential for easier interaction. Headphones optional but useful.</p>
+            
+            <p><strong>Camera policy:</strong> Cameras should stay on to build a good relationship, but I can accommodate if there are concerns (like anxiety).</p>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="warm-card">
-            <h4>📝 Homework Completion</h4>
-            <p>Homework is set each week and completed directly on Pencil Spaces for easy marking and feedback.</p>
-            
-            <h5>How it works:</h5>
-            <ul class="feature-list">
-              <li>Homework tasks are set up on Pencil Spaces</li>
-              <li>Students complete work directly on the platform</li>
-              <li>Instant marking and feedback provided</li>
-              <li>All work saved digitally for easy reference</li>
-            </ul>
-            
-            <p><small>This streamlined system makes homework submission and feedback much more efficient for everyone!</small></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Equipment Grid -->
-      <div class="equipment-grid">
-        <div class="equipment-item">
-          <div class="equipment-icon">💻</div>
-          <h6>Laptop with Camera</h6>
-          <p class="mb-0 small">Essential for video calls and Pencil Spaces</p>
-        </div>
-        <div class="equipment-item">
-          <div class="equipment-icon">✏️</div>
-          <h6>Pen & Paper</h6>
-          <p class="mb-0 small">Basic equipment for note-taking</p>
-        </div>
-        <div class="equipment-item">
-          <div class="equipment-icon">🔢</div>
-          <h6>Calculator</h6>
-          <p class="mb-0 small">Standard calculator for calculations</p>
-        </div>
-        <div class="equipment-item">
-          <div class="equipment-icon">🖊️</div>
-          <h6>Drawing Pad (Recommended)</h6>
-          <p class="mb-0 small">Wacom pad (~£30) for Pencil Spaces interaction</p>
-        </div>
-        <div class="equipment-item">
-          <div class="equipment-icon">🎧</div>
-          <h6>Headphones (Optional)</h6>
-          <p class="mb-0 small">Useful depending on study environment</p>
+        <div class="col-lg-4">
+            <img src="./assets/images/wacom-tablet.png" alt="What You Need" class="img-fluid" style="border-radius: 16px;">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Pricing Section -->
+  <!-- Pricing -->
   <section class="section fade-in" style="background: var(--warm-cream);">
     <div class="container">
-      <div class="section-title">
-        <div class="info-icon icon-pricing">
-          💷
-        </div>
-        <h2>Pricing & Payments</h2>
-        <p>All lessons are 55 minutes.</p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-lg-6">
+      <div class="row align-items-start">
+        <div class="col-lg-5 warm-card">
           <div class="pricing-table">
             <div class="pricing-header">
-              <h4 class="mb-0">Lesson Pricing</h4>
+              <h4 class="mb-0">Lesson Pricing (55 minutes)</h4>
             </div>
             <div class="pricing-row">
               <span>GCSE 1:1</span>
@@ -507,45 +260,20 @@
             </div>
             <div class="pricing-row">
               <span>A Level Small Group</span>
-              <span class="price-amount">£50/hour</span>
+              <span class="price-amount">£50/lesson</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <div class="warm-card">
-            <h4>Payment Structure</h4>
             
-            <h5>🔹 Initial Lessons</h5>
-            <p>I believe it's crucial for your child to feel comfortable and connected with their tutor. To ensure the right fit, the first few lessons are available on a trial basis and can be booked individually.</p>
+            <p><strong>Trial period:</strong> First lessons can be booked individually to ensure it's the right fit.</p>
             
-            <h5>🔹 On-going Lessons</h5>
-            <p>If your child is happy and enjoying the lessons, I will book you into my calendar on a weekly ongoing basis. <strong>Lessons will be paid in advance and be invoiced on the 1st of the month</strong> for all lessons in the upcoming month.</p>
+            <p><strong>Ongoing lessons:</strong> Once your child is happy, I'll book you into my weekly calendar. Lessons are invoiced monthly in advance on the 1st.</p>
             
-            <p><small>If you have 1 hour per week, this is typically 4 lessons, but could be 5.</small></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row g-4 mt-4">
-        <div class="col-lg-6">
-          <div class="warm-card">
-            <h4>📅 Cancellation Policy</h4>
+            <p><strong>Cancellations:</strong> 1:1 lessons need 48 hours notice. Group lessons can't be cancelled but are recorded if missed.</p>
             
-            <h5>1:1 Lessons</h5>
-            <p>48 hours notice is required for cancellation. I will try to reschedule if my calendar allows it. If not, I will roll over that paid lesson into the next month.</p>
-            
-            <h5>Small Group Lessons</h5>
-            <p>These follow a fixed structure and so cancellations are not permitted. However, the lessons will be recorded and made available to them should they miss it. They can still complete the homework for that week directly on Pencil Spaces.</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="warm-card">
-            <h4>✅ My Guarantee</h4>
-            <p>I only want to tutor students who absolutely love their tutoring and feel it is valuable and helpful.</p>
-            
-            <p>In the unlikely situation this is not the case, I encourage parents and students to start a conversation with me so we can address any issues that arise.</p>
-            
-            <p><strong>If you would like to cancel, any unused lessons will be refunded, no questions asked.</strong></p>
+            <p><strong>My guarantee:</strong> I only want students who love their tutoring so in the unlikely event that you wish to cancel, any unused lessons will be refunded, no questions asked.</p>
           </div>
         </div>
       </div>
@@ -573,7 +301,7 @@
     </div>
   </section>
 
-  <!-- Quick Contact Section -->
+  <!-- Contact Section -->
   <section class="section fade-in" style="background: var(--light-gold);">
     <div class="container">
       <div class="row justify-content-center">
@@ -581,7 +309,6 @@
           <h3 class="mb-3">Got questions about anything above?</h3>
           <p class="mb-4">The quickest way to get answers is via WhatsApp!</p>
           
-          <!-- WhatsApp Button -->
           <div class="text-center mb-4">
             <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I%20have%20some%20questions%20about%20your%20tutoring%20services" 
                target="_blank" 

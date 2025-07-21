@@ -30,6 +30,7 @@
                         <li><a class="dropdown-item" href="./GCSE.php">GCSE/IGCSE Tutoring</a></li>
             <li><a class="dropdown-item" href="./recovery.php">12 Week Intensive A Level Recovery
                 Programme</a></li>
+            <li><a class="dropdown-item" href="./info-pack.php">Tutoring Information Pack</a></li>
           </ul>
         </li>
         <li class="nav-item">

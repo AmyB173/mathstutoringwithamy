@@ -866,3 +866,205 @@ footer {
   font-weight: 600;
   border: 1px solid rgba(93, 204, 240, 0.2);
 }
+
+
+/*-------------------------------------------------------------INFO PACK PAGE */
+/* Enhanced sizing consistency - Add to existing style-new.css */
+
+/* Standardize spacing using existing variables */
+.section {
+  padding: 4rem 0; /* More consistent than 80px */
+}
+
+.section-title {
+  margin-bottom: 3rem; /* Reduced from 4rem for better proportion */
+}
+
+.section-title h2 {
+  font-size: 2.25rem; /* Between existing 2rem and 2.5rem */
+  margin-bottom: 1rem;
+}
+
+.section-title p {
+  font-size: 1.125rem; /* Match body text size */
+  margin-bottom: 0;
+}
+
+/* Consistent hero sizing */
+.hero-section {
+  padding: 6rem 0 4rem; /* More proportional */
+}
+
+.hero-title {
+  font-size: 2.5rem; /* Slightly smaller for better readability */
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem; /* Match section subtitle */
+  margin-bottom: 2rem;
+}
+
+/* Standardize info icons */
+.info-icon {
+  width: 70px; /* Slightly smaller than 80px */
+  height: 70px;
+  font-size: 1.75rem; /* More proportional to icon size */
+  margin-bottom: 1.5rem;
+}
+
+/* Consistent card padding and margins */
+.warm-card {
+  padding: 2rem; /* Keep existing */
+  margin-bottom: 1.5rem; /* Standardize bottom margin */
+}
+
+.warm-card h4 {
+  font-size: 1.375rem; /* Between h4 and h3 sizes */
+  margin-bottom: 1rem;
+}
+
+.warm-card h5 {
+  font-size: 1.125rem; /* Consistent with body text */
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Family quote improvements */
+.family-quote {
+  padding: 1.25rem; /* Slightly smaller for better proportion */
+  margin: 1rem 0; /* Consistent vertical spacing */
+}
+
+.family-quote p {
+  font-size: 1rem; /* Consistent with base text */
+  margin-bottom: 0.75rem;
+}
+
+.family-quote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Feature list consistency */
+.feature-list li {
+  padding: 0.5rem 0; /* Consistent with existing */
+  font-size: 1rem; /* Match body text */
+  line-height: 1.5;
+}
+
+/* Pricing table improvements */
+.pricing-header h4 {
+  font-size: 1.25rem; /* Consistent h5 size */
+  margin-bottom: 0;
+}
+
+.pricing-row {
+  font-size: 1rem; /* Consistent body text */
+  padding: 1rem; /* Match existing */
+}
+
+.price-amount {
+  font-size: 1.125rem; /* Slightly larger than body */
+}
+
+/* Equipment grid consistency */
+.equipment-item {
+  padding: 1.5rem; /* Match existing */
+}
+
+.equipment-icon {
+  font-size: 2.5rem; /* More proportional */
+  margin-bottom: 1rem;
+}
+
+.equipment-item h6 {
+  font-size: 1rem; /* Consistent with body */
+  margin-bottom: 0.5rem;
+}
+
+.equipment-item p {
+  font-size: 0.875rem; /* Existing small text size */
+}
+
+/* Button consistency */
+.whatsapp-button {
+  padding: 1rem 1.5rem; /* More consistent with existing buttons */
+  font-size: 1rem; /* Match body text */
+  margin-bottom: 1.5rem;
+}
+
+.whatsapp-icon {
+  font-size: 1.125rem; /* Slightly larger than text */
+}
+
+/* Profile card in welcome section */
+.profile-image {
+  width: 120px; /* Slightly smaller for better proportion */
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0; /* Smaller on mobile */
+  }
+  
+  .hero-section {
+    padding: 4rem 0 3rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem; /* Existing mobile size */
+  }
+  
+  .section-title h2 {
+    font-size: 1.875rem; /* Proportional reduction */
+  }
+  
+  .info-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  
+  .warm-card {
+    padding: 1.5rem; /* Existing mobile padding */
+  }
+  
+  .equipment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* Additional improvements for readability */
+.illustration-card {
+  padding: 2rem; /* Match warm-card */
+  text-align: center;
+  height: 100%;
+}
+
+.illustration-card .icon {
+  font-size: 2.5rem; /* Match equipment icons */
+  margin-bottom: 1rem;
+}
+
+.illustration-card h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+
+.illustration-card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.illustration-card .note {
+  background: var(--warm-white);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}

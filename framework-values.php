@@ -8,7 +8,7 @@
     <meta name="description" content="Discover the Enjoy. Engage. Excel. framework that guides our maths tutoring approach. Learn about our values of putting people first, bespoke lessons, and excellence always.">
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,8 +30,8 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-<?php include 'navbar.php'; ?>
+    <!-- Navigation -->
+    <?php include 'navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section">
@@ -71,7 +71,7 @@
                             <h4 class="fw-bold mt-3">Enjoy</h4>
                         </div>
                         <p>We create a warm, supportive space where students feel comfortable and motivated. When maths feels approachable, students start to enjoy learning — even those who never thought they could.</p>
-                        
+
                         <div class="testimonial-card mt-4" style="border-left-color: var(--warm-purple);">
                             <p class="mb-3">"Amy has even helped ignite a love for maths — something our daughter never had before!"</p>
                             <div class="testimonial-author">
@@ -90,7 +90,7 @@
                             <h4 class="fw-bold mt-3">Engage</h4>
                         </div>
                         <p>Students learn best when they're involved and interested. Our lessons encourage questions, discussion, and problem-solving. We use an interactive whiteboard so students are <em>always</em> actively involved — no passive learning here.</p>
-                        
+
                         <div class="testimonial-card mt-4" style="border-left-color: var(--warm-blue);">
                             <p class="mb-3">"Amy is great at getting my son engaged in the lessons at a level he understands."</p>
                             <div class="testimonial-author">
@@ -109,7 +109,7 @@
                             <h4 class="fw-bold mt-3">Excel</h4>
                         </div>
                         <p>We know what we're doing and teach in a way that helps students reach their goals efficiently. With steady progress and confidence building, students achieve real, lasting results.</p>
-                        
+
                         <div class="testimonial-card mt-4" style="border-left-color: var(--soft-gold);">
                             <p class="mb-3">"Amy has developed a real friendship with our daughter... she has progressed quicker than we thought was possible."</p>
                             <div class="testimonial-author">
@@ -232,21 +232,21 @@
                 <div class="col-md-4 text-md-end text-center">
                     <div class="d-flex justify-content-center justify-content-md-end align-items-center">
                         <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
-                           style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-                           onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-                           onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+                            style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+                            onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank"
-                           style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-                           onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-                           onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+                            style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+                            onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank"
-                           style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-                           onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-                           onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
+                            style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
+                            onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
@@ -265,7 +265,7 @@
     <script>
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {

@@ -231,7 +231,7 @@
 </section>
 
 
-<section class="section fade-in" style="background-color: #f0e6fc;">
+<!-- <section class="section fade-in" style="background-color: #f0e6fc;">
     <div class="container">
         <div class="section-title">
             <h2>Don't Just Take My Word For It</h2>
@@ -264,7 +264,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="section fade-in" style="background: var(--warm-white);">

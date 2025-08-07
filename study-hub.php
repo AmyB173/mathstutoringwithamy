@@ -16,8 +16,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Study Hub: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and excel with weekly masterclasses, mindset sessions, and unlimited Q&A support." />
-    <title>Study Hub | A Level Maths Tutoring | Maths Tutoring With Amy</title>
+        content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and excel with weekly masterclasses, mindset sessions, and unlimited Q&A support." />
+    <title>Study Club | A Level Maths Tutoring | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/study-hub.php" />
@@ -76,8 +76,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-8">
                             <h1 class="hero-title">Why stress about <u>A-Level Maths</u> when you could be getting the <u>support you need</u> and the <u>grades you deserve?</u></h1>
-                            <h3 class="hero-kicker fs-1">The A-Level Maths Study Hub</h3>
-                            <p class="hero-subtitle">Stop trying to figure it all out alone. The Study Hub provides the three things you're missing: <strong>expert tutoring to clarify tough concepts</strong>, a <strong>supportive community</strong> of fellow students, and <strong>weekly personalised help with our QnA evenings</strong> so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
+                            <h3 class="hero-kicker fs-1">The A-Level Maths Study Club</h3>
+                            <p class="hero-subtitle">Stop trying to figure it all out alone. The Study Club provides the three things you're missing: <strong>expert tutoring to clarify tough concepts</strong>, a <strong>supportive community</strong> of fellow students, and <strong>weekly personalised help with our QnA evenings</strong> so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
                             <div class="text-center text-lg-start mb-4">
                                 <a href="#pricing" class="btn btn-bright-pink btn-lg">JOIN NOW for better grades 🎉</a>
                             </div>
@@ -94,8 +94,8 @@
     <section class="section fade-in" style="background: var(--warm-white);">
         <div class="container">
             <div class="section-title">
-                <h2>Is the Study Hub Right For You?</h2>
-                <p>The Study Hub was built to help motivated students like you finally see the results you deserve.</p>
+                <h2>Is the Study Club Right For You?</h2>
+                <p>The Study Club was built to help motivated students like you finally see the results you deserve.</p>
             </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-4 text-center">
@@ -133,7 +133,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Everything You Need for A-Level Maths Success</h2>
-                <p>The Study Hub combines expert teaching, mindset coaching, and dedicated support to give you an unbeatable advantage.</p>
+                <p>The Study Club combines expert teaching, mindset coaching, and dedicated support to give you an unbeatable advantage.</p>
             </div>
 
             <div class="row g-5">
@@ -277,13 +277,13 @@
                 <div class="faq-item">
                     <h5 class="faq-question">What if I can't make a live session? <span class="arrow">▼</span></h5>
                     <div class="faq-answer">
-                        <p>All live masterclasses and mindset sessions are recorded and uploaded to the Hub within 24 hours. You can catch up whenever it suits you and ask any questions in our community or the next Q&A session.</p>
+                        <p>All live masterclasses and mindset sessions are recorded and uploaded to the Club within 24 hours. You can catch up whenever it suits you and ask any questions in our community or the next Q&A session.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <h5 class="faq-question">How is this different from 1:1 private tutoring? <span class="arrow">▼</span></h5>
                     <div class="faq-answer">
-                        <p>Study Hub provides a more holistic and consistent support system. Instead of just one hour a week, you get multiple live sessions, mindset coaching, on-demand Q&A, and a community of fellow students, all for less than the price of a single private tutoring session.</p>
+                        <p>Study Club provides a more holistic and consistent support system. Instead of just one hour a week, you get multiple live sessions, mindset coaching, on-demand Q&A, and a community of fellow students, all for less than the price of a single private tutoring session.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -313,7 +313,7 @@
 </section>
 
     <div class="whatsapp-float">
-        <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20Study%20Hub%20for%20A%20Level%20Maths"
+        <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20Study%20Club%20for%20A%20Level%20Maths"
             target="_blank"
             class="whatsapp-float-button">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

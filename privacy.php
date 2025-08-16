@@ -29,63 +29,9 @@
 </head>
 
 <body class="h-100 container-fluid">
-    <!-- HEADER WITH INTEGRATED NAVIGATION -->
-    <header class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-2">
-            <div class="container-fluid px-3">
-                <!-- Logo and Brand Name (visible on all screens but sized differently) -->
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand me-1 me-md-2" href="index.html">
-                        <img src="./assets/images/logo-red.png" height="35" alt="Maths tutoring with Amy logo" />
-                    </a>
-                    <!-- Brand name now visible on all screens -->
-                    <a class="brand-red-text logo-words text-decoration-none fs-mobile-brand" href="index.html">
-                        Maths Tutoring with Amy
-                    </a>
-                </div>
-
-                <!-- Mobile CTA + Toggle Button -->
-                <div class="d-flex align-items-center">
-                    <!-- CTA - Visible on all screens but styled differently on mobile -->
-                    <a id="mobile-cta-btn" href="contact.html" target="_blank"
-                        class="btn btn-primary btn-sm me-2 d-lg-none">
-                        Book
-                    </a>
-
-                    <!-- Navbar Toggle Button -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <!-- Collapsible Navigation Content -->
-                <div class="collapse navbar-collapse mt-2 mt-lg-0" id="mainNavbar">
-                    <!-- Navigation Links -->
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Learn More About Us</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-
-                        <!-- Desktop CTA - Only visible on large screens -->
-                        <a id="desktop-cta-btn" href="contact.html" target="_blank"
-                            class="btn btn-primary d-none d-lg-block">
-                            Book a Free Consultation
-                        </a>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <?php include 'navbar.php'; ?>
+    
     <!-- Main section -->
     <div class="container my-5">
         <h1 class="mb-4">Privacy Policy – May 2025</h1>
@@ -227,18 +173,7 @@
     <div class="row">
 
         <!-- FOOTER -->
-        <div class="row text-center text-md-left border-top">
-            <div class="col-md-4 mx-auto mt-3 p-2">
-                <h5 class="mb-4 fw-bold"> <i class="fa-regular fa-copyright"></i> Maths Tutoring with Amy</h5>
-                <a href="privacy.html">Privacy Policy</a>
-            </div>
-            <div class="col-md-4 mt-3 p-2 text-center">
-                <h5 class="mb-4 fw-bold">Contact</h5>
-                <p class="email">Email me at contact@mathstutoringwithamy.co.uk</p>
-                <!-- <p><a href="contact.html">Book a call with me</a></p> -->
-
-            </div>
-        </div>
+        <?php include 'footer.php'; ?>
         <!-- scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

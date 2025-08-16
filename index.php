@@ -171,54 +171,54 @@
         </div>
       </div>
 
-<!-- Why it goes deeper section -->
-<div class="row align-items-center mb-5">
-  <div class="col-lg-8">
-    <div class="warm-card">
-      <h3 class="mb-3">Why it goes deeper than just grades</h3>
-      <p>When a child struggles with maths, it affects more than just their grades. It impacts their confidence and well-being, which starts to affect how they enjoy school and how motivated they feel.</p>
+      <!-- Why it goes deeper section -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-8">
+          <div class="warm-card">
+            <h3 class="mb-3">Why it goes deeper than just grades</h3>
+            <p>When a child struggles with maths, it affects more than just their grades. It impacts their confidence and well-being, which starts to affect how they enjoy school and how motivated they feel.</p>
 
-      <p>I know how stressful it can feel not knowing how to help. Watching their confidence disappear is difficult for any parent.</p>
+            <p>I know how stressful it can feel not knowing how to help. Watching their confidence disappear is difficult for any parent.</p>
 
-      <p><strong>That's why I do what I do – showing students what's possible is truly what makes this worthwhile for me.</strong></p>
-    </div>
-  </div>
+            <p><strong>That's why I do what I do – showing students what's possible is truly what makes this worthwhile for me.</strong></p>
+          </div>
+        </div>
 
-  <div class="col-lg-4">
-    <div class="text-center">
-      <blockquote class="blockquote" style="font-size: 1.3rem; font-weight: 500; color: var(--warm-blue); font-style: italic; border-left: 4px solid var(--warm-blue); padding-left: 2rem; margin: 0;">
-        "Most students don't struggle with maths because they can't do it — they struggle because they believe they can't."
-      </blockquote>
-    </div>
-  </div>
-</div>
+        <div class="col-lg-4">
+          <div class="text-center">
+            <blockquote class="blockquote" style="font-size: 1.3rem; font-weight: 500; color: var(--warm-blue); font-style: italic; border-left: 4px solid var(--warm-blue); padding-left: 2rem; margin: 0;">
+              "Most students don't struggle with maths because they can't do it — they struggle because they believe they can't."
+            </blockquote>
+          </div>
+        </div>
+      </div>
 
-<!-- Solution Section -->
-<div class="row align-items-center">
-  <div class="col-lg-5">
-    <div class="text-center mb-4">
-      <img src="./assets/images/lesson-animals.png" class="img-fluid"
-        alt="Enjoy Engage Excel framework" style="border-radius: 16px;" />
-        <p>*Real student drawings from tutoring sessions</p>
-    </div>
-  </div>
+      <!-- Solution Section -->
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <div class="text-center mb-4">
+            <img src="./assets/images/lesson-animals.png" class="img-fluid"
+              alt="Enjoy Engage Excel framework" style="border-radius: 16px;" />
+            <p>*Real student drawings from tutoring sessions</p>
+          </div>
+        </div>
 
-  <div class="col-lg-7">
-    <div class="warm-card">
-      <h3 class="mb-3">What if maths could be different?</h3>
-      <p>From my 11 years in the classroom, I've come to realise that the most important factor for a child's success is how much they enjoy the lessons, and how connected they feel to their teacher.</p>
+        <div class="col-lg-7">
+          <div class="warm-card">
+            <h3 class="mb-3">What if maths could be different?</h3>
+            <p>From my 11 years in the classroom, I've come to realise that the most important factor for a child's success is how much they enjoy the lessons, and how connected they feel to their teacher.</p>
 
-      <p>As educators, we should be making sure that each and every lesson builds excitement for the subject and celebrates the progress the child makes. This enthusiasm translates into:</p>
+            <p>As educators, we should be making sure that each and every lesson builds excitement for the subject and celebrates the progress the child makes. This enthusiasm translates into:</p>
 
-      <ul style="list-style: none; padding-left: 0;" class="mb-3">
-        <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child working hard</li>
-        <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child actively engaging their brain in difficult problems</li>
-        <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child feeling happy about maths at school again</li>
-        <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child seeing their grades improve naturally</li>
-      </ul>
-    </div>
-  </div>
-</div>
+            <ul style="list-style: none; padding-left: 0;" class="mb-3">
+              <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child working hard</li>
+              <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child actively engaging their brain in difficult problems</li>
+              <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child feeling happy about maths at school again</li>
+              <li class="mb-2"><span class="me-2" style="color: var(--success-green);">✓</span>Your child seeing their grades improve naturally</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
     </div>
   </section>
@@ -254,27 +254,27 @@
     </div>
   </section>
 
-<!-- Tutoring Services Section -->
-<section class="section fade-in" style="background: var(--warm-cream);">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="mb-4">GCSE and A Level Maths Tutoring</h2>
-        <p class="lead mb-4">I'm a specialist Edexcel tutor helping students with Foundation, Higher and A Level Mathematics.</p>
-        
-        <p class="mb-4">Together we work on building skills, increasing confidence, improving exam technique, and ensuring concepts stick through regular practice.</p>
-        
-        <p class="mb-4"><strong>Would you like some help for your child?</strong></p>
-        
-        <a href="contact.php" class="btn btn-primary btn-lg mb-4">Message me to enquire</a>
-        
-        <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--soft-gold);">
-          <p class="mb-0"><strong>Coming soon:</strong> A Level Study Hub - collaborative online sessions for students who want to learn alongside their peers</p>
+  <!-- Tutoring Services Section -->
+  <section class="section fade-in" style="background: var(--warm-cream);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mb-4">GCSE and A Level Maths Tutoring</h2>
+          <p class="lead mb-4">I'm a specialist Edexcel tutor helping students with Foundation, Higher and A Level Mathematics.</p>
+
+          <p class="mb-4">Together we work on building skills, increasing confidence, improving exam technique, and ensuring concepts stick through regular practice.</p>
+
+          <p class="mb-4"><strong>Would you like some help for your child?</strong></p>
+
+          <a href="contact.php" class="btn btn-primary btn-lg mb-4">Message me to enquire</a>
+
+          <div style="background: var(--warm-white); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--soft-gold);">
+            <p class="mb-0"><strong>Coming soon:</strong> A Level Study Hub - collaborative online sessions for students who want to learn alongside their peers</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- Testimonials Section with Screenshots -->
   <section class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
@@ -313,7 +313,7 @@
           <img src="./assets/images/testimonials/google-review-sp.png" alt="Google review" class="screenshot-img">
           <p class="screenshot-caption">Google Review</p>
         </div>
-                <div class="testimonial-screenshot">
+        <div class="testimonial-screenshot">
           <img src="./assets/images/testimonials/google-review-ej.png" alt="Google review" class="screenshot-img">
           <p class="screenshot-caption">Google Review</p>
         </div>
@@ -322,53 +322,53 @@
   </section>
 
   <!-- Framework Section -->
-<section id="framework" class="section fade-in" style="background: var(--warm-cream);">
-  <div class="container">
-    <div class="section-title">
-      <h2>My tutoring framework – <span class="framework-highlight">Enjoy. Engage. Excel.</span></h2>
-    </div>
-
-    <div class="row align-items-center">
-      <div class="col-md-5 mb-4">
-        <div class="warm-card">
-          <p class="lead">Most students don't struggle with maths because they can't do it — they struggle because
-            they believe they can't. This framework is all about building confidence, helping students feel involved,
-            and setting them up to thrive.</p>
-        </div>
+  <section id="framework" class="section fade-in" style="background: var(--warm-cream);">
+    <div class="container">
+      <div class="section-title">
+        <h2>My tutoring framework – <span class="framework-highlight">Enjoy. Engage. Excel.</span></h2>
       </div>
 
-      <div class="col-md-7">
-        <div class="warm-card mb-4">
-          <h4 class="fw-bold mb-3">😊 Enjoy</h4>
-          <ul style="list-style: none; padding-left: 0;">
-            <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>Lessons are <strong>calm, warm and built on trust</strong></li>
-            <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>Rapport is built by sharing interests and <strong>showing students they're seen and heard</strong></li>
-            <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>We <strong>talk openly about worries</strong> so students see that struggling is normal and doesn't mean they're "bad" at maths</li>
-            <li class="mb-0"><span class="me-2" style="color: var(--warm-purple);">✓</span>We get excited about the <strong>fun</strong> there is to be had in learning maths</li>
-          </ul>
+      <div class="row align-items-center">
+        <div class="col-md-5 mb-4">
+          <div class="warm-card">
+            <p class="lead">Most students don't struggle with maths because they can't do it — they struggle because
+              they believe they can't. This framework is all about building confidence, helping students feel involved,
+              and setting them up to thrive.</p>
+          </div>
         </div>
 
-        <div class="warm-card mb-4">
-          <h4 class="fw-bold mb-3">🎯 Engage</h4>
-          <ul style="list-style: none; padding-left: 0;">
-            <li class="mb-2"><span class="me-2" style="color: var(--warm-blue);">✓</span>An <strong>interactive whiteboard</strong> where students write their answers live, solve problems with me, and have their own board for homework and extra tasks</li>
-            <li class="mb-2"><span class="me-2" style="color: var(--warm-blue);">✓</span>Lessons are active — students are always <strong>solving, thinking, or explaining</strong></li>
-            <li class="mb-0"><span class="me-2" style="color: var(--warm-blue);">✓</span>Thoughtful questions to make sure <strong>everyone is involved</strong> in a way that suits their confidence level</li>
-          </ul>
-        </div>
+        <div class="col-md-7">
+          <div class="warm-card mb-4">
+            <h4 class="fw-bold mb-3">😊 Enjoy</h4>
+            <ul style="list-style: none; padding-left: 0;">
+              <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>Lessons are <strong>calm, warm and built on trust</strong></li>
+              <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>Rapport is built by sharing interests and <strong>showing students they're seen and heard</strong></li>
+              <li class="mb-2"><span class="me-2" style="color: var(--warm-purple);">✓</span>We <strong>talk openly about worries</strong> so students see that struggling is normal and doesn't mean they're "bad" at maths</li>
+              <li class="mb-0"><span class="me-2" style="color: var(--warm-purple);">✓</span>We get excited about the <strong>fun</strong> there is to be had in learning maths</li>
+            </ul>
+          </div>
 
-        <div class="warm-card">
-          <h4 class="fw-bold mb-3">🚀 Excel</h4>
-          <ul style="list-style: none; padding-left: 0;">
-            <li class="mb-2"><span class="me-2" style="color: var(--soft-gold);">✓</span>Low-stakes <strong>mini-assessments</strong> used to track progress and make learning stick</li>
-            <li class="mb-2"><span class="me-2" style="color: var(--soft-gold);">✓</span>Every lesson is <strong>uniquely planned</strong> to close gaps to dramatically improve progress</li>
-            <li class="mb-0"><span class="me-2" style="color: var(--soft-gold);">✓</span>Plus students get <strong>personalised video or voice note feedback</strong> on every homework</li>
-          </ul>
+          <div class="warm-card mb-4">
+            <h4 class="fw-bold mb-3">🎯 Engage</h4>
+            <ul style="list-style: none; padding-left: 0;">
+              <li class="mb-2"><span class="me-2" style="color: var(--warm-blue);">✓</span>An <strong>interactive whiteboard</strong> where students write their answers live, solve problems with me, and have their own board for homework and extra tasks</li>
+              <li class="mb-2"><span class="me-2" style="color: var(--warm-blue);">✓</span>Lessons are active — students are always <strong>solving, thinking, or explaining</strong></li>
+              <li class="mb-0"><span class="me-2" style="color: var(--warm-blue);">✓</span>Thoughtful questions to make sure <strong>everyone is involved</strong> in a way that suits their confidence level</li>
+            </ul>
+          </div>
+
+          <div class="warm-card">
+            <h4 class="fw-bold mb-3">🚀 Excel</h4>
+            <ul style="list-style: none; padding-left: 0;">
+              <li class="mb-2"><span class="me-2" style="color: var(--soft-gold);">✓</span>Low-stakes <strong>mini-assessments</strong> used to track progress and make learning stick</li>
+              <li class="mb-2"><span class="me-2" style="color: var(--soft-gold);">✓</span>Every lesson is <strong>uniquely planned</strong> to close gaps to dramatically improve progress</li>
+              <li class="mb-0"><span class="me-2" style="color: var(--soft-gold);">✓</span>Plus students get <strong>personalised video or voice note feedback</strong> on every homework</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- About Section -->
   <section class="section about-section fade-in">
@@ -439,56 +439,7 @@
   </section>
 
   <!-- Footer -->
-  <footer
-    style="background-color: var(--warm-white); box-shadow: 0 -2px 20px rgba(0,0,0,0.08); border-top: 1px solid rgba(0,0,0,0.1);">
-    <div class="container py-4">
-      <div class="row align-items-center">
-        <!-- Logo and Brand -->
-        <div class="col-md-4">
-          <div class="d-flex align-items-center mb-3 mb-md-0">
-            <img src="./assets/images/logo-red.png" height="40" alt="Maths Tutoring with Amy" class="me-3" />
-            <div>
-              <div class="logo-words" style="font-size: 18px;">Maths Tutoring with Amy</div>
-              <p class="mb-0 small text-muted">© 2025 All rights reserved</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="col-md-4 text-center">
-          <div class="mb-2">
-            <span style="color: var(--warm-dark); font-weight: 500;">contact@mathstutoringwithamy.co.uk</span>
-          </div>
-          <a href="privacy.html" class="text-decoration-none"
-            style="color: var(--warm-dark); font-weight: 500; transition: color 0.3s ease;">Privacy Policy</a>
-        </div>
-
-        <!-- Social Links -->
-        <div class="col-md-4 text-md-end text-center">
-          <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-            <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+<?php include 'footer.php'; ?>
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>

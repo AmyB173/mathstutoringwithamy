@@ -6,6 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F23DT2TY7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -38,7 +39,7 @@
 
 <body>
   <!-- Navigation -->
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
   <!-- Hero Section -->
   <section class="hero-section">
     <div class="container">
@@ -60,21 +61,21 @@
           </div>
 
           <div class="mt-4">
-<a href="#message-recovery" class="btn btn-primary btn-lg">Message me to find out more</a>
+            <a href="#message-recovery" class="btn btn-primary btn-lg">Message me to find out more</a>
           </div>
-  <!-- Brief Amy Introduction Section -->
-<div class="warm-card mb-4 amy-intro-card mt-5">
-  <div class="row align-items-center">
-    <div class="col-md-8">
-      <h3 class="mb-2">Hi, I'm Amy</h3>
-      <p class="mb-0">I've been a maths teacher for 11 years. I'm now a specialist Edexcel GCSE and A Level Maths tutor.</p>
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="../assets/images/amy-white-trans-bg.png" alt="Amy - A Level Maths Specialist" 
-           class="img-fluid amy-intro-image" />
-    </div>
-  </div>
-</div>
+          <!-- Brief Amy Introduction Section -->
+          <div class="warm-card mb-4 amy-intro-card mt-5">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <h3 class="mb-2">Hi, I'm Amy</h3>
+                <p class="mb-0">I've been a maths teacher for 11 years. I'm now a specialist Edexcel GCSE and A Level Maths tutor.</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="../assets/images/amy-white-trans-bg.png" alt="Amy - A Level Maths Specialist"
+                  class="img-fluid amy-intro-image" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -580,19 +581,19 @@
       </div>
     </div>
   </section>
-    <!-- Contact Hero Section -->
+  <!-- Contact Hero Section -->
   <section class="" id="message-recovery">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h1 class="hero-title">Message me to find out more</h1>
           <p class="hero-subtitle">The easiest way to get in touch is via WhatsApp - just send me a quick message about your child's situation and I'll get back to you with next steps.</p>
-          
+
           <!-- WhatsApp Button -->
           <div class="text-center mb-4">
-            <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20the%20A%20Level%20recovery%20programme%20for%20my%20child" 
-               target="_blank" 
-               class="whatsapp-button">
+            <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20the%20A%20Level%20recovery%20programme%20for%20my%20child"
+              target="_blank"
+              class="whatsapp-button">
               <span class="whatsapp-icon">💬</span>
               Message me on WhatsApp
             </a>
@@ -641,56 +642,7 @@
   </section>
 
   <!-- Footer -->
-  <footer
-    style="background-color: var(--warm-white); box-shadow: 0 -2px 20px rgba(0,0,0,0.08); border-top: 1px solid rgba(0,0,0,0.1);">
-    <div class="container py-4">
-      <div class="row align-items-center">
-        <!-- Logo and Brand -->
-        <div class="col-md-4">
-          <div class="d-flex align-items-center mb-3 mb-md-0">
-            <img src="./assets/images/logo-red.png" height="40" alt="Maths Tutoring with Amy" class="me-3" />
-            <div>
-              <div class="logo-words" style="font-size: 18px;">Maths Tutoring with Amy</div>
-              <p class="mb-0 small text-muted">© 2025 All rights reserved</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="col-md-4 text-center">
-          <div class="mb-2">
-            <span style="color: var(--warm-dark); font-weight: 500;">contact@mathstutoringwithamy.co.uk</span>
-          </div>
-          <a href="privacy.html" class="text-decoration-none"
-            style="color: var(--warm-dark); font-weight: 500; transition: color 0.3s ease;">Privacy Policy</a>
-        </div>
-
-        <!-- Social Links -->
-        <div class="col-md-4 text-md-end text-center">
-          <div class="d-flex justify-content-center justify-content-md-end align-items-center">
-            <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank"
-              style="color: var(--warm-dark); font-size: 1.5rem; margin: 0 10px; transition: all 0.3s ease; text-decoration: none;"
-              onmouseover="this.style.color='var(--brand-red)'; this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.color='var(--warm-dark)'; this.style.transform='translateY(0)'">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+<?php include 'footer.php'; ?>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
@@ -701,7 +653,7 @@
   <script>
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
+      anchor.addEventListener('click', function(e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {

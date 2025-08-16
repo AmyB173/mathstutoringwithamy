@@ -242,43 +242,22 @@
   <!-- Pricing -->
   <section class="section fade-in" style="background: var(--warm-cream);">
     <div class="container">
-      <div class="row align-items-start">
-        <div class="col-lg-5 warm-card">
-          <div class="pricing-table">
-            <div class="pricing-header">
-              <h4 class="mb-0">Lesson Pricing (55 minutes)</h4>
-            </div>
-            <div class="pricing-row">
-              <span>GCSE 1:1</span>
-              <span class="price-amount">£75/lesson</span>
-            </div>
-            <div class="pricing-row">
-              <span>A Level 1:1</span>
-              <span class="price-amount">£85/lesson</span>
-            </div>
-            <div class="pricing-row">
-              <span>GCSE Small Group</span>
-              <span class="price-amount">£40/lesson</span>
-            </div>
-            <div class="pricing-row">
-              <span>A Level Small Group</span>
-              <span class="price-amount">£50/lesson</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="warm-card">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mb-4">Flexible Tutoring Options</h2>
 
+          <p class="lead mb-4">Tutoring from £40 per lesson, with options for both 1:1 and small group sessions to suit different learning styles and budgets.</p>
+
+          <div class="mb-4">
             <p><strong>Trial period:</strong> First lessons can be booked individually to ensure it's the right fit.</p>
-
-            <p><strong>Ongoing lessons:</strong> Once your child is happy, I'll book you into my weekly calendar. Lessons are invoiced monthly in advance on the 1st.</p>
-
-            <p><strong>Cancellations:</strong> 1:1 lessons need 48 hours notice. Group lessons can't be cancelled but are recorded if missed.</p>
-
-            <p><strong>My guarantee:</strong> I only want students who love their tutoring so in the unlikely event that you wish to cancel, any unused lessons will be refunded, no questions asked.</p>
+            <p><strong>Ongoing lessons:</strong> Once your child is happy, I'll book you into my weekly calendar with monthly invoicing.</p>
+            <p><strong>My guarantee:</strong> I only want students who love their tutoring - any unused lessons will be refunded, no questions asked.</p>
           </div>
+
+
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -336,7 +315,7 @@
   </div>
 
   <!-- Footer -->
-<?php include 'footer.php'; ?>
+  <?php include 'footer.php'; ?>
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>

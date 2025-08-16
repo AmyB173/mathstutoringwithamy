@@ -1436,3 +1436,68 @@ footer {
   font-style: normal;
   color: var(--warm-dark);
 }
+
+
+/* ---------------------------------------------------- 
+   GCSE PAGE - SIMPLE BLOCK DESIGN
+   ---------------------------------------------------- */
+
+.simple-content-section {
+    padding: 80px 0;
+    background-color: var(--warm-white);
+}
+
+.intro-text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+}
+
+.outcomes-list {
+    list-style: '✓ ';
+    padding-left: 1.5rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.outcomes-list li {
+    padding-left: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.info-box {
+    padding: 2rem;
+    border-radius: 16px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+.info-box h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* Color Variants */
+.info-box-purple {
+    background-color: var(--warm-purple);
+    color: white;
+}
+
+.info-box-green {
+    background-color: var(--success-green);
+    color: var(--warm-dark);
+}
+
+.info-box-blue {
+    background-color: var(--warm-blue);
+    color: white;
+}

@@ -281,9 +281,9 @@
         <!-- Review Screenshot 1 -->
         <div class="col-md-6">
           <div class="testimonial-card">
-            <img src="./assets/images/fb-review-sq.png" alt="Review from parent of GCSE student"
+            <img src="./assets/images/testimonials/fb-review-sq.png" alt="Review from parent of GCSE student"
               class="img-fluid d-none d-lg-block" style="border-radius: 12px; width: 100%;" />
-            <img src="./assets/images/fb-review-sq-phone.png" alt="Review from parent of GCSE student"
+            <img src="./assets/images/testimonials/fb-review-sq-phone.png" alt="Review from parent of GCSE student"
               class="img-fluid d-lg-none" style="border-radius: 12px; width: 100%;" />
             <div class="mt-3">
               <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">
@@ -296,9 +296,9 @@
         <!-- Review Screenshot 2 -->
         <div class="col-md-6">
           <div class="testimonial-card">
-            <img src="./assets/images/fb-review-jm.png" alt="Review from A-Level math student"
+            <img src="./assets/images/testimonials/fb-review-jm.png" alt="Review from A-Level math student"
               class="img-fluid d-none d-lg-block" style="border-radius: 12px; width: 100%;" />
-            <img src="./assets/images/fb-review-jm-phone.png" alt="Review from A-Level math student"
+            <img src="./assets/images/testimonials/fb-review-jm-phone.png" alt="Review from A-Level math student"
               class="img-fluid d-lg-none" style="border-radius: 12px; width: 100%;" />
             <div class="mt-3">
               <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">

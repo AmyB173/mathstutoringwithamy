@@ -36,37 +36,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="./assets/images/logo-red.png" height="40" alt="Maths tutoring with Amy logo" class="me-2" />
-        <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
-      </a>
-      <a href="contact.html" class="btn btn-primary d-lg-none">Book</a>
-
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-4">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Learn More About Us</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="framework-values.html">Framework and Values</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary d-none d-lg-block">Book a Free Consultation</a>
-      </div>
-    </div>
-  </nav>
+  <?php include 'navbar.php'; ?>
 
   <!-- Hero Section -->
   <section class="hero-section">

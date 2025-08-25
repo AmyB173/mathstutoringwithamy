@@ -120,6 +120,10 @@ h5 {
   background-color: var(--warm-background);
 }
 
+.bg-warm-cream {
+  background-color: var(--warm-cream);
+}
+
 .bg-accent-light {
   background-color: #f0e6fc;
   border-top: 1px solid #e2d5f8;
@@ -1500,4 +1504,62 @@ footer {
 .info-box-blue {
     background-color: var(--warm-blue);
     color: white;
+}
+
+
+
+/* =========================================== New Styles for Calculator Guide Page ===== */
+
+/* Hero Section Subtitle */
+.hero-section-v3 .lead {
+  opacity: 0.9;
+}
+
+/* Teacher Profile Image */
+.teacher-profile-img {
+  max-width: 250px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* "Clock is ticking" Section Paragraph */
+.intro-paragraph {
+    line-height: 1.7;
+}
+
+/* Transformation Card Icons */
+.transformation-card .fa-times-circle {
+  color: var(--soft-coral);
+}
+.transformation-card .fa-check-circle {
+  color: var(--warm-blue);
+}
+
+/* "Did You Know" Section Images */
+.feature-image {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Download Form Section */
+.bg-light-gold {
+  background-color: var(--light-gold);
+}
+
+.download-form-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--warm-white);
+}
+
+/* Gradient background for sections */
+.bg-hero-gradient {
+    background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
+}
+
+/* Ensures text is readable on the new gradient background */
+.bg-hero-gradient h2,
+.bg-hero-gradient .lead {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }

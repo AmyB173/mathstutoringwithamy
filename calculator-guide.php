@@ -86,7 +86,7 @@
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <h2>A Quick Message From Your Teacher</h2>
                     <p class="text-secondary">Hi, I'm Amy. As an Edexcel A-Level teacher with over 11 years of experience, I've seen countless brilliant students lose marks not from a lack of knowledge, but from small, preventable errors under exam pressure.</p>
-                    <p class="text-secondary">I created this guide because mastering these calculator skills is the single fastest way to protect your grades and boost your confidence. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
+                    <p class="text-secondary">I created this guide because knowing your calculator inside out saves you so much time and can help you avoid easy errors. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
                 </div>
             </div>
         </div>

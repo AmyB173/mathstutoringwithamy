@@ -1,5 +1,5 @@
 <?php 
-// --- Temporary Error Reporting (to find the problem) ---
+// --- Temporary Error Reporting ---
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -27,10 +27,17 @@ try {
             'quantity' => 1,
         ]],
         'mode' => 'subscription',
+        
+        // --- THIS IS THE FIX ---
+        // The 'cancel_at' parameter goes here, at the main level,
+        // NOT inside 'subscription_data'.
+        'cancel_at' => $cancellation_date,
+
         'subscription_data' => [
             'billing_cycle_anchor' => $billing_cycle_anchor,
-            'cancel_at' => $cancellation_date,
         ],
+        // -----------------------
+
         'success_url' => 'https://www.mathstutoringwithamy.co.uk/success.php?session_id={CHECKOUT_SESSION_ID}',
         'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',
     ]);
@@ -40,10 +47,8 @@ try {
     header("Location: " . $checkout_session->url);
 
 } catch (\Stripe\Exception\ApiErrorException $e) {
-    // More specific error handling for Stripe errors
     echo "Stripe API Error: " . $e->getMessage();
 } catch (Error $e) {
-    // General error handling
     echo "Error: " . $e->getMessage();
 }
 ?>

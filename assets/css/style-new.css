@@ -86,44 +86,6 @@ h5 {
 }
 
 /* Colouring */
-.bg-off-white {
-  background-color: var(--color-light);
-}
-
-.bg-purple-white {
-  background-color: var(--color-purple-light);
-  position: relative;
-}
-
-.bg-purple-white::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0z' fill='%23f8f9fa' fill-opacity='0.4'/%3E%3C/svg%3E");
-  opacity: 0.3;
-  z-index: -1;
-}
-
-.bg-calm-blue {
-  background-color: var(--calm-blue);
-  color: white;
-}
-
-.bg-grey {
-  background-color: #E3E8E1;
-}
-
-.bg-warm {
-  background-color: var(--warm-background);
-}
-
-.bg-warm-cream {
-  background-color: var(--warm-cream);
-}
-
 .bg-accent-light {
   background-color: #f0e6fc;
   border-top: 1px solid #e2d5f8;
@@ -140,39 +102,6 @@ h5 {
 
 .brand-light-blue-text {
   color: #a0d8ff;
-}
-
-/* Fun text effects */
-.wavy-underline {
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--color-accent);
-}
-
-.brush-stroke {
-  background: var(--color-accent);
-  padding: 2px 8px;
-  display: inline;
-  border-radius: 8px;
-}
-
-@media (min-width: 768px) {
-  .brush-stroke {
-    padding: 5px 10px;
-  }
-}
-
-.brush-stroke-light-blue {
-  background: #a0d8ff;
-  padding: 2px 8px;
-  display: inline;
-  border-radius: 8px;
-}
-
-.text-outline {
-  -webkit-text-stroke: 1px #58b1f1;
-  /* Adjust width and color as needed */
-
 }
 
 /* Button styling */
@@ -683,10 +612,6 @@ footer {
 }
 
 /* Review Board Section Styles */
-.review-board {
-  margin-top: 2rem;
-}
-
 .review-screenshot-card {
   position: relative;
   border-radius: 12px;
@@ -700,39 +625,6 @@ footer {
 .review-screenshot-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.review-screenshot {
-  border-radius: 12px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.review-source {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-}
-
-.review-source .badge {
-  font-size: 0.8rem;
-  padding: 0.5rem 0.8rem;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Optional: Add a subtle overlay to make the badges more readable */
-.review-screenshot-card::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.15), transparent);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
 }
 
 /* Mobile responsive adjustments */
@@ -753,22 +645,6 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.review-screenshot-card:nth-child(1) {
-  animation-delay: 0.1s;
-}
-
-.review-screenshot-card:nth-child(2) {
-  animation-delay: 0.3s;
-}
-
-.review-screenshot-card:nth-child(3) {
-  animation-delay: 0.5s;
-}
-
-.review-screenshot-card:nth-child(4) {
-  animation-delay: 0.7s;
 }
 
 /* Form enhancements */
@@ -910,14 +786,6 @@ footer {
   margin-bottom: 2rem;
 }
 
-/* Standardize info icons */
-.info-icon {
-  width: 70px; /* Slightly smaller than 80px */
-  height: 70px;
-  font-size: 1.75rem; /* More proportional to icon size */
-  margin-bottom: 1.5rem;
-}
-
 /* Consistent card padding and margins */
 .warm-card {
   padding: 2rem; /* Keep existing */
@@ -957,40 +825,6 @@ footer {
   line-height: 1.5;
 }
 
-/* Pricing table improvements */
-.pricing-header h4 {
-  font-size: 1.25rem; /* Consistent h5 size */
-  margin-bottom: 0;
-}
-
-.pricing-row {
-  font-size: 1rem; /* Consistent body text */
-  padding: 1rem; /* Match existing */
-}
-
-.price-amount {
-  font-size: 1.125rem; /* Slightly larger than body */
-}
-
-/* Equipment grid consistency */
-.equipment-item {
-  padding: 1.5rem; /* Match existing */
-}
-
-.equipment-icon {
-  font-size: 2.5rem; /* More proportional */
-  margin-bottom: 1rem;
-}
-
-.equipment-item h6 {
-  font-size: 1rem; /* Consistent with body */
-  margin-bottom: 0.5rem;
-}
-
-.equipment-item p {
-  font-size: 0.875rem; /* Existing small text size */
-}
-
 /* Button consistency */
 .whatsapp-button {
   padding: 1rem 1.5rem; /* More consistent with existing buttons */
@@ -1000,13 +834,6 @@ footer {
 
 .whatsapp-icon {
   font-size: 1.125rem; /* Slightly larger than text */
-}
-
-/* Profile card in welcome section */
-.profile-image {
-  width: 120px; /* Slightly smaller for better proportion */
-  height: 120px;
-  margin-bottom: 1rem;
 }
 
 /* Responsive adjustments */
@@ -1027,12 +854,6 @@ footer {
     font-size: 1.875rem; /* Proportional reduction */
   }
   
-  .info-icon {
-    width: 60px;
-    height: 60px;
-    font-size: 1.5rem;
-  }
-  
   .warm-card {
     padding: 1.5rem; /* Existing mobile padding */
   }
@@ -1043,48 +864,11 @@ footer {
   }
 }
 
-/* Additional improvements for readability */
-.illustration-card {
-  padding: 2rem; /* Match warm-card */
-  text-align: center;
-  height: 100%;
-}
-
-.illustration-card .icon {
-  font-size: 2.5rem; /* Match equipment icons */
-  margin-bottom: 1rem;
-}
-
-.illustration-card h5 {
-  font-size: 1.125rem;
-  margin-bottom: 0.75rem;
-}
-
-.illustration-card p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.illustration-card .note {
-  background: var(--warm-white);
-  padding: 0.75rem;
-  border-radius: 8px;
-  margin-top: 1rem;
-  font-size: 0.875rem;
-}
 /* ===== MINIMAL CLEAN ADDITIONS ===== */
 
 /* Remove any special styling for qualification items - use simple paragraphs */
 .qualification-item {
   margin-bottom: 1rem;
-}
-
-/* Simple testimonial styling within content */
-.testimonial-inline {
-  font-style: italic;
-  border-left: 3px solid var(--warm-blue);
-  padding-left: 1rem;
-  margin: 1.5rem 0;
 }
 
 /* Responsive image sizing */

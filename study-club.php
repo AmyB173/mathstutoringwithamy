@@ -142,8 +142,8 @@
                     <div class="d-flex">
                         <img src="./assets/images/1.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
-                            <h5 class="fw-bold">Weekly Live Masterclasses</h5>
-                            <p class="mb-0">60-minute live sessions breaking down the most challenging A Level topics into clear, understandable concepts so you finally understand it completely</p>
+                            <h5 class="fw-bold">Weekly Live Masterclass</h5>
+                            <p class="mb-0">60-minute live session breaking down the most challenging A Level topics into clear, understandable concepts so you finally understand it completely</p>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <div class="d-flex">
                          <img src="./assets/images/3.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
-                            <h5 class="fw-bold">Weekly Q&A Evenings</h5>
+                            <h5 class="fw-bold">Weekly Q&A Evening</h5>
                             <p class="mb-0">Get your specific homework or revision questions answered, receive feedback on your work, and get reassurance when self-doubt hits.</p>
                         </div>
                     </div>
@@ -245,8 +245,8 @@
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <h2>A Quick Message From Your Teacher</h2>
-                    <p class="text-secondary">Hi, I'm Amy. As an Edexcel A Level teacher with over 11 years of experience, I've seen countless brilliant students lose marks not from a lack of knowledge, but from small, preventable errors under exam pressure.</p>
-                    <p class="text-secondary">I created this guide because knowing your calculator inside out saves you so much time and can help you avoid easy errors. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
+                    <p class="text-secondary">Hi, I'm Amy. As an Edexcel A Level teacher with over 11 years of experience, I've seen countless brilliant students not get the right guidance to achieve the grades they deserve</p>
+                    <p class="text-secondary">That's why I created the Study Club - to provide the expert guidance, mindset support, and community that students need to not just survive A Level Maths, but truly thrive and achieve their dream grades.</p>
                 </div>
             </div>
         </div>

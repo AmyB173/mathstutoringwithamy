@@ -1,12 +1,24 @@
-Header always set Content-Security-Policy: upgrade-insecure-requests
-default-src 'self' script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js, https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js, https://kit.fontawesome.com/9f7f10393d.js, https://assets.flodesk.com
+# Set a Content Security Policy
+# Note: This is a basic policy. You may need to add more sources (e.g., for fonts, styles).
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://kit.fontawesome.com https://assets.flodesk.com; upgrade-insecure-requests"
 
-
+# Ensure server correctly identifies XML files
 AddType application/xml xml
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^mathstutoringwithamy.co.uk [NC]
-RewriteRule ^(.*)$ http://www.mathstutoringwithamy.co.uk [L,R=301]
 
-RewriteCond %{HTTP_HOST} ^mathstutoringwithamy.co.uk/contact.html [NC]
-RewriteRule ^(.*)$ http://www.mathstutoringwithamy.co.uk/contact.html [L,R=301]
+# 1. Force HTTPS and www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [L,R=301,NE]
+
+# 2. Redirect from .php URL to the clean URL (for SEO and bookmarks)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# 3. Internally rewrite the clean URL to the .php file on the server
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

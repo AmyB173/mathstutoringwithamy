@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and excel with weekly masterclasses, mindset sessions, and unlimited Q&A support." />
+        content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and succeed with weekly masterclasses, mindset sessions, and unlimited Q&A support." />
     <title>Study Club | A Level Maths Tutoring | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
@@ -65,21 +65,19 @@
             src="https://www.facebook.com/tr?id=1237029190796334&ev=PageView&noscript=1" /></noscript>
 </head>
 
-<body>
-    <?php include 'navbar.php'; ?>
-
-    <section class="hero-section hero-section-study-hub">
+<body class="pt-0">
+    <section class="hero-section hero-section-study-hub mt-0">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
 
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <h1 class="hero-title">Why stress about <u>A-Level Maths</u> when you could be getting the <u>support you need</u> and the <u>grades you deserve?</u></h1>
-                            <h3 class="hero-kicker fs-1">The A-Level Maths Study Club</h3>
-                            <p class="hero-subtitle">Stop trying to figure it all out alone. The Study Club provides the three things you're missing: <strong>expert tutoring to clarify tough concepts</strong>, a <strong>supportive community</strong> of fellow students, and <strong>weekly personalised help with our QnA evenings</strong> so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
+                            <h1 class="hero-title">Succeed in A Level Maths: Get the Support You Need and the Grades You Deserve</h1>
+                            <h3 class="hero-kicker fs-1">The A Level Maths Study Club</h3>
+                            <p class="hero-subtitle">The Study Club gives you live expert tutoring, a supportive community of fellow students, and weekly personalised help with our Q&A evenings so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
                             <div class="text-center text-lg-start mb-4">
-                                <a href="#pricing" class="btn btn-bright-pink btn-lg">JOIN NOW for better grades 🎉</a>
+                                <a href="#pricing" class="btn btn-bright-pink btn-lg">See Pricing and Join 🎉</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -91,21 +89,23 @@
         </div>
     </section>
 
-    <section class="section fade-in" style="background: var(--warm-white);">
+    <section class="section fade-in" style="background: var(--warm-cream);">
         <div class="container">
             <div class="section-title">
                 <h2>Is the Study Club Right For You?</h2>
-                <p>The Study Club was built to help motivated students like you finally see the results you deserve.</p>
+       
             </div>
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-4 text-center">
-                    <img src="./assets/images/amy-white-top.jpg" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.12); max-width: 300px; margin-bottom: 2rem;">
+            
+            <div class="col-lg-4 text-center">
+                    <img src="./assets/images/video-placeholder.png" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.12); max-width: 300px; margin-bottom: 2rem;">
                 </div>
                 <div class="col-lg-6">
+                             <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>
                     <ul class="fa-ul" style="font-size: 1.1rem; list-style-position: outside;">
                         <li class="mb-3">
                             <span class="fa-li"><i class="fas fa-check-circle" style="color: var(--success-green);"></i></span>
-                            You're in <strong>Year 13 studying Edexcel A-Level Maths</strong> and need the right support to get your dream grades.
+                            You're in <strong>Year 13 studying Edexcel A Level Maths</strong> and need the right support to get your dream grades.
                         </li>
                         <li class="mb-3">
                             <span class="fa-li"><i class="fas fa-check-circle" style="color: var(--success-green);"></i></span>
@@ -124,40 +124,41 @@
                             You're <strong>ready to put the work in</strong> to get to the next level, but just need someone to help you get there.
                         </li>
                     </ul>
+                    <p class="mt-4"><span class="fs-3">And if we're being honest, this isn't just about the grade itself.</span> It's the frustrating feeling of putting in hours of work without seeing results, the stress of falling behind, and the worry that you might not get into your first-choice university. The gap between where you are and where you want to be can feel overwhelming.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section fade-in" style="background-color: #f0e6fc;">
+    <section class="section fade-in bg-accent-light">
         <div class="container">
             <div class="section-title">
-                <h2>Everything You Need for A-Level Maths Success</h2>
-                <p>The Study Club combines expert teaching, mindset coaching, and dedicated support to give you an unbeatable advantage.</p>
+                <h2>Everything You Need for A Level Maths Success</h2>
+                <p>The Study Club combines expert teaching, mindset support, and dedicated community to give you everything you need to get your dream grade</p>
             </div>
 
             <div class="row g-5">
                 <div class="col-md-6">
                     <div class="d-flex">
-                        <i class="far fa-desktop fa-2x me-4" style="color: var(--warm-blue);"></i>
+                        <img src="./assets/images/1.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Weekly Live Masterclasses</h5>
-                            <p class="mb-0">60-minute live sessions breaking down the most challenging A-Level topics into clear, understandable concepts so you finally "get it."</p>
+                            <p class="mb-0">60-minute live sessions breaking down the most challenging A Level topics into clear, understandable concepts so you finally understand it completely</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                        <i class="far fa-cogs fa-2x me-4" style="color: var(--warm-blue);"></i>
+                         <img src="./assets/images/2.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
-                            <h5 class="fw-bold">Weekly Mindset & Technique Sessions</h5>
-                            <p class="mb-0">30-minute sessions focused on proven exam techniques, study skills, and mindset support to tackle perfectionism and build true confidence.</p>
+                            <h5 class="fw-bold">Regular mindset and study skills support</h5>
+                            <p class="mb-0">Support focused on proven exam techniques, study skills, and mindset reframing to tackle perfectionism and build true confidence.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                        <i class="far fa-question-circle fa-2x me-4" style="color: var(--warm-blue);"></i>
+                         <img src="./assets/images/3.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Weekly Q&A Evenings</h5>
                             <p class="mb-0">Get your specific homework or revision questions answered, receive feedback on your work, and get reassurance when self-doubt hits.</p>
@@ -166,10 +167,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                        <i class="far fa-layer-group fa-2x me-4" style="color: var(--warm-blue);"></i>
+                         <img src="./assets/images/4.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
-                            <h5 class="fw-bold">The F.I.R.E. Method Framework</h5>
-                            <p class="mb-0">Our structured framework (Foundation, Iterate, Revisit, Exam) ensures you build deep understanding and lasting confidence.</p>
+                            <h5 class="fw-bold">Supportive Community</h5>
+                            <p class="mb-0">A private community to connect with fellow students, share your struggles, and celebrate your wins.</p>
                         </div>
                     </div>
                 </div>
@@ -180,35 +181,41 @@
             </div>
 
             <div class="row g-4 justify-content-center">
+                <img src="./assets/images/6.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                 <div class="col-md-6 col-lg-4 text-center">
-                    <h5 class="fw-bold"><i class="far fa-video me-2"></i> Full Recordings Library</h5>
+                     
+                    <h5 class="fw-bold">Full Recordings Library</h5>
                     <p>Can't make a session? All masterclasses are recorded so you can catch up anytime.</p>
                 </div>
+                <img src="./assets/images/5.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                 <div class="col-md-6 col-lg-4 text-center">
-                    <h5 class="fw-bold"><i class="far fa-users me-2"></i> Private Community</h5>
-                    <p>A supportive space to connect with fellow students who understand the struggle.</p>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center">
-                    <h5 class="fw-bold"><i class="far fa-ticket-alt me-2"></i> Monthly Prize Draw</h5>
+                    <h5 class="fw-bold">Monthly Prize Draw</h5>
                     <p>Your chance to win a **FREE** 1:1 private tutoring session with me every month!</p>
                 </div>
             </div>
         </div>
     </section>
+
 <section id="pricing" class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
         <div class="section-title">
-            <h2>Invest in Your Confidence & Your Future</h2>
+            <h2>Invest in Yourself & Your Future</h2>
             <p>Secure your spot at an unbeatable price before the doors close.</p>
         </div>
         <div class="row justify-content-center align-items-center g-4">
             <div class="col-lg-5 col-md-6">
                 <div class="pricing-card featured">
                     <div class="badge">Founding Member Offer</div>
-                    <p class="mb-3">Strictly limited to the first 20 students!</p>
+                    <p class="mb-3">Strictly limited to the first 10 students!</p>
                     <p class="price">£35<small>/month</small></p>
-                    <a href="#call-to-action" class="btn btn-bright-pink btn-lg mt-4 mb-4">Secure My Spot Now</a>
-                    <ul class="list-unstyled text-start ps-3">
+                    <a href="YOUR_CHECKOUT_LINK_HERE" class="btn btn-bright-pink btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
+                    
+                    <div class="guarantee-box mt-3 text-center">
+                        <p class="fw-bold mb-1">⭐ The Confidence Boost Guarantee</p>
+                        <p class="small text-muted">Join the Study Club and attend your first live masterclass. If you don't feel more confident and clear on the topic, just send me an email within 24 hours and I'll issue a full, no-questions-asked refund.</p>
+                    </div>
+
+                    <ul class="list-unstyled text-start ps-3 mt-4">
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Live Masterclasses</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Mindset & Technique Sessions</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Q&A Evenings</li>
@@ -230,44 +237,22 @@
     </div>
 </section>
 
-
-<!-- <section class="section fade-in" style="background-color: #f0e6fc;">
-    <div class="container">
-        <div class="section-title">
-            <h2>Don't Just Take My Word For It</h2>
-            <p>Here's what other students have to say.</p>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4">
-                <div class="testimonial-card-new">
-                    <p>"This is a placeholder for a student testimonial. Amy's approach helped me finally understand topics I'd been stuck on for months. My confidence has skyrocketed!"</p>
-                    <div class="testimonial-author mt-3">
-                        - Sarah J, Achieved an A*
-                    </div>
+    <section class="section fade-in" style="background: var(--light-gold);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <img src="./assets/images/amy-white-top.jpg" alt="Amy, A Level Maths Teacher" class="img-fluid rounded-circle teacher-profile-img">
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="testimonial-card-new">
-                    <p>"Placeholder text. The weekly Q&A sessions were a game-changer. I never felt like I was studying alone and always had a place to get help when I needed it."</p>
-                    <div class="testimonial-author mt-3">
-                        - David L, Went from a C to an A
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="testimonial-card-new">
-                    <p>"Placeholder text. I used to dread maths, but the mindset sessions completely changed my perspective. I learned how to handle exam pressure without freezing up."</p>
-                    <div class="testimonial-author mt-3">
-                        - Chloe R, Secured her university offer
-                    </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <h2>A Quick Message From Your Teacher</h2>
+                    <p class="text-secondary">Hi, I'm Amy. As an Edexcel A Level teacher with over 11 years of experience, I've seen countless brilliant students lose marks not from a lack of knowledge, but from small, preventable errors under exam pressure.</p>
+                    <p class="text-secondary">I created this guide because knowing your calculator inside out saves you so much time and can help you avoid easy errors. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section> -->
+    </section>
 
-
-<section class="section fade-in" style="background: var(--warm-white);">
+<section class="section fade-in bg-accent-light">
     <div class="container">
         <div class="section-title">
             <h2>Frequently Asked Questions</h2>
@@ -281,15 +266,15 @@
                     </div>
                 </div>
                 <div class="faq-item">
-                    <h5 class="faq-question">How is this different from 1:1 private tutoring? <span class="arrow">▼</span></h5>
+                    <h5 class="faq-question">Is this better than 1:1 private tutoring? <span class="arrow">▼</span></h5>
                     <div class="faq-answer">
-                        <p>Study Club provides a more holistic and consistent support system. Instead of just one hour a week, you get multiple live sessions, mindset coaching, on-demand Q&A, and a community of fellow students, all for less than the price of a single private tutoring session.</p>
+                        <p>The Study Club offers many of the same benefits as 1:1 tutoring, such as expert guidance and personalised help, but at a more affordable price. Plus, you get the added bonus of a supportive community of fellow students who are on the same journey as you. If you feel you need more focused, one-on-one support, you can always contact me to discuss my 1:1 and small group tutoring options.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <h5 class="faq-question">Is the founding member price really limited? <span class="arrow">▼</span></h5>
                     <div class="faq-answer">
-                        <p>Yes, absolutely. The founding member price of £35/month is strictly limited to the first 20 students as a special reward for early adopters. Once these spots are filled, the price will increase to the standard £47/month.</p>
+                        <p>Yes, absolutely. The founding member price of £35/month is strictly limited to the first 10 students as a special reward for early adopters. Once these spots are filled, the price will increase to the standard £47/month.</p>
                     </div>
                 </div>
             </div>
@@ -298,32 +283,19 @@
 </section>
 
 
-<section id="call-to-action" class="section fade-in" style="background: var(--warm-dark);">
+<section id="call-to-action" class="section fade-in bg-hero-gradient">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-10 text-center text-white">
-                <h2 class="mb-4">Ready to Stop Struggling and Start Excelling?</h2>
-                <p class="lead mb-5" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A-Level Maths exams.</p>
+            <div class="col-lg-10 text-center">
+                <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
+                <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
                 <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
-                <a href="https://calendly.com/mathstutoringwithamy/study-hub-enquiry" target="_blank" class="btn btn-bright-pink btn-lg">Secure Your £35/month Spot Now 🎉</a>
-                <p class="mt-4 small text-white-50">Doors close soon. Click the button to express your interest and get joining details.</p>
+                <a href="YOUR_CHECKOUT_LINK_HERE" target="_blank" class="btn btn-bright-pink btn-lg">Join Now for just £35/month 🎉</a>
+                <p class="mt-4 small text-white-50">Doors close soon. Click the button to get instant access.</p>
             </div>
         </div>
     </div>
 </section>
-
-    <div class="whatsapp-float">
-        <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20Study%20Club%20for%20A%20Level%20Maths"
-            target="_blank"
-            class="whatsapp-float-button">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
-            </svg>
-        </a>
-    </div>
-    
-<?php include 'footer.php'; ?>
-
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -364,9 +336,9 @@
         // Navbar background on scroll
         window.addEventListener('scroll', () => {
             const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
+            if (navbar && window.scrollY > 50) {
                 navbar.style.backgroundColor = 'rgba(255, 252, 247, 0.95)';
-            } else {
+            } else if (navbar) {
                 navbar.style.backgroundColor = 'var(--warm-white)';
             }
         });

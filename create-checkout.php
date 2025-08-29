@@ -28,15 +28,14 @@ try {
         ]],
         'mode' => 'subscription',
         
-        // --- THIS IS THE FIX ---
-        // The 'cancel_at' parameter goes here, at the main level,
-        // NOT inside 'subscription_data'.
-        'cancel_at' => $cancellation_date,
-
+        // --- THIS IS THE CORRECT STRUCTURE ---
+        // Both billing anchor and cancel_at belong to the subscription,
+        // so they go inside the 'subscription_data' object.
         'subscription_data' => [
             'billing_cycle_anchor' => $billing_cycle_anchor,
+            'cancel_at' => $cancellation_date,
         ],
-        // -----------------------
+        // ------------------------------------
 
         'success_url' => 'https://www.mathstutoringwithamy.co.uk/success.php?session_id={CHECKOUT_SESSION_ID}',
         'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',

@@ -18,7 +18,7 @@ try {
             'billing_cycle_anchor' => $billing_cycle_anchor,
         ],
         // The success_url is now very important
-        'success_url' => 'https://www.mathstutoringwithamy.co.uk/success.php?session_id={CHECKOUT_SESSION_ID}',
+        'success_url' => 'https://www.mathstutoringwithamy.co.uk/success-study-club.php?session_id={CHECKOUT_SESSION_ID}',
         'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',
     ]);
 

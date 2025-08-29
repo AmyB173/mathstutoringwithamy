@@ -1,0 +1,5 @@
+# Ignore the configuration file containing secret keys
+config.php
+
+# Ignore the vendor directory to prevent library issues
+/vendor/

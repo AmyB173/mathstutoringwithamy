@@ -290,7 +290,11 @@
                 <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
                 <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
                 <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
-                <a href="YOUR_CHECKOUT_LINK_HERE" target="_blank" class="btn btn-bright-pink btn-lg">Join Now for just £35/month 🎉</a>
+                <form action="create-checkout.php" method="POST">
+    <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
+        Join Now & Secure My Spot
+    </button>
+</form>
                 <p class="mt-4 small text-white-50">Doors close soon. Click the button to get instant access.</p>
             </div>
         </div>

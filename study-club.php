@@ -93,15 +93,15 @@
         <div class="container">
             <div class="section-title">
                 <h2>Is the Study Club Right For You?</h2>
-       
+
             </div>
             <div class="row justify-content-center align-items-center">
-            
-            <div class="col-lg-4 text-center">
+
+                <div class="col-lg-4 text-center">
                     <img src="./assets/images/video-placeholder.png" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.12); max-width: 300px; margin-bottom: 2rem;">
                 </div>
                 <div class="col-lg-6">
-                             <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>
+                    <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>
                     <ul class="fa-ul" style="font-size: 1.1rem; list-style-position: outside;">
                         <li class="mb-3">
                             <span class="fa-li"><i class="fas fa-check-circle" style="color: var(--success-green);"></i></span>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                         <img src="./assets/images/2.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
+                        <img src="./assets/images/2.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Regular mindset and study skills support</h5>
                             <p class="mb-0">Support focused on proven exam techniques, study skills, and mindset reframing to tackle perfectionism and build true confidence.</p>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                         <img src="./assets/images/3.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
+                        <img src="./assets/images/3.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Weekly Q&A Evening</h5>
                             <p class="mb-0">Get your specific homework or revision questions answered, receive feedback on your work, and get reassurance when self-doubt hits.</p>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
-                         <img src="./assets/images/4.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
+                        <img src="./assets/images/4.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Supportive Community</h5>
                             <p class="mb-0">A private community to connect with fellow students, share your struggles, and celebrate your wins.</p>
@@ -183,7 +183,7 @@
             <div class="row g-4 justify-content-center">
                 <img src="./assets/images/6.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                 <div class="col-md-6 col-lg-4 text-center">
-                     
+
                     <h5 class="fw-bold">Full Recordings Library</h5>
                     <p>Can't make a session? All masterclasses are recorded so you can catch up anytime.</p>
                 </div>
@@ -196,46 +196,46 @@
         </div>
     </section>
 
-<section id="pricing" class="section fade-in" style="background: var(--warm-white);">
-    <div class="container">
-        <div class="section-title">
-            <h2>Invest in Yourself & Your Future</h2>
-            <p>Secure your spot at an unbeatable price before the doors close.</p>
-        </div>
-        <div class="row justify-content-center align-items-center g-4">
-            <div class="col-lg-5 col-md-6">
-                <div class="pricing-card featured">
-                    <div class="badge">Founding Member Offer</div>
-                    <p class="mb-3">Strictly limited to the first 10 students!</p>
-                    <p class="price">£35<small>/month</small></p>
-                    <a href="YOUR_CHECKOUT_LINK_HERE" class="btn btn-bright-pink btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
-                    
-                    <div class="guarantee-box mt-3 text-center">
-                        <p class="fw-bold mb-1">⭐ The Confidence Boost Guarantee</p>
-                        <p class="small text-muted">Join the Study Club and attend your first live masterclass. If you don't feel more confident and clear on the topic, just send me an email within 24 hours and I'll issue a full, no-questions-asked refund.</p>
-                    </div>
+    <section id="pricing" class="section fade-in" style="background: var(--warm-white);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Invest in Yourself & Your Future</h2>
+                <p>Secure your spot at an unbeatable price before the doors close.</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-4">
+                <div class="col-lg-5 col-md-6">
+                    <div class="pricing-card featured">
+                        <div class="badge">Founding Member Offer</div>
+                        <p class="mb-3">Strictly limited to the first 10 students!</p>
+                        <p class="price">£35<small>/month</small></p>
+                        <a href="YOUR_CHECKOUT_LINK_HERE" class="btn btn-bright-pink btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
 
-                    <ul class="list-unstyled text-start ps-3 mt-4">
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Live Masterclasses</li>
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Mindset & Technique Sessions</li>
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Q&A Evenings</li>
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Full Recordings Library</li>
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Private Student Community</li>
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Monthly 1:1 Tutoring Prize Draw</li>
-                    </ul>
+                        <div class="guarantee-box mt-3 text-center">
+                            <p class="fw-bold mb-1">⭐ The Confidence Boost Guarantee</p>
+                            <p class="small text-muted">Join the Study Club and attend your first live masterclass. If you don't feel more confident and clear on the topic, just send me an email within 24 hours and I'll issue a full, no-questions-asked refund.</p>
+                        </div>
+
+                        <ul class="list-unstyled text-start ps-3 mt-4">
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Live Masterclasses</li>
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Mindset & Technique Sessions</li>
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Q&A Evenings</li>
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Full Recordings Library</li>
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Private Student Community</li>
+                            <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Monthly 1:1 Tutoring Prize Draw</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="pricing-card">
-                    <p class="fw-bold fs-5 mb-1">Standard Membership</p>
-                    <p class="text-muted small">The price after the founding offer ends.</p>
-                    <p class="price" style="color: #999;">£47<small>/month</small></p>
-                     <p class="mt-4 mb-4 text-muted">Includes all the same features as the Founding Membership.</p>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <p class="fw-bold fs-5 mb-1">Standard Membership</p>
+                        <p class="text-muted small">The price after the founding offer ends.</p>
+                        <p class="price" style="color: #999;">£47<small>/month</small></p>
+                        <p class="mt-4 mb-4 text-muted">Includes all the same features as the Founding Membership.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section class="section fade-in" style="background: var(--light-gold);">
         <div class="container">
@@ -252,54 +252,54 @@
         </div>
     </section>
 
-<section class="section fade-in bg-accent-light">
-    <div class="container">
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="faq-item">
-                    <h5 class="faq-question">What if I can't make a live session? <span class="arrow">▼</span></h5>
-                    <div class="faq-answer">
-                        <p>All live masterclasses and mindset sessions are recorded and uploaded to the Club within 24 hours. You can catch up whenever it suits you and ask any questions in our community or the next Q&A session.</p>
+    <section class="section fade-in bg-accent-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="faq-item">
+                        <h5 class="faq-question">What if I can't make a live session? <span class="arrow">▼</span></h5>
+                        <div class="faq-answer">
+                            <p>All live masterclasses and mindset sessions are recorded and uploaded to the Club within 24 hours. You can catch up whenever it suits you and ask any questions in our community or the next Q&A session.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="faq-item">
-                    <h5 class="faq-question">Is this better than 1:1 private tutoring? <span class="arrow">▼</span></h5>
-                    <div class="faq-answer">
-                        <p>The Study Club offers many of the same benefits as 1:1 tutoring, such as expert guidance and personalised help, but at a more affordable price. Plus, you get the added bonus of a supportive community of fellow students who are on the same journey as you. If you feel you need more focused, one-on-one support, you can always contact me to discuss my 1:1 and small group tutoring options.</p>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Is this better than 1:1 private tutoring? <span class="arrow">▼</span></h5>
+                        <div class="faq-answer">
+                            <p>The Study Club offers many of the same benefits as 1:1 tutoring, such as expert guidance and personalised help, but at a more affordable price. Plus, you get the added bonus of a supportive community of fellow students who are on the same journey as you. If you feel you need more focused, one-on-one support, you can always contact me to discuss my 1:1 and small group tutoring options.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="faq-item">
-                    <h5 class="faq-question">Is the founding member price really limited? <span class="arrow">▼</span></h5>
-                    <div class="faq-answer">
-                        <p>Yes, absolutely. The founding member price of £35/month is strictly limited to the first 10 students as a special reward for early adopters. Once these spots are filled, the price will increase to the standard £47/month.</p>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Is the founding member price really limited? <span class="arrow">▼</span></h5>
+                        <div class="faq-answer">
+                            <p>Yes, absolutely. The founding member price of £35/month is strictly limited to the first 10 students as a special reward for early adopters. Once these spots are filled, the price will increase to the standard £47/month.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<section id="call-to-action" class="section fade-in bg-hero-gradient">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 text-center">
-                <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
-                <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
-                <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
-                <form action="create-checkout.php" method="POST">
-    <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
-        Join Now & Secure My Spot
-    </button>
-</form>
-                <p class="mt-4 small text-white-50">Doors close soon. Click the button to get instant access.</p>
+    <section id="call-to-action" class="section fade-in bg-hero-gradient">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
+                    <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
+                    <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
+                    <form action="create-checkout.php" method="POST">
+                        <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
+                            Join Now & Secure My Spot
+                        </button>
+                    </form>
+                    <p class="mt-4 small text-white-50">Doors close soon. Click the button to get instant access.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

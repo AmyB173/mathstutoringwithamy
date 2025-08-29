@@ -61,55 +61,30 @@
   <!-- Links Section -->
   <section class="section fade-in" style="background: var(--warm-white);">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-6">
-          <div class="row g-4">
-            
-            <!-- Free Guide Link -->
-            <div class="col-12">
-              <a href="/landing/5-critical-mistakes.html" class="link-card d-block text-decoration-none">
-                <div class="link-card-icon icon-guide">
-                  <i class="fa-solid fa-file-lines"></i>
+        <div class="row mt-5">
+            <div class="col-lg-4 mb-4">
+                <div class="info-box info-box-purple">
+                    <h4>The Ultimate A Level Maths Calculator Guide</h4>
+                    <p>A Level Maths Calculators are amazing - so make sure you know how to use them for the exam!</p>
+                    <img src="./assets/images/calc-guide-mockup2.png" alt="Calculator Guide Cover" class="img-fluid mt-2 mb-2" />
+                    <a href="calculator-guide" class="btn btn-light mt-3">Free Download</a>
                 </div>
-                <h3 class="h5 fw-bold mb-2 text-center">Free A Level Guide</h3>
-                <p class="text-center mb-3">5 Critical Mistakes That Failing A Level Students Make</p>
-                <div class="text-center">
-                  <span class="link-badge">Free Download</span>
-                </div>
-              </a>
             </div>
-
-            <!-- Recovery Programme Link -->
-            <div class="col-12">
-              <a href="./recovery.html" class="link-card d-block text-decoration-none">
-                <div class="link-card-icon icon-programme">
-                  <i class="fa-solid fa-chart-line"></i>
+            <div class="col-lg-4 mb-4">
+                <div class="info-box info-box-green">
+                    <h4>A Level Recovery Programme</h4>
+                    <p>The 12 Week A Level Recovery Programme for <strong>Year 12 students</strong> who are in need of a <strong>big turn around</strong></p>
+                    <a href="./recovery.php" class="btn btn-light mt-3">Intensive Support</a>
                 </div>
-                <h3 class="h5 fw-bold mb-2 text-center">A Level Recovery Programme</h3>
-                <p class="text-center mb-3">The 12 Week A Level Recovery Programme</p>
-                <div class="text-center">
-                  <span class="link-badge">Intensive Support</span>
-                </div>
-              </a>
             </div>
-
-            <!-- GCSE Tutoring Link -->
-            <div class="col-12">
-              <a href="contact.html" class="link-card d-block text-decoration-none">
-                <div class="link-card-icon icon-gcse">
-                  <i class="fa-solid fa-calendar-check"></i>
+            <div class="col-lg-4 mb-4">
+                <div class="info-box info-box-blue">
+                    <h4>GCSE Tutoring</h4>
+                    <p>Looking for a GCSE tutor for your child in Year 10 or 11? Book a call here.</p>
+                     <a href="contact.php" class="btn btn-light mt-3">Free Consultation</a>
                 </div>
-                <h3 class="h5 fw-bold mb-2 text-center">GCSE Tutoring</h3>
-                <p class="text-center mb-3">Looking for a GCSE tutor for your child in Year 10 or 11? Book a call here.</p>
-                <div class="text-center">
-                  <span class="link-badge">Free Consultation</span>
-                </div>
-              </a>
             </div>
-
-          </div>
         </div>
-      </div>
     </div>
   </section>
 
@@ -126,14 +101,14 @@
       <div class="row g-4">
         <!-- Review Screenshot 1 -->
         <div class="col-md-6">
-          <div class="review-screenshot-card">
-            <img src="./assets/images/fb-review-sq.png" alt="Review from parent of GCSE student"
+          <div class="testimonial-card">
+            <img src="./assets/images/testimonials/fb-review-sq.png" alt="Review from parent of GCSE student"
               class="img-fluid review-screenshot d-none d-lg-block" />
-            <img src="./assets/images/fb-review-sq-phone.png" alt="Review from parent of GCSE student"
+            <img src="./assets/images/testimonials/fb-review-sq-phone.png" alt="Review from parent of GCSE student"
               class="img-fluid review-screenshot d-lg-none" />
-            <div class="review-source">
-              <span class="badge bg-light text-dark">
-                <i class="fa-brands fa-facebook me-1"></i> Facebook Review
+            <div class="mt-3">
+              <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">
+                <i class="fab fa-facebook me-1"></i> Facebook Review
               </span>
             </div>
           </div>
@@ -141,14 +116,14 @@
 
         <!-- Review Screenshot 2 -->
         <div class="col-md-6">
-          <div class="review-screenshot-card">
-            <img src="./assets/images/fb-review-jm.png" alt="Review from A-Level math student"
+          <div class="testimonial-card">
+            <img src="./assets/images/testimonials/fb-review-jm.png" alt="Review from A-Level math student"
               class="img-fluid review-screenshot d-none d-lg-block" />
-            <img src="./assets/images/fb-review-jm-phone.png" alt="Review from A-Level math student"
+            <img src="./assets/images/testimonials/fb-review-jm-phone.png" alt="Review from A-Level math student"
               class="img-fluid review-screenshot d-lg-none" />
-            <div class="review-source">
-              <span class="badge bg-light text-dark">
-                <i class="fa-brands fa-facebook me-1"></i> Facebook Review
+            <div class="mt-3">
+              <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">
+                <i class="fab fa-facebook me-1"></i> Facebook Review
               </span>
             </div>
           </div>

@@ -3,3 +3,6 @@ config.php
 
 # Ignore the vendor directory to prevent library issues
 /vendor/
+
+# Ignore log files
+webhook_log.txt

@@ -14,7 +14,7 @@ try {
         'mode' => 'subscription',
         'allow_promotion_codes' => true,
         'success_url' => 'https://mathstutoringwithamy.co.uk/success-study-club?session_id={CHECKOUT_SESSION_ID}',
-        'cancel_url'  => '',
+        'cancel_url'  => 'https://mathstutoringwithamy.co.uk/study-club',
     ]);
 
     // Redirect user to Stripe Checkout

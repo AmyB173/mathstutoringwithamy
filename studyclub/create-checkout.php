@@ -2,7 +2,7 @@
 require_once('../vendor/autoload.php');
 require_once('../config.php');
 
-\Stripe\Stripe::setApiKey(STRIPE_API_KEY);
+\Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
 // ... billing cycle anchor logic ...
 
 try {

@@ -2,7 +2,7 @@
 require_once('../vendor/autoload.php');
 require_once('../config.php');
 
-\Stripe\Stripe::setApiKey(STRIPE_API_KEY);
+\Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
 
 $first_of_next_month = new DateTime('first day of next month');
 $billing_cycle_anchor = $first_of_next_month->getTimestamp();

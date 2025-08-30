@@ -11,16 +11,15 @@
 // -----------------------------------------------------------------------------
 // SECTION 1: INITIAL SETUP
 // -----------------------------------------------------------------------------
-// This section includes necessary files and configures the Stripe API.
 
 ini_set('error_log', __DIR__ . '/webhook_log.txt');
 
-// Loads the Stripe PHP library managed by Composer.
-require_once('../vendor/autoload.php');
-// Includes your configuration with API keys and product-specific IDs.
-require_once('../config.php');
-// Includes the functions to interact with MailerLite (both for groups and automations).
-require_once('email-handler.php');
+// Correct paths: Go up one directory from /study-hub/ to the top level
+require_once(__DIR__ . '/../vendor/autoload.php');
+require_once(__DIR__ . '/../config.php');
+
+// Correct path: Look inside the current /study-hub/ directory
+require_once(__DIR__ . '/email-handler.php');
 
 // Authenticates with the Stripe API using your secret key from config.php.
 \Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);

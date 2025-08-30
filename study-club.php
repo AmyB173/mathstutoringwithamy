@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and succeed with weekly masterclasses, mindset sessions, and unlimited Q&A support." />
+        content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and succeed with weekly masterclasses, mindset sessions, and Q&A support." />
     <title>Study Club | A Level Maths Tutoring | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
@@ -75,7 +75,7 @@
                         <div class="col-lg-8">
                             <h1 class="hero-title">Succeed in A Level Maths: Get the Support You Need and the Grades You Deserve</h1>
                             <h3 class="hero-kicker fs-1">The A Level Maths Study Club</h3>
-                            <p class="hero-subtitle">The Study Club gives you live expert tutoring, a supportive community of fellow students, and weekly personalised help with our Q&A evenings so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
+                            <p class="hero-subtitle">The Study Club gives you live expert tutoring, a supportive community of like-minded students, and weekly personalised help with our Q&A evenings so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
                             <div class="text-center text-lg-start mb-4">
                                 <a href="#pricing" class="btn btn-bright-pink btn-lg">See Pricing and Join 🎉</a>
                             </div>
@@ -170,7 +170,7 @@
                         <img src="./assets/images/4.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                         <div>
                             <h5 class="fw-bold">Supportive Community</h5>
-                            <p class="mb-0">A private community to connect with fellow students, share your struggles, and celebrate your wins.</p>
+                            <p class="mb-0">A private community to connect with other students like you, share your struggles, and celebrate your wins.</p>
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                     <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
                     <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
                     <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
-                    <form action="create-checkout.php" method="POST">
+                    <form action="studyclub/create-checkout.php" method="POST">
                         <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
                             Join Now & Secure My Spot
                         </button>

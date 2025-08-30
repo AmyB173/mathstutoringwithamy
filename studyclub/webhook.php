@@ -4,8 +4,8 @@ ini_set('error_log', __DIR__ . '/webhook_log.txt');
 // This script listens for notifications from Stripe and triggers actions accordingly.
 
 // Step 1: Include necessary files
-require_once('vendor/autoload.php');
-require_once('config.php'); // Contains your Stripe keys and webhook secret
+require_once('../vendor/autoload.php');
+require_once('../config.php'); // Contains your Stripe keys and webhook secret
 require_once('email-handler.php'); // Contains the function to send the email
 
 // Step 2: Set the Stripe API key

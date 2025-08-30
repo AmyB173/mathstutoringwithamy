@@ -1,7 +1,7 @@
 <?php
-// email-handler.php
+// email-handler.php THIS WILL BE CALLED BY THE WEBHOOK TO ADD TO STUDY CLUB GROUP ON MAILER LITE, automation there will send welcome email
 
-require_once 'config.php';
+require_once '../config.php';
 
 function sendWelcomeEmail($customer_name, $customer_email) {
     

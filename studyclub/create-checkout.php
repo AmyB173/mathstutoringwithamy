@@ -1,59 +1,73 @@
 <?php
 // --- SETUP AND CONFIGURATION ---
 
-// Include the Stripe PHP library, which is managed by Composer.
 require_once('../vendor/autoload.php');
-
-// Include your local configuration file.
 require_once('../config.php');
 
-// Authenticate with the Stripe API by setting your secret key.
 \Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
 
-// --- BILLING LOGIC ---
+// --- BILLING AND DATE LOGIC ---
 
-// Create a new DateTime object representing the first day of the next month.
+// Set your currency and the full monthly price in the smallest unit (e.g., pence for GBP)
+$currency = 'gbp';
+$full_monthly_price_in_pence = 3500; // This is £35.00
+
+// Get today's date and the first day of the NEXT month
+$today = new DateTime();
 $first_of_next_month = new DateTime('first day of next month');
+$end_of_this_month = new DateTime('last day of this month');
 
-// Convert this date into a Unix timestamp for Stripe.
-$billing_cycle_anchor = $first_of_next_month->getTimestamp();
+// Calculate the number of days remaining in the current month (including today)
+$days_remaining_in_month = $end_of_this_month->diff($today)->days + 1;
+$days_in_current_month = (int)$today->format('t');
+
+// Calculate the prorated amount for the rest of this month
+$prorated_amount_in_pence = ($full_monthly_price_in_pence / $days_in_current_month) * $days_remaining_in_month;
+
+// Define the final cancellation date for the subscription
+$cancellation_date = new DateTime('2026-06-23');
+$cancellation_timestamp = $cancellation_date->getTimestamp();
 
 // --- STRIPE CHECKOUT SESSION CREATION ---
 
 try {
-    // Create a new Stripe Checkout Session.
+    // Create a new Stripe Checkout Session
     $checkout_session = \Stripe\Checkout\Session::create([
-        
-        // Define the items the customer is purchasing.
-        'line_items' => [[
-            'price' => STRIPE_PRICE_ID_STUDY_CLUB_CURRENT,
-            'quantity' => 1,
-        ]],
-        
-        // Set the mode to 'subscription'.
+        // Set the mode to 'subscription' which allows for both one-time and recurring items
         'mode' => 'subscription',
-        
-        // Pass specific data to the subscription object.
-        'subscription_data' => [
-            // Anchor future billing cycles to the 1st of the month.
-            'billing_cycle_anchor' => $billing_cycle_anchor,
-            
-            // *** THE FINAL CORRECTION ***
-            // Use 'always_invoice' to immediately create an invoice for the prorated amount
-            // and charge the customer at the time of checkout.
-            'proration_behavior' => 'always_invoice',
+        'line_items' => [
+            [
+                // --- ITEM 1: THE IMMEDIATE PRORATED CHARGE ---
+                'price_data' => [
+                    'currency' => $currency,
+                    'unit_amount' => round($prorated_amount_in_pence), // The calculated prorated amount
+                    'product_data' => [
+                        'name' => 'Prorated payment for the remainder of this month',
+                    ],
+                ],
+                'quantity' => 1,
+            ],
+            [
+                // --- ITEM 2: THE RECURRING MONTHLY SUBSCRIPTION ---
+                'price' => STRIPE_PRICE_ID_STUDY_CLUB_CURRENT, // Your existing recurring price ID
+                'quantity' => 1,
+            ],
         ],
         
-        // Redirect URL after a successful payment.
-        'success_url' => 'https://www.mathstutoringwithamy.co.uk/success-study-club.php?session_id={CHECKOUT_SESSION_ID}',
+        'subscription_data' => [
+            // Start the subscription with a free trial that lasts until the 1st of next month.
+            // This ensures the first full payment is not collected until then.
+            'trial_end' => $first_of_next_month->getTimestamp(),
+            // Automatically cancel the subscription on the specified end date.
+            'cancel_at' => $cancellation_timestamp,
+        ],
         
-        // Redirect URL if the customer cancels.
+        // Redirect URLs
+        'success_url' => 'https://www.mathstutoringwithamy.co.uk/success-study-club.php?session_id={CHECKOUT_SESSION_ID}',
         'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',
     ]);
 
     // --- REDIRECTION ---
-
-    // Redirect the customer's browser to the Stripe Checkout page.
     header("HTTP/1.1 303 See Other");
     header("Location: " . $checkout_session->url);
 

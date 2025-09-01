@@ -38,15 +38,12 @@ try {
         
         // Pass specific instructions for the subscription that will be created.
         'subscription_data' => [
-            // Set the billing anchor. This ensures that after the initial prorated charge,
-            // all future recurring payments will happen on the 1st of the month.
-            'billing_cycle_anchor' => $billing_cycle_anchor,
+            // Set the trial to end at the billing cycle anchor (1st of next month)
+            // This should create a prorated charge for the period from now until then
+            'trial_end' => $billing_cycle_anchor,
             
-            // UPDATED: Use create_prorations instead of always_invoice
+            // Use create_prorations to handle the prorated billing
             'proration_behavior' => 'create_prorations',
-            
-            // ADDED: Force trial to end immediately, triggering the prorated charge
-            'trial_end' => 'now',
         ],
         
         // The URL to redirect the customer to after a successful payment.

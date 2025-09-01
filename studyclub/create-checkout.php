@@ -45,13 +45,13 @@ try {
             // Set the billing anchor. This ensures that after the initial payment,
             // all future recurring charges will happen on the 1st of the month.
             'billing_cycle_anchor' => $billing_cycle_anchor,
+            
+            // *** THIS IS THE CORRECT LOCATION ***
+            // Tells Stripe how to handle the time between signup and the billing anchor.
+            // 'create_prorations' means Stripe will immediately charge the customer a partial amount
+            // to cover the period from today until the first of next month.
+            'proration_behavior' => 'create_prorations',
         ],
-
-        // *** THIS IS THE KEY ADDITION ***
-        // Tells Stripe how to handle the time between signup and the billing anchor.
-        // 'create_prorations' means Stripe will immediately charge the customer a partial amount
-        // to cover the period from today until the first of next month.
-        'proration_behavior' => 'create_prorations',
         
         // The URL to redirect the customer to after a successful payment.
         // {CHECKOUT_SESSION_ID} is a Stripe variable that passes the unique session ID back to your site.

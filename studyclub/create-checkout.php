@@ -42,10 +42,11 @@ try {
             // all future recurring payments will happen on the 1st of the month.
             'billing_cycle_anchor' => $billing_cycle_anchor,
             
-            // Set the proration behavior. 'always_invoice' is the crucial setting that
-            // forces Stripe to create and charge an immediate, separate invoice for the
-            // prorated amount covering the time from signup until the 1st of next month.
-            'proration_behavior' => 'always_invoice',
+            // UPDATED: Use create_prorations instead of always_invoice
+            'proration_behavior' => 'create_prorations',
+            
+            // ADDED: Force trial to end immediately, triggering the prorated charge
+            'trial_end' => 'now',
         ],
         
         // The URL to redirect the customer to after a successful payment.
@@ -65,5 +66,7 @@ try {
 } catch (\Stripe\Exception\ApiErrorException $e) {
     // If the Stripe API returns an error, catch it and display a clear message.
     echo "Stripe API Error: " . $e->getMessage();
+    // Log the error for debugging
+    error_log("Stripe Checkout Error: " . $e->getMessage());
 }
 ?>

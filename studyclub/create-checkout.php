@@ -38,10 +38,9 @@ try {
         
         // Pass specific instructions for the subscription that will be created.
         'subscription_data' => [
-            // Set the trial to end at the 1st of next month
-            // This should automatically create a prorated charge for the current period
-            // and then start normal monthly billing from the 1st
-            'trial_end' => $billing_cycle_anchor,
+            // Set the billing anchor to the 1st of next month
+            // This should automatically prorate the first period
+            'billing_cycle_anchor' => $billing_cycle_anchor,
         ],
         
         // The URL to redirect the customer to after a successful payment.

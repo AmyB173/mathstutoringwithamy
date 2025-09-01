@@ -1,78 +1,69 @@
 <?php
 // --- SETUP AND CONFIGURATION ---
 
+// Include the Stripe PHP library managed by Composer to interact with the Stripe API.
 require_once('../vendor/autoload.php');
+// Include your local configuration file, which holds your secret keys and price IDs.
 require_once('../config.php');
 
+// Authenticate with the Stripe API by setting your secret key.
 \Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
 
-// --- BILLING AND DATE LOGIC ---
+// --- BILLING LOGIC ---
 
-// Set your currency and the full monthly price in the smallest unit (e.g., pence for GBP)
-$currency = 'gbp';
-$full_monthly_price_in_pence = 3500; // This is £35.00
-
-// Get today's date and the first day of the NEXT month
-$today = new DateTime();
+// Create a new DateTime object representing the first day of the NEXT month.
 $first_of_next_month = new DateTime('first day of next month');
-$end_of_this_month = new DateTime('last day of this month');
-
-// Calculate the number of days remaining in the current month (including today)
-$days_remaining_in_month = $end_of_this_month->diff($today)->days + 1;
-$days_in_current_month = (int)$today->format('t');
-
-// Calculate the prorated amount for the rest of this month
-$prorated_amount_in_pence = ($full_monthly_price_in_pence / $days_in_current_month) * $days_remaining_in_month;
-
-// Define the final cancellation date for the subscription
-$cancellation_date = new DateTime('2026-06-23');
-$cancellation_timestamp = $cancellation_date->getTimestamp();
+// Convert this date into a Unix timestamp, which Stripe requires for dates.
+// This sets the anchor date for all future recurring billing cycles.
+$billing_cycle_anchor = $first_of_next_month->getTimestamp();
 
 // --- STRIPE CHECKOUT SESSION CREATION ---
 
+// Use a try-catch block to gracefully handle any potential errors from the Stripe API.
 try {
-    // Create a new Stripe Checkout Session
+    // Create a new Stripe Checkout Session. This is the secure, Stripe-hosted page
+    // where the customer enters their payment details.
     $checkout_session = \Stripe\Checkout\Session::create([
-        // Set the mode to 'subscription' which allows for both one-time and recurring items
+        
+        // Define the product(s) the customer is purchasing.
+        'line_items' => [[
+            // 'price' specifies the Stripe Price ID for your subscription product.
+            'price' => STRIPE_PRICE_ID_STUDY_CLUB_CURRENT,
+            // 'quantity' is typically 1 for a standard subscription.
+            'quantity' => 1,
+        ]],
+        
+        // Set the mode to 'subscription' to create a recurring payment.
         'mode' => 'subscription',
-        'line_items' => [
-            [
-                // --- ITEM 1: THE IMMEDIATE PRORATED CHARGE ---
-                'price_data' => [
-                    'currency' => $currency,
-                    'unit_amount' => round($prorated_amount_in_pence), // The calculated prorated amount
-                    'product_data' => [
-                        'name' => 'Prorated payment for the remainder of this month',
-                    ],
-                ],
-                'quantity' => 1,
-            ],
-            [
-                // --- ITEM 2: THE RECURRING MONTHLY SUBSCRIPTION ---
-                'price' => STRIPE_PRICE_ID_STUDY_CLUB_CURRENT, // Your existing recurring price ID
-                'quantity' => 1,
-            ],
-        ],
         
+        // Pass specific instructions for the subscription that will be created.
         'subscription_data' => [
-            // Start the subscription with a free trial that lasts until the 1st of next month.
-            // This ensures the first full payment is not collected until then.
-            'trial_end' => $first_of_next_month->getTimestamp(),
-            // Automatically cancel the subscription on the specified end date.
-            'cancel_at' => $cancellation_timestamp,
+            // Set the billing anchor. This ensures that after the initial prorated charge,
+            // all future recurring payments will happen on the 1st of the month.
+            'billing_cycle_anchor' => $billing_cycle_anchor,
+            
+            // Set the proration behavior. 'always_invoice' is the crucial setting that
+            // forces Stripe to create and charge an immediate, separate invoice for the
+            // prorated amount covering the time from signup until the 1st of next month.
+            'proration_behavior' => 'always_invoice',
         ],
         
-        // Redirect URLs
+        // The URL to redirect the customer to after a successful payment.
         'success_url' => 'https://www.mathstutoringwithamy.co.uk/success-study-club.php?session_id={CHECKOUT_SESSION_ID}',
+        
+        // The URL to redirect the customer to if they cancel the checkout process.
         'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',
     ]);
 
     // --- REDIRECTION ---
+
+    // After successfully creating the session, send an HTTP 303 response to redirect the browser.
     header("HTTP/1.1 303 See Other");
+    // Redirect the customer's browser to the URL of the Stripe Checkout page.
     header("Location: " . $checkout_session->url);
 
 } catch (\Stripe\Exception\ApiErrorException $e) {
-    // Display an error if the API call fails.
+    // If the Stripe API returns an error, catch it and display a clear message.
     echo "Stripe API Error: " . $e->getMessage();
 }
 ?>

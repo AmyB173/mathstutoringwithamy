@@ -152,7 +152,7 @@
           
           <!-- WhatsApp Button -->
           <div class="text-center mb-4">
-            <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
+            <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
                target="_blank" 
                class="whatsapp-button">
               <span class="whatsapp-icon">💬</span>
@@ -231,7 +231,7 @@
 
   <!-- WhatsApp Float Button -->
   <div class="whatsapp-float">
-    <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
+    <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
        target="_blank" 
        class="whatsapp-float-button">
       💬

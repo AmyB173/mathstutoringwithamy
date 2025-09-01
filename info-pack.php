@@ -114,7 +114,7 @@
           <p class="hero-subtitle">Everything you need to know about my online maths tutoring services for KS3, GCSE, and A Level students. From lesson formats to pricing - it's all here!</p>
 
           <div class="text-center mb-4">
-            <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I've%20read%20your%20info%20pack%20and%20I'm%20interested%20in%20tutoring%20for%20my%20child"
+            <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I've%20read%20your%20info%20pack%20and%20I'm%20interested%20in%20tutoring%20for%20my%20child"
               target="_blank"
               class="whatsapp-button">
               <span class="whatsapp-icon">💬</span>
@@ -291,7 +291,7 @@
           <p class="mb-4">The quickest way to get answers is via WhatsApp!</p>
 
           <div class="text-center mb-4">
-            <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I%20have%20some%20questions%20about%20your%20tutoring%20services"
+            <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I%20have%20some%20questions%20about%20your%20tutoring%20services"
               target="_blank"
               class="whatsapp-button">
               <span class="whatsapp-icon">💬</span>
@@ -307,7 +307,7 @@
 
   <!-- WhatsApp Float Button -->
   <div class="whatsapp-float">
-    <a href="https://wa.me/447495483045?text=Hi%20Amy,%20I%20have%20questions%20about%20your%20tutoring%20info%20pack"
+    <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I%20have%20questions%20about%20your%20tutoring%20info%20pack"
       target="_blank"
       class="whatsapp-float-button">
       💬

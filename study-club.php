@@ -77,7 +77,7 @@
                             <h3 class="hero-kicker fs-1">The A Level Maths Study Club</h3>
                             <p class="hero-subtitle">The Study Club gives you live expert tutoring, a supportive community of like-minded students, and weekly personalised help with our Q&A evenings so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
                             <div class="text-center text-lg-start mb-4">
-                                <a href="#pricing" class="btn btn-bright-pink btn-lg">Join now 🎉</a>
+                                <a href="#signup" class="btn btn-bright-pink btn-lg">Join now 🎉</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -181,14 +181,13 @@
             </div>
 
             <div class="row g-4 justify-content-center">
-                <img src="./assets/images/6.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                 <div class="col-md-6 col-lg-4 text-center">
-
+                    <img src="./assets/images/6.png" alt="Online Tutoring Icon" class="mb-3" style="width: 80px; height: 80px;">
                     <h5 class="fw-bold">Full Recordings Library</h5>
                     <p>Can't make a session? All masterclasses are recorded so you can catch up anytime.</p>
                 </div>
-                <img src="./assets/images/5.png" alt="Online Tutoring Icon" class="me-4" style="width: 80px; height: 80px;">
                 <div class="col-md-6 col-lg-4 text-center">
+                    <img src="./assets/images/5.png" alt="Online Tutoring Icon" class="mb-3" style="width: 80px; height: 80px;">
                     <h5 class="fw-bold">Monthly Prize Draw</h5>
                     <p>Your chance to win a **FREE** 1:1 private tutoring session with me every month!</p>
                 </div>
@@ -208,11 +207,7 @@
                         <div class="badge">Founding Member Offer</div>
                         <p class="mb-3">Strictly limited to the first 10 students!</p>
                         <p class="price">£35<small>/month</small></p>
-                        <form action="studyclub/create-checkout.php" method="POST" style="display: inline;">
-                            <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
-                                Join Now & Secure My Spot
-                            </button>
-                        </form>
+                        <a href="#signup" class="btn btn-bright-pink btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
 
                         <div class="guarantee-box mt-3 text-center">
                             <p class="fw-bold mb-1">⭐ The Confidence Boost Guarantee</p>
@@ -286,24 +281,48 @@
         </div>
     </section>
 
-
-    <section id="call-to-action" class="section fade-in bg-hero-gradient">
+    <!-- CLEAN SIGN-UP SECTION -->
+    <section id="signup" class="section fade-in" style="background: var(--warm-white);">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h2 class="mb-4 text-white">Ready to Stop Struggling and Start Succeeding?</h2>
-                    <p class="lead mb-5 text-white" style="opacity: 0.9;">It's time to get the clarity, confidence, and expert support you need to smash your A Level Maths exams.</p>
-                    <h4 class="mb-4" style="color: var(--soft-gold);">Don't Miss Out on the Founding Member Offer!</h4>
-                    <form action="studyclub/create-checkout.php" method="POST">
-                        <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
-                            Join Now & Secure My Spot
-                        </button>
-                    </form>
-                    <p class="mt-4 small text-white-50">Doors close soon. Click the button to get instant access.</p>
+                <div id="sign-up" class="col-lg-6">
+                    <div class="text-center mb-5">
+                        <h2 style="color: var(--warm-blue);">Join the Study Club Now 🎉</h2>
+                        <p class="lead">Just fill out the details below, and you'll be making progress before you know it!</p>
+                    </div>
+
+                    <div class="warm-card" style="border: 2px solid #FF007F; box-shadow: 0 10px 30px rgba(255, 0, 127, 0.1);">
+                        <form action="studyclub/process-details.php" method="POST">
+                            <div class="mb-4">
+                                <label for="student_name" class="form-label fw-bold">Your Full Name <span style="color: #FF007F;">*</span></label>
+                                <input type="text" class="form-control form-control-lg" id="student_name" name="student_name" required placeholder="Enter your full name">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="student_email" class="form-label fw-bold">Your Email Address <span style="color: #FF007F;">*</span></label>
+                                <input type="email" class="form-control form-control-lg" id="student_email" name="student_email" required placeholder="your.email@example.com">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="parent_email" class="form-label fw-bold">Parent/Guardian Email (Optional)</label>
+                                <input type="email" class="form-control" id="parent_email" name="parent_email" placeholder="parent@example.com">
+                                <small class="form-text text-muted">For updates about sessions and logistics</small>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-bright-pink btn-lg px-5 py-3">
+                                    <i class="fas fa-lock me-2"></i>
+                                    Secure My Spot Now
+                                </button>
+                                <p class="small text-muted mt-2">Secure payment via Stripe • Cancel anytime</p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,4 +1,7 @@
 <?php
+// --- GET CUSTOMER DATA FROM SESSION ---
+session_start();
+
 // --- SETUP AND CONFIGURATION ---
 
 // Include the Stripe PHP library managed by Composer to interact with the Stripe API.
@@ -8,6 +11,21 @@ require_once('../config.php');
 
 // Authenticate with the Stripe API by setting your secret key.
 \Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
+
+// Retrieve the customer data from the session (from your details form)
+$customer_name = $_SESSION['customer_name'] ?? null;
+$customer_email = $_SESSION['customer_email'] ?? null;
+$exam_board = $_SESSION['exam_board'] ?? null;
+$parent_email = $_SESSION['parent_email'] ?? null;
+$current_grade = $_SESSION['current_grade'] ?? null;
+$target_grade = $_SESSION['target_grade'] ?? null;
+
+// Validate that we have the required data
+if (!$customer_name || !$customer_email) {
+    // Redirect back to the details form if data is missing
+    header("Location: ../study-club-sign-up-form.php");
+    exit();
+}
 
 // --- BILLING LOGIC ---
 
@@ -21,6 +39,20 @@ $billing_cycle_anchor = $first_of_next_month->getTimestamp();
 
 // Use a try-catch block to gracefully handle any potential errors from the Stripe API.
 try {
+    // First, create the customer with metadata
+    $customer = \Stripe\Customer::create([
+        'name' => $customer_name,
+        'email' => $customer_email,
+        'metadata' => [
+            'exam_board' => $exam_board,
+            'parent_email' => $parent_email,
+            'current_grade' => $current_grade,
+            'target_grade' => $target_grade,
+            'signup_source' => 'study_club_website',
+            'signup_date' => date('Y-m-d H:i:s')
+        ]
+    ]);
+
     // Create a new Stripe Checkout Session. This is the secure, Stripe-hosted page
     // where the customer enters their payment details.
     $checkout_session = \Stripe\Checkout\Session::create([
@@ -36,6 +68,9 @@ try {
         // Set the mode to 'subscription' to create a recurring payment.
         'mode' => 'subscription',
         
+        // Use the customer we just created
+        'customer' => $customer->id,
+        
         // Pass specific instructions for the subscription that will be created.
         'subscription_data' => [
             // Set the billing anchor to the 1st of next month
@@ -43,12 +78,23 @@ try {
             'billing_cycle_anchor' => $billing_cycle_anchor,
         ],
         
+        // Pass additional metadata to the session itself
+        'metadata' => [
+            'exam_board' => $exam_board,
+            'parent_email' => $parent_email,
+            'current_grade' => $current_grade,
+            'target_grade' => $target_grade,
+        ],
+        
         // The URL to redirect the customer to after a successful payment.
         'success_url' => 'https://www.mathstutoringwithamy.co.uk/success-study-club.php?session_id={CHECKOUT_SESSION_ID}',
         
         // The URL to redirect the customer to if they cancel the checkout process.
-        'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club.php',
+        'cancel_url' => 'https://www.mathstutoringwithamy.co.uk/study-club-sign-up-form.php',
     ]);
+
+    // Clear the session data since we've used it
+    session_destroy();
 
     // --- REDIRECTION ---
 

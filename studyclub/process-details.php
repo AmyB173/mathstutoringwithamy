@@ -1,4 +1,10 @@
 <?php
+<?php
+var_dump($_POST);
+die('End of debug');
+
+
+
 session_start();
 
 // Validate required fields (reduced list)

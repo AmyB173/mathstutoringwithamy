@@ -292,7 +292,7 @@
                     </div>
 
                     <div class="warm-card" style="border: 2px solid #FF007F; box-shadow: 0 10px 30px rgba(255, 0, 127, 0.1);">
-                        <form action="/studyclub/process-details.php" method="POST">
+                        <form action="./studyclub/process-details.php" method="POST">
                             <div class="mb-4">
                                 <label for="student_name" class="form-label fw-bold">Your Full Name <span style="color: #FF007F;">*</span></label>
                                 <input type="text" class="form-control form-control-lg" id="student_name" name="student_name" required placeholder="Enter your full name">

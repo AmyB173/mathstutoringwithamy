@@ -77,7 +77,7 @@
                             <h3 class="hero-kicker fs-1">The A Level Maths Study Club</h3>
                             <p class="hero-subtitle">The Study Club gives you live expert tutoring, a supportive community of like-minded students, and weekly personalised help with our Q&A evenings so you're never left behind. For a limited time, you can become a Founding Member for just £35/month!</p>
                             <div class="text-center text-lg-start mb-4">
-                                <a href="#pricing" class="btn btn-bright-pink btn-lg">See Pricing and Join 🎉</a>
+                                <a href="#pricing" class="btn btn-bright-pink btn-lg">Join now 🎉</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -208,7 +208,11 @@
                         <div class="badge">Founding Member Offer</div>
                         <p class="mb-3">Strictly limited to the first 10 students!</p>
                         <p class="price">£35<small>/month</small></p>
-                        <a href="YOUR_CHECKOUT_LINK_HERE" class="btn btn-bright-pink btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
+                        <form action="studyclub/create-checkout.php" method="POST" style="display: inline;">
+                            <button type="submit" class="btn btn-bright-pink btn-lg mt-4 mb-4">
+                                Join Now & Secure My Spot
+                            </button>
+                        </form>
 
                         <div class="guarantee-box mt-3 text-center">
                             <p class="fw-bold mb-1">⭐ The Confidence Boost Guarantee</p>

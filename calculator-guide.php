@@ -101,7 +101,7 @@
                             <!-- Social Proof Section -->
                             <div class="text-center mb-4">
                                 <div class="d-inline-flex flex-column text-black align-items-center bg-opacity-20 rounded-pill px-3 py-2">
-                                    <small class="fw-medium p-3">"Through Amy's teaching methods, I was able to achieve an A* grade and then go on to study a Mathematics degree at University."</small>
+                                    <small class="fw-medium p-3">"Through Amy's teaching methods, I was able to achieve an A* grade and then go on to study a Mathematics degree at University." - Ethan, former student</small>
                                     <div class="me-2">
                                         ⭐⭐⭐⭐⭐
                                     </div>

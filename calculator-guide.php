@@ -57,24 +57,66 @@
             color: var(--warm-blue);
             margin-bottom: 0.5rem;
         }
+
+        @media (max-width: 991.98px) {
+            .hero-section-v3 .mockup-img-v3 {
+                /* Don't use a fixed width. Let it be 100% of the column width. */
+                /* You can optionally add a max-width if you don't want it to be huge on tablets */
+                max-width: 400px;
+
+                /* This adds space above the image and the 'auto' centers it horizontally */
+                margin: 2rem auto 0;
+            }
+        }
     </style>
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w, d, e, u, f, l, n) {
+            w[f] = w[f] || function() {
+                    (w[f].q = w[f].q || [])
+                    .push(arguments);
+                }, l = d.createElement(e), l.async = 1, l.src = u,
+                n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+        })
+        (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+        ml('account', '1562175');
+    </script>
+    <!-- End MailerLite Universal -->
 </head>
 
 <body>
     <section class="hero-section-v3">
-        <div class="container">
+        <div class="container pt-4">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-3">Use your calculator right, save 15+ minutes per paper</h1>
+                <div class="col-lg-7">
+                    <h1 class="display-3">Save 15+ minutes per paper when you use your calculator right</h1>
                     <p class="lead fw-normal mt-3">
-                        <strong>The ultimate A Level Maths calculator guide.</strong> Never wonder where a calculator function is again, and find some new tricks you didnt know existed.
+                        <strong><em><u>FREE</u></em>: The Ultimate A Level Maths Calculator Guide.</strong> Quickly find calculator functions and hacks that you've probably never been taught (that will save you time and energy).
                     </p>
-                    <a href="#download-form" class="btn btn-bright-pink btn-lg mt-4">Download The Free Guide Now <i class="fas fa-rocket ms-2"></i></a>
+                    <div class="row flex-column  justify-content-center align-items-center">
+                        <div class="col-lg-6">
+                            <a href="#download-form" class="btn btn-bright-pink btn-lg mt-4">Download The <strong><em><u>FREE</u></em></strong> Guide Now <i class="fas fa-rocket ms-2"></i></a>
+                        </div>
+                        <div class="col-lg-8 flex-col align-items-center justify-contents--lg-center">
+                            <!-- Social Proof Section -->
+                            <div class="text-center mb-4">
+                                <div class="d-inline-flex flex-column text-black align-items-center bg-opacity-20 rounded-pill px-3 py-2">
+                                    <small class="fw-medium p-3">"Through Amy's teaching methods, I was able to achieve an A* grade and then go on to study a Mathematics degree at University."</small>
+                                    <div class="me-2">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-lg-6 text-center d-none d-lg-block">
+                <div class="col-lg-5 text-center ">
                     <img src="./assets/images/calc-guide-mockup2.png" alt="A mock-up of the Calculator Secrets PDF guide" class="img-fluid mockup-img-v3">
                 </div>
             </div>
+
         </div>
     </section>
     <section class="section fade-in">
@@ -86,7 +128,7 @@
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <h2>A Quick Message From Your Teacher</h2>
                     <p class="text-secondary">Hi, I'm Amy. As an Edexcel A-Level teacher with over 11 years of experience, I've seen countless brilliant students lose marks not from a lack of knowledge, but from small, preventable errors under exam pressure.</p>
-                    <p class="text-secondary">I created this guide because knowing your calculator inside out saves you so much time and can help you avoid easy errors. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
+                    <p class="text-secondary">I created this guide because knowing your calculator inside out <strong>saves you so much time</strong> and can help you <strong>avoid easy errors</strong>. These are the exact techniques I share with my private tutoring students, and I want you to have them too.</p>
                 </div>
             </div>
         </div>
@@ -178,17 +220,17 @@
                 </div>
                 <div class="col-md-6 ps-md-5">
                     <h4 class="mt-3 mt-md-0">Help you factorise difficult expressions</h4>
-                    <p class="text-secondary">Stop wasting minutes on polynomial division or complex quadratics. Your calculator can give you the roots instantly, making factorisation a breeze and saving you valuable exam time.</p>
+                    <p class="text-secondary"><strong>Stop wasting precious exam minutes</strong> on polynomial division or complex quadratics. Your calculator can give you the roots instantly, making factorisation a breeze and saving you valuable exam time (and brain space).</p>
                 </div>
             </div>
 
             <div class="row align-items-center pb-4 mb-5">
                 <div class="col-md-6 order-md-2 justify-content-center justify-content-md-start d-flex">
-                     <img src="assets/images/critical-region.png" alt="Maths equations written on a glass board" class="img-fluid rounded feature-image">
+                    <img src="assets/images/critical-region.png" alt="Maths equations written on a glass board" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 pe-md-5 order-md-1">
                     <h4 class="mt-3 mt-md-0">Find the critical region in one or two steps</h4>
-                    <p class="text-secondary">Hypothesis testing can be tricky. Finding the critical region is often the worse part. You can actually find the critical region in just a few steps using this underused calculator function</p>
+                    <p class="text-secondary">Hypothesis testing can be tricky. Finding the critical region is often the worse part. You can actually <strong>find the critical region in just a few steps</strong> using this underused calculator function</p>
                 </div>
             </div>
 
@@ -215,29 +257,21 @@
         </div>
     </section>
 
-<section id="download-form" class="section fade-in bg-hero-gradient">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="mb-3">Start saving time now!</h2>
-                <p class="lead mb-4">Enter your details to get the free, comprehensive A Level Maths calculator guide sent straight to your inbox.</p>
+    <section id="download-form" class="section fade-in bg-hero-gradient">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-3">Start saving time now!</h2>
+                    <p class="lead mb-4">Enter your details to get the free, comprehensive A Level Maths calculator guide sent straight to your inbox.</p>
 
-                <div class="warm-card download-form-card">
-                    <form action="YOUR_FORM_HANDLER_URL" method="POST">
-                        <div class="mb-3">
-                            <input type="text" class="form-control form-control-lg" name="first_name" placeholder="First Name" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control form-control-lg" name="email" placeholder="Email Address" required>
-                        </div>
-                        <button type="submit" class="btn btn-bright-pink btn-lg w-100">Send Me The Guide!</button>
-                    </form>
-                    <p class="mt-3 small text-muted">You'll receive the guide and occasional emails with more A-Level tips. Unsubscribe anytime.</p>
+                    <div class="warm-card download-form-card">
+                        <div class="ml-embedded" data-form="0JrKil"></div>
+                        <p class="mt-3 small text-muted">You'll receive the guide and occasional emails with more A-Level tips. Unsubscribe anytime.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

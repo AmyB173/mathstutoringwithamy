@@ -97,8 +97,8 @@
             </div>
             <div class="row justify-content-center align-items-center">
 
-                <div class="col-lg-4 text-center">
-                    <!-- <img src="./assets/images/video-placeholder.png" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.12); max-width: 300px; margin-bottom: 2rem;"> -->
+                <div class="col-lg-6 text-center">
+                   <iframe src="https://drive.google.com/file/d/1pEnxjSJ2F4wwOm_SGybHtknlTQ9grYVH/preview" width="100%" height="auto" style="aspect-ratio: 16 / 9; border: none;" allow="autoplay"></iframe>
                 </div>
                 <div class="col-lg-6">
                     <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>

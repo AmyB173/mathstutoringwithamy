@@ -98,8 +98,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-lg-6 text-center">
-                 <iframe src="https://drive.google.com/file/d/1pEnxjSJ2F4wwOm_SGybHtknlTQ9grYVH/preview?usp=embed_googleplus" width="100%" height="auto" style="aspect-ratio: 16 / 9; border: none;" allow="autoplay"></iframe>
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UpdFhlpIZYQ?si=5VVJwJw26o8XlyHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="col-lg-6">
                     <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>
                     <ul class="fa-ul" style="font-size: 1.1rem; list-style-position: outside;">

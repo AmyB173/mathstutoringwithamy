@@ -6,3 +6,6 @@ config.php
 
 # Ignore log files
 webhook_log.txt
+
+# Ignore .env file
+.env

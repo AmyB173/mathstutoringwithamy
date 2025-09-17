@@ -8,7 +8,10 @@
  */
 
 // Includes your site's configuration file with API keys and IDs.
-require_once '../config.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+// This now points two levels up, to the main project root
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../..');
+$dotenv->load();
 
 /**
  * Adds a subscriber to a specified MailerLite group.
@@ -41,7 +44,7 @@ function addSubscriberToMailerLiteGroup($customer_name, $customer_email, $group_
     curl_setopt($ch, CURLOPT_HTTPHEADER, [
         'Content-Type: application/json',
         'Accept: application/json',
-        'Authorization: Bearer ' . MAILERLITE_API_KEY
+        'Authorization: Bearer ' . $_ENV['MAILERLITE_API_KEY']
     ]);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
@@ -88,7 +91,7 @@ function triggerMailerLiteAutomation($customer_name, $customer_email, $automatio
     curl_setopt($ch, CURLOPT_HTTPHEADER, [
         'Content-Type: application/json',
         'Accept: application/json',
-        'Authorization: Bearer ' . MAILERLITE_API_KEY
+        'Authorization: Bearer ' . $_ENV['MAILERLITE_API_KEY']
     ]);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);

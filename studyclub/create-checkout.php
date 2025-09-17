@@ -5,12 +5,15 @@ session_start();
 // --- SETUP AND CONFIGURATION ---
 
 // Include the Stripe PHP library managed by Composer to interact with the Stripe API.
-require_once('../vendor/autoload.php');
-// Include your local configuration file, which holds your secret keys and price IDs.
-require_once('../config.php');
+require_once __DIR__ . '/../vendor/autoload.php';
+
+// This now points two levels up, to the main project root
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../..');
+$dotenv->load();
+
 
 // Authenticate with the Stripe API by setting your secret key.
-\Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
+\Stripe\Stripe::setApiKey($_ENV['STRIPE_SECRET_KEY']);
 
 // Retrieve the customer data from the session (from your details form)
 $customer_name = $_SESSION['customer_name'] ?? null;
@@ -60,7 +63,7 @@ try {
         // Define the product(s) the customer is purchasing.
         'line_items' => [[
             // 'price' specifies the Stripe Price ID for your subscription product.
-            'price' => STRIPE_PRICE_ID_STUDY_CLUB_CURRENT,
+            'price' => $_ENV['STRIPE_PRICE_ID_STUDY_CLUB_CURRENT'],
             // 'quantity' is typically 1 for a standard subscription.
             'quantity' => 1,
         ]],

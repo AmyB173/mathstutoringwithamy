@@ -1,4 +1,9 @@
 <?php
+require_once __DIR__ . '/../vendor/autoload.php';
+// This now points two levels up, to the main project root
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../..');
+$dotenv->load();
+
 // --- SETUP AND CONFIGURATION ---
 
 // Set up a log file for debugging webhook events.
@@ -6,11 +11,10 @@ ini_set('error_log', __DIR__ . '/webhook_log.txt');
 
 // Include necessary files for Stripe, your config, and email functions.
 require_once(__DIR__ . '/../vendor/autoload.php');
-require_once(__DIR__ . '/../config.php');
 require_once(__DIR__ . '/email-handler.php');
 
 // Authenticate with the Stripe API using your secret key.
-\Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
+\Stripe\Stripe::setApiKey($_ENV['STRIPE_SECRET_KEY']);
 
 // --- WEBHOOK SIGNATURE VERIFICATION ---
 
@@ -23,7 +27,7 @@ $event = null;
 try {
     // Stripe's library constructs the event and verifies that it came from Stripe,
     // not a malicious third party, using your webhook secret.
-    $event = \Stripe\Webhook::constructEvent($payload, $sig_header, STRIPE_WEBHOOK_SECRET);
+    $event = \Stripe\Webhook::constructEvent($payload, $sig_header, $_ENV['STRIPE_WEBHOOK_SECRET']);
     error_log("Webhook verified. Event type: " . $event->type);
 } catch(Exception $e) {
     // If verification fails, log the error and stop the script.
@@ -71,7 +75,7 @@ if ($event->type == 'checkout.session.completed') {
             if ($customer_email) {
                 error_log("Adding to welcome group: " . $customer_email);
                 // This function (from email-handler.php) adds the new customer to your MailerLite group.
-                addSubscriberToMailerLiteGroup($customer_name, $customer_email, MAILERLITE_GROUP_ID_STUDY_CLUB);
+                addSubscriberToMailerLiteGroup($customer_name, $customer_email, $_ENV['MAILERLITE_GROUP_ID_STUDY_CLUB']);
             }
 
         } catch(Exception $e) {
@@ -87,12 +91,12 @@ if ($event->type == 'checkout.session.completed') {
     foreach ($invoice->lines->data as $line) {
         if (isset($line->price)) {
             // CHECK FOR STUDY CLUB: See if the invoice's price ID is in our array of valid IDs.
-            if (in_array($line->price->id, STRIPE_PRICE_IDS_STUDY_CLUB)) {
+            if (in_array($line->price->id, [$_ENV['STRIPE_PRICE_ID_STUDY_CLUB_CURRENT']])) {
                 try {
                     $customer = \Stripe\Customer::retrieve($invoice->customer);
                     error_log("Study Club payment failed for {$customer->email}.");
                     // For failure, we trigger a MailerLite automation.
-                    triggerMailerLiteAutomation($customer->name, $customer->email, MAILERLITE_AUTOMATION_ID_PAYMENT_FAILED_STUDY_CLUB);
+                    triggerMailerLiteAutomation($customer->name, $customer->email, $_ENV['MAILERLITE_AUTOMATION_ID_PAYMENT_FAILED_STUDY_CLUB']);
                 } catch (Exception $e) {
                     error_log("Could not retrieve customer {$invoice->customer}. Error: " . $e->getMessage());
                 }
@@ -108,12 +112,12 @@ if ($event->type == 'checkout.session.completed') {
     // Loop through the items in the subscription to identify the product.
     foreach ($subscription->items->data as $item) {
         // CHECK FOR STUDY CLUB: See if the subscription's price ID is in our array of valid IDs.
-        if (in_array($item->price->id, STRIPE_PRICE_IDS_STUDY_CLUB)) {
+        if (in_array($item->price->id, [$_ENV['STRIPE_PRICE_ID_STUDY_CLUB_CURRENT']])) {
             try {
                 $customer = \Stripe\Customer::retrieve($subscription->customer);
                 error_log("Study Club subscription cancelled for {$customer->email}.");
                 // For cancellation, we trigger an off-boarding automation.
-                triggerMailerLiteAutomation($customer->name, $customer->email, MAILERLITE_AUTOMATION_ID_SUBSCRIPTION_CANCELLED_STUDY_CLUB);
+                triggerMailerLiteAutomation($customer->name, $customer->email, $_ENV['MAILERLITE_AUTOMATION_ID_SUBSCRIPTION_CANCELLED_STUDY_CLUB']);
             } catch (Exception $e) {
                 error_log("Could not retrieve customer {$subscription->customer}. Error: " . $e->getMessage());
             }
@@ -132,4 +136,3 @@ if ($event->type == 'checkout.session.completed') {
 http_response_code(200);
 error_log("Webhook processing finished.");
 ?>
-

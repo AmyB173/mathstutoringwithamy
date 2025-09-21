@@ -98,9 +98,9 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-lg-6 text-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/UpdFhlpIZYQ?si=5VVJwJw26o8XlyHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UpdFhlpIZYQ?si=5VVJwJw26o8XlyHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-lg-6">
+                <div class="col-lg-6">
                     <p>If you're feeling stuck or overwhelmed with A Level Maths, you're not alone. This Study Club is for you if:</p>
                     <ul class="fa-ul" style="font-size: 1.1rem; list-style-position: outside;">
                         <li class="mb-3">
@@ -292,17 +292,23 @@
                     </div>
 
                     <div class="warm-card" style="border: 2px solid #FF007F; box-shadow: 0 10px 30px rgba(255, 0, 127, 0.1);">
-                        <form action="./studyclub/process-details" method="POST">
-                            <div class="mb-4">
-                                <label for="student_name" class="form-label fw-bold">Your Full Name <span style="color: #FF007F;">*</span></label>
-                                <input type="text" class="form-control form-control-lg" id="student_name" name="student_name" required placeholder="Enter your full name">
+                        <form action="./studyclub/process-details.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label for="student_first_name" class="form-label fw-bold">First Name <span style="color: #FF007F;">*</span></label>
+                                    <input type="text" class="form-control form-control-lg" id="student_first_name" name="student_first_name" required placeholder="Enter first name">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="student_last_name" class="form-label fw-bold">Last Name <span style="color: #FF007F;">*</span></label>
+                                    <input type="text" class="form-control form-control-lg" id="student_last_name" name="student_last_name" required placeholder="Enter last name">
+                                </div>
                             </div>
-                            
+
                             <div class="mb-4">
                                 <label for="student_email" class="form-label fw-bold">Your Email Address <span style="color: #FF007F;">*</span></label>
                                 <input type="email" class="form-control form-control-lg" id="student_email" name="student_email" required placeholder="your.email@example.com">
                             </div>
-                            
+
                             <div class="mb-4">
                                 <label for="parent_email" class="form-label fw-bold">Parent/Guardian Email (Optional)</label>
                                 <input type="email" class="form-control" id="parent_email" name="parent_email" placeholder="parent@example.com">

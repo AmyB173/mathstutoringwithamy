@@ -1,8 +1,21 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-// This now points two levels up, to the main project root
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../..');
+
+// --- ENVIRONMENT AWARE .env loading ---
+
+// Define the path for the live server (two levels up)
+$dotenv_path = dirname(__DIR__, 2);
+
+// If the file doesn't exist at the live path, assume we're local and try one level up
+if (!file_exists($dotenv_path . '/.env')) {
+    $dotenv_path = dirname(__DIR__);
+}
+
+// Load the .env file from the correct path
+$dotenv = Dotenv\Dotenv::createImmutable($dotenv_path);
 $dotenv->load();
+
+// --- End of new code ---
 
 // --- SETUP AND CONFIGURATION ---
 

@@ -4,6 +4,7 @@ Header always set Content-Security-Policy "default-src 'self'; script-src 'self'
 AddType application/xml xml
 
 RewriteEngine On
+RewriteBase /
 
 # 1. Force HTTPS and www
 RewriteCond %{HTTPS} off [OR]
@@ -16,6 +17,8 @@ RewriteCond %{REQUEST_URI} ^/studyclub/webhook\.php$ [NC]
 RewriteRule ^ - [L]
 
 # 2. Redirect from .php URL to the clean URL (for SEO and bookmarks)
+# Exclude POST requests to avoid breaking form submissions
+RewriteCond %{REQUEST_METHOD} !POST [NC]
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ %1 [R=301,L]
 

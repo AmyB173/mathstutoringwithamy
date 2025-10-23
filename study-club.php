@@ -297,7 +297,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-8">
                             <h1 class="hero-title">Get the A Level Maths Grades You Deserve</h1>
-                            <p class="hero-subtitle mb-4">Weekly live masterclasses, personalized Q&A support, and a community of students just like you—all for less than the cost of a single 1:1 session.</p>
+                            <p class="hero-subtitle mb-4">Weekly live masterclasses, personalised Q&A support, and a community of students just like you—all for less than the cost of a single 1:1 session.</p>
                             
                             <!-- Social Proof -->
                             <div class="text-center text-lg-start mb-4 text-black">

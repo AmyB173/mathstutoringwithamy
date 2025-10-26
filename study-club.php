@@ -508,7 +508,7 @@
                                 <a href="#signup" class="btn btn-cta-green btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
                                                             <!-- Add urgency countdown -->
         <div class="alert alert-warning mt-3 mb-3">
-            <div class="fw-bold">⏰ Founding Member Price Ends In:</div>
+            <div class="fw-bold">⏰ Early Bird Price Ends In:</div>
             <div id="countdown" class="fs-4 fw-bold mt-2"></div>
         </div>
 

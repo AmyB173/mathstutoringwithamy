@@ -296,7 +296,8 @@
                 <div class="col-lg-10">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <h1 class="hero-title">Get the A Level Maths Grades You Deserve</h1>
+                            <h1 class="hero-title">Year 13 Edexcel A Level Maths Students</h1>
+                            <h2 class="fs-1">Finally Get the Grade You Deserve</h2>
                             <p class="hero-subtitle mb-4">Weekly live masterclasses, personalised Q&A support, and a community of students just like you—all for less than the cost of a single 1:1 session.</p>
                             
                             <!-- Social Proof -->
@@ -310,10 +311,10 @@
                             <div class="text-center text-lg-start mb-3">
                                 <a href="#signup" class="btn btn-cta-green btn-lg">Join the Study Club</a>
                             </div>
-                            <p class="text-white"><small>Limited founding member spots at £35/month</small></p>
+                            <p class="text-white"><small>Limited time to grab your early bird spot at £35/month</small></p>
                         </div>
                         <div class="col-lg-4 text-center mt-4 mt-lg-0">
-                            <img src="./assets/images/amy-white-top.jpg" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
+                            <img src="./assets/images/amy-green-top.jpg" alt="Maths Tutor Amy" class="img-fluid" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
                         </div>
                     </div>
                 </div>
@@ -453,17 +454,23 @@
                 <div class="col-lg-10">
                     <div class="row align-items-center">
                         <div class="col-lg-4 text-center mb-4 mb-lg-0">
-                            <img src="./assets/images/amy-white-top.jpg" alt="Amy, A Level Maths Teacher" class="img-fluid amy-professional-img">
+                            <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy, A Level Maths Teacher" class="img-fluid amy-professional-img">
                             <div class="mt-3">
-                                <p class="mb-1"><strong>Amy Johnson</strong></p>
+                                <p class="mb-1"><strong>Amy</strong></p>
                                 <p class="text-muted mb-0" style="font-size: 0.9rem;">Qualified Teacher • 11+ Years Experience</p>
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <h2 class="mb-4">A Message From Your Teacher</h2>
-                            <p>Hi, I'm Amy. As an Edexcel A Level teacher with over 11 years of experience, I've seen countless brilliant students struggle to get the grades they deserve because they didn't have the right support.</p>
-                            <p>That's why I created the Study Club - to provide the expert guidance, mindset support, and community that students need to not just survive A Level Maths, but truly thrive and achieve their dream grades.</p>
-                            <p class="mb-0"><strong>I believe every student can excel at maths when they have the right environment and support.</strong></p>
+                            <h2 class="mb-4">Why Trust Me With Your A Level Maths?</h2>
+<ul class="list-unstyled mb-4">
+    <li class="mb-2">✅ <strong>11+ years</strong> teaching A Level Maths</li>
+    <li class="mb-2">✅ <strong>Clear and supportive style</strong> - there will be no judgement from me, only support and the belief you can get the grade you deserve</li>
+    <li class="mb-2">✅ <strong>100+ students</strong> achieved their dream grade under my guidance</li>
+    <li class="mb-2">✅ <strong>Edexcel exam board specialist</strong> - I know exactly what examiners want</li>
+    <li class="mb-2">✅ <strong>Qualified Teacher</strong></li>
+</ul>
+<p>I've seen countless brilliant students struggle to get the grades they deserve because they didn't have the right support. That's why I created the Study Club.</p>
+<p class="mb-0"><strong>I believe every student can excel at maths when they have the right environment, support, and proven techniques.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -481,11 +488,12 @@
                         <p>Secure your spot at an unbeatable price before 31st December</p>
                     </div>
 
+
                     <!-- Scarcity Alert -->
                     <div class="row justify-content-center mb-4">
                         <div class="col-lg-8">
                             <div class="scarcity-alert text-center">
-                                <p class="fw-bold mb-1" style="color: var(--warm-purple);">Founding Member Offer Ends 31st December 2024</p>
+                                <p class="fw-bold mb-1" style="color: var(--warm-purple);">Early Bird Offer Ends 31st December 2024</p>
                                 <p class="mb-0">Lock in £35/month before the price increases to £47</p>
                             </div>
                         </div>
@@ -494,10 +502,15 @@
                     <div class="row justify-content-center align-items-stretch g-4 mb-4">
                         <div class="col-lg-5 col-md-6">
                             <div class="pricing-card-pro featured">
-                                <div class="badge">Founding Member Offer</div>
+                                <div class="badge">Early Bird Offer</div>
                                 <p class="mb-3">Available until 31st December 2024</p>
                                 <p class="price">£35<small>/month</small></p>
                                 <a href="#signup" class="btn btn-cta-green btn-lg mt-4 mb-4">Join Now & Secure My Spot</a>
+                                                            <!-- Add urgency countdown -->
+        <div class="alert alert-warning mt-3 mb-3">
+            <div class="fw-bold">⏰ Founding Member Price Ends In:</div>
+            <div id="countdown" class="fs-4 fw-bold mt-2"></div>
+        </div>
 
                                 <ul class="list-unstyled text-start ps-3 mt-4">
                                     <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--success-green);"></i> Weekly Live Masterclasses</li>
@@ -518,9 +531,9 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="pricing-card-pro">
                                 <p class="fw-bold fs-5 mb-1">Standard Membership</p>
-                                <p class="text-muted small mb-3">The price from 1st January 2025</p>
+                                <p class="text-muted small mb-3">The price from 1st January 2026</p>
                                 <p class="price" style="color: #999;">£47<small>/month</small></p>
-                                <p class="mt-4 mb-4 text-muted">Includes all the same features as the Founding Membership</p>
+                                <p class="mt-4 mb-4 text-muted">Includes all the same features as the Early Bird Membership</p>
                             </div>
                         </div>
                     </div>
@@ -568,13 +581,13 @@
                     <div class="faq-item">
                         <h5 class="faq-question">Can I cancel anytime? <span class="arrow">▼</span></h5>
                         <div class="faq-answer">
-                            <p>Yes! Cancel anytime with no penalties or hidden fees. Your founding member price of £35/month is locked in as long as you remain a member, but you can leave whenever you need to. We only want students who love being part of the club.</p>
+                            <p>Yes! Cancel anytime with no penalties or hidden fees. Your early bird price of £35/month is locked in as long as you remain a member, but you can leave whenever you need to. We only want students who love being part of the club.</p>
                         </div>
                     </div>
                     <div class="faq-item">
-                        <h5 class="faq-question">Is the founding member price really limited? <span class="arrow">▼</span></h5>
+                        <h5 class="faq-question">Is the early bird price really limited? <span class="arrow">▼</span></h5>
                         <div class="faq-answer">
-                            <p>Yes, absolutely. The founding member price of £35/month is strictly limited to the first 10 students as a special reward for early adopters. Once these spots are filled, the price will increase to the standard £47/month.</p>
+                            <p>Yes, absolutely. The early bird price of £35/month is a special reward for early adopters. After 31st December, the price will increase to the standard £47/month.</p>
                         </div>
                     </div>
                 </div>
@@ -589,7 +602,7 @@
                 <div class="col-lg-6">
                     <div class="text-center mb-4">
                         <h2>Join the Study Club Now</h2>
-                        <p class="lead">Fill out the details below to secure your founding member spot</p>
+                        <p class="lead">Fill out the details below to secure your early bird spot</p>
                     </div>
 
                     <div class="signup-form-pro">
@@ -725,6 +738,27 @@
                 });
             }
         });
+
+        // Countdown Timer
+const countdownDate = new Date("Jan 1, 2026 00:00:00").getTime();
+const countdownTimer = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+    
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+    const countdownEl = document.getElementById("countdown");
+    if (countdownEl) {
+        if (distance > 0) {
+            countdownEl.innerHTML = days + "d " + hours + "h " + minutes + "m";
+        } else {
+            countdownEl.innerHTML = "OFFER ENDED";
+            clearInterval(countdownTimer);
+        }
+    }
+}, 1000);
     </script>
 
 </body>

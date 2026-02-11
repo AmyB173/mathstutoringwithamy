@@ -594,42 +594,23 @@
             </div>
         </div>
     </section>
-
-    <!-- Sign-Up Section -->
+<!-- Sign-Up Section -->
     <section id="signup" class="section fade-in" style="background: var(--warm-white);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center mb-4">
-                        <h2>Join the Study Club Now</h2>
-                        <p class="lead">Fill out the details below to secure your early bird spot</p>
+                        <h2>Study Club Closed</h2>
+                        <p class="lead">Still interested in tutoring? WhatsApp me here:</p>
                     </div>
 
-                    <div class="signup-form-pro">
-                        <form action="./studyclub/process-details.php" method="POST" id="signup-form">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="student_first_name" class="form-label fw-bold">First Name <span style="color: var(--warm-purple);">*</span></label>
-                                    <input type="text" class="form-control" id="student_first_name" name="student_first_name" required placeholder="Enter first name">
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="student_last_name" class="form-label fw-bold">Last Name <span style="color: var(--warm-purple);">*</span></label>
-                                    <input type="text" class="form-control" id="student_last_name" name="student_last_name" required placeholder="Enter last name">
-                                </div>
-                            </div>
-
-                            <div class="mb-4">
-                                <label for="student_email" class="form-label fw-bold">Your Email Address <span style="color: var(--warm-purple);">*</span></label>
-                                <input type="email" class="form-control" id="student_email" name="student_email" required placeholder="your.email@example.com">
-                            </div>
-
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-cta-green btn-lg w-100 mb-3">
-                                    Secure My Spot Now
-                                </button>
-                                <p class="small text-muted mb-0">Secure payment via Stripe • Cancel anytime</p>
-                            </div>
-                        </form>
+                    <div class="text-center">
+                        <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
+                           target="_blank" 
+                           class="whatsapp-button">
+                          <span class="whatsapp-icon">💬</span>
+                          Message me on WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
@@ -723,42 +704,42 @@
             });
         });
 
-        // Form submission tracking
-        document.getElementById('signup-form').addEventListener('submit', function() {
-            // Facebook Pixel conversion tracking
-            if (typeof fbq !== 'undefined') {
-                fbq('track', 'InitiateCheckout');
-            }
+        // // Form submission tracking
+        // document.getElementById('signup-form').addEventListener('submit', function() {
+        //     // Facebook Pixel conversion tracking
+        //     if (typeof fbq !== 'undefined') {
+        //         fbq('track', 'InitiateCheckout');
+        //     }
             
-            // Google Analytics conversion tracking
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'begin_checkout', {
-                    'event_category': 'Study Club',
-                    'event_label': 'Founding Member Signup'
-                });
-            }
-        });
+        //     // Google Analytics conversion tracking
+        //     if (typeof gtag !== 'undefined') {
+        //         gtag('event', 'begin_checkout', {
+        //             'event_category': 'Study Club',
+        //             'event_label': 'Founding Member Signup'
+        //         });
+        //     }
+        // });
 
-        // Countdown Timer
-const countdownDate = new Date("Jan 1, 2026 00:00:00").getTime();
-const countdownTimer = setInterval(function() {
-    const now = new Date().getTime();
-    const distance = countdownDate - now;
+//         // Countdown Timer
+// const countdownDate = new Date("Jan 1, 2026 00:00:00").getTime();
+// const countdownTimer = setInterval(function() {
+//     const now = new Date().getTime();
+//     const distance = countdownDate - now;
     
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     
-    const countdownEl = document.getElementById("countdown");
-    if (countdownEl) {
-        if (distance > 0) {
-            countdownEl.innerHTML = days + "d " + hours + "h " + minutes + "m";
-        } else {
-            countdownEl.innerHTML = "OFFER ENDED";
-            clearInterval(countdownTimer);
-        }
-    }
-}, 1000);
+//     const countdownEl = document.getElementById("countdown");
+//     if (countdownEl) {
+//         if (distance > 0) {
+//             countdownEl.innerHTML = days + "d " + hours + "h " + minutes + "m";
+//         } else {
+//             countdownEl.innerHTML = "OFFER ENDED";
+//             clearInterval(countdownTimer);
+//         }
+//     }
+// }, 1000);
     </script>
 
 </body>

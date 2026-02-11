@@ -17,11 +17,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Maths Tutoring with Amy | Why stress about Maths when they could be feeling confident, relaxed and achieving their potential. Expert Edexcel A Level and GCSE Maths Tutoring to build confidence, self-esteem and grades. Online tutoring available all over the UK - I welcome clients from n England, including London, Manchester, Oxford, Bristol, Birmingham, and more." />
-  <title>
-    Maths Tutoring With Amy | Build confidence and grades | Edexcel A Level
-    and GCSE and IGCSE Maths Tutoring
-  </title>
+    content="Expert online maths tutor for KS3, GCSE and A Level students. GCSE all exam boards — AQA, Edexcel, OCR & WJEC. A Level Edexcel & AQA. 11+ years' teaching experience. Build confidence, improve grades and enjoy maths again. Online tutoring across England and Wales." />
+  <title>Online Maths Tutor | KS3, GCSE & A Level | All Exam Boards | Maths Tutoring with Amy</title>
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
@@ -81,7 +78,7 @@
         <div class="col-lg-6 hero-content">
           <h1 class="hero-title">Why stress about Maths when they could be feeling confident, relaxed & achieving their
             potential?😎</h1>
-          <p class="hero-subtitle">Edexcel GCSE and A Level Maths Specialist online tutoring. <br> Enjoy → Engage → Excel</p>
+          <p class="hero-subtitle">Expert online maths tutoring for KS3, GCSE and A Level. GCSE all exam boards — A Level Edexcel & AQA. <br> Enjoy → Engage → Excel</p>
 
           <!-- Social Proof Section -->
           <div class="text-center mb-4">
@@ -259,8 +256,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mb-4">GCSE and A Level Maths Tutoring</h2>
-          <p class="lead mb-4">I'm a specialist Edexcel tutor helping students with Foundation, Higher and A Level Mathematics.</p>
+          <h2 class="mb-4">KS3, GCSE and A Level Maths Tutoring</h2>
+          <p class="lead mb-4">I help students with KS3, GCSE (all exam boards including AQA, Edexcel, OCR & WJEC) and A Level Mathematics (Edexcel & AQA).</p>
 
           <p class="mb-4">Together we work on building skills, increasing confidence, improving exam technique, and ensuring concepts stick through regular practice.</p>
 
@@ -402,7 +399,7 @@
             <div class="qualification-item">
               <span class="qualification-icon">📘</span>
               <div>
-                <strong>Specialist in Edexcel GCSE, IGCSE & A Level Maths</strong>
+                <strong>Specialist in GCSE & IGCSE Maths (all boards) and A Level Maths (Edexcel & AQA)</strong>
               </div>
             </div>
 

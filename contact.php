@@ -16,7 +16,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Contact Maths Tutoring with Amy | Enquire about tutoring services for Edexcel A Level and GCSE Maths. Build confidence and improve grades with expert online maths tutoring." />
+    content="Contact Maths Tutoring with Amy | Enquire about online maths tutoring for KS3, GCSE (all exam boards) and A Level (Edexcel & AQA). Build confidence and improve grades with 11+ years' teaching experience." />
   <title>Contact | Maths Tutoring With Amy</title>
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
@@ -152,7 +152,7 @@
           
           <!-- WhatsApp Button -->
           <div class="text-center mb-4">
-            <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
+            <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20maths%20tutoring%20for%20my%20child" 
                target="_blank" 
                class="whatsapp-button">
               <span class="whatsapp-icon">💬</span>
@@ -160,7 +160,7 @@
             </a>
           </div>
 
-          <p class="text-muted small">On a computer without WhatsApp? Email me at <a href="mailto:contact@mathstutoringwithamy.co.uk?subject=GCSE Maths Tutoring Enquiry">contact@mathstutoringwithamy.co.uk</a> or use the form below</p>
+          <p class="text-muted small">On a computer without WhatsApp? Email me at <a href="mailto:contact@mathstutoringwithamy.co.uk?subject=Maths Tutoring Enquiry">contact@mathstutoringwithamy.co.uk</a> or use the form below</p>
         </div>
       </div>
     </div>
@@ -231,7 +231,7 @@
 
   <!-- WhatsApp Float Button -->
   <div class="whatsapp-float">
-    <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20Edexcel%20GCSE%20maths%20tutoring%20for%20my%20child" 
+    <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I'm%20interested%20in%20maths%20tutoring%20for%20my%20child" 
        target="_blank" 
        class="whatsapp-float-button">
       💬

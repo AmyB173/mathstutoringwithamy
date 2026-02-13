@@ -78,14 +78,14 @@
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">📅</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">11+ Years Experience</span>
+            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">12 Years Experience</span>
             <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">State &amp; Independent Schools</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
-            <span style="font-size: 2rem; margin-bottom: 8px;">✅</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">DBS Checked</span>
+            <span style="font-size: 2rem; margin-bottom: 8px;">⭐</span>
+            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">5 Star Rating on Google</span>
             <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">Enhanced Certificate</span>
           </div>
         </div>
@@ -93,12 +93,38 @@
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">📝</span>
             <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">All Exam Boards</span>
-            <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">AQA · Edexcel · OCR · WJEC</span>
+            <span style="font-size: 0.75rem; opacity: 0.75; margin-top: 4px; text-align: center; line-height: 1.4;">GCSE: AQA · Edexcel · OCR · WJEC<br>A Level: Edexcel · AQA</span>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- ================================================ 2b. SCROLLING TRUST BAR -->
+  <div class="trust-bar-scroller">
+    <div class="scroller-inner">
+      <div class="scroller-content">
+        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
+        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
+        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
+        <span><i class="fas fa-graduation-cap"></i> 5 STAR Rated on Google</span>
+        <span><i class="fas fa-chalkboard-teacher"></i> GCSE — All Exam Boards</span>
+        <span><i class="fas fa-book-open"></i> A Level — Edexcel &amp; AQA</span>
+        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
+        <span><i class="fas fa-heart"></i> Trial Session Available</span>
+        <span><i class="fas fa-pencil-alt"></i> Interactive Digital Classroom</span>
+        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
+        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
+        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
+        <span><i class="fas fa-graduation-cap"></i> 5 STAR Rated on Google</span>
+        <span><i class="fas fa-chalkboard-teacher"></i> GCSE — All Exam Boards</span>
+        <span><i class="fas fa-book-open"></i> A Level — Edexcel &amp; AQA</span>
+        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
+        <span><i class="fas fa-heart"></i> Trial Session Available</span>
+        <span><i class="fas fa-pencil-alt"></i> Interactive Digital Classroom</span>
+      </div>
+    </div>
+  </div>
 
   <!-- ================================================ 3. PENCIL SPACES / HOW I TEACH -->
   <section class="section" style="background: var(--warm-cream);">
@@ -182,12 +208,17 @@
           </div>
 
           <div class="mt-3">
-            <p class="small text-muted mb-2">All major exam boards covered:</p>
-            <div class="exam-board-pills">
+            <p class="small text-muted mb-1"><strong>GCSE</strong> — all exam boards:</p>
+            <div class="exam-board-pills mb-2">
               <span class="exam-board-pill">AQA</span>
               <span class="exam-board-pill">Edexcel</span>
               <span class="exam-board-pill">OCR</span>
               <span class="exam-board-pill">WJEC</span>
+            </div>
+            <p class="small text-muted mb-1"><strong>A Level</strong> — Edexcel &amp; AQA:</p>
+            <div class="exam-board-pills">
+              <span class="exam-board-pill">Edexcel</span>
+              <span class="exam-board-pill">AQA</span>
             </div>
           </div>
         </div>

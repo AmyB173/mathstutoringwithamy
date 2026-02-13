@@ -1,6 +1,11 @@
-/* Font system with consistent sizing */
+/* ================================================
+   MATHS TUTORING WITH AMY — style-new.css
+   Scoped to: index.php, navbar.php, study-club.php, contact.php
+   ================================================ */
+
+/* ------------------------------------------------ CSS VARIABLES */
 :root {
-  --warm-cream: #f9f6f3;
+  --warm-cream: #f5f0ff;
   --soft-gold: #fcd36d;
   --warm-dark: #2D2B2A;
   --soft-coral: #ff8a65;
@@ -10,9 +15,10 @@
   --success-green: #a8e6cf;
   --warm-purple: #c9b2f8;
   --warm-blue: #5dccf0;
+  --deep-purple: #4a306d;
 }
 
-/* -------------------------------------------------GENERAL */
+/* ------------------------------------------------ BASE */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--warm-white);
@@ -23,91 +29,60 @@ body {
 }
 
 p {
-  font-family: var(--font-body);
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 1.2rem;
   text-align: start;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--warm-dark);
+  color: var(--deep-purple);
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
-h1 {
-  font-size: 36px;
-}
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; font-weight: 700; }
 
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-/* Section Styling */
+/* ------------------------------------------------ SECTIONS */
 .section {
-  padding: 80px 0;
+  padding: 4rem 0;
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .section-title h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .section-title p {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   color: var(--warm-dark);
   opacity: 0.7;
+  margin-bottom: 0;
 }
 
-/* Colouring */
+/* ------------------------------------------------ COLOUR UTILITIES */
 .bg-accent-light {
   background-color: #f0e6fc;
   border-top: 1px solid #e2d5f8;
   border-bottom: 1px solid #e2d5f8;
 }
 
-.brand-red-text {
-  color: var(--color-primary);
-}
-
-.brand-grey-text {
-  color: var(--color-dark);
-}
-
-.brand-light-blue-text {
-  color: #a0d8ff;
-}
-
-/* Button styling */
+/* ------------------------------------------------ BUTTONS */
 .btn {
   border-radius: 25px;
-  font-family: var(--font-heading);
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
   padding: 14px 28px;
@@ -121,97 +96,127 @@ h5 {
   font-size: 18px;
 }
 
-.btn-primary {
-  background: var(--warm-blue);
+/* Primary CTA (navbar Enquire Now button) */
+.btn-cta-pro {
+  background-color: var(--success-green);
+  color: #1a1a1a !important;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   border: none;
-  border-radius: 25px;
+  box-shadow: 0 4px 0px #7ab9a3;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-cta-pro:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0px #7ab9a3;
+  background-color: #96dcc4;
+  color: #1a1a1a !important;
+}
+
+/* WhatsApp CTA — used on index.php */
+.btn-whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--success-green);
+  color: #1a1a1a !important;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  box-shadow: 0 4px 0px #7ab9a3;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-whatsapp-cta:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0px #7ab9a3;
+  background-color: #96dcc4;
+  color: #1a1a1a !important;
+}
+
+/* WhatsApp button — used on study-club.php (.whatsapp-button / .whatsapp-btn) */
+.whatsapp-button,
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #25D366;
+  color: white !important;
+  padding: 14px 32px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  border: none;
+}
+
+.whatsapp-button:hover,
+.whatsapp-btn:hover {
+  background-color: #20BA5A;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  font-size: 1.125rem;
+}
+
+/* Green CTA — used on study-club.php */
+.btn-cta-green {
+  background-color: var(--success-green);
+  border: none;
+  border-radius: 8px;
   padding: 14px 28px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   letter-spacing: -0.01em;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(93, 204, 240, 0.3);
-  color: white;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(93, 204, 240, 0.4);
-  background: #4db8e8;
-  color: white;
-}
-
-.btn-secondary {
-  background: var(--success-green);
-  border: none;
-  border-radius: 25px;
-  padding: 14px 28px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: -0.01em;
+  box-shadow: 0 4px 15px rgba(168, 230, 207, 0.4);
   color: var(--warm-dark);
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(168, 230, 207, 0.3);
 }
 
-.btn-secondary:hover {
+.btn-cta-green:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(168, 230, 207, 0.4);
+  box-shadow: 0 6px 25px rgba(168, 230, 207, 0.5);
+  background-color: #96dcc4;
   color: var(--warm-dark);
-  background: #96dcc4;
 }
 
-/* WhatsApp Button Styles */
-    .whatsapp-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      background-color: #25D366;
-      color: white;
-      padding: 16px 24px;
-      text-decoration: none;
-      border-radius: 25px;
-      font-weight: 600;
-      font-size: 18px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
-      margin-bottom: 2rem;
-    }
-
-    .whatsapp-button:hover {
-      background-color: #20BA5A;
-      text-decoration: none;
-      color: white;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
-    }
-
-    .whatsapp-icon {
-      font-size: 20px;
-    }
-
-
-/* ---------------------------------------------------- NAVBAR */
-header .fixed-top {
-  padding: 0.5rem 1rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.btn-cta-green.btn-lg {
+  padding: 16px 32px;
+  font-size: 18px;
 }
 
+/* ------------------------------------------------ NAVBAR */
+.navbar {
+  background-color: #ffffff !important;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03) !important;
+}
 
 .logo-words {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   letter-spacing: -0.02em;
   color: var(--brand-red);
-}
-
-.navbar {
-  background-color: var(--warm-white) !important;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-  padding: 0.75rem 1rem;
 }
 
 .navbar-brand img {
@@ -223,36 +228,87 @@ header .fixed-top {
 }
 
 .nav-link {
-  color: var(--warm-dark) !important;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  color: var(--deep-purple) !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600 !important;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
   position: relative;
 }
 
 .nav-link:hover {
-  color: var(--brand-red) !important;
+  color: var(--success-green) !important;
 }
 
+/* Remove underline pseudo-elements from old versions */
 .nav-link::after {
-  content: '';
-  position: absolute;
+  display: none !important;
+}
+
+.dropdown-menu {
+  border-radius: 12px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+.dropdown-item {
+  font-weight: 500;
+  color: var(--deep-purple);
+  border-radius: 6px;
+  padding: 8px 15px;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--warm-cream);
+  color: var(--deep-purple);
+  padding-left: 20px;
+}
+
+/* Dropdown caret */
+.navbar-nav .dropdown-toggle::after {
+  display: inline-block !important;
   width: 0;
-  height: 2px;
-  bottom: -5px;
-  left: 50%;
-  background-color: var(--soft-gold);
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
+  height: 0;
+  margin-left: 0.45em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid !important;
+  border-right: 0.3em solid transparent !important;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent !important;
+  color: var(--deep-purple) !important;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.nav-link:hover::after {
-  width: 80%;
+.nav-item.dropdown:hover .dropdown-toggle::after {
+  color: var(--success-green) !important;
+  transform: translateY(2px);
 }
 
-/* ---------------------------------------------------- HERO */
+/* Desktop hover dropdown */
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0;
+    animation: fadeIn 0.2s ease-out;
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ------------------------------------------------ HERO (index.php) */
 .hero-section {
-  background: linear-gradient(135deg, var(--warm-cream) 0%, var(--light-gold) 100%);
-  padding: 120px 0 80px;
+  background: linear-gradient(135deg, var(--warm-white) 0%, var(--light-gold) 100%);
+  padding: 6rem 0 4rem;
   position: relative;
   overflow: hidden;
 }
@@ -270,15 +326,8 @@ header .fixed-top {
 }
 
 @keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-
-  50% {
-    transform: translateY(-20px) rotate(5deg);
-  }
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-20px) rotate(5deg); }
 }
 
 .hero-content {
@@ -287,16 +336,16 @@ header .fixed-top {
 }
 
 .hero-title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -0.03em;
   margin-bottom: 1.5rem;
   animation: slideInLeft 0.8s ease-out 0.2s both;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   color: var(--warm-dark);
   opacity: 0.8;
   margin-bottom: 2rem;
@@ -309,8 +358,9 @@ header .fixed-top {
 }
 
 .hero-image img {
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  box-shadow: 20px 20px 0px rgba(122, 185, 163, 0.3);
+  border: 1px solid #e5e7eb;
   transition: transform 0.3s ease;
 }
 
@@ -319,39 +369,98 @@ header .fixed-top {
 }
 
 @keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  from { opacity: 0; transform: translateX(-50px); }
+  to   { opacity: 1; transform: translateX(0); }
 }
 
 @keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  from { opacity: 0; transform: translateX(50px); }
+  to   { opacity: 1; transform: translateX(0); }
 }
 
-/* ---------------------------------------------------- MAIN CONTENT */
+/* Hero testimonial snippet */
+.hero-testimonial-snippet {
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid var(--success-green);
+  padding-left: 15px;
+  margin: 20px 0;
+  font-size: 0.95rem;
+}
 
-/* --------------------------------- PAS Section */
-/* Cards */
-.warm-card {
-  background: var(--warm-white);
+/* Social proof pill */
+.social-proof-pill {
+  background: var(--deep-purple);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+}
+
+/* Exam board pills */
+.exam-board-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.exam-board-pill {
+  background: var(--warm-cream);
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--deep-purple);
+}
+
+/* Contact page hero — centred, no image, smaller padding */
+.hero-section-contact {
+  background: linear-gradient(135deg, var(--warm-white) 0%, var(--light-gold) 100%);
+  padding: 5rem 0 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Trust fact pills inside the contact hero */
+.contact-trust-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+
+.contact-trust-pill {
+  background: white;
+  border: 1px solid #d1d5db;
   border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--deep-purple);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Section background utility classes */
+.section-purple {
+  background: var(--warm-cream); /* #f5f0ff */
+}
+
+.section-white {
+  background: var(--warm-white);
+}
+
+
+.warm-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(252, 211, 109, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
   transition: all 0.3s ease;
 }
 
@@ -360,171 +469,246 @@ header .fixed-top {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* Family quotes */
-.family-quote {
-  background: var(--warm-white);
-  border-radius: 16px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-left: 4px solid var(--soft-coral);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s ease;
+.warm-card h4 {
+  font-size: 1.375rem;
+  margin-bottom: 1rem;
 }
 
-.family-quote:hover {
-  transform: translateY(-3px);
-  border-left-color: var(--soft-gold);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+.warm-card h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
 }
 
-.family-quote p {
-  margin-bottom: 0;
-  font-style: italic;
-  color: #444;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-/* ----------------------------Framework highlight */
-.framework-highlight {
-  background: linear-gradient(135deg, var(--warm-purple), var(--soft-gold));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 700;
-}
-
-/* ------------------------------Classes section */
-.classes-section {
+/* ------------------------------------------------ TESTIMONIALS (index.php) */
+.testimonials-full {
   background: var(--warm-cream);
 }
 
-.class-card {
-  background: var(--warm-white);
-  border-radius: 16px;
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s ease;
-  height: 100%;
+.testimonial-screenshot {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
 }
 
-.class-card:hover {
+.testimonial-screenshot:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
 }
 
-.booking-badge {
-  background: var(--success-green);
-  color: var(--warm-dark);
-  font-size: 0.9rem;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* ------------------------------------------------ STUDY CLUB HERO */
+.hero-section-study-hub {
+  background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
+  padding: 120px 0 80px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.hero-section-study-hub .hero-title,
+.hero-section-study-hub .hero-subtitle {
+  color: white;
+}
+
+/* ------------------------------------------------ STUDY CLUB — INLINE STYLES PROMOTED */
+
+/* Branded header */
+.branded-header {
+  background: var(--warm-white);
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(201, 178, 248, 0.2);
+}
+
+.branded-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--warm-purple);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+/* Mobile sticky CTA */
+.mobile-sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  display: none;
+}
+
+/* Scarcity alert */
+.scarcity-alert {
+  background-color: #f0e6fc;
+  border-left: 4px solid var(--warm-purple);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Pricing card — study club */
+.pricing-card-pro {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e8eaf0;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.pricing-card-pro:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.pricing-card-pro.featured {
+  border: 2px solid var(--warm-purple);
+}
+
+.pricing-card-pro .badge {
+  background-color: var(--warm-purple);
+  color: white;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
   font-weight: 600;
   display: inline-block;
-  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
-/* ---------------------------------------------------- TESTIMONIALS */
-/* Testimonials */
-.testimonial-card {
+.pricing-card-pro .price {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--warm-dark);
+  line-height: 1;
+}
+
+.pricing-card-pro .price small {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--warm-dark);
+}
+
+/* Signup form */
+.signup-form-pro {
+  background: white;
+  border: 1px solid #e8eaf0;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.signup-form-pro .form-control {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+}
+
+.signup-form-pro .form-control:focus {
+  border-color: var(--warm-purple);
+  box-shadow: 0 0 0 0.2rem rgba(201, 178, 248, 0.25);
+}
+
+/* Guarantee box */
+.guarantee-box-pro {
+  background: #f0e6fc;
+  border: 1px solid var(--warm-purple);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Amy image — study club */
+.amy-professional-img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 280px;
+}
+
+/* WhatsApp banner */
+.whatsapp-banner {
+  background: var(--warm-white);
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(93, 204, 240, 0.2);
+  border-bottom: 1px solid rgba(93, 204, 240, 0.2);
+}
+
+/* Highlight text */
+.highlight-text {
+  color: var(--soft-gold);
+  font-weight: 700;
+}
+
+.highlight-text-cta {
+  color: var(--success-green);
+  font-weight: 700;
+}
+
+/* ------------------------------------------------ FAQ (study-club.php) */
+.faq-item {
   background: var(--warm-white);
   border-radius: 16px;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-left: 4px solid var(--success-green);
+  margin-bottom: 1rem;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
 
-.testimonial-card:hover {
+.faq-item:hover {
   transform: translateY(-3px);
-  border-left-color: var(--warm-blue);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-author {
+.faq-item h5,
+.faq-item .faq-question {
+  color: var(--warm-blue);
+  cursor: pointer;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  margin-bottom: 0;
+}
+
+.faq-item .faq-answer {
   margin-top: 1rem;
+  display: none;
+  font-size: 1rem;
 }
 
-.author-avatar {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--warm-blue), var(--success-green));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
+.faq-item .faq-answer.show {
+  display: block;
+}
+
+/* ------------------------------------------------ ALERTS */
+.alert {
+  border: none;
+  font-weight: 500;
+}
+
+.alert-success {
+  background-color: var(--success-green);
+  color: var(--warm-dark);
+}
+
+.alert-danger {
+  background-color: var(--soft-coral);
   color: white;
-  font-size: 1.1rem;
 }
 
-
-/*--------------------------FRAME WORK SECTION STYLES */
-/* Framework cards */
-.framework-card {
-  background: var(--warm-white);
-  border-radius: 20px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-}
-
-.framework-card:nth-child(1) {
-  border-top: 4px solid var(--warm-purple);
-}
-
-.framework-card:nth-child(2) {
-  border-top: 4px solid var(--warm-blue);
-}
-
-.framework-card:nth-child(3) {
-  border-top: 4px solid var(--soft-gold);
-}
-
-.framework-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-}
-
-/* --------------------------------------ABOUT ME SECTION STYLES */
-/* About section */
-.about-section {
-  background: var(--warm-white);
-}
-
-.about-image {
-  border-radius: 20px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-}
-
-.qualification-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  padding: 0.75rem;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-}
-
-.qualification-item:hover {
-  background-color: var(--warm-cream);
-  transform: translateX(5px);
-}
-
-.qualification-icon {
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  min-width: 30px;
-}
-
-/* ---------------------------------------------------- General FOOTER */
-/* Footer */
+/* ------------------------------------------------ FOOTER */
 footer {
   background: var(--warm-dark);
   color: var(--warm-cream);
@@ -551,26 +735,7 @@ footer {
   color: var(--warm-dark);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.25rem;
-  }
-
-  .section-title h2 {
-    font-size: 2rem;
-  }
-
-  .hero-section {
-    padding: 100px 0 60px;
-  }
-
-  body {
-    padding-top: 70px;
-  }
-}
-
-/* -----------------------------------Index Animation for scroll */
+/* ------------------------------------------------ SCROLL ANIMATION */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -582,768 +747,294 @@ footer {
   transform: translateY(0);
 }
 
-/* ---------------------------------------------------- CONTACT */
-#contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: var(--spacing-md);
-}
+/* ------------------------------------------------ CONTACT PAGE */
 
-#contact-form label {
-  font-weight: 600;
-  margin-bottom: var(--spacing-xs);
-}
-
-#contact-form .form-control {
-  margin-bottom: var(--spacing-md);
-  border-radius: var(--border-radius);
-  padding: 10px;
-}
-
-#contact-form button[type="submit"] {
-  background-color: var(--color-secondary);
-  color: var(--color-dark);
-  border: none;
-  font-weight: 700;
-}
-
-#contact-form button[type="submit"]:hover {
-  background-color: #66cdaa;
-}
-
-/* Review Board Section Styles */
-.review-screenshot-card {
-  position: relative;
+/* Calendly card wrapper */
+.calendly-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
   border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-  animation: fadeInUp 0.6s ease-out forwards;
+  padding: 2.5rem;
+  box-shadow: 8px 8px 0px rgba(122, 185, 163, 0.3);
 }
 
-.review-screenshot-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.calendly-card h3 {
+  color: var(--deep-purple);
 }
 
-/* Mobile responsive adjustments */
-@media (max-width: 767px) {
-  .review-screenshot-card {
-    margin-bottom: 1.5rem;
-  }
-}
-
-/* Optional: Animation for review cards */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Form enhancements */
-.form-control:focus {
-  border-color: var(--warm-blue);
-  box-shadow: 0 0 0 0.2rem rgba(93, 204, 240, 0.25);
-}
-
-.form-check:hover {
-  background-color: var(--warm-cream);
-  transition: background-color 0.3s ease;
-}
-
-.form-check-input:checked {
-  background-color: var(--warm-blue);
-  border-color: var(--warm-blue);
-}
-
-/* Alert styling */
-.alert {
-  border: none;
-  font-weight: 500;
-}
-
-.alert-success {
-  background-color: var(--success-green);
-  color: var(--warm-dark);
-}
-
-.alert-danger {
-  background-color: var(--soft-coral);
-  color: white;
-}
-
-
-
-/* ------------------------------------------------------INSTA LINKS PAGE */
-/* Instagram Badge */
-.instagram-badge {
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  display: inline-block;
-}
-
-/* Link Cards */
-.link-card {
-  background: var(--warm-white);
-  border-radius: 20px;
-  padding: 2rem;
-  color: var(--warm-dark);
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-}
-
-.link-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: var(--warm-blue);
-  color: var(--warm-dark);
-  text-decoration: none;
-}
-
-.link-card-icon {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+/* Divider with text label between hero and calendly */
+.section-divider {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-  color: white;
-  margin: 0 auto 1.5rem;
-}
-
-.icon-guide {
-  background: linear-gradient(135deg, var(--warm-blue) 0%, var(--success-green) 100%);
-}
-
-.icon-programme {
-  background: linear-gradient(135deg, var(--warm-purple) 0%, var(--soft-coral) 100%);
-}
-
-.icon-gcse {
-  background: linear-gradient(135deg, var(--soft-gold) 0%, var(--warm-blue) 100%);
-  color: var(--warm-dark) !important;
-}
-
-.link-badge {
-  background: var(--warm-cream);
-  color: var(--warm-dark);
-  padding: 0.4rem 1rem;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border: 1px solid rgba(93, 204, 240, 0.2);
-}
-
-
-/*-------------------------------------------------------------INFO PACK PAGE */
-/* Enhanced sizing consistency - Add to existing style-new.css */
-
-/* Standardize spacing using existing variables */
-.section {
-  padding: 4rem 0; /* More consistent than 80px */
-}
-
-.section-title {
-  margin-bottom: 3rem; /* Reduced from 4rem for better proportion */
-}
-
-.section-title h2 {
-  font-size: 2.25rem; /* Between existing 2rem and 2.5rem */
-  margin-bottom: 1rem;
-}
-
-.section-title p {
-  font-size: 1.125rem; /* Match body text size */
-  margin-bottom: 0;
-}
-
-/* Consistent hero sizing */
-.hero-section {
-  padding: 6rem 0 4rem; /* More proportional */
-}
-
-.hero-title {
-  font-size: 2.5rem; /* Slightly smaller for better readability */
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-}
-
-.hero-subtitle {
-  font-size: 1.125rem; /* Match section subtitle */
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
-/* Consistent card padding and margins */
-.warm-card {
-  padding: 2rem; /* Keep existing */
-  margin-bottom: 1.5rem; /* Standardize bottom margin */
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #d1d5db;
 }
 
-.warm-card h4 {
-  font-size: 1.375rem; /* Between h4 and h3 sizes */
-  margin-bottom: 1rem;
+.section-divider span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--deep-purple);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
 }
 
-.warm-card h5 {
-  font-size: 1.125rem; /* Consistent with body text */
-  margin-bottom: 0.75rem;
-  margin-top: 1.5rem;
+/* Testimonial card — review screenshot wrapper */
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 8px 8px 0px rgba(122, 185, 163, 0.3);
+  transition: all 0.2s ease;
+  height: 100%;
 }
 
-/* Family quote improvements */
-.family-quote {
-  padding: 1.25rem; /* Slightly smaller for better proportion */
-  margin: 1rem 0; /* Consistent vertical spacing */
+.testimonial-card:hover {
+  transform: translateY(2px);
+  box-shadow: 4px 4px 0px rgba(122, 185, 163, 0.3);
 }
 
-.family-quote p {
-  font-size: 1rem; /* Consistent with base text */
-  margin-bottom: 0.75rem;
+/* Testimonial images inside the card */
+.testimonial-card-img {
+  border-radius: 8px;
+  width: 100%;
 }
 
-.family-quote p:last-child {
-  margin-bottom: 0;
+/* Review source badge (Facebook etc.) */
+.review-badge {
+  display: inline-block;
+  background: var(--success-green);
+  color: var(--warm-dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
 }
 
-/* Feature list consistency */
-.feature-list li {
-  padding: 0.5rem 0; /* Consistent with existing */
-  font-size: 1rem; /* Match body text */
-  line-height: 1.5;
+/* WhatsApp floating button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
-/* Button consistency */
-.whatsapp-button {
-  padding: 1rem 1.5rem; /* More consistent with existing buttons */
-  font-size: 1rem; /* Match body text */
-  margin-bottom: 1.5rem;
+.whatsapp-float-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s ease;
+  font-size: 24px;
 }
 
-.whatsapp-icon {
-  font-size: 1.125rem; /* Slightly larger than text */
+.whatsapp-float-button:hover {
+  transform: scale(1.1);
+  color: white;
+  text-decoration: none;
 }
 
-/* Responsive adjustments */
+
+
+/* ------------------------------------------------ RESPONSIVE */
 @media (max-width: 768px) {
-  .section {
-    padding: 3rem 0; /* Smaller on mobile */
+  body {
+    padding-top: 70px;
   }
-  
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
   .hero-section {
     padding: 4rem 0 3rem;
   }
-  
-  .hero-title {
-    font-size: 2rem; /* Existing mobile size */
+
+  .section {
+    padding: 3rem 0;
   }
-  
+
   .section-title h2 {
-    font-size: 1.875rem; /* Proportional reduction */
+    font-size: 1.875rem;
   }
-  
+
   .warm-card {
-    padding: 1.5rem; /* Existing mobile padding */
-  }
-  
-  .equipment-grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 1rem;
-  }
-}
-
-/* ===== MINIMAL CLEAN ADDITIONS ===== */
-
-/* Remove any special styling for qualification items - use simple paragraphs */
-.qualification-item {
-  margin-bottom: 1rem;
-}
-
-/* Responsive image sizing */
-@media (max-width: 768px) {
-  .col-lg-4 img, .col-md-4 img {
-    margin-bottom: 2rem;
-  }
-}
-
-/* Testimonials Screenshots Grid */
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  align-items: start;
-}
-
-.testimonial-screenshot {
-  background: var(--warm-white);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-}
-
-.testimonial-screenshot:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
-}
-
-.screenshot-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px 12px 0 0;
-}
-
-.screenshot-caption {
-  padding: 1rem;
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--warm-blue);
-  font-weight: 500;
-  text-align: center;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .testimonials-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .testimonial-screenshot {
-    max-width: 100%;
-  }
-}
-
-/* Tablet adjustments */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .testimonials-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Desktop - 3 columns for larger screens */
-@media (min-width: 1025px) {
-  .testimonials-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* ---------------------------------------------------- STUDY HUB */
-/* Study Hub Specific */
-.hero-section-study-hub {
-    background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
-    padding: 120px 0 80px;
-    position: relative;
-    overflow: hidden;
-    color: white; /* Ensures text is visible on the new gradient background */
-}
-
-.hero-section-study-hub .hero-title,
-.hero-section-study-hub .hero-subtitle {
-    color: white; /* Ensures text is visible on the new gradient background */
-}
-
-.highlight-text {
-    color: var(--soft-gold);
-    font-weight: 700;
-}
-
-.highlight-text-cta {
-    color: var(--success-green); /* A contrasting highlight for the final CTA */
-    font-weight: 700;
-}
-
-.problem-point {
-    background: var(--warm-white);
-    border-radius: 16px;
     padding: 1.5rem;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-    border-left: 4px solid var(--soft-coral); /* Default border for problem points */
-    margin-bottom: 1.5rem;
-    transition: all 0.3s ease;
-}
+  }
 
-.problem-point:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
-}
-
-.solution-card {
-    background: var(--warm-white);
-    border-radius: 20px;
-    padding: 2rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(93, 204, 240, 0.2); /* Soft blue border for solution cards */
-    transition: all 0.3s ease;
-    height: 100%;
-}
-
-.solution-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-}
-
-.solution-card .icon {
-    font-size: 2.5rem;
-    color: var(--warm-blue);
-    margin-bottom: 1rem;
-}
-
-.fire-method-card {
-    background: var(--warm-white);
-    border-radius: 20px;
-    padding: 2rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(252, 211, 109, 0.2); /* Soft gold border for fire method cards */
-    transition: all 0.3s ease;
-}
-
-.fire-method-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-}
-
-.fire-method-card h4 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: var(--brand-red); /* Consistent red for FIRE method titles */
-}
-
-.fire-method-card p {
-    font-size: 1.125rem;
-}
-
-.pricing-callout {
-    background: var(--success-green);
-    color: var(--warm-dark);
-    padding: 2rem;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(168, 230, 207, 0.3);
-    margin-bottom: 2rem;
-}
-
-.pricing-callout h3 {
-    font-size: 2.25rem;
-    color: var(--warm-dark);
-    margin-bottom: 1rem;
-}
-
-.pricing-callout .price {
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--brand-red);
-    line-height: 1;
-}
-
-.pricing-callout .price-note {
-    font-size: 1.25rem;
-    margin-top: 0.5rem;
-}
-
-.pricing-feature-list {
-    list-style: none;
-    padding-left: 0;
-    text-align: left;
-}
-
-.pricing-feature-list li {
-    font-size: 1.1rem;
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-}
-
-.pricing-feature-list li .check-icon {
-    color: var(--success-green);
-    margin-right: 10px;
-    font-size: 1.3rem;
-}
-
-.faq-item {
-    background: var(--warm-white);
-    border-radius: 16px;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-    transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
-}
-
-.faq-item h5 {
-    color: var(--warm-blue);
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0;
-}
-
-.faq-item .faq-answer {
-    margin-top: 1rem;
-    display: none;
-    font-size: 1rem;
-}
-
-.faq-item .faq-answer.show {
+  .mobile-sticky-cta {
     display: block;
+  }
+
+  body.study-club-page {
+    padding-bottom: 80px !important;
+  }
+
+  .branded-header h1 {
+    font-size: 1.2rem;
+  }
 }
 
-.btn-bright-pink {
-    background-color: #FF007F; /* Chosen bright pink */
-    border: none;
-    border-radius: 25px;
-    padding: 14px 28px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: -0.01em;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 0, 127, 0.3);
-    color: white;
+@media (min-width: 992px) {
+  .hero-section-study-hub .hero-title {
+    font-size: 3.5rem;
+  }
 }
 
-.btn-bright-pink:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(255, 0, 127, 0.4);
-    background-color: #e60072; /* Slightly darker pink on hover */
-    color: white;
+/* Rotating Trust Bar Styling */
+.trust-bar-scroller {
+  background: var(--deep-purple);
+  padding: 20px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-.hero-kicker {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 1.6rem; /* Increased from 1.25rem */
-  color: #FF007F; /* Changed to bright pink to match the button */
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 3px rgba(45, 43, 42, 0.3);
-}
-
-.feature-card {
-  background-color: white;
-  border: 1px solid #e8eaf0;
-  border-top: 4px solid var(--warm-blue);
-  border-radius: 8px;
-  padding: 2rem;
-  height: 100%;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-}
-
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  border-top-color: #FF007F; /* Bright Pink on hover */
-}
-
-.feature-card .icon {
-  font-size: 2.5rem;
-  color: var(--warm-blue);
-  margin-bottom: 1rem;
-  transition: color 0.3s ease;
-}
-
-.feature-card:hover .icon {
-  color: #FF007F; /* Bright Pink on hover */
-}
-/* --- New Pricing Cards --- */
-.pricing-card {
-  background: white;
-  border-radius: 16px;
-  padding: 2.5rem 2rem;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
-  border: 1px solid #e8eaf0;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-
-.pricing-card.featured {
-  border: 2px solid #FF007F;
-  transform: scale(1.03);
-  z-index: 10;
-}
-
-.pricing-card .badge {
-  background-color: #FF007F;
-  color: white;
-  font-size: 0.9rem;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-weight: 600;
+.scroller-inner {
   display: inline-block;
-  margin-bottom: 1rem;
 }
 
-.pricing-card .price {
-  font-size: 3.5rem;
-  font-weight: 700;
-  color: var(--warm-dark);
-  line-height: 1;
+.scroller-content {
+  display: flex;
+  animation: scroll-left 40s linear infinite;
 }
 
-.pricing-card .price small {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--warm-dark);
-}
-
-/* --- New Testimonial Cards --- */
-.testimonial-card-new {
-  background: white;
-  border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
-  border-left: 4px solid var(--success-green);
-  height: 100%;
-}
-
-.testimonial-card-new p {
-    font-style: italic;
-}
-
-.testimonial-author {
+.scroller-content span {
+  font-family: 'Poppins', sans-serif;
+  color: white;
   font-weight: 600;
-  font-style: normal;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0 40px; /* Space between items */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroller-content i {
+  color: var(--success-green);
+  font-size: 1.1rem;
+}
+
+/* The Animation */
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Pause on hover so people can read a specific point */
+.trust-bar-scroller:hover .scroller-content {
+  animation-play-state: paused;
+}
+
+
+/* ------------------------------------------------ FOOTER ENHANCEMENTS */
+.site-footer {
+  background-color: #ffffff; /* Matches Navbar background */
+  padding: 3rem 0;
+  border-top: 1px solid #e5e7eb; /* Matches Navbar border-bottom */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.03); /* Matches Navbar shadow */
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .footer-brand {
+    justify-content: flex-start;
+  }
+}
+
+.footer-logo {
+  height: 45px; /* Matches Navbar brand image height */
+  margin-right: 12px;
+}
+
+.footer-brand-text {
+  line-height: 1.2;
+}
+
+.copyright-text {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-email {
+  color: var(--deep-purple);
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+
+.footer-link {
   color: var(--warm-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
 }
 
-
-/* ---------------------------------------------------- 
-   GCSE PAGE - SIMPLE BLOCK DESIGN
-   ---------------------------------------------------- */
-
-.simple-content-section {
-    padding: 80px 0;
-    background-color: var(--warm-white);
+.footer-link:hover {
+  color: var(--brand-red);
 }
 
-.intro-text {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto 2rem auto;
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
-.outcomes-list {
-    list-style: '✓ ';
-    padding-left: 1.5rem;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1.1rem;
+@media (min-width: 768px) {
+  .footer-social-links {
+    justify-content: flex-end;
+  }
 }
 
-.outcomes-list li {
-    padding-left: 1rem;
-    margin-bottom: 0.75rem;
+.social-link {
+  color: var(--deep-purple);
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--warm-cream);
 }
 
-.info-box {
-    padding: 2rem;
-    border-radius: 16px;
-    height: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
-}
-
-.info-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
-}
-
-.info-box h4 {
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-/* Color Variants */
-.info-box-purple {
-    background-color: var(--warm-purple);
-    color: white;
-}
-
-.info-box-green {
-    background-color: var(--success-green);
-    color: var(--warm-dark);
-}
-
-.info-box-blue {
-    background-color: var(--warm-blue);
-    color: white;
-}
-
-
-
-/* =========================================== New Styles for Calculator Guide Page ===== */
-
-/* Hero Section Subtitle */
-.hero-section-v3 .lead {
-  opacity: 0.9;
-}
-
-/* Teacher Profile Image */
-.teacher-profile-img {
-  max-width: 250px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-/* "Clock is ticking" Section Paragraph */
-.intro-paragraph {
-    line-height: 1.7;
-}
-
-/* Transformation Card Icons */
-.transformation-card .fa-times-circle {
-  color: var(--soft-coral);
-}
-.transformation-card .fa-check-circle {
-  color: var(--warm-blue);
-}
-
-/* "Did You Know" Section Images */
-.feature-image {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-height: 300px;
-    object-fit: cover;
-}
-
-/* Download Form Section */
-.bg-light-gold {
-  background-color: var(--light-gold);
-}
-
-.download-form-card {
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: var(--warm-white);
-}
-
-/* Gradient background for sections */
-.bg-hero-gradient {
-    background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
-}
-
-/* Ensures text is readable on the new gradient background */
-.bg-hero-gradient h2,
-.bg-hero-gradient .lead {
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+.social-link:hover {
+  color: white;
+  background-color: var(--brand-red);
+  transform: translateY(-3px);
 }

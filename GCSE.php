@@ -14,6 +14,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online GCSE Maths Tutor | AQA, Edexcel, OCR & WJEC | Maths Tutoring with Amy</title>
     <meta name="description" content="Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards. Build confidence and improve grades with 12 years of teaching experience.">
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/GCSE" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/GCSE">
+    <meta property="og:title" content="Online GCSE Maths Tutor | AQA, Edexcel, OCR &amp; WJEC | Maths Tutoring with Amy">
+    <meta property="og:description" content="Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards. Build confidence and improve grades with 12 years of teaching experience.">
+    <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +29,37 @@
     <link rel="stylesheet" href="assets/css/style-new.css">
     
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Online GCSE Maths Tutoring",
+      "description": "Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Maths Tutoring with Amy",
+        "url": "https://www.mathstutoringwithamy.co.uk",
+        "sameAs": "https://share.google/PiqQQ8HetL8ChASgP",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "6",
+          "bestRating": "5"
+        }
+      },
+      "educationalLevel": "GCSE",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "instructor": {
+          "@type": "Person",
+          "name": "Amy",
+          "jobTitle": "Online Maths Tutor"
+        }
+      }
+    }
+    </script>
 </head>
 
 <body>

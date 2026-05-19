@@ -16,7 +16,12 @@
   <title>Contact | Maths Tutoring With Amy</title>
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
-  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/contact.html" />
+  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/contact" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/contact">
+  <meta property="og:title" content="Contact | Maths Tutoring With Amy">
+  <meta property="og:description" content="Enquire about online maths tutoring for KS3, GCSE and A Level. Build confidence and improve grades with 11+ years' teaching experience.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/style-new.css" rel="stylesheet" />
 

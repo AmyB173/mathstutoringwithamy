@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F23DT2TY7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "G-3F23DT2TY7");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
@@ -9,7 +17,12 @@
     <title>Tutoring Information | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/tutoring-info.php" />
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/tutoring-information" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/tutoring-information">
+    <meta property="og:title" content="Tutoring Information | Maths Tutoring With Amy">
+    <meta property="og:description" content="Complete tutoring information for Maths Tutoring with Amy. Learn about online lessons, group and 1:1 options, pricing, and how to get started with expert GCSE and A Level maths tutoring.">
+    <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style-new.css" rel="stylesheet" />
 

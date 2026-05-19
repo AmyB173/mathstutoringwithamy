@@ -14,6 +14,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Framework and Values | Maths Tutoring with Amy</title>
   <meta name="description" content="Discover the Enjoy. Engage. Excel. framework that guides our maths tutoring approach. Learn about our values of putting people first, bespoke lessons, and excellence always.">
+  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/framework-values" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/framework-values">
+  <meta property="og:title" content="Framework and Values | Maths Tutoring with Amy">
+  <meta property="og:description" content="Discover the Enjoy. Engage. Excel. framework that guides our maths tutoring approach. Learn about our values of putting people first, bespoke lessons, and excellence always.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">

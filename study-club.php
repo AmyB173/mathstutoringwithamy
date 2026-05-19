@@ -20,7 +20,12 @@
     <title>Study Club | A Level Maths Tutoring | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/study-club.php" />
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/study-club" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/study-club">
+    <meta property="og:title" content="Study Club | A Level Maths Tutoring | Maths Tutoring With Amy">
+    <meta property="og:description" content="Study Club: Online tutoring for Year 13 Edexcel A Level Maths. Build confidence, overcome struggles, and succeed with weekly masterclasses, mindset sessions, and Q&amp;A support.">
+    <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <link href="./assets/css/style-new.css" rel="stylesheet" />

@@ -17,7 +17,12 @@
   <title>Maths Tutoring Info Pack | Online GCSE & A Level Lessons | Amy</title>
 
   <link rel="icon" type="image/x-icon" href="/assets/images/logo-red.png">
-  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/info-pack.php" />
+  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/info-pack" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/info-pack">
+  <meta property="og:title" content="Maths Tutoring Info Pack | Online GCSE &amp; A Level Lessons | Amy">
+  <meta property="og:description" content="Download the complete guide to online maths tutoring with Amy. Details on KS3, GCSE (All boards), and A Level (Edexcel/AQA) lessons, pricing, and our interactive online platform.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/css/style-new.css" rel="stylesheet" />
 

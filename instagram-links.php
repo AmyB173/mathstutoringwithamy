@@ -18,6 +18,12 @@
   <meta name="description"
     content="Quick links from Instagram | Maths Tutoring with Amy - Free A Level guide, recovery programme, and GCSE tutoring consultation booking." />
   <title>Instagram Links | Maths Tutoring With Amy</title>
+  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/instagram-links" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/instagram-links">
+  <meta property="og:title" content="Instagram Links | Maths Tutoring With Amy">
+  <meta property="og:description" content="Quick links from Instagram | Maths Tutoring with Amy - Free A Level guide, recovery programme, and GCSE tutoring consultation booking.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />

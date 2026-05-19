@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Maths Tutoring with Amy | Privacy Policy for Maths Tutoring with Amy">
     <title>Maths Tutoring With Amy | Privacy Policy</title>
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/privacy" />
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"

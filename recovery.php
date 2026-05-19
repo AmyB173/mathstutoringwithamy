@@ -14,6 +14,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="12-Week A Level Maths Recovery Programme - Transform your child's struggling A Level journey into success. For students who achieved Grade 6+ at GCSE but are now facing disappointing grades." />
   <title>12-Week A Level Maths Recovery Programme | Maths Tutoring With Amy</title>
+  <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/recovery" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/recovery">
+  <meta property="og:title" content="12-Week A Level Maths Recovery Programme | Maths Tutoring With Amy">
+  <meta property="og:description" content="Transform your child's struggling A Level journey into success. For students who achieved Grade 6+ at GCSE but are now facing disappointing grades.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />

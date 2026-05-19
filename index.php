@@ -17,6 +17,11 @@
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk">
+  <meta property="og:title" content="Online Maths Tutor | KS3, GCSE &amp; A Level | Maths Tutoring with Amy">
+  <meta property="og:description" content="Expert online maths tutor for KS3, GCSE and A Level. Qualified teacher with 11+ years experience building confidence.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/style-new.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,6 +30,30 @@
 
   <!-- FontAwesome loaded in <head> to prevent icon flash -->
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Maths Tutoring with Amy",
+    "url": "https://www.mathstutoringwithamy.co.uk",
+    "sameAs": "https://share.google/PiqQQ8HetL8ChASgP",
+    "description": "Expert online maths tutor for KS3, GCSE and A Level. Qualified teacher with 11+ years experience building confidence.",
+    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg",
+    "areaServed": ["England", "Wales"],
+    "founder": {
+      "@type": "Person",
+      "name": "Amy",
+      "jobTitle": "Online Maths Tutor"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "6",
+      "bestRating": "5"
+    }
+  }
+  </script>
 </head>
 
 <body>

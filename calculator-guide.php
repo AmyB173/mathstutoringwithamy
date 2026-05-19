@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F23DT2TY7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "G-3F23DT2TY7");
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
@@ -9,7 +17,12 @@
     <title>The Ultimate A-Level Calculator Guide | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/calculator-guide.php" />
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/calculator-guide" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/calculator-guide">
+    <meta property="og:title" content="The Ultimate A-Level Calculator Guide | Maths Tutoring With Amy">
+    <meta property="og:description" content="The comprehensive guide to your Edexcel A-Level calculator. Stop wasting time, eliminate panic, and know with 100% certainty that your answers are correct before you leave the exam.">
+    <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style-new.css" rel="stylesheet" />
 

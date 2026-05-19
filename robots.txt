@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /response/
+Disallow: /studyclub/webhook.php
+Disallow: /success-study-club
+
+Sitemap: https://www.mathstutoringwithamy.co.uk/sitemap.xml

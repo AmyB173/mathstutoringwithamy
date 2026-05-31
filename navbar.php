@@ -19,6 +19,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
           <ul class="dropdown-menu border-0 shadow-sm">
+            <li><a class="dropdown-item" href="meet-amy.php">Meet Amy</a></li>
             <li><a class="dropdown-item" href="framework-values.php">Framework and Values</a></li>
           </ul>
         </li>

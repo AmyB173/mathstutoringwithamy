@@ -46,7 +46,7 @@
         </div>
         
         <div class="d-flex align-items-end mb-4">
-          <img src="./assets/images/amy-green-top.jpg" alt="Amy" 
+          <img src="./assets/images/amy-green-top.jpg" alt="Amy, qualified maths teacher and online tutor"
                style="width: 120px; height: 120px; border-radius: 15px; object-fit: cover; border: 1px solid #e5e7eb; box-shadow: 10px 10px 0px var(--success-green); margin-right: 20px;">
           <div>
              <h1 class="hero-title display-5 mb-1">Let's talk.</h1>
@@ -136,13 +136,13 @@
       <div class="row g-4">
         <div class="col-md-6">
           <div class="testimonial-card">
-            <img src="./assets/images/testimonials/fb-review-sq.png" alt="Review" class="img-fluid rounded mb-3" />
+            <img src="./assets/images/testimonials/fb-review-sq.png" alt="5-star Facebook review from a GCSE Foundation Maths parent praising Amy's ability to build her child's confidence and understanding" class="img-fluid rounded mb-3" />
             <div class="review-badge">Facebook Review</div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="testimonial-card">
-            <img src="./assets/images/testimonials/fb-review-jm.png" alt="Review" class="img-fluid rounded mb-3" />
+            <img src="./assets/images/testimonials/fb-review-jm.png" alt="5-star Facebook review from a GCSE Higher Maths parent praising Amy's online tutoring and the progress their child made" class="img-fluid rounded mb-3" />
             <div class="review-badge">Facebook Review</div>
           </div>
         </div>

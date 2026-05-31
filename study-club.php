@@ -391,7 +391,7 @@
             <div class="row g-4 mb-5">
                 <div class="col-md-6">
                     <div class="d-flex align-items-start">
-                        <img src="./assets/images/1.png" alt="Online Tutoring Icon" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
+                        <img src="./assets/images/1.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
                         <div class="flex-grow-1">
                             <h5 class="fw-bold">Weekly Live Masterclass</h5>
                             <p class="mb-2">60-minute live session breaking down the most challenging A Level topics into clear, understandable concepts so you finally understand it completely</p>
@@ -403,7 +403,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex align-items-start">
-                        <img src="./assets/images/2.png" alt="Study Skills Icon" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
+                        <img src="./assets/images/2.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
                         <div>
                             <h5 class="fw-bold">Regular Mindset & Study Skills Support</h5>
                             <p class="mb-0">Support focused on proven exam techniques, study skills, and mindset reframing to tackle perfectionism and build true confidence</p>
@@ -412,7 +412,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex align-items-start">
-                        <img src="./assets/images/3.png" alt="Q&A Icon" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
+                        <img src="./assets/images/3.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
                         <div class="flex-grow-1">
                             <h5 class="fw-bold">Weekly Q&A Support</h5>
                             <p class="mb-2">Post your homework or revision questions with your working, and get personalized video feedback to help you understand exactly where you went wrong</p>
@@ -424,7 +424,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex align-items-start">
-                        <img src="./assets/images/4.png" alt="Community Icon" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
+                        <img src="./assets/images/4.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
                         <div>
                             <h5 class="fw-bold">Supportive Community</h5>
                             <p class="mb-0">A private community to connect with other students like you, share your struggles, and celebrate your wins</p>
@@ -439,12 +439,12 @@
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 text-center">
-                    <img src="./assets/images/6.png" alt="Recordings Icon" class="mb-3" style="width: 60px; height: 60px;">
+                    <img src="./assets/images/6.png" alt="" class="mb-3" style="width: 60px; height: 60px;">
                     <h5 class="fw-bold">Full Recordings Library</h5>
                     <p>Can't make a session? All masterclasses are recorded so you can catch up anytime</p>
                 </div>
                 <div class="col-md-6 col-lg-4 text-center">
-                    <img src="./assets/images/5.png" alt="Prize Draw Icon" class="mb-3" style="width: 60px; height: 60px;">
+                    <img src="./assets/images/5.png" alt="" class="mb-3" style="width: 60px; height: 60px;">
                     <h5 class="fw-bold">Monthly Prize Draw</h5>
                     <p>Your chance to win a <strong>FREE</strong> 1:1 private tutoring session with me every month!</p>
                 </div>

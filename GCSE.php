@@ -203,7 +203,7 @@
                             <div class="mb-3 text-warning">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
-                            <img src="./assets/images/testimonials/fb-review-sq.png" alt="Review" class="img-fluid rounded mb-3" />
+                            <img src="./assets/images/testimonials/fb-review-sq.png" alt="5-star Facebook review from a GCSE Foundation Maths parent praising Amy's ability to build her child's confidence and understanding" class="img-fluid rounded mb-3" />
                         </div>
                         <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
                             <span class="review-badge">Foundation Parent</span>
@@ -216,7 +216,7 @@
                             <div class="mb-3 text-warning">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
-                            <img src="./assets/images/testimonials/fb-review-jm.png" alt="Review" class="img-fluid rounded mb-3" />
+                            <img src="./assets/images/testimonials/fb-review-jm.png" alt="5-star Facebook review from a GCSE Higher Maths parent praising Amy's online tutoring and the progress their child made" class="img-fluid rounded mb-3" />
                         </div>
                         <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
                             <span class="review-badge">Higher Parent</span>

@@ -67,7 +67,7 @@
 
         <div class="col-lg-5">
           <div class="position-relative">
-            <img src="./assets/images/amy-red-jumper.webp" alt="Amy"
+            <img src="./assets/images/amy-red-jumper.webp" alt="Amy, qualified maths teacher and online tutor"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
             <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-blue); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>

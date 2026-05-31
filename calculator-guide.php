@@ -150,7 +150,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 text-center">
-                    <h2 class="mb-3">The clock is ticking... and you're stuck. </h2><img class="p-2" src="./assets/images/panic-symbol.png" width=120px>
+                    <h2 class="mb-3">The clock is ticking... and you're stuck. </h2><img class="p-2" src="./assets/images/panic-symbol.png" alt="" width=120px>
                     <p class="fs-5 text-secondary intro-paragraph">
                         Have you ever had that feeling in an exam, when you <em>know</em> that there is a calculator function that could solve the problem in seconds, but you just can't remember how to access it? You start to panic, your mind goes blank, and precious minutes slip away as you fumble through menus or try to do it manually.
                     </p>
@@ -229,7 +229,7 @@
 
             <div class="row align-items-center mb-5 pb-4">
                 <div class="col-md-6 justify-content-center justify-content-md-end d-flex">
-                    <img src="./assets/images/factorise.png" alt="A calculator on a desk with maths notes" class="img-fluid rounded feature-image">
+                    <img src="./assets/images/factorise.png" alt="Snippet from the A Level Maths Calculator Guide: stop wasting precious exam minutes on complex quadratics — your calculator can give you the roots instantly" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 ps-md-5">
                     <h4 class="mt-3 mt-md-0">Help you factorise difficult expressions</h4>
@@ -239,7 +239,7 @@
 
             <div class="row align-items-center pb-4 mb-5">
                 <div class="col-md-6 order-md-2 justify-content-center justify-content-md-start d-flex">
-                    <img src="assets/images/critical-region.png" alt="Maths equations written on a glass board" class="img-fluid rounded feature-image">
+                    <img src="assets/images/critical-region.png" alt="Snippet from the A Level Maths Calculator Guide: find the critical region in just a few steps using this underused calculator function" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 pe-md-5 order-md-1">
                     <h4 class="mt-3 mt-md-0">Find the critical region in one or two steps</h4>
@@ -249,7 +249,7 @@
 
             <div class="row align-items-center mb-5 pb-4">
                 <div class="col-md-6 justify-content-center justify-content-md-end d-flex">
-                    <img src="./assets/images/equation-strt-line.png" alt="Close-up of a person using a calculator" class="img-fluid rounded feature-image">
+                    <img src="./assets/images/equation-strt-line.png" alt="Snippet from the A Level Maths Calculator Guide: given two points, your calculator can instantly find the gradient and y-intercept, eliminating potential errors on coordinate geometry questions" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 ps-md-5">
                     <h4 class="mt-3 mt-md-0">Find the equation of a straight line</h4>
@@ -259,7 +259,7 @@
 
             <div class="row align-items-center mb-5 pb-4">
                 <div class="col-md-6 order-md-2 justify-content-center justify-content-md-start d-flex">
-                    <img src="./assets/images/indefinite-integration.png" alt="Close-up of a person using a calculator" class="img-fluid rounded feature-image">
+                    <img src="./assets/images/indefinite-integration.png" alt="Snippet from the A Level Maths Calculator Guide: check indefinite integration without limits — a lesser-known calculator trick for A Level Maths" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 pe-md-5 order-md-1">
                     <h4 class="mt-3 mt-md-0">Check <em>indefinite</em> integration</h4>
@@ -285,6 +285,20 @@
             </div>
         </div>
     </section>
+    <section class="section fade-in" style="background: white; padding-top: 40px; padding-bottom: 40px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-muted mb-4">Looking for more A Level Maths support from Amy?</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="/recovery" class="btn btn-outline-secondary">Year 12: 12-Week Recovery Programme &rarr;</a>
+                        <a href="/study-club" class="btn btn-outline-secondary">Year 13: A Level Study Club &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

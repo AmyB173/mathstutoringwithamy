@@ -30,6 +30,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Will my child get enough attention in a group session?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Every student has their own digital whiteboard. I monitor all boards simultaneously, giving individual feedback just like a 1:1 session but with a more relaxed social dynamic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is homework included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Weekly homework is set on Pencil Spaces to reinforce what we learned in the group session."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     /* Fixed styles for cleanliness */
     * { margin: 0; padding: 0; box-sizing: border-box; }

@@ -28,6 +28,63 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
   <link href="assets/css/style-new.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "We've already tried tutoring and it didn't work. How is this different?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This isn't just a lesson once a week where you're left to figure things out on your own. It's a structured recovery programme with full wraparound support. Students get live weekly teaching, a follow-up video to watch in their own time, targeted homework, personalised video feedback, and check-ins from me twice a week to keep them on track. Traditional tutoring says 'see you next week.' I text twice weekly to make sure they're actually doing the work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you guarantee my child will improve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I don't make false promises about specific grade improvements — every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if it's not working for my child?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I offer a happiness guarantee because I only want students who find the programme helpful. In the unlikely scenario that you want to cancel, you will be refunded any unused weeks of the programme, no questions asked. But here's the thing: if it's not working, we'll know early because of the twice-weekly check-ins, and we can adjust the approach before you'd even consider cancelling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My child doesn't have time for another commitment",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They'll need to commit a minimum of 3 hours per week: 60 minutes for the live session and around 2 hours for video review and homework. But think about it this way: 3 focused hours per week for 12 weeks, or continue struggling for the next 18 months? The time investment now saves massive stress later."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this online? What tech do we need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, everything is 100% online, delivered through a secure, interactive whiteboard platform. You'll need: a laptop or iPad, a webcam, and a way to write on screen (I recommend a graphics tablet or an iPad with a pen)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do we sign up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start by booking a free consultation. We'll talk through your child's situation and see if the programme is a good fit. If we're both happy to go ahead, you'll secure their place with payment."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>

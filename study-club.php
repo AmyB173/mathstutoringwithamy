@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -77,7 +77,7 @@
             border-radius: 8px;
             padding: 14px 28px;
             font-weight: 700;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Outfit', sans-serif;
             letter-spacing: -0.01em;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(168, 230, 207, 0.4);

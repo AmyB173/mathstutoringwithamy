@@ -37,9 +37,9 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: var(--deep-purple);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
@@ -82,7 +82,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 /* ------------------------------------------------ BUTTONS */
 .btn {
   border-radius: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
   padding: 14px 28px;
@@ -103,7 +103,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   border-radius: 8px;
   padding: 16px 32px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border: none;
@@ -130,7 +130,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   border-radius: 8px;
   padding: 16px 32px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border: none;
@@ -184,7 +184,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   border-radius: 8px;
   padding: 14px 28px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   letter-spacing: -0.01em;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(168, 230, 207, 0.4);
@@ -214,7 +214,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 .logo-words {
   font-size: 22px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   letter-spacing: -0.02em;
   color: var(--brand-red);
 }
@@ -465,8 +465,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .warm-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .warm-card h4 {
@@ -917,7 +916,7 @@ footer {
 }
 
 .scroller-content span {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: white;
   font-weight: 600;
   font-size: 0.9rem;

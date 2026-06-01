@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,7 +26,7 @@
   <link href="assets/css/style-new.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <!-- FontAwesome loaded in <head> to prevent icon flash -->
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
@@ -100,28 +100,28 @@
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">🎓</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">Qualified Teacher</span>
+            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">Qualified Teacher</span>
             <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">QTS Certified</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">📅</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">12 Years Experience</span>
+            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">12 Years Experience</span>
             <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">State &amp; Independent Schools</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">⭐</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">5 Star Rating on Google</span>
+            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">5 Star Rating on Google</span>
             <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">Enhanced Certificate</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
             <span style="font-size: 2rem; margin-bottom: 8px;">📝</span>
-            <span style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">All Exam Boards</span>
+            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">All Exam Boards</span>
             <span style="font-size: 0.75rem; opacity: 0.75; margin-top: 4px; text-align: center; line-height: 1.4;">GCSE: AQA · Edexcel · OCR · WJEC<br>A Level: Edexcel · AQA</span>
           </div>
         </div>

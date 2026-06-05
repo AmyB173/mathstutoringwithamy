@@ -50,23 +50,6 @@
         </div>
     </section>
 
-    <div class="trust-bar-scroller">
-        <div class="scroller-inner">
-            <div class="scroller-content">
-                <span><i class="fas fa-certificate"></i> Qualified Teacher (QTS)</span>
-                <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-                <span><i class="fas fa-graduation-cap"></i> 11+ Years Experience</span>
-                <span><i class="fas fa-heart"></i> Personalised Support</span>
-                <span><i class="fas fa-star"></i> 5-Star Rated</span>
-                <span><i class="fas fa-certificate"></i> Qualified Teacher (QTS)</span>
-                <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-                <span><i class="fas fa-graduation-cap"></i> 11+ Years Experience</span>
-                <span><i class="fas fa-heart"></i> Personalised Support</span>
-                <span><i class="fas fa-star"></i> 5-Star Rated</span>
-            </div>
-        </div>
-    </div>
-
     <section class="section section-white fade-in">
         <div class="container">
             <div class="row justify-content-center">

@@ -98,23 +98,6 @@
         </div>
     </section>
 
-    <div class="trust-bar-scroller">
-        <div class="scroller-inner">
-            <div class="scroller-content">
-                <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-                <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-                <span><i class="fas fa-book-open"></i> AQA, Edexcel, OCR, WJEC</span>
-                <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-                <span><i class="fas fa-star"></i> Foundation & Higher Tiers</span>
-                <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-                <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-                <span><i class="fas fa-book-open"></i> AQA, Edexcel, OCR, WJEC</span>
-                <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-                <span><i class="fas fa-star"></i> Foundation & Higher Tiers</span>
-            </div>
-        </div>
-    </div>
-
     <section class="section" style="background: white;">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">

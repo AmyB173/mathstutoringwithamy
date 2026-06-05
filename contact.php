@@ -81,39 +81,13 @@
   </div>
 </section>
 
-<section class="trust-bar-scroller">
-  <div class="scroller-inner">
-    <div class="scroller-content">
-      <span><i class="fas fa-check-circle"></i> Trusted by families</span>
-      <span><i class="fas fa-graduation-cap"></i>Qualified teacher. 12 years.</span>
-      <span><i class="fas fa-pencil-alt"></i> GCSE: All Exam Boards</span>
-      <span><i class="fas fa-book"></i> A Level: Edexcel & AQA</span>
-      <span><i class="fas fa-comment-dots"></i> Friendly & Approachable</span>
-      <span><i class="fas fa-lightbulb"></i> Clear Explanations</span>
-      <span><i class="fas fa-star"></i> Trial Sessions Available</span>
-      <span><i class="fas fa-clock"></i> Flexible Timings</span>
-      <span><i class="fas fa-shield-alt"></i> DBS Enhanced Certified</span>
-      
-      <span><i class="fas fa-check-circle"></i> Trusted by families</span>
-      <span><i class="fas fa-graduation-cap"></i> 12 Years Teaching Experience</span>
-      <span><i class="fas fa-pencil-alt"></i> GCSE: All Exam Boards</span>
-      <span><i class="fas fa-book"></i> A Level: Edexcel & AQA</span>
-      <span><i class="fas fa-comment-dots"></i> Friendly & Approachable</span>
-      <span><i class="fas fa-lightbulb"></i> Clear Explanations</span>
-      <span><i class="fas fa-star"></i> Trial Sessions Available</span>
-      <span><i class="fas fa-clock"></i> Flexible Timings</span>
-      <span><i class="fas fa-shield-alt"></i> DBS Enhanced Certified</span>
-    </div>
-  </div>
-</section>
-
   <section class="section" style="background: var(--warm-cream);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="text-center mb-5">
             <h2 class="mb-3">Prefer to talk first?</h2>
-            <p class="text-dark">Pick a time that suits you and we can talk through your child's needs over a video call — no pressure, no obligation.</p>
+            <p class="text-dark">Pick a time that suits you and we can have a relaxed chat about your child's needs over a video call.</p>
           </div>
           
           <div class="warm-card p-0 overflow-hidden" style="border-radius: 12px; border: 1px solid #d1d5db;">

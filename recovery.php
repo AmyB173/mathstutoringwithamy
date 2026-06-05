@@ -127,30 +127,6 @@
     </div>
   </section>
 
-  <!-- ================================================ 2. TRUST BAR -->
-  <div class="trust-bar-scroller">
-    <div class="scroller-inner">
-      <div class="scroller-content">
-        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
-        <span><i class="fas fa-users"></i> Maximum 5 Students</span>
-        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-        <span><i class="fas fa-mobile-alt"></i> Twice-Weekly Check-ins</span>
-        <span><i class="fas fa-heart"></i> Happiness Guarantee</span>
-        <span><i class="fas fa-book-open"></i> Edexcel A Level Specialist</span>
-        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
-        <span><i class="fas fa-users"></i> Maximum 5 Students</span>
-        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-        <span><i class="fas fa-mobile-alt"></i> Twice-Weekly Check-ins</span>
-        <span><i class="fas fa-heart"></i> Happiness Guarantee</span>
-        <span><i class="fas fa-book-open"></i> Edexcel A Level Specialist</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ================================================ 3. PROBLEM SECTION -->
   <section class="section" style="background: var(--warm-cream);">
     <div class="container">

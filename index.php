@@ -84,9 +84,8 @@
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
           <img src="./assets/images/amy-green-top.jpg" class="img-fluid" alt="Amy tutoring GCSE maths online" />
-          <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.95rem;">
-            Hi, I'm Amy — friendly, patient and here to make thriving in maths feel accessible to everyone.<br>
-            <span style="font-style: normal; font-size: 0.85rem;">11+ years teaching experience. Qualified teacher. When I'm not tutoring you'll find me outdoors or having a cosy evening with my dogs.</span>
+          <p class="text-center mt-3" style="color: #555; font-size: 1rem;">
+            <strong>Qualified secondary school maths teacher</strong> with 12 years in the classroom, now a full-time online tutor.
           </p>
         </div>
       </div>
@@ -128,33 +127,6 @@
       </div>
     </div>
   </section>
-
-  <!-- ================================================ 2b. SCROLLING TRUST BAR -->
-  <div class="trust-bar-scroller">
-    <div class="scroller-inner">
-      <div class="scroller-content">
-        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
-        <span><i class="fas fa-graduation-cap"></i> 5 STAR Rated on Google</span>
-        <span><i class="fas fa-chalkboard-teacher"></i> GCSE — All Exam Boards</span>
-        <span><i class="fas fa-book-open"></i> A Level — Edexcel &amp; AQA</span>
-        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-        <span><i class="fas fa-heart"></i> Trial Session Available</span>
-        <span><i class="fas fa-pencil-alt"></i> Interactive Digital Classroom</span>
-        <span><i class="fas fa-certificate"></i> Qualified Teacher Status</span>
-        <span><i class="fas fa-check-circle"></i> Enhanced DBS Checked</span>
-        <span><i class="fas fa-graduation-cap"></i> 12 Years Experience</span>
-        <span><i class="fas fa-graduation-cap"></i> 5 STAR Rated on Google</span>
-        <span><i class="fas fa-chalkboard-teacher"></i> GCSE — All Exam Boards</span>
-        <span><i class="fas fa-book-open"></i> A Level — Edexcel &amp; AQA</span>
-        <span><i class="fas fa-video"></i> Video Homework Feedback</span>
-        <span><i class="fas fa-heart"></i> Trial Session Available</span>
-        <span><i class="fas fa-pencil-alt"></i> Interactive Digital Classroom</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ================================================ 3. PENCIL SPACES / HOW I TEACH -->
   <section class="section" style="background: var(--warm-cream);">
     <div class="container">
@@ -227,7 +199,7 @@
 
           <div class="warm-card" style="border-color: #d1d5db;">
             <p class="text-dark mb-4">
-              That's why I always suggest a <strong>trial session</strong> first. No pressure, no commitment — just a chance to see if we work well together.
+              That's why I always suggest a <strong>trial session</strong> first. Just a chance to see if we work well together, with no commitment needed.
             </p>
 
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"

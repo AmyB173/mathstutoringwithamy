@@ -12,7 +12,7 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Meet Amy, qualified maths teacher with 11+ years experience, passionate about helping students build confidence in maths." />
+  <meta name="description" content="Meet Amy, qualified maths teacher with 12 years' experience, passionate about helping students build confidence in maths." />
   <title>Meet Amy | Online Maths Tutor | Maths Tutoring with Amy</title>
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/meet-amy">
   <meta property="og:title" content="Meet Amy | Online Maths Tutor | Maths Tutoring with Amy">
-  <meta property="og:description" content="Meet Amy, qualified maths teacher with 11+ years experience, passionate about helping students build confidence in maths.">
+  <meta property="og:description" content="Meet Amy, qualified maths teacher with 12 years' experience, passionate about helping students build confidence in maths.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -41,7 +41,7 @@
       "name": "Maths Tutoring with Amy",
       "url": "https://www.mathstutoringwithamy.co.uk"
     },
-    "description": "Qualified maths teacher with 11+ years experience, specialising in KS3, GCSE and A Level Maths tutoring online.",
+    "description": "Qualified maths teacher with 12 years' experience, specialising in KS3, GCSE and A Level Maths tutoring online.",
     "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp"
   }
   </script>

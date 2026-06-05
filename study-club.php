@@ -293,13 +293,13 @@
                             <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy, A Level Maths Teacher" class="img-fluid amy-professional-img">
                             <div class="mt-3">
                                 <p class="mb-1"><strong>Amy</strong></p>
-                                <p class="text-muted mb-0" style="font-size: 0.9rem;">Qualified Teacher &bull; 11+ Years Experience</p>
+                                <p class="text-muted mb-0" style="font-size: 0.9rem;">Qualified Teacher &bull; 12 Years Experience</p>
                             </div>
                         </div>
                         <div class="col-lg-8">
                             <h2 class="mb-4">Why Trust Me With Your A Level Maths?</h2>
                             <ul class="list-unstyled mb-4">
-                                <li class="mb-2">&#9989; <strong>11+ years</strong> teaching A Level Maths</li>
+                                <li class="mb-2">&#9989; <strong>12 years</strong> teaching A Level Maths</li>
                                 <li class="mb-2">&#9989; <strong>Clear and supportive style</strong> - there will be no judgement from me, only support and the belief you can get the grade you deserve</li>
                                 <li class="mb-2">&#9989; <strong>100+ students</strong> achieved their dream grade under my guidance</li>
                                 <li class="mb-2">&#9989; <strong>Edexcel exam board specialist</strong> - I know exactly what examiners want</li>

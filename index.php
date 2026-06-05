@@ -12,15 +12,15 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Expert online maths tutor for KS3, GCSE and A Level. Qualified teacher with 11+ years experience building confidence." />
-  <title>Online Maths Tutor | KS3, GCSE &amp; A Level | Maths Tutoring with Amy</title>
+  <meta name="description" content="Expert online maths tutor for Year 6, KS3, GCSE and A Level. Qualified teacher with 12 years' experience building confidence." />
+  <title>Online Maths Tutor | Year 6, KS3, GCSE &amp; A Level | Maths Tutoring with Amy</title>
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk">
-  <meta property="og:title" content="Online Maths Tutor | KS3, GCSE &amp; A Level | Maths Tutoring with Amy">
-  <meta property="og:description" content="Expert online maths tutor for KS3, GCSE and A Level. Qualified teacher with 11+ years experience building confidence.">
+  <meta property="og:title" content="Online Maths Tutor | Year 6, KS3, GCSE &amp; A Level | Maths Tutoring with Amy">
+  <meta property="og:description" content="Expert online maths tutor for Year 6, KS3, GCSE and A Level. Qualified teacher with 12 years' experience building confidence.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/style-new.css" rel="stylesheet" />
@@ -38,7 +38,7 @@
     "name": "Maths Tutoring with Amy",
     "url": "https://www.mathstutoringwithamy.co.uk",
     "sameAs": "https://share.google/PiqQQ8HetL8ChASgP",
-    "description": "Expert online maths tutor for KS3, GCSE and A Level. Qualified teacher with 11+ years experience building confidence.",
+    "description": "Expert online maths tutor for Year 6, KS3, GCSE and A Level. Qualified teacher with 12 years' experience building confidence.",
     "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg",
     "areaServed": ["England", "Wales"],
     "founder": {
@@ -66,7 +66,7 @@
         <div class="col-lg-6 hero-content">
           <div class="social-proof-pill">
             <span class="me-2">⭐⭐⭐⭐⭐</span>
-            <small class="fw-bold">11+ YEARS TEACHING EXPERIENCE</small>
+            <small class="fw-bold">12 YEARS TEACHING EXPERIENCE</small>
           </div>
           <h1 class="hero-title display-4">Expert Online Maths Tutoring</h1>
           <p class="hero-subtitle fs-5 text-dark">Building confidence, fostering enjoyment and achieving grades through expert support for Year 6, KS3, GCSE and A Level Maths.</p>

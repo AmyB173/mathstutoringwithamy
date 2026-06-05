@@ -69,7 +69,7 @@
             <small class="fw-bold">11+ YEARS TEACHING EXPERIENCE</small>
           </div>
           <h1 class="hero-title display-4">Expert Online Maths Tutoring</h1>
-          <p class="hero-subtitle fs-5 text-dark">Building confidence, fostering enjoyment and achieving grades through expert support for KS3, GCSE and A Level Maths.</p>
+          <p class="hero-subtitle fs-5 text-dark">Building confidence, fostering enjoyment and achieving grades through expert support for Year 6, KS3, GCSE and A Level Maths.</p>
           <div class="hero-testimonial-snippet">
             "Amy has developed a real friendship with our daughter... she has made more progress than we thought possible."
           </div>
@@ -217,9 +217,14 @@
               <span class="exam-board-pill">WJEC</span>
             </div>
             <p class="small text-muted mb-1"><strong>A Level</strong> — Edexcel &amp; AQA:</p>
-            <div class="exam-board-pills">
+            <div class="exam-board-pills mb-2">
               <span class="exam-board-pill">Edexcel</span>
               <span class="exam-board-pill">AQA</span>
+            </div>
+            <p class="small text-muted mb-1"><strong>Also taking on:</strong></p>
+            <div class="exam-board-pills">
+              <span class="exam-board-pill">Year 6</span>
+              <span class="exam-board-pill">KS3</span>
             </div>
           </div>
         </div>

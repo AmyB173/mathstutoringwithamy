@@ -21,7 +21,7 @@
           <ul class="dropdown-menu border-0 shadow-sm">
             <li><a class="dropdown-item" href="meet-amy.php">Meet Amy</a></li>
             <li><a class="dropdown-item" href="framework-values.php">Framework and Values</a></li>
-            <li><a class="dropdown-item" href="./info-pack.php">Pricing &amp; How It Works</a></li>
+            <li><a class="dropdown-item" href="./info-pack.php">Tutoring Essential Information</a></li>
           </ul>
         </li>
 
@@ -32,8 +32,8 @@
             <li><a class="dropdown-item" href="./GCSE.php">GCSE/IGCSE Tutoring</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><h6 class="dropdown-header">A Level</h6></li>
-            <li><a class="dropdown-item" href="./study-club.php">A Level Study Club</a></li>
-            <li><a class="dropdown-item" href="./recovery.php">A Level Recovery</a></li>
+            <li><a class="dropdown-item" href="./a-level.php">A Level Maths Tutoring</a></li>
+<li><a class="dropdown-item" href="./recovery.php">A Level Recovery</a></li>
           </ul>
         </li>
         

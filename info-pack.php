@@ -14,13 +14,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Complete information on online maths tutoring with Amy. Year 6, KS3, GCSE (all boards), and A Level (Edexcel/AQA) lessons. Pricing, lesson formats, platform details, and how to get started." />
-  <title>Maths Tutoring Info Pack | Online GCSE & A Level Lessons | Amy</title>
+  <title>Tutoring Essential Information | Online Maths Lessons | Amy</title>
 
   <link rel="icon" type="image/x-icon" href="/assets/images/logo-red.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/info-pack" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/info-pack">
-  <meta property="og:title" content="Maths Tutoring Info Pack | Online GCSE &amp; A Level Lessons | Amy">
+  <meta property="og:title" content="Tutoring Essential Information | Online Maths Lessons | Amy">
   <meta property="og:description" content="Complete information on online maths tutoring with Amy. Year 6, KS3, GCSE (all boards), and A Level (Edexcel/AQA) lessons. Pricing, lesson formats, platform details, and how to get started.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
@@ -73,8 +73,8 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
-          <h1 class="mb-2">Online Maths Tutoring</h1>
-          <p class="text-dark mb-4">Everything you need to know about lessons with Amy: formats, the platform, pricing, and how to get started.</p>
+          <h1 class="mb-2">Tutoring Essential Information</h1>
+          <p class="text-dark mb-4">Everything you need to know about lessons with Amy: formats, the platform, and how to get started.</p>
           <h2 class="mb-4">Expert support for every level</h2>
           <p class="text-dark">I'm a qualified secondary school Mathematics Teacher with <strong>11 years of experience</strong> across private and state sectors. I support students from Year 6 right through to A Level. Whatever stage your child is at, I can help.</p>
           <p class="text-dark">For GCSE, I work across <strong>AQA, Edexcel, OCR, and WJEC</strong>. For A Level, I focus on <strong>Edexcel and AQA</strong>. Lessons are designed to be welcoming, stress-free, and results-driven.</p>
@@ -201,40 +201,11 @@
           <h2 class="mb-2">Tuition fees</h2>
           <p class="text-dark mb-4">All standard lessons are <strong>55 minutes long</strong>. Shorter sessions are also available: <strong>30-minute lessons</strong> at half price, <strong>45-minute lessons</strong> at three-quarters of the price.</p>
 
-          <table class="table table-bordered pricing-table">
-            <thead>
-              <tr>
-                <th>Lesson Type</th>
-                <th class="text-end">Price per Lesson (55 min)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Year 6 &amp; Key Stage 3 (Group)</td>
-                <td class="text-end">£35</td>
-              </tr>
-              <tr>
-                <td>Year 6 &amp; Key Stage 3 (1:1)</td>
-                <td class="text-end">£65</td>
-              </tr>
-              <tr>
-                <td>GCSE (Group)</td>
-                <td class="text-end">£40</td>
-              </tr>
-              <tr>
-                <td>GCSE (1:1)</td>
-                <td class="text-end">£75</td>
-              </tr>
-              <tr>
-                <td>A Level (Group)</td>
-                <td class="text-end">£50</td>
-              </tr>
-              <tr>
-                <td>A Level (1:1)</td>
-                <td class="text-end">£85</td>
-              </tr>
-            </tbody>
-          </table>
+          <p class="text-dark mb-1">Prices vary depending on the age group, level, qualification, and which tutor is taking the session. As a guide:</p>
+          <ul class="feature-list mb-4">
+            <li>Small group lessons from <strong>£35</strong> per session</li>
+            <li>1:1 lessons from <strong>£65</strong> per session</li>
+          </ul>
 
           <h4 class="mt-4 mb-3">Payments &amp; policies</h4>
           <ul class="feature-list">

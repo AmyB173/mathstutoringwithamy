@@ -26,7 +26,7 @@
                     <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" class="social-link">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.youtube.com/@MathsTutoringwithAmy" target="_blank" class="social-link">
+                    <a href="https://www.youtube.com/@amythemathsteacher" target="_blank" class="social-link">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>

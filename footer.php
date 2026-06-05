@@ -20,7 +20,7 @@
 
             <div class="col-md-4">
                 <div class="footer-social-links">
-                    <a href="https://www.facebook.com/a.level.maths.tutoring.with.amy/" target="_blank" class="social-link">
+                    <a href="https://www.facebook.com/GCSEandALevel.MathsTutoringWithAmy" target="_blank" class="social-link">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="https://www.instagram.com/mathstutoringwithamy/" target="_blank" class="social-link">

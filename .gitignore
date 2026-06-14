@@ -9,3 +9,6 @@ webhook_log.txt
 
 # Ignore .env file
 .env
+
+# Social media graphics — local use only, not for the live site
+social-media.php

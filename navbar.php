@@ -33,7 +33,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><h6 class="dropdown-header">A Level</h6></li>
             <li><a class="dropdown-item" href="./a-level.php">A Level Maths Tutoring</a></li>
-<li><a class="dropdown-item" href="./recovery.php">A Level Recovery</a></li>
+<li><a class="dropdown-item" href="./recovery.php">Year 12 A Level Recovery</a></li>
           </ul>
         </li>
         

@@ -292,7 +292,7 @@
                     <p class="text-muted mb-4">Looking for more A Level Maths support from Amy?</p>
                     <div class="d-flex flex-wrap justify-content-center gap-3">
                         <a href="/recovery" class="btn btn-outline-secondary">Year 12: 12-Week Recovery Programme &rarr;</a>
-                        <a href="/study-club" class="btn btn-outline-secondary">Year 13: A Level Study Club &rarr;</a>
+                        <a href="/a-level" class="btn btn-outline-secondary">A Level Maths Tutoring &rarr;</a>
                     </div>
                 </div>
             </div>

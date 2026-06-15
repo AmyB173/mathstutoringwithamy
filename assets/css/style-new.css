@@ -307,7 +307,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* ------------------------------------------------ HERO (index.php) */
 .hero-section {
-  background: linear-gradient(135deg, var(--warm-white) 0%, var(--light-gold) 100%);
+  background: white;
   padding: 6rem 0 4rem;
   position: relative;
   overflow: hidden;

@@ -20,6 +20,10 @@ RewriteRule ^ - [L]
 RewriteRule ^index\.php$ / [R=301,L]
 RewriteRule ^tutoring-information(\.php)?$ /info-pack [R=301,L]
 
+# 2a. Redirect old .html URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
 # 3. Redirect from .php URL to the clean URL (for SEO and bookmarks)
 # Exclude POST requests to avoid breaking form submissions
 RewriteCond %{REQUEST_METHOD} !POST [NC]

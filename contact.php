@@ -66,13 +66,16 @@
 
       <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
         <div class="testimonial-card" style="transform: rotate(1deg); border-color: var(--success-green);">
-          <div class="review-badge mb-3">Featured Success</div>
-          <p class="small fst-italic text-dark mb-3">"Amy has taken a truly bespoke and compassionate approach, consistently going above and beyond to boost my daughter's confidence. Remarkably, she has even helped ignite a love for maths—something my daughter never had before! We've seen fantastic progress in a very short period of time."</p>
+          <div class="mb-3">
+            <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
+            <p style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 5px 0 0;">GCSE Maths</p>
+          </div>
+          <p class="small fst-italic text-dark mb-3">"Amy has taken a truly bespoke and compassionate approach, consistently going above and beyond to boost my daughter's confidence. Remarkably, she has even helped ignite a love for maths, something my daughter never had before! We've seen fantastic progress in a very short period of time."</p>
           <div class="d-flex align-items-center pt-2" style="border-top: 1px solid #eee;">
             <div class="text-warning small me-2">
               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
-            <span class="small fw-bold">— Year 11 Parent</span>
+            <span class="small fw-bold">Sian, Year 11 Parent</span>
           </div>
         </div>
       </div>
@@ -107,17 +110,99 @@
         <p>Real results from the families I work with.</p>
       </div>
 
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="testimonial-card">
-            <img src="./assets/images/testimonials/fb-review-sq.png" alt="5-star Facebook review from a GCSE Foundation Maths parent praising Amy's ability to build her child's confidence and understanding" class="img-fluid rounded mb-3" />
-            <div class="review-badge">Facebook Review</div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="testimonial-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade 4 <span style="color: var(--deep-purple);">&rarr;</span> Grade 6</p>
+                <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
+              </div>
+              <div class="mb-3 text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="small text-dark fst-italic">"Amy finds the underlying cause of particular learning issues and plans tailored sessions which build up understanding in levels. My daughter now says she enjoys maths because Amy makes it fun. Amy was recommended by our daughter's school and we could not recommend her more highly."</p>
+            </div>
+            <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+              <i class="fab fa-google text-muted me-2"></i>
+              <span class="small fw-bold">Nancy, GCSE Parent</span>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="testimonial-card">
-            <img src="./assets/images/testimonials/fb-review-jm.png" alt="5-star Facebook review from a GCSE Higher Maths parent praising Amy's online tutoring and the progress their child made" class="img-fluid rounded mb-3" />
-            <div class="review-badge">Facebook Review</div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
+                <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
+              </div>
+              <div class="mb-3 text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="small text-dark fst-italic">"Amy has taken a truly bespoke and compassionate approach, tailoring session lengths to suit our daughter's needs. She has even helped ignite a love for maths, something our daughter never had before. Our only regret is not finding her sooner!"</p>
+            </div>
+            <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+              <i class="fab fa-google text-muted me-2"></i>
+              <span class="small fw-bold">Sian, GCSE Parent</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <p style="font-family: 'Outfit', sans-serif; font-size: 2rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade A<span style="color: var(--deep-purple);">*</span></p>
+                <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">A Level Maths</p>
+              </div>
+              <div class="mb-3 text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="small text-dark fst-italic">"Amy's methodical teaching helped me achieve an A* at A Level and go on to study a <strong>Mathematics degree at University</strong>. Her lessons were very well planned and she made sure all students understood concepts thoroughly before moving on."</p>
+            </div>
+            <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+              <i class="fab fa-google text-muted me-2"></i>
+              <span class="small fw-bold">Ethan, Former A Level Student</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <p style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 800; line-height: 1.3; color: var(--warm-dark); margin: 0;">Now doing Year 8 work in Year 6</p>
+                <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS2 Maths &middot; Year 6</p>
+              </div>
+              <div class="mb-3 text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="small text-dark fst-italic">"A teacher worth millions. My child loves her, she has great success because of her. Thank you very much for the work you do!"</p>
+            </div>
+            <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+              <i class="fab fa-google text-muted me-2"></i>
+              <span class="small fw-bold">Violeta, Year 6 Parent</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="testimonial-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; color: var(--warm-dark); margin: 0;">Looks forward to every lesson</p>
+                <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS3 Maths &middot; Year 8</p>
+              </div>
+              <div class="mb-3 text-warning">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="small text-dark fst-italic">"My son was not happy about having a tutor at first, but he now looks forward to his lessons. He always comes away from the lesson on a high. Amy is great at getting him engaged at a level he understands, and the confidence he has now gained is wonderful."</p>
+            </div>
+            <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+              <i class="fab fa-google text-muted me-2"></i>
+              <span class="small fw-bold">Emma, Year 8 Parent</span>
+            </div>
           </div>
         </div>
       </div>

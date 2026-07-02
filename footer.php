@@ -3,10 +3,10 @@
         <div class="row align-items-center">
             <div class="col-md-4">
                 <div class="footer-brand">
-                    <img src="./assets/images/logo-red.png" alt="Maths Tutoring with Amy" class="footer-logo" />
+                    <img src="/assets/images/logo-red.png" alt="Maths Tutoring with Amy" class="footer-logo" />
                     <div class="footer-brand-text">
                         <div class="logo-words">Maths Tutoring with Amy</div>
-                        <p class="copyright-text">© 2025 All rights reserved</p>
+                        <p class="copyright-text">© 2026 All rights reserved</p>
                     </div>
                 </div>
             </div>

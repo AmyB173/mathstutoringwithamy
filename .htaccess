@@ -6,6 +6,9 @@ AddType application/xml xml
 RewriteEngine On
 RewriteBase /
 
+# Prevent directory listing
+Options -Indexes
+
 # 1. Force HTTPS and www
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
@@ -16,7 +19,11 @@ RewriteRule ^ https://www.%1%{REQUEST_URI} [L,R=301,NE]
 RewriteCond %{REQUEST_URI} ^/studyclub/webhook\.php$ [NC]
 RewriteRule ^ - [L]
 
-# 2. Specific redirects (must come before the generic .php rule)
+# 2. Blog: trailing slash redirect and listing page
+RewriteRule ^blog/$ /blog [R=301,L]
+RewriteRule ^blog$ blog.php [L]
+
+# 2a. Specific redirects (must come before the generic .php rule)
 RewriteRule ^index\.php$ / [R=301,L]
 RewriteRule ^tutoring-information(\.php)?$ /info-pack [R=301,L]
 RewriteRule ^index\.html$ / [R=301,L]

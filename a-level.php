@@ -117,12 +117,12 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-5">
           <h2 class="mb-4">Watch me teach</h2>
-          <p class="text-dark">Watch me work through log laws using a past A Level exam question. This is the style of teaching your child would get in a session with me: clear, step-by-step, and focused on understanding rather than just getting the answer.</p>
+          <p class="text-dark">Watch me work through an integration question from a past A Level exam paper. This is the style of teaching your child would get in a session with me: clear, step-by-step, and focused on understanding rather than just getting the answer.</p>
         </div>
         <div class="col-lg-7">
           <div class="ratio ratio-16x9" style="border-radius: 8px; overflow: hidden; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
             <iframe loading="lazy"
-              src="https://www.youtube.com/embed/Hz2Jkvd3OnA?start=44"
+              src="https://www.youtube.com/embed/gtn63f-P61U?start=17"
               title="Watch Amy teach A Level Maths"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

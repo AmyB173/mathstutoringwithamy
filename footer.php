@@ -14,7 +14,7 @@
             <div class="col-md-4 text-center">
                 <div class="footer-contact-info">
                     <span class="contact-email">contact@mathstutoringwithamy.co.uk</span>
-                    <a href="privacy.php" class="footer-link">Privacy Policy</a>
+                    <a href="/privacy" class="footer-link">Privacy Policy</a>
                 </div>
             </div>
 

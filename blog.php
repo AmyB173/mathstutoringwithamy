@@ -46,7 +46,7 @@
   </section>
 
   <!-- ================================================ POST LISTING -->
-  <section class="section" style="background: rgba(201, 178, 248, 0.06);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-9">
@@ -97,9 +97,8 @@
     <div class="container text-center">
       <h2 style="color: white;" class="mb-3">Questions about tutoring?</h2>
       <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-4">I'm happy to have a chat and see if I'm the right fit for your child.</p>
-      <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-         class="btn-whatsapp-cta">
-        <i class="fab fa-whatsapp fs-5"></i> Enquire on WhatsApp
+      <a href="/contact" class="btn-cta-pro">
+        Get in touch
       </a>
     </div>
   </section>

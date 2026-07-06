@@ -40,11 +40,6 @@
     <div class="row align-items-center">
       
       <div class="col-lg-6 hero-content">
-        <div class="social-proof-pill">
-          <span class="me-2">👋</span>
-          <small class="fw-bold">READY TO GET STARTED?</small>
-        </div>
-        
         <div class="d-flex align-items-end mb-4">
           <img src="./assets/images/amy-green-top.jpg" alt="Amy, qualified maths teacher and online tutor"
                style="width: 120px; height: 120px; border-radius: 15px; object-fit: cover; border: 1px solid #e5e7eb; box-shadow: 10px 10px 0px var(--success-green); margin-right: 20px;">
@@ -65,14 +60,14 @@
       </div>
 
       <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
-        <div class="testimonial-card" style="transform: rotate(1deg); border-color: var(--success-green);">
+        <div class="testimonial-card" style="transform: rotate(1deg); border-color: var(--deep-purple);">
           <div class="mb-3">
             <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
             <p style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 5px 0 0;">GCSE Maths</p>
           </div>
           <p class="small fst-italic text-dark mb-3">"Amy has taken a truly bespoke and compassionate approach, consistently going above and beyond to boost my daughter's confidence. Remarkably, she has even helped ignite a love for maths, something my daughter never had before! We've seen fantastic progress in a very short period of time."</p>
           <div class="d-flex align-items-center pt-2" style="border-top: 1px solid #eee;">
-            <div class="text-warning small me-2">
+            <div class="star-rating small me-2">
               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
             <span class="small fw-bold">Sian, Year 11 Parent</span>
@@ -84,7 +79,7 @@
   </div>
 </section>
 
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -118,7 +113,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade 4 <span style="color: var(--deep-purple);">&rarr;</span> Grade 6</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Amy finds the underlying cause of particular learning issues and plans tailored sessions which build up understanding in levels. My daughter now says she enjoys maths because Amy makes it fun. Amy was recommended by our daughter's school and we could not recommend her more highly."</p>
@@ -137,7 +132,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Amy has taken a truly bespoke and compassionate approach, tailoring session lengths to suit our daughter's needs. She has even helped ignite a love for maths, something our daughter never had before. Our only regret is not finding her sooner!"</p>
@@ -156,7 +151,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 2rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade A<span style="color: var(--deep-purple);">*</span></p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">A Level Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Amy's methodical teaching helped me achieve an A* at A Level and go on to study a <strong>Mathematics degree at University</strong>. Her lessons were very well planned and she made sure all students understood concepts thoroughly before moving on."</p>
@@ -175,7 +170,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 800; line-height: 1.3; color: var(--warm-dark); margin: 0;">Now doing Year 8 work in Year 6</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS2 Maths &middot; Year 6</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"A teacher worth millions. My child loves her, she has great success because of her. Thank you very much for the work you do!"</p>
@@ -194,7 +189,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; color: var(--warm-dark); margin: 0;">Looks forward to every lesson</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS3 Maths &middot; Year 8</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"My son was not happy about having a tutor at first, but he now looks forward to his lessons. He always comes away from the lesson on a high. Amy is great at getting him engaged at a level he understands, and the confidence he has now gained is wonderful."</p>

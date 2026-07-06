@@ -124,9 +124,8 @@
     <div class="container text-center">
       <h2 style="color: white;" class="mb-3">Get in touch</h2>
       <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-4">Have questions, or want to find out if I'm the right fit for your child? I'm happy to chat.</p>
-      <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-         class="btn-whatsapp-cta">
-        <i class="fab fa-whatsapp fs-5"></i> Enquire on WhatsApp
+      <a href="/contact" class="btn-cta-pro">
+        Enquire Now
       </a>
     </div>
   </section>

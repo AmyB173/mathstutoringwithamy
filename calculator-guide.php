@@ -40,7 +40,7 @@
         }
 
         .hero-section-v3 {
-            background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
+            background: linear-gradient(135deg, var(--warm-blue) 0%, var(--deep-purple) 100%);
             padding: 10px 0;
             color: white;
         }
@@ -229,7 +229,7 @@
 
             <div class="row align-items-center mb-5 pb-4">
                 <div class="col-md-6 justify-content-center justify-content-md-end d-flex">
-                    <img src="./assets/images/factorise.png" alt="Snippet from the A Level Maths Calculator Guide: stop wasting precious exam minutes on complex quadratics — your calculator can give you the roots instantly" class="img-fluid rounded feature-image">
+                    <img src="./assets/images/factorise.png" alt="Snippet from the A Level Maths Calculator Guide: stop wasting precious exam minutes on complex quadratics, your calculator can give you the roots instantly" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 ps-md-5">
                     <h4 class="mt-3 mt-md-0">Help you factorise difficult expressions</h4>
@@ -259,7 +259,7 @@
 
             <div class="row align-items-center mb-5 pb-4">
                 <div class="col-md-6 order-md-2 justify-content-center justify-content-md-start d-flex">
-                    <img src="./assets/images/indefinite-integration.png" alt="Snippet from the A Level Maths Calculator Guide: check indefinite integration without limits — a lesser-known calculator trick for A Level Maths" class="img-fluid rounded feature-image">
+                    <img src="./assets/images/indefinite-integration.png" alt="Snippet from the A Level Maths Calculator Guide: check indefinite integration without limits, a lesser-known calculator trick for A Level Maths" class="img-fluid rounded feature-image">
                 </div>
                 <div class="col-md-6 pe-md-5 order-md-1">
                     <h4 class="mt-3 mt-md-0">Check <em>indefinite</em> integration</h4>

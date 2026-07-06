@@ -69,10 +69,6 @@
         <div class="container">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
-                    <div class="social-proof-pill mb-3">
-                        <span class="me-2">⭐⭐⭐⭐⭐</span>
-                        <small class="fw-bold">12 YEARS TEACHING EXPERIENCE</small>
-                    </div>
                     <h1 class="mb-4">Online GCSE Maths Tutoring</h1>
                     <p class="text-dark">Whether your child is chasing top grades or just needs to pass to get to the course they want, I use 12 years of teaching experience to build their skills, grow their confidence, and help them see what they're actually capable of.</p>
 
@@ -80,9 +76,8 @@
                         "Amy has even helped ignite a love for maths - something our daughter never had before!"
                     </div>
 
-                    <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20GCSE%20tutoring"
-                       class="btn-whatsapp-cta">
-                        <i class="fab fa-whatsapp fs-5"></i> Enquire Now
+                    <a href="/contact" class="btn-cta-pro">
+                        Enquire Now
                     </a>
                 </div>
 
@@ -100,7 +95,7 @@
     </section>
 
     <!-- ================================================ 2. CONFIDENCE IS KEY -->
-    <section class="section" style="background: rgba(201, 178, 248, 0.08);">
+    <section class="section" style="background: rgba(74, 48, 109, 0.06);">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-8">
@@ -111,22 +106,22 @@
 
             <div class="row g-4">
                 <div class="col-md-3 text-center">
-                    <i class="fas fa-shield-alt fs-2 mb-3" style="color: var(--warm-purple);"></i>
+                    <i class="fas fa-shield-alt fs-2 mb-3" style="color: var(--deep-purple);"></i>
                     <h5 class="fw-bold">Genuinely Prepared</h5>
                     <p class="text-dark">Walk into the exam feeling ready, not just hopeful.</p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <i class="fas fa-chart-line fs-2 mb-3" style="color: var(--warm-purple);"></i>
+                    <i class="fas fa-chart-line fs-2 mb-3" style="color: var(--deep-purple);"></i>
                     <h5 class="fw-bold">Skills They Already Have</h5>
                     <p class="text-dark">We start from what they can do and build from there, so progress feels real.</p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <i class="fas fa-file-invoice fs-2 mb-3" style="color: var(--warm-purple);"></i>
+                    <i class="fas fa-file-invoice fs-2 mb-3" style="color: var(--deep-purple);"></i>
                     <h5 class="fw-bold">Exam Board Expertise</h5>
                     <p class="text-dark">Tailored support for AQA, Edexcel, OCR, and WJEC. Foundation and Higher.</p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <i class="fas fa-smile fs-2 mb-3" style="color: var(--warm-purple);"></i>
+                    <i class="fas fa-smile fs-2 mb-3" style="color: var(--deep-purple);"></i>
                     <h5 class="fw-bold">Confidence Every Lesson</h5>
                     <p class="text-dark">Leave every session feeling taller than when they arrived.</p>
                 </div>
@@ -182,7 +177,7 @@
                 <div class="col-md-6">
                     <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db;">
                         <div>
-                            <div class="mb-3 text-warning">
+                            <div class="mb-3 star-rating">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                             <img src="./assets/images/testimonials/fb-review-sq.png" alt="5-star Facebook review from a GCSE Foundation Maths parent praising Amy's ability to build her child's confidence and understanding" class="img-fluid rounded" />
@@ -193,9 +188,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--success-green);">
+                    <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--deep-purple);">
                         <div>
-                            <div class="mb-3 text-warning">
+                            <div class="mb-3 star-rating">
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                             <img src="./assets/images/testimonials/fb-review-jm.png" alt="5-star Facebook review from a GCSE Higher Maths parent praising Amy's online tutoring and the progress their child made" class="img-fluid rounded" />
@@ -216,10 +211,15 @@
                 <div class="col-lg-7">
                     <h2 style="color: white;" class="mb-3">Let's talk about your child</h2>
                     <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-5">Drop me a WhatsApp message with a bit about where they're at: their exam board, current level, and what's feeling hard. I'll come back to you with honest advice on how I can help.</p>
-                    <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20GCSE%20tutoring"
-                       class="btn-whatsapp-cta">
-                        <i class="fab fa-whatsapp fs-5"></i> Message me on WhatsApp
+                    <a href="/contact" class="btn-cta-pro">
+                        Get in touch
                     </a>
+                    <p class="mt-3 mb-0">
+                        <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20GCSE%20tutoring"
+                           class="whatsapp-text-link">
+                            <i class="fab fa-whatsapp"></i> Or send me a WhatsApp message
+                        </a>
+                    </p>
                     <p class="mt-4 mb-0" style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Or email: contact@mathstutoringwithamy.co.uk</p>
                 </div>
             </div>

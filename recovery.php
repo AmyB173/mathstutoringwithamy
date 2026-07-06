@@ -47,7 +47,7 @@
         "name": "How do you guarantee my child will improve?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I don't make false promises about specific grade improvements — every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods."
+          "text": "I don't make false promises about specific grade improvements: every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods."
         }
       },
       {
@@ -95,10 +95,6 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
-          <div class="social-proof-pill">
-            <span class="me-2">⭐⭐⭐⭐⭐</span>
-            <small class="fw-bold">FOR YEAR 12 STUDENTS</small>
-          </div>
           <h1 class="hero-title display-4 fw-bold">Get them back on track: The 12-Week A Level Maths Recovery Programme</h1>
           <p class="hero-subtitle fs-5 text-dark"><strong>Why is my child struggling with A Level Maths?</strong> You're not alone. The jump from GCSE to A Level Maths is often bigger and more challenging than students expect. I created this 12 week programme for Year 12 students to get back onto the path of steady success before they start the pivotal final year of A Level Maths. Starting dates from March to June.</p>
 
@@ -107,8 +103,8 @@
           </div>
 
           <div class="d-flex flex-wrap gap-3 mt-4">
-            <a href="#message-recovery" class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp fs-5"></i> Message me to find out more
+            <a href="/contact" class="btn-cta-pro">
+              Message me to find out more
             </a>
           </div>
         </div>
@@ -119,7 +115,7 @@
             <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 12px; z-index: 1; opacity: 0.3;"></div>
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.95rem;">
-            Hi, I'm Amy — qualified maths teacher with 12 years of experience.<br>
+            Hi, I'm Amy, qualified maths teacher with 12 years of experience.<br>
             <span style="font-style: normal; font-size: 0.85rem;">For Year 12 students. Starting dates from March to June. Limited to 5 students only.</span>
           </p>
         </div>
@@ -128,7 +124,7 @@
   </section>
 
   <!-- ================================================ 3. PROBLEM SECTION -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-8">
@@ -152,7 +148,7 @@
             <img src="./assets/images/2.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
             <div>
               <h5 class="fw-bold">Understanding it but freezing in tests</h5>
-              <p class="text-muted mb-0">They can follow examples in class but panic when questions look slightly different — understanding isn't translating into marks.</p>
+              <p class="text-muted mb-0">They can follow examples in class but panic when questions look slightly different, understanding isn't translating into marks.</p>
             </div>
           </div>
         </div>
@@ -161,7 +157,7 @@
             <img src="./assets/images/3.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
             <div>
               <h5 class="fw-bold">Hours of effort with little to show for it</h5>
-              <p class="text-muted mb-0">They're either putting in hours with minimal improvement — or they've lost motivation entirely and don't know where to start.</p>
+              <p class="text-muted mb-0">They're either putting in hours with minimal improvement, or they've lost motivation entirely and don't know where to start.</p>
             </div>
           </div>
         </div>
@@ -179,9 +175,9 @@
       <!-- What's really happening -->
       <div class="row justify-content-center mt-5">
         <div class="col-lg-8">
-          <div class="warm-card text-center" style="border-top: 4px solid var(--success-green);">
+          <div class="warm-card text-center" style="border-top: 4px solid var(--deep-purple);">
             <h3 class="mb-4">What's really happening</h3>
-            <p class="lead mb-4">Most students don't struggle with A Level Maths because they can't do it — they struggle because the transition from GCSE requires a completely different approach to learning and understanding.</p>
+            <p class="lead mb-4">Most students don't struggle with A Level Maths because they can't do it, they struggle because the transition from GCSE requires a completely different approach to learning and understanding.</p>
             <p class="mb-0">At GCSE, many students succeed by memorising steps and procedures. But A Level demands real understanding, the ability to think flexibly, and confidence to tackle unfamiliar problems. When their old strategies stop working, capable students can quickly lose confidence and develop a negative relationship with maths.</p>
           </div>
         </div>
@@ -203,37 +199,34 @@
         </div>
 
         <div class="col-lg-6">
-          <div class="social-proof-pill mb-3" style="background: var(--success-green); color: #1a1a1a;">
-            <small class="fw-bold">COMPLETE SUPPORT FRAMEWORK</small>
-          </div>
-          <h2 class="mb-4">This isn't just tutoring — it's a complete support system</h2>
+          <h2 class="mb-4">This isn't just tutoring: it's a complete support system</h2>
           <p class="text-dark mb-4">Unlike typical tutoring that tries to keep up with current work, this programme takes a step back to rebuild your child's mathematical foundation while building genuine confidence.</p>
 
           <div class="warm-card" style="border-color: #d1d5db;">
             <ul class="list-unstyled mb-0">
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-chalkboard-teacher text-success me-3 mt-1"></i>
+                <i class="fas fa-chalkboard-teacher icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Weekly Live Lesson</strong>
                   <span class="small d-block text-muted">Focused group sessions rebuilding Year 1 foundations.</span>
                 </div>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-video text-success me-3 mt-1"></i>
+                <i class="fas fa-video icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Custom Videos</strong>
                   <span class="small d-block text-muted">Personalised explanations created for your group to watch between sessions.</span>
                 </div>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-comments text-success me-3 mt-1"></i>
+                <i class="fas fa-comments icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Video Homework Feedback</strong>
-                  <span class="small d-block text-muted">Personal video feedback on every piece of homework — all saved in their Pencil Spaces board.</span>
+                  <span class="small d-block text-muted">Personal video feedback on every piece of homework, all saved in their Pencil Spaces board.</span>
                 </div>
               </li>
               <li class="d-flex align-items-start">
-                <i class="fas fa-mobile-alt text-success me-3 mt-1"></i>
+                <i class="fas fa-mobile-alt icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Bi-Weekly Check-Ins</strong>
                   <span class="small d-block text-muted">Complete wrap-around support and encouragement throughout the week.</span>
@@ -247,31 +240,28 @@
   </section>
 
   <!-- ================================================ 5. IS THIS RIGHT FOR YOUR CHILD -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <div class="social-proof-pill mb-3">
-            <small class="fw-bold">✓ RIGHT FIT CHECK</small>
-          </div>
           <h2 class="mb-4">Is this programme right for your child?</h2>
           <div class="warm-card" style="border-color: #d1d5db;">
             <h5 class="fw-bold mb-3">Perfect for students who:</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-check-circle text-success me-3 mt-1"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1"></i>
                 <span>Achieved Grade 6+ at GCSE Maths</span>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-check-circle text-success me-3 mt-1"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1"></i>
                 <span>Are experiencing declining grades at A Level</span>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-check-circle text-success me-3 mt-1"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1"></i>
                 <span>Feel stressed or have lost confidence</span>
               </li>
               <li class="d-flex align-items-start">
-                <i class="fas fa-check-circle text-success me-3 mt-1"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1"></i>
                 <span>Are ready to commit to a structured plan</span>
               </li>
             </ul>
@@ -302,29 +292,29 @@
         <div class="col-md-4">
           <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db;">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"He's on track to get a good grade. Maths now matters to him"</h6>
               <p class="small text-dark fst-italic">"Amy recognises the challenges my son has with motivation and suggests reasonable goals to get him to engage. She is incredibly patient and organised and the lessons are well structured. His understanding is improving each lesson and the one-to-one support is exactly what he needs. Maths now matters to him"</p>
             </div>
             <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
-              <span class="small fw-bold">Helen — Parent of A Level Student</span>
+              <span class="small fw-bold">Helen, Parent of A Level Student</span>
             </div>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--success-green);">
+          <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--deep-purple);">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"She completely changed the game for Fred..."</h6>
               <p class="small text-dark fst-italic">"Amy is a wonder! She's completely changed the game for Fred. He's grown in confidence as Amy guided him through the content and showed what to do when he got stuck. The resources are so clear and structured it's made the sessions stress free."</p>
             </div>
             <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
-              <span class="small fw-bold">Katy — Parent of A Level Student</span>
+              <span class="small fw-bold">Katy, Parent of A Level Student</span>
             </div>
           </div>
         </div>
@@ -332,14 +322,14 @@
         <div class="col-md-4">
           <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db;">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"Amy gave me such a solid foundation..."</h6>
               <p class="small text-dark fst-italic">"I am not sure I would have gone on to do A Level Maths if it wasn't for her. Amy gave me such a solid foundation and confidence in the subject, which played a crucial role in my decision to pursue A Level Maths."</p>
             </div>
             <div class="d-flex align-items-center mt-3 pt-3" style="border-top: 1px solid #eee;">
-              <span class="small fw-bold">Olivia — Former IGCSE Student</span>
+              <span class="small fw-bold">Olivia, Former IGCSE Student</span>
             </div>
           </div>
         </div>
@@ -348,18 +338,15 @@
   </section>
 
   <!-- ================================================ 7. ABOUT AMY -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6 order-lg-1">
-          <div class="social-proof-pill mb-3">
-            <small class="fw-bold">WHY I CREATED THIS PROGRAMME</small>
-          </div>
           <h2 class="mb-4">Why I created this programme</h2>
           <div class="warm-card" style="border-color: #d1d5db;">
-            <p class="text-dark mb-3">I'm Amy — a fully qualified maths teacher with over a decade of A Level experience.</p>
-            <p class="text-dark mb-4">After 10+ years teaching A Level Maths, I had my lightbulb moment watching a capable Grade 8 GCSE student get a D in summer Year 12, then work 'really hard' over the holidays... only to get another D in the resit. He was doing papers, making notes, putting in hours — but he wasn't truly learning.</p>
-            <p class="text-dark mb-4">That's when I realised: these struggling students don't need more information — they need implementation support, mindset work, and confidence rebuilding. They don't need someone who says 'see you next week' — they need accountability and encouragement throughout the week.</p>
+            <p class="text-dark mb-3">I'm Amy, a fully qualified maths teacher with over a decade of A Level experience.</p>
+            <p class="text-dark mb-4">After 10+ years teaching A Level Maths, I had my lightbulb moment watching a capable Grade 8 GCSE student get a D in summer Year 12, then work 'really hard' over the holidays... only to get another D in the resit. He was doing papers, making notes, putting in hours, but he wasn't truly learning.</p>
+            <p class="text-dark mb-4">That's when I realised: these struggling students don't need more information, they need implementation support, mindset work, and confidence rebuilding. They don't need someone who says 'see you next week', they need accountability and encouragement throughout the week.</p>
 
             <div class="mb-4 p-3" style="background: white; border-radius: 12px; border-left: 4px solid var(--warm-blue);">
               <p class="mb-2"><strong>I'll be completely honest with you:</strong></p>
@@ -410,42 +397,42 @@
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-chalkboard-teacher fs-2 text-success mb-3"></i>
+            <i class="fas fa-chalkboard-teacher fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Weekly Live Lessons</h5>
             <p class="mb-0 text-muted">Focused on rebuilding Year 1 content with proper foundations and deep understanding. Maximum 6 students per group.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-video fs-2 text-success mb-3"></i>
+            <i class="fas fa-video fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Custom Video Resources</h5>
             <p class="mb-0 text-muted">Videos created specifically for your group to watch between lessons to maximise learning and retention.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-comments fs-2 text-success mb-3"></i>
+            <i class="fas fa-comments fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Video-Marked Homework</h5>
             <p class="mb-0 text-muted">Personalised video feedback on every homework assignment plus unlimited email support.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-mobile-alt fs-2 text-success mb-3"></i>
+            <i class="fas fa-mobile-alt fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Bi-Weekly Check-Ins</h5>
             <p class="mb-0 text-muted">Regular motivation and progress check-ins to keep your child on track with each week's focus.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-clipboard-check fs-2 text-success mb-3"></i>
+            <i class="fas fa-clipboard-check fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Progress Tracking</h5>
             <p class="mb-0 text-muted">Assessment at the middle and end of the programme to track improvement.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
-            <i class="fas fa-heart fs-2 text-success mb-3"></i>
+            <i class="fas fa-heart fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Confidence Rebuilding</h5>
             <p class="mb-0 text-muted">A focus on rebuilding a positive relationship with the subject.</p>
           </div>
@@ -455,11 +442,11 @@
       <!-- Investment -->
       <div class="row justify-content-center mt-5">
         <div class="col-lg-6">
-          <div class="warm-card text-center" style="border-top: 4px solid var(--success-green);">
+          <div class="warm-card text-center" style="border-top: 4px solid var(--deep-purple);">
             <h5 class="fw-bold mb-3">Programme Investment</h5>
             <p class="lead mb-3"><strong>£747 for the complete 12-week programme</strong></p>
             <p class="mb-3">Payment can be made in full or split into two instalments</p>
-            <p class="mb-0"><em>Includes happiness guarantee — if you don't love it, you'll be refunded any unused weeks, no questions asked</em></p>
+            <p class="mb-0"><em>Includes happiness guarantee: if you don't love it, you'll be refunded any unused weeks, no questions asked</em></p>
           </div>
         </div>
       </div>
@@ -467,7 +454,7 @@
   </section>
 
   <!-- ================================================ 9. FAQ -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -497,7 +484,7 @@
               </h2>
               <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  I don't make false promises about specific grade improvements — every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods.
+                  I don't make false promises about specific grade improvements: every child is unique. That's why I always start with a free consultation to assess your child's specific situation and discuss realistic expectations. My focus is on giving them the best possible chance of success through proven methods.
                 </div>
               </div>
             </div>
@@ -564,15 +551,19 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="warm-card" style="border-top: 5px solid var(--success-green); border-radius: 20px;">
+          <div class="warm-card" style="border-top: 5px solid var(--deep-purple); border-radius: 20px;">
             <h2 class="display-6 fw-bold mb-4">Message me to find out more</h2>
-            <p class="lead mb-5">The easiest way to get in touch is via WhatsApp — just send me a quick message about your child's situation and I'll get back to you with next steps.</p>
-            <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20the%20A%20Level%20recovery%20programme%20for%20my%20child"
-               target="_blank"
-               class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp"></i> Message me on WhatsApp
+            <p class="lead mb-5">Tell me a bit about your child's situation and I'll get back to you with next steps.</p>
+            <a href="/contact" class="btn-cta-pro">
+              Get in touch
             </a>
-            <p class="text-muted mt-4 small">Or email:contact@mathstutoringwithamy.co.uk</a></p>
+            <p class="mt-3 mb-0">
+              <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20the%20A%20Level%20recovery%20programme%20for%20my%20child"
+                 class="whatsapp-text-link">
+                <i class="fab fa-whatsapp"></i> Or send me a WhatsApp message
+              </a>
+            </p>
+            <p class="text-muted mt-4 small">Or email: contact@mathstutoringwithamy.co.uk</p>
           </div>
         </div>
       </div>
@@ -580,7 +571,7 @@
   </section>
 
   <!-- ================================================ 11. BOOK A CALL / CALENDLY -->
-  <section class="section" style="background: var(--warm-cream);" id="book-call">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);" id="book-call">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -592,25 +583,25 @@
           <div class="row g-4 mb-5">
             <div class="col-md-6">
               <div class="warm-card h-100 d-flex align-items-start gap-3" style="border-color: #d1d5db;">
-                <i class="fas fa-map-marker-alt text-success mt-1 fs-5"></i>
+                <i class="fas fa-map-marker-alt icon-neutral mt-1 fs-5"></i>
                 <div><strong>Where you're at now</strong><p class="small text-muted mb-0">Including recent results, confidence levels, and common struggles.</p></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="warm-card h-100 d-flex align-items-start gap-3" style="border-color: #d1d5db;">
-                <i class="fas fa-history text-success mt-1 fs-5"></i>
+                <i class="fas fa-history icon-neutral mt-1 fs-5"></i>
                 <div><strong>What you've tried so far</strong><p class="small text-muted mb-0">And why it hasn't worked yet.</p></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="warm-card h-100 d-flex align-items-start gap-3" style="border-color: #d1d5db;">
-                <i class="fas fa-bullseye text-success mt-1 fs-5"></i>
+                <i class="fas fa-bullseye icon-neutral mt-1 fs-5"></i>
                 <div><strong>What you want to achieve</strong><p class="small text-muted mb-0">Short-term and long-term goals.</p></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="warm-card h-100 d-flex align-items-start gap-3" style="border-color: #d1d5db;">
-                <i class="fas fa-handshake text-success mt-1 fs-5"></i>
+                <i class="fas fa-handshake icon-neutral mt-1 fs-5"></i>
                 <div><strong>Honest assessment</strong><p class="small text-muted mb-0">Can I help you? Are you the right fit? Are you ready to commit?</p></div>
               </div>
             </div>

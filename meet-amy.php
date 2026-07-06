@@ -51,15 +51,12 @@
   <?php include 'navbar.php'; ?>
 
   <!-- ================================================ WHERE IT STARTED -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h1 class="mb-2">Meet Amy</h1>
           <p class="text-dark mb-4">Hi, I'm Amy. I'm a qualified maths teacher and the person behind Maths Tutoring with Amy.</p>
-          <div class="social-proof-pill mb-3" style="background: var(--warm-blue); color: #1a1a1a;">
-            <small class="fw-bold">WHERE IT STARTED</small>
-          </div>
           <h2 class="mb-4">From Wales to the classroom</h2>
           <p class="text-dark">I grew up in Wales, deep in the Carmarthenshire countryside. It was the kind of childhood where you build dens in the forest and spend whole days at the beach. My primary school was Welsh-medium so my first maths lessons were actually in Welsh. Secondary was in English, and by the time I left Wales at 18 for university I'd had a foot in both worlds. The Welsh has faded a bit over the years but the roots have not.</p>
           <p class="text-dark">After university my career took me into teaching, and that's where I discovered something I hadn't quite expected. I'd always been good at maths, but it was teaching it that made me fall in love with it. Watching a student go from stuck to confident, from <em>"I can't do this"</em> to <em>"oh, that's actually easy"</em>, is one of the most satisfying things I know.</p>
@@ -91,9 +88,6 @@
         </div>
 
         <div class="col-lg-7 ps-lg-5 order-lg-1">
-          <div class="social-proof-pill mb-3" style="background: var(--warm-purple); color: #1a1a1a;">
-            <small class="fw-bold">WHY I TUTOR</small>
-          </div>
           <h2 class="mb-4">The freedom to teach properly.</h2>
           <p class="text-dark">I spent over eleven years in classrooms teaching maths from Year 7 through to Year 13 (and I'm now introducing Year 6 lessons too!). I loved my students but schools can be overwhelming places. They're underfunded, overburdened, and a single teacher with thirty students just can't give each child what they need.</p>
           <p class="text-dark">Tutoring lets me do what I know works. Whether it's 1:1 or a small group, every student gets the attention and the freedom to learn at their own pace, with no rushing and no moving on before they're ready.</p>
@@ -101,15 +95,15 @@
           <div class="warm-card" style="border-color: #d1d5db;">
             <ul class="list-unstyled mb-0">
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
                 <span>No rushing through a topic because the scheme of work says so</span>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
                 <span>No moving on before a student is ready</span>
               </li>
               <li class="d-flex align-items-start">
-                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+                <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
                 <span>Just proper, patient teaching</span>
               </li>
             </ul>
@@ -120,13 +114,10 @@
   </section>
 
   <!-- ================================================ HOW I TEACH -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
-          <div class="social-proof-pill mb-3" style="background: var(--success-green); color: #1a1a1a;">
-            <small class="fw-bold">HOW I TEACH</small>
-          </div>
           <h2 class="mb-4">No two lessons are the same</h2>
           <p class="text-dark">Every child is different and the approach that lights one student up will fall flat with another. I pay attention to what's working and adjust as we go.</p>
           <p class="text-dark">If a student is bored I change tack. If they're tired or shy or having an off day I don't force it, I find a way back in. I'm friendly, positive and encouraging, and I work hard to make my explanations as clear as I can. There's no such thing as a silly question in my lessons, and I really mean that.</p>
@@ -184,9 +175,8 @@
     <div class="container text-center">
       <h2 style="color: white;" class="mb-3">Get in touch</h2>
       <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-4">Have questions, or want to find out if we're the right fit? I'm happy to chat.</p>
-      <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-         class="btn-whatsapp-cta">
-        <i class="fab fa-whatsapp fs-5"></i> Enquire on WhatsApp
+      <a href="/contact" class="btn-cta-pro">
+        Enquire Now
       </a>
     </div>
   </section>

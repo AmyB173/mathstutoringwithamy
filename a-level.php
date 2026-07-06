@@ -49,18 +49,12 @@
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <div class="social-proof-pill mb-3">
-            <span class="me-2">⭐⭐⭐⭐⭐</span>
-            <small class="fw-bold">YEAR 12 &amp; YEAR 13</small>
-          </div>
-          <h1 class="mb-4">A Level Maths Tutoring</h1>
+          <h1 class="mb-4">A Level Maths Tutoring for Year 12 &amp; Year 13</h1>
           <p class="text-dark">The jump from GCSE to A Level is bigger than most students expect. The pace is faster, the questions are harder, and the old approach of memorising steps simply stops working. I've spent 12 years helping students find their footing, build genuine understanding, and go into exams with real confidence.</p>
           <p class="text-dark">There are a few ways to work with me depending on what your child needs right now.</p>
           <div class="d-flex flex-wrap gap-3 mt-4">
-            <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20A%20Level%20Maths%20tutoring%20for%20my%20child"
-               target="_blank"
-               class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp fs-5"></i> Message me to find out more
+            <a href="/contact" class="btn-cta-pro">
+              Message me to find out more
             </a>
           </div>
         </div>
@@ -79,7 +73,7 @@
   </section>
 
   <!-- ================================================ 2. THREE WAYS -->
-  <section class="section" style="background: rgba(201, 178, 248, 0.08);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
@@ -90,7 +84,7 @@
 
       <div class="row g-5 text-center">
         <div class="col-md-4">
-          <i class="fas fa-user fs-2 mb-3" style="color: var(--warm-purple);"></i>
+          <i class="fas fa-user fs-2 mb-3" style="color: var(--deep-purple);"></i>
           <h4 class="mb-2">1:1 Tutoring</h4>
           <p class="text-dark mb-3">Fully tailored sessions built around your child. Every lesson, every piece of feedback, designed for them.</p>
           <a href="#one-to-one" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
@@ -102,7 +96,7 @@
           <a href="#small-group" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
         </div>
         <div class="col-md-4">
-          <i class="fas fa-chart-line fs-2 mb-3" style="color: var(--success-green);"></i>
+          <i class="fas fa-chart-line fs-2 mb-3 icon-neutral"></i>
           <h4 class="mb-2">12-Week Recovery Course</h4>
           <p class="text-dark mb-3">A structured programme for Year 12 students who need to rebuild their foundations before Year 13.</p>
           <a href="#recovery" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
@@ -112,7 +106,7 @@
   </section>
 
   <!-- ================================================ 3. WATCH ME TEACH -->
-  <section class="section" style="background: rgba(168, 230, 207, 0.12);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-5">
@@ -145,19 +139,19 @@
 
           <ul class="list-unstyled mt-4 mb-0">
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Tailored to your child's gaps and exam board</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Year 12 and Year 13</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Homework with personalised video feedback every week</span>
             </li>
             <li class="d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Ongoing support between sessions</span>
             </li>
           </ul>
@@ -195,19 +189,19 @@
 
           <ul class="list-unstyled mt-4 mb-0">
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Maximum 4 students per group</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Year 12 and Year 13</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Covers A Level content systematically</span>
             </li>
             <li class="d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>More affordable than 1:1, without losing quality</span>
             </li>
           </ul>
@@ -227,19 +221,19 @@
 
           <ul class="list-unstyled mt-4 mb-4">
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>For Year 12 students with Grade 6+ at GCSE</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Weekly live sessions rebuilding Year 1 foundations</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Custom videos, homework feedback, and bi-weekly check-ins</span>
             </li>
             <li class="d-flex align-items-start">
-              <i class="fas fa-check-circle me-3 mt-1" style="color: var(--success-green); flex-shrink: 0;"></i>
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
               <span>Places strictly limited. Starting dates from March to June.</span>
             </li>
           </ul>
@@ -261,7 +255,7 @@
   </section>
 
   <!-- ================================================ 6. TESTIMONIALS -->
-  <section class="section" style="background: rgba(201, 178, 248, 0.08);">
+  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
@@ -273,7 +267,7 @@
         <div class="col-md-4">
           <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db;">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"He's on track to get a good grade. Maths now matters to him."</h6>
@@ -286,9 +280,9 @@
         </div>
 
         <div class="col-md-4">
-          <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--success-green);">
+          <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db; border-top: 3px solid var(--deep-purple);">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"She completely changed the game for Fred."</h6>
@@ -303,7 +297,7 @@
         <div class="col-md-4">
           <div class="warm-card h-100 d-flex flex-column justify-content-between" style="border-color: #d1d5db;">
             <div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <h6 class="fw-bold">"Amy gave me such a solid foundation."</h6>
@@ -325,11 +319,13 @@
         <div class="col-lg-7">
           <h2 style="color: white;" class="mb-3">Not sure which option is right?</h2>
           <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-5">Message me and tell me a bit about your child's situation. I'll give you an honest answer about which option makes the most sense, or whether one of them is the right fit at all.</p>
-          <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20A%20Level%20Maths%20tutoring%20for%20my%20child"
-             target="_blank"
-             class="btn-whatsapp-cta">
-            <i class="fab fa-whatsapp fs-5"></i> Message me on WhatsApp
-          </a>
+          <a href="/contact" class="btn-cta-pro">Get in touch</a>
+          <p class="mt-3 mb-0">
+            <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20A%20Level%20Maths%20tutoring%20for%20my%20child"
+               class="whatsapp-text-link">
+              <i class="fab fa-whatsapp"></i> Or send me a WhatsApp message
+            </a>
+          </p>
           <p class="mt-4 mb-0" style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Or email: contact@mathstutoringwithamy.co.uk</p>
         </div>
       </div>

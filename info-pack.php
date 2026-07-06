@@ -59,9 +59,9 @@
   <style>
     .feature-list { list-style: none; padding-left: 0; }
     .feature-list li { margin-bottom: 0.6rem; }
-    .feature-list li::before { content: "✓ "; color: var(--success-green); font-weight: bold; }
+    .feature-list li::before { content: "✓ "; color: var(--icon-neutral); font-weight: bold; }
     .pricing-table { --bs-table-bg: transparent; --bs-table-color: #1a1a1a; --bs-table-border-color: rgba(0,0,0,0.12); }
-    .pricing-table thead th { color: #1a1a1a; background: rgba(201,178,248,0.2); }
+    .pricing-table thead th { color: #1a1a1a; background: rgba(74,48,109,0.1); }
   </style>
 </head>
 
@@ -99,7 +99,7 @@
   </section>
 
   <!-- ================================================ PLATFORM -->
-  <section class="section" style="background: rgba(201,178,248,0.12);">
+  <section class="section" style="background: rgba(74,48,109,0.06);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0 order-lg-0">
@@ -194,7 +194,7 @@
   </section>
 
   <!-- ================================================ PRICING -->
-  <section class="section" style="background: rgba(168,230,207,0.15);">
+  <section class="section" style="background: rgba(0,0,0,0.03);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -239,9 +239,8 @@
     <div class="container text-center">
       <h2 style="color: white;" class="mb-3">Ready to get started?</h2>
       <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem;" class="mb-4">Have questions, or want to find out if we're the right fit? I'm happy to chat.</p>
-      <a href="https://wa.me/447470932888?text=Hi%20Amy,%20I've%20read%20your%20info%20pack%20and%20I'm%20interested%20in%20tutoring"
-         target="_blank" class="btn-whatsapp-cta">
-        <i class="fab fa-whatsapp fs-5"></i> Enquire on WhatsApp
+      <a href="/contact" class="btn-cta-pro">
+        Enquire Now
       </a>
     </div>
   </section>

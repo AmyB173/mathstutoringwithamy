@@ -64,20 +64,15 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
-          <div class="social-proof-pill">
-            <span class="me-2">⭐⭐⭐⭐⭐</span>
-            <small class="fw-bold">12 YEARS TEACHING EXPERIENCE</small>
-          </div>
           <h1 class="hero-title display-4">Expert Online Maths Tutoring</h1>
-          <p class="hero-subtitle fs-5 text-dark">Building confidence, fostering enjoyment and achieving grades through expert support for Year 6, KS3, GCSE and A Level Maths.</p>
+          <p class="hero-subtitle fs-5 text-dark">Building confidence, fostering enjoyment and achieving grades through 12 years of expert teaching experience, for Year 6, KS3, GCSE and A Level Maths.</p>
           <div class="hero-testimonial-snippet">
             "Amy has developed a real friendship with our daughter... she has made more progress than we thought possible."
           </div>
 
           <div class="d-flex flex-wrap gap-3 mt-4">
-            <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-               class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp fs-5"></i> Enquire Now
+            <a href="/contact" class="btn-cta-pro">
+              Enquire Now
             </a>
           </div>
         </div>
@@ -93,35 +88,35 @@
   </section>
 
   <!-- ================================================ 2. CREDENTIALS TRUST BAR -->
-  <section style="background: var(--deep-purple); padding: 40px 0;">
+  <section class="trust-bar-quiet">
     <div class="container">
-      <div class="row g-4 text-center text-white justify-content-center">
+      <div class="row g-4 text-center justify-content-center">
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
-            <span style="font-size: 2rem; margin-bottom: 8px;">🎓</span>
-            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">Qualified Teacher</span>
-            <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">QTS Certified</span>
+            <span class="trust-bar-icon">🎓</span>
+            <span class="trust-bar-label">Qualified teacher</span>
+            <span class="trust-bar-detail">QTS certified</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
-            <span style="font-size: 2rem; margin-bottom: 8px;">📅</span>
-            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">12 Years Experience</span>
-            <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">State &amp; Independent Schools</span>
+            <span class="trust-bar-icon">📅</span>
+            <span class="trust-bar-label">12 years experience</span>
+            <span class="trust-bar-detail">State &amp; independent schools</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
-            <span style="font-size: 2rem; margin-bottom: 8px;">⭐</span>
-            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">5 Star Rating on Google</span>
-            <span style="font-size: 0.8rem; opacity: 0.75; margin-top: 4px;">Enhanced Certificate</span>
+            <span class="trust-bar-icon">⭐</span>
+            <span class="trust-bar-label">5 star rating on Google</span>
+            <span class="trust-bar-detail">Enhanced certificate</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="d-flex flex-column align-items-center">
-            <span style="font-size: 2rem; margin-bottom: 8px;">📝</span>
-            <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">All Exam Boards</span>
-            <span style="font-size: 0.75rem; opacity: 0.75; margin-top: 4px; text-align: center; line-height: 1.4;">GCSE: AQA · Edexcel · OCR · WJEC<br>A Level: Edexcel · AQA</span>
+            <span class="trust-bar-icon">📝</span>
+            <span class="trust-bar-label">All exam boards</span>
+            <span class="trust-bar-detail">GCSE: AQA &middot; Edexcel &middot; OCR &middot; WJEC<br>A Level: Edexcel &middot; AQA</span>
           </div>
         </div>
       </div>
@@ -141,42 +136,38 @@
         </div>
 
         <div class="col-lg-6 ps-lg-5">
-          <div class="social-proof-pill mb-3" style="background: var(--success-green); color: #1a1a1a;">
-            <small class="fw-bold">POWERED BY PENCIL SPACES</small>
-          </div>
           <h2 class="mb-4">Beyond just a video call: A digital classroom</h2>
           <p class="text-dark mb-4">Lessons take place on <strong>Pencil Spaces</strong>, a professional interactive platform designed specifically for education. Unlike Zoom or Skype, this is a shared workspace where your child becomes an active participant rather than just a listener.</p>
 
           <div class="warm-card" style="border-color: #d1d5db;">
             <ul class="list-unstyled mb-0">
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-pencil-alt text-success me-3 mt-1"></i>
+                <i class="fas fa-pencil-alt icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Live Collaboration:</strong>
                   <span class="small d-block text-muted">A shared whiteboard where I see your child's workings in real-time to catch mistakes early.</span>
                 </div>
               </li>
               <li class="mb-3 d-flex align-items-start">
-                <i class="fas fa-video text-success me-3 mt-1"></i>
+                <i class="fas fa-video icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Permanent Workbooks:</strong>
                   <span class="small d-block text-muted">All notes, drawings, and homework stay saved in their personal digital board for easy revision.</span>
                 </div>
               </li>
               <li class="d-flex align-items-start">
-                <i class="fas fa-check-double text-success me-3 mt-1"></i>
+                <i class="fas fa-check-double icon-neutral me-3 mt-1"></i>
                 <div>
                   <strong>Video feedback for homework:</strong>
-                  <span class="small d-block text-muted">Success is a result of what happens outside the classroom too. Weekly homework with personalised video feedback — all in one place.</span>
+                  <span class="small d-block text-muted">Success is a result of what happens outside the classroom too. Weekly homework with personalised video feedback, all in one place.</span>
                 </div>
               </li>
             </ul>
           </div>
 
           <div class="mt-4">
-            <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-               class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp fs-5"></i> Find out more
+            <a href="/contact" class="btn-cta-pro">
+              Find out more
             </a>
           </div>
         </div>
@@ -189,12 +180,9 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 ps-lg-5 order-lg-1">
-          <div class="social-proof-pill mb-3">
-            <small class="fw-bold">✓ TRIAL SESSION AVAILABLE</small>
-          </div>
-          <h2 class="mb-4">It has to be the right fit</h2>
+          <h2 class="mb-4">It has to be the right fit: book a trial session</h2>
           <p class="text-dark mb-4">
-            Building maths confidence only works when a student clicks with their tutor — comfortable enough to ask questions, make mistakes, and try again.
+            Building maths confidence only works when a student clicks with their tutor: comfortable enough to ask questions, make mistakes, and try again.
           </p>
 
           <div class="warm-card" style="border-color: #d1d5db;">
@@ -203,20 +191,20 @@
             </p>
 
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-               class="btn-whatsapp-cta">
-              <i class="fab fa-whatsapp fs-5"></i> Book a trial session
+               class="whatsapp-text-link">
+              <i class="fab fa-whatsapp"></i> Send me a WhatsApp message
             </a>
           </div>
 
           <div class="mt-3">
-            <p class="small text-muted mb-1"><strong>GCSE</strong> — all exam boards:</p>
+            <p class="small text-muted mb-1"><strong>GCSE</strong>, all exam boards:</p>
             <div class="exam-board-pills mb-2">
               <span class="exam-board-pill">AQA</span>
               <span class="exam-board-pill">Edexcel</span>
               <span class="exam-board-pill">OCR</span>
               <span class="exam-board-pill">WJEC</span>
             </div>
-            <p class="small text-muted mb-1"><strong>A Level</strong> — Edexcel &amp; AQA:</p>
+            <p class="small text-muted mb-1"><strong>A Level</strong>, Edexcel &amp; AQA:</p>
             <div class="exam-board-pills mb-2">
               <span class="exam-board-pill">Edexcel</span>
               <span class="exam-board-pill">AQA</span>
@@ -257,7 +245,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade 4 <span style="color: var(--deep-purple);">&rarr;</span> Grade 6</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Amy has developed a real friendship with our daughter, allowing her to be open about her difficulties and <strong>progress quicker than we thought possible.</strong> My daughter now says she actually enjoys maths because Amy makes it fun. By finding the underlying cause of issues rather than relying on rote learning, Amy has been a significant advantage for our daughter who is dyslexic."</p>
@@ -276,7 +264,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">GCSE Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Amy has taken a truly bespoke and compassionate approach, consistently going above and beyond to boost our daughter's confidence. <strong>Remarkably, she has even helped ignite a love for maths, something our daughter never had before!</strong> Thanks to Amy, we've seen fantastic progress in a very short period of time."</p>
@@ -295,7 +283,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 2rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade A<span style="color: var(--deep-purple);">*</span></p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">A Level Maths</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"Despite a weak background in maths at GCSE, Amy's methodical teaching and simplified explanations helped me achieve an A* at A Level. Her lessons were so well-planned and thorough that I went on to study a <strong>Mathematics degree at University</strong>. I never hesitated to ask questions because her explanations always made things clear."</p>
@@ -314,7 +302,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 800; line-height: 1.3; color: var(--warm-dark); margin: 0;">Now doing Year 8 work in Year 6</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS2 Maths &middot; Year 6</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"A teacher worth millions. My child loves her, she has great success because of her. Thank you very much for the work you do!"</p>
@@ -333,7 +321,7 @@
                 <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; color: var(--warm-dark); margin: 0;">Looks forward to every lesson</p>
                 <p style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 6px 0 0;">KS3 Maths &middot; Year 8</p>
               </div>
-              <div class="mb-3 text-warning">
+              <div class="mb-3 star-rating">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
               </div>
               <p class="small text-dark fst-italic">"My son was not happy about having a tutor at first, but he now looks forward to his lessons. He always comes away from the lesson on a high. Amy is great at getting him engaged at a level he understands, and the confidence he has now gained is wonderful."</p>
@@ -347,9 +335,8 @@
       </div>
 
       <div class="text-center mt-5">
-        <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
-           class="btn-whatsapp-cta">
-          <i class="fab fa-whatsapp fs-5"></i> Get started today
+        <a href="/contact" class="btn-cta-pro">
+          Get started today
         </a>
       </div>
     </div>

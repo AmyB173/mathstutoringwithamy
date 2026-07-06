@@ -1,5 +1,5 @@
 /* ================================================
-   MATHS TUTORING WITH AMY — style-new.css
+   MATHS TUTORING WITH AMY: style-new.css
    Scoped to: index.php, navbar.php, study-club.php, contact.php
    ================================================ */
 
@@ -16,6 +16,14 @@
   --warm-purple: #c9b2f8;
   --warm-blue: #5dccf0;
   --deep-purple: #4a306d;
+  --deep-purple-light: #6b4c94;
+
+  /* Primary CTA colour. Change this one value to retune every CTA button. */
+  --cta-green: #2d6a4f;
+  --cta-green-hover: #24543f;
+
+  /* Neutral for decorative icons that were previously mint green */
+  --icon-neutral: #6b7280;
 }
 
 /* ------------------------------------------------ BASE */
@@ -43,24 +51,24 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-h1 { font-size: 36px; }
-h2 { font-size: 30px; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; font-weight: 700; }
+h1 { font-size: 40px; }
+h2 { font-size: 34px; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.75rem; }
+h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* ------------------------------------------------ SECTIONS */
 .section {
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 
 .section-title h2 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -77,6 +85,19 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   background-color: #f0e6fc;
   border-top: 1px solid #e2d5f8;
   border-bottom: 1px solid #e2d5f8;
+}
+
+/* Neutral icon colour, replacing decorative mint-green icons (checkmarks etc.) */
+.icon-neutral {
+  color: var(--icon-neutral) !important;
+}
+
+/* Quiet star rating: smaller and lighter than the quote text it sits above */
+.star-rating {
+  color: var(--soft-gold);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  opacity: 0.85;
 }
 
 /* ------------------------------------------------ BUTTONS */
@@ -98,8 +119,8 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* Primary CTA (navbar Enquire Now button) */
 .btn-cta-pro {
-  background-color: var(--success-green);
-  color: #1a1a1a !important;
+  background-color: var(--cta-green);
+  color: #ffffff !important;
   border-radius: 8px;
   padding: 16px 32px;
   font-weight: 700;
@@ -107,26 +128,26 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border: none;
-  box-shadow: 0 4px 0px #7ab9a3;
+  box-shadow: 0 4px 14px rgba(45, 106, 79, 0.25);
   transition: all 0.2s ease;
   text-decoration: none;
   display: inline-block;
 }
 
 .btn-cta-pro:hover {
-  transform: translateY(2px);
-  box-shadow: 0 2px 0px #7ab9a3;
-  background-color: #96dcc4;
-  color: #1a1a1a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(45, 106, 79, 0.35);
+  background-color: var(--cta-green-hover);
+  color: #ffffff !important;
 }
 
-/* WhatsApp CTA — used on index.php */
+/* WhatsApp CTA, used on index.php. Kept in official WhatsApp green, matching .whatsapp-button below */
 .btn-whatsapp-cta {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: var(--success-green);
-  color: #1a1a1a !important;
+  background-color: #25D366;
+  color: #ffffff !important;
   border-radius: 8px;
   padding: 16px 32px;
   font-weight: 700;
@@ -134,19 +155,35 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border: none;
-  box-shadow: 0 4px 0px #7ab9a3;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
   transition: all 0.2s ease;
   text-decoration: none;
 }
 
 .btn-whatsapp-cta:hover {
-  transform: translateY(2px);
-  box-shadow: 0 2px 0px #7ab9a3;
-  background-color: #96dcc4;
-  color: #1a1a1a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
+  background-color: #20BA5A;
+  color: #ffffff !important;
 }
 
-/* WhatsApp button — used on study-club.php (.whatsapp-button / .whatsapp-btn) */
+/* Small inline WhatsApp text link, for a lighter-touch alternative next to a primary CTA */
+.whatsapp-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #25D366;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.whatsapp-text-link:hover {
+  color: #20BA5A;
+  text-decoration: underline;
+}
+
+/* WhatsApp button, used on study-club.php (.whatsapp-button / .whatsapp-btn) */
 .whatsapp-button,
 .whatsapp-btn {
   display: inline-flex;
@@ -177,9 +214,9 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   font-size: 1.125rem;
 }
 
-/* Green CTA — used on study-club.php */
+/* Green CTA, used on study-club.php */
 .btn-cta-green {
-  background-color: var(--success-green);
+  background-color: var(--cta-green);
   border: none;
   border-radius: 8px;
   padding: 14px 28px;
@@ -187,15 +224,15 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   font-family: 'Outfit', sans-serif;
   letter-spacing: -0.01em;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(168, 230, 207, 0.4);
-  color: var(--warm-dark);
+  box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
+  color: #ffffff;
 }
 
 .btn-cta-green:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(168, 230, 207, 0.5);
-  background-color: #96dcc4;
-  color: var(--warm-dark);
+  box-shadow: 0 6px 25px rgba(45, 106, 79, 0.4);
+  background-color: var(--cta-green-hover);
+  color: #ffffff;
 }
 
 .btn-cta-green.btn-lg {
@@ -237,7 +274,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .nav-link:hover {
-  color: var(--success-green) !important;
+  color: var(--deep-purple-light) !important;
 }
 
 /* Remove underline pseudo-elements from old versions */
@@ -283,7 +320,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .nav-item.dropdown:hover .dropdown-toggle::after {
-  color: var(--success-green) !important;
+  color: var(--deep-purple-light) !important;
   transform: translateY(2px);
 }
 
@@ -308,7 +345,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 /* ------------------------------------------------ HERO (index.php) */
 .hero-section {
   background: white;
-  padding: 6rem 0 4rem;
+  padding: 8rem 0 6rem;
   position: relative;
   overflow: hidden;
 }
@@ -319,7 +356,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.03em;
@@ -365,20 +402,34 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 .hero-testimonial-snippet {
   font-style: italic;
   color: #555;
-  border-left: 3px solid var(--success-green);
+  border-left: 3px solid var(--deep-purple);
   padding-left: 15px;
   margin: 20px 0;
   font-size: 0.95rem;
 }
 
-/* Social proof pill */
-.social-proof-pill {
-  background: var(--deep-purple);
-  color: white;
-  border-radius: 4px;
-  padding: 10px 20px;
-  display: inline-flex;
+/* Featured pull-quote, used above the Enjoy/Engage/Excel columns on framework-values.php */
+.value-quote {
+  text-align: center;
   margin-bottom: 1.5rem;
+}
+
+.value-quote-mark {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--deep-purple);
+  opacity: 0.3;
+  margin-bottom: 0.5rem;
+}
+
+.value-quote p {
+  font-family: 'Outfit', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--deep-purple);
+  margin-bottom: 0;
 }
 
 /* Exam board pills */
@@ -399,7 +450,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   color: var(--deep-purple);
 }
 
-/* Contact page hero — centred, no image, smaller padding */
+/* Contact page hero: centred, no image, smaller padding */
 .hero-section-contact {
   background: linear-gradient(135deg, var(--warm-white) 0%, var(--light-gold) 100%);
   padding: 5rem 0 4rem;
@@ -429,7 +480,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* Section background utility classes */
 .section-purple {
-  background: var(--warm-cream); /* #f5f0ff */
+  background: rgba(74, 48, 109, 0.05);
 }
 
 .section-white {
@@ -464,7 +515,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* ------------------------------------------------ TESTIMONIALS (index.php) */
 .testimonials-full {
-  background: var(--warm-cream);
+  background: rgba(74, 48, 109, 0.05);
 }
 
 .testimonial-screenshot {
@@ -488,7 +539,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* ------------------------------------------------ STUDY CLUB HERO */
 .hero-section-study-hub {
-  background: linear-gradient(135deg, var(--warm-blue) 0%, var(--warm-purple) 100%);
+  background: linear-gradient(135deg, var(--warm-blue) 0%, var(--deep-purple) 100%);
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
@@ -500,7 +551,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
   color: white;
 }
 
-/* ------------------------------------------------ STUDY CLUB — INLINE STYLES PROMOTED */
+/* ------------------------------------------------ STUDY CLUB: INLINE STYLES PROMOTED */
 
 /* Branded header */
 .branded-header {
@@ -533,14 +584,14 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 
 /* Scarcity alert */
 .scarcity-alert {
-  background-color: #f0e6fc;
-  border-left: 4px solid var(--warm-purple);
+  background-color: rgba(74, 48, 109, 0.06);
+  border-left: 4px solid var(--deep-purple);
   padding: 1rem 1.5rem;
   border-radius: 8px;
   margin-bottom: 2rem;
 }
 
-/* Pricing card — study club */
+/* Pricing card, study club */
 .pricing-card-pro {
   background: white;
   border-radius: 8px;
@@ -557,11 +608,11 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .pricing-card-pro.featured {
-  border: 2px solid var(--warm-purple);
+  border: 2px solid var(--deep-purple);
 }
 
 .pricing-card-pro .badge {
-  background-color: var(--warm-purple);
+  background-color: var(--deep-purple);
   color: white;
   font-size: 0.85rem;
   padding: 0.4rem 0.9rem;
@@ -600,20 +651,20 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .signup-form-pro .form-control:focus {
-  border-color: var(--warm-purple);
-  box-shadow: 0 0 0 0.2rem rgba(201, 178, 248, 0.25);
+  border-color: var(--deep-purple);
+  box-shadow: 0 0 0 0.2rem rgba(74, 48, 109, 0.15);
 }
 
 /* Guarantee box */
 .guarantee-box-pro {
-  background: #f0e6fc;
-  border: 1px solid var(--warm-purple);
+  background: rgba(74, 48, 109, 0.06);
+  border: 1px solid rgba(74, 48, 109, 0.3);
   border-radius: 8px;
   padding: 1rem;
   margin-top: 1.5rem;
 }
 
-/* Amy image — study club */
+/* Amy image, study club */
 .amy-professional-img {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -635,7 +686,7 @@ h5 { font-size: 1.25rem; font-weight: 700; }
 }
 
 .highlight-text-cta {
-  color: var(--success-green);
+  color: var(--deep-purple);
   font-weight: 700;
 }
 
@@ -769,7 +820,7 @@ footer {
   white-space: nowrap;
 }
 
-/* Testimonial card — review screenshot wrapper */
+/* Testimonial card, review screenshot wrapper */
 .testimonial-card {
   background: #ffffff;
   border: 1px solid #d1d5db;
@@ -794,8 +845,8 @@ footer {
 /* Review source badge (Facebook etc.) */
 .review-badge {
   display: inline-block;
-  background: var(--success-green);
-  color: var(--warm-dark);
+  background: var(--deep-purple);
+  color: #ffffff;
   font-size: 0.85rem;
   font-weight: 600;
   padding: 0.35rem 0.85rem;
@@ -840,19 +891,19 @@ footer {
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .hero-section {
-    padding: 4rem 0 3rem;
+    padding: 5rem 0 4rem;
   }
 
   .section {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 
   .section-title h2 {
-    font-size: 1.875rem;
+    font-size: 2rem;
   }
 
   .warm-card {
@@ -876,6 +927,33 @@ footer {
   .hero-section-study-hub .hero-title {
     font-size: 3.5rem;
   }
+}
+
+/* Quiet trust bar (index.php credentials strip) */
+.trust-bar-quiet {
+  background: rgba(74, 48, 109, 0.04);
+  border-top: 1px solid rgba(74, 48, 109, 0.12);
+  border-bottom: 1px solid rgba(74, 48, 109, 0.12);
+  padding: 28px 0;
+}
+
+.trust-bar-quiet .trust-bar-icon {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+
+.trust-bar-quiet .trust-bar-label {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--deep-purple);
+}
+
+.trust-bar-quiet .trust-bar-detail {
+  font-size: 0.8rem;
+  color: var(--warm-dark);
+  opacity: 0.65;
+  margin-top: 4px;
 }
 
 /* Rotating Trust Bar Styling */
@@ -912,7 +990,7 @@ footer {
 }
 
 .scroller-content i {
-  color: var(--success-green);
+  color: var(--deep-purple);
   font-size: 1.1rem;
 }
 
@@ -1047,7 +1125,7 @@ footer {
 }
 
 .blog-card-placeholder {
-  background: rgba(201, 178, 248, 0.18);
+  background: rgba(74, 48, 109, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1143,7 +1221,7 @@ footer {
 }
 
 .blog-post-body {
-  background: rgba(201, 178, 248, 0.06);
+  background: rgba(74, 48, 109, 0.06);
   padding: 3rem 0 4rem;
 }
 
@@ -1165,7 +1243,7 @@ footer {
   margin-top: 2.75rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  border-left: 4px solid var(--warm-purple);
+  border-left: 4px solid var(--deep-purple);
   line-height: 1.3;
 }
 
@@ -1187,7 +1265,7 @@ footer {
 .blog-a-level-cta {
   background: white;
   border: 1px solid #e5e7eb;
-  border-left: 5px solid var(--success-green);
+  border-left: 5px solid var(--deep-purple);
   border-radius: 8px;
   padding: 1.5rem 2rem;
   margin: 2.5rem 0;

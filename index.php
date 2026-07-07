@@ -72,7 +72,7 @@
 
           <div class="d-flex flex-wrap gap-3 mt-4">
             <a href="/contact" class="btn-cta-pro">
-              Enquire Now
+              Enquire now
             </a>
           </div>
         </div>
@@ -123,16 +123,13 @@
     </div>
   </section>
   <!-- ================================================ 3. PENCIL SPACES / HOW I TEACH -->
-  <section class="section" style="background: var(--warm-cream);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 mb-5 mb-lg-0">
-          <div class="position-relative">
-            <img src="./assets/images/pencil-workings.png" alt="Pencil Spaces Platform"
-                 class="img-fluid position-relative"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
-          </div>
+          <img src="./assets/images/pencil-workings.png" alt="Pencil Spaces Platform"
+               class="img-fluid"
+               style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26,26,46,0.14);">
         </div>
 
         <div class="col-lg-6 ps-lg-5">
@@ -197,33 +194,16 @@
           </div>
 
           <div class="mt-3">
-            <p class="small text-muted mb-1"><strong>GCSE</strong>, all exam boards:</p>
-            <div class="exam-board-pills mb-2">
-              <span class="exam-board-pill">AQA</span>
-              <span class="exam-board-pill">Edexcel</span>
-              <span class="exam-board-pill">OCR</span>
-              <span class="exam-board-pill">WJEC</span>
-            </div>
-            <p class="small text-muted mb-1"><strong>A Level</strong>, Edexcel &amp; AQA:</p>
-            <div class="exam-board-pills mb-2">
-              <span class="exam-board-pill">Edexcel</span>
-              <span class="exam-board-pill">AQA</span>
-            </div>
-            <p class="small text-muted mb-1"><strong>Also taking on:</strong></p>
-            <div class="exam-board-pills">
-              <span class="exam-board-pill">Year 6</span>
-              <span class="exam-board-pill">KS3</span>
-            </div>
+            <p class="exam-boards-line mb-1">GCSE, all exam boards: AQA &middot; Edexcel &middot; OCR &middot; WJEC</p>
+            <p class="exam-boards-line mb-1">A Level: Edexcel &middot; AQA</p>
+            <p class="exam-boards-line mb-0">Also taking on Year 6 and KS3</p>
           </div>
         </div>
 
         <div class="col-lg-6 mb-5 mb-lg-0 order-lg-0">
-          <div class="position-relative">
-            <img src="./assets/images/amy-white-top.jpg" alt="Amy - Professional Maths Tutor"
-                 class="img-fluid position-relative"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
-          </div>
+          <img src="./assets/images/amy-white-top.jpg" alt="Amy - Professional Maths Tutor"
+               class="img-fluid"
+               style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26,26,46,0.14);">
         </div>
       </div>
     </div>

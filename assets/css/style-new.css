@@ -5,24 +5,31 @@
 
 /* ------------------------------------------------ CSS VARIABLES */
 :root {
-  --warm-cream: #f5f0ff;
+  /* Ink: all headings and body text, never pure black */
+  --ink: #1a1a2e;
+  /* Secondary text: captions, attributions, quiet lines */
+  --ink-soft: #4a4a5e;
+
+  /* Accent: pulled from the logo's coral "A" mark. Actions only: buttons, links, interactive elements */
+  --accent: #ff5757;
+  /* Darkened accent for hover states and for accent text under 24px (passes WCAG AA on white) */
+  --accent-dark: #cc4646;
+
+  --surface: #ffffff;
+  --surface-alt: #faf7f4;
+
   --soft-gold: #fcd36d;
-  --warm-dark: #2D2B2A;
-  --soft-coral: #ff8a65;
-  --brand-red: #ff5757;
-  --warm-white: #ffffff;
-  --light-gold: #ede8ff;
-  --success-green: #a8e6cf;
-  --warm-purple: #c9b2f8;
-  --warm-blue: #5dccf0;
-  --deep-purple: #4a306d;
-  --deep-purple-light: #6b4c94;
 
-  /* Primary CTA colour. Change this one value to retune every CTA button. */
-  --cta-green: #2d6a4f;
-  --cta-green-hover: #24543f;
+  /* Legacy aliases kept during the palette migration; resolve to the tokens above */
+  --warm-dark: var(--ink);
+  --brand-red: var(--accent);
+  --warm-white: var(--surface);
+  --deep-purple: var(--ink);
+  --deep-purple-light: var(--accent-dark);
+  --cta-green: var(--accent);
+  --cta-green-hover: var(--accent-dark);
 
-  /* Neutral for decorative icons that were previously mint green */
+  /* Neutral for decorative icons */
   --icon-neutral: #6b7280;
 }
 
@@ -39,14 +46,16 @@ body {
 p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.7;
   margin-bottom: 1.2rem;
   text-align: start;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', sans-serif;
-  color: var(--deep-purple);
+  color: var(--ink);
   font-weight: 600;
   letter-spacing: -0.02em;
 }
@@ -82,9 +91,9 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* ------------------------------------------------ COLOUR UTILITIES */
 .bg-accent-light {
-  background-color: #f0e6fc;
-  border-top: 1px solid #e2d5f8;
-  border-bottom: 1px solid #e2d5f8;
+  background-color: var(--surface-alt);
+  border-top: 1px solid #ece5df;
+  border-bottom: 1px solid #ece5df;
 }
 
 /* Neutral icon colour, replacing decorative mint-green icons (checkmarks etc.) */
@@ -119,16 +128,15 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* Primary CTA (navbar Enquire Now button) */
 .btn-cta-pro {
-  background-color: var(--cta-green);
+  background-color: var(--accent);
   color: #ffffff !important;
   border-radius: 8px;
   padding: 16px 32px;
   font-weight: 700;
   font-family: 'Outfit', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: -0.01em;
   border: none;
-  box-shadow: 0 4px 14px rgba(45, 106, 79, 0.25);
+  box-shadow: 0 4px 14px rgba(255, 87, 87, 0.25);
   transition: all 0.2s ease;
   text-decoration: none;
   display: inline-block;
@@ -136,8 +144,8 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .btn-cta-pro:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(45, 106, 79, 0.35);
-  background-color: var(--cta-green-hover);
+  box-shadow: 0 6px 18px rgba(255, 87, 87, 0.35);
+  background-color: var(--accent-dark);
   color: #ffffff !important;
 }
 
@@ -214,9 +222,9 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   font-size: 1.125rem;
 }
 
-/* Green CTA, used on study-club.php */
+/* Accent CTA, used on study-club.php */
 .btn-cta-green {
-  background-color: var(--cta-green);
+  background-color: var(--accent);
   border: none;
   border-radius: 8px;
   padding: 14px 28px;
@@ -224,14 +232,14 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   font-family: 'Outfit', sans-serif;
   letter-spacing: -0.01em;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 87, 87, 0.3);
   color: #ffffff;
 }
 
 .btn-cta-green:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(45, 106, 79, 0.4);
-  background-color: var(--cta-green-hover);
+  box-shadow: 0 6px 25px rgba(255, 87, 87, 0.4);
+  background-color: var(--accent-dark);
   color: #ffffff;
 }
 
@@ -253,7 +261,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   font-weight: 700;
   font-family: 'Outfit', sans-serif;
   letter-spacing: -0.02em;
-  color: var(--brand-red);
+  color: var(--ink);
 }
 
 .navbar-brand img {
@@ -298,8 +306,8 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .dropdown-item:hover {
-  background-color: var(--warm-cream);
-  color: var(--deep-purple);
+  background-color: var(--surface-alt);
+  color: var(--ink);
   padding-left: 20px;
 }
 
@@ -345,7 +353,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 /* ------------------------------------------------ HERO (index.php) */
 .hero-section {
   background: white;
-  padding: 8rem 0 6rem;
+  padding: 9rem 0 7rem;
   position: relative;
   overflow: hidden;
 }
@@ -356,19 +364,18 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .hero-title {
-  font-size: 2.75rem;
+  font-size: 3.5rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.03em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   animation: slideInLeft 0.8s ease-out 0.2s both;
 }
 
 .hero-subtitle {
   font-size: 1.125rem;
-  color: var(--warm-dark);
-  opacity: 0.8;
-  margin-bottom: 2rem;
+  color: var(--ink-soft);
+  margin-bottom: 2.5rem;
   animation: slideInLeft 0.8s ease-out 0.4s both;
 }
 
@@ -378,8 +385,8 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .hero-image img {
-  border-radius: 8px;
-  box-shadow: 20px 20px 0px rgba(122, 185, 163, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);
   border: 1px solid #e5e7eb;
   transition: transform 0.3s ease;
 }
@@ -432,33 +439,25 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   margin-bottom: 0;
 }
 
-/* Exam board pills */
-.exam-board-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 1rem;
-}
-
-.exam-board-pill {
-  background: var(--warm-cream);
-  border: 1px solid #d1d5db;
-  border-radius: 4px;
-  padding: 4px 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--deep-purple);
+/* Quiet exam-board / level line, replaces the old pill badges */
+.exam-boards-line {
+  font-family: 'Outfit', sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.4rem;
 }
 
 /* Contact page hero: centred, no image, smaller padding */
 .hero-section-contact {
-  background: linear-gradient(135deg, var(--warm-white) 0%, var(--light-gold) 100%);
+  background: var(--surface-alt);
   padding: 5rem 0 4rem;
   position: relative;
   overflow: hidden;
 }
 
-/* Trust fact pills inside the contact hero */
+/* Trust fact line inside the contact hero */
 .contact-trust-pills {
   display: flex;
   flex-wrap: wrap;
@@ -468,23 +467,21 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .contact-trust-pill {
-  background: white;
-  border: 1px solid #d1d5db;
-  border-radius: 20px;
-  padding: 6px 16px;
+  background: transparent;
+  border: none;
+  padding: 0;
   font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--deep-purple);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  color: var(--ink-soft);
 }
 
 /* Section background utility classes */
 .section-purple {
-  background: rgba(74, 48, 109, 0.05);
+  background: var(--surface-alt);
 }
 
 .section-white {
-  background: var(--warm-white);
+  background: var(--surface);
 }
 
 
@@ -515,7 +512,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* ------------------------------------------------ TESTIMONIALS (index.php) */
 .testimonials-full {
-  background: rgba(74, 48, 109, 0.05);
+  background: rgba(26, 26, 46, 0.05);
 }
 
 .testimonial-screenshot {
@@ -539,7 +536,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* ------------------------------------------------ STUDY CLUB HERO */
 .hero-section-study-hub {
-  background: linear-gradient(135deg, var(--warm-blue) 0%, var(--deep-purple) 100%);
+  background: var(--ink);
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
@@ -555,16 +552,16 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* Branded header */
 .branded-header {
-  background: var(--warm-white);
+  background: var(--surface);
   padding: 1rem 0;
   text-align: center;
-  border-bottom: 1px solid rgba(201, 178, 248, 0.2);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.1);
 }
 
 .branded-header h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--warm-purple);
+  color: var(--ink);
   margin: 0;
   letter-spacing: -0.02em;
 }
@@ -584,7 +581,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* Scarcity alert */
 .scarcity-alert {
-  background-color: rgba(74, 48, 109, 0.06);
+  background-color: rgba(26, 26, 46, 0.06);
   border-left: 4px solid var(--deep-purple);
   padding: 1rem 1.5rem;
   border-radius: 8px;
@@ -652,13 +649,13 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .signup-form-pro .form-control:focus {
   border-color: var(--deep-purple);
-  box-shadow: 0 0 0 0.2rem rgba(74, 48, 109, 0.15);
+  box-shadow: 0 0 0 0.2rem rgba(26, 26, 46, 0.15);
 }
 
 /* Guarantee box */
 .guarantee-box-pro {
-  background: rgba(74, 48, 109, 0.06);
-  border: 1px solid rgba(74, 48, 109, 0.3);
+  background: rgba(26, 26, 46, 0.06);
+  border: 1px solid rgba(26, 26, 46, 0.3);
   border-radius: 8px;
   padding: 1rem;
   margin-top: 1.5rem;
@@ -673,26 +670,26 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* WhatsApp banner */
 .whatsapp-banner {
-  background: var(--warm-white);
+  background: var(--surface);
   padding: 2.5rem 0;
-  border-top: 1px solid rgba(93, 204, 240, 0.2);
-  border-bottom: 1px solid rgba(93, 204, 240, 0.2);
+  border-top: 1px solid rgba(26, 26, 46, 0.1);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.1);
 }
 
 /* Highlight text */
 .highlight-text {
-  color: var(--soft-gold);
+  color: var(--ink);
   font-weight: 700;
 }
 
 .highlight-text-cta {
-  color: var(--deep-purple);
+  color: var(--ink);
   font-weight: 700;
 }
 
 /* ------------------------------------------------ FAQ (study-club.php) */
 .faq-item {
-  background: var(--warm-white);
+  background: var(--surface);
   border-radius: 16px;
   padding: 1.5rem;
   margin-bottom: 1rem;
@@ -707,7 +704,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .faq-item h5,
 .faq-item .faq-question {
-  color: var(--warm-blue);
+  color: var(--ink);
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -732,19 +729,19 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .alert-success {
-  background-color: var(--success-green);
-  color: var(--warm-dark);
+  background-color: #e8f3ee;
+  color: var(--ink);
 }
 
 .alert-danger {
-  background-color: var(--soft-coral);
+  background-color: var(--accent);
   color: white;
 }
 
 /* ------------------------------------------------ FOOTER */
 footer {
-  background: var(--warm-dark);
-  color: var(--warm-cream);
+  background: var(--ink);
+  color: var(--surface-alt);
   padding: 3rem 0;
 }
 
@@ -752,11 +749,11 @@ footer {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: var(--soft-gold);
+  background: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--warm-dark);
+  color: var(--surface-alt);
   text-decoration: none;
   transition: all 0.3s ease;
   margin: 0 10px;
@@ -764,8 +761,8 @@ footer {
 
 .social-icon:hover {
   transform: translateY(-3px);
-  background: var(--soft-coral);
-  color: var(--warm-dark);
+  background: var(--accent);
+  color: white;
 }
 
 /* ------------------------------------------------ SCROLL ANIMATION */
@@ -785,14 +782,14 @@ footer {
 /* Calendly card wrapper */
 .calendly-card {
   background: #ffffff;
-  border: 1px solid #d1d5db;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 2.5rem;
-  box-shadow: 8px 8px 0px rgba(122, 185, 163, 0.3);
+  box-shadow: 0 4px 20px rgba(26, 26, 46, 0.08);
 }
 
 .calendly-card h3 {
-  color: var(--deep-purple);
+  color: var(--ink);
 }
 
 /* Divider with text label between hero and calendly */
@@ -814,7 +811,7 @@ footer {
 .section-divider span {
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--deep-purple);
+  color: var(--ink-soft);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   white-space: nowrap;
@@ -823,17 +820,17 @@ footer {
 /* Testimonial card, review screenshot wrapper */
 .testimonial-card {
   background: #ffffff;
-  border: 1px solid #d1d5db;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 8px 8px 0px rgba(122, 185, 163, 0.3);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(26, 26, 46, 0.08);
   transition: all 0.2s ease;
   height: 100%;
 }
 
 .testimonial-card:hover {
-  transform: translateY(2px);
-  box-shadow: 4px 4px 0px rgba(122, 185, 163, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(26, 26, 46, 0.1);
 }
 
 /* Testimonial images inside the card */
@@ -845,10 +842,10 @@ footer {
 /* Review source badge (Facebook etc.) */
 .review-badge {
   display: inline-block;
-  background: var(--deep-purple);
-  color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 600;
+  background: var(--surface-alt);
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 500;
   padding: 0.35rem 0.85rem;
   border-radius: 6px;
 }
@@ -927,32 +924,38 @@ footer {
   .hero-section-study-hub .hero-title {
     font-size: 3.5rem;
   }
+
+  .hero-title {
+    font-size: 4rem;
+  }
 }
 
 /* Quiet trust bar (index.php credentials strip) */
 .trust-bar-quiet {
-  background: rgba(74, 48, 109, 0.04);
-  border-top: 1px solid rgba(74, 48, 109, 0.12);
-  border-bottom: 1px solid rgba(74, 48, 109, 0.12);
-  padding: 28px 0;
+  background: var(--surface-alt);
+  border-top: 1px solid rgba(26, 26, 46, 0.08);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+  padding: 32px 0;
 }
 
 .trust-bar-quiet .trust-bar-icon {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-bottom: 6px;
+  color: var(--ink-soft);
+  opacity: 0.7;
 }
 
 .trust-bar-quiet .trust-bar-label {
-  font-family: 'Outfit', sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: var(--deep-purple);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
 }
 
 .trust-bar-quiet .trust-bar-detail {
-  font-size: 0.8rem;
-  color: var(--warm-dark);
-  opacity: 0.65;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  opacity: 0.7;
   margin-top: 4px;
 }
 
@@ -1008,10 +1011,12 @@ footer {
 
 /* ------------------------------------------------ FOOTER ENHANCEMENTS */
 .site-footer {
-  background-color: #ffffff; /* Matches Navbar background */
+  background-color: var(--ink);
   padding: 3rem 0;
-  border-top: 1px solid #e5e7eb; /* Matches Navbar border-bottom */
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.03); /* Matches Navbar shadow */
+}
+
+.site-footer .logo-words {
+  color: var(--surface);
 }
 
 .footer-brand {
@@ -1037,7 +1042,7 @@ footer {
 
 .copyright-text {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 0;
   font-family: 'Inter', sans-serif;
 }
@@ -1049,14 +1054,14 @@ footer {
 }
 
 .contact-email {
-  color: var(--deep-purple);
+  color: var(--surface-alt);
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   font-size: 0.95rem;
 }
 
 .footer-link {
-  color: var(--warm-dark);
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.85rem;
@@ -1064,7 +1069,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: var(--brand-red);
+  color: var(--accent);
 }
 
 .footer-social-links {
@@ -1080,7 +1085,7 @@ footer {
 }
 
 .social-link {
-  color: var(--deep-purple);
+  color: var(--surface-alt);
   font-size: 1.25rem;
   transition: all 0.3s ease;
   text-decoration: none;
@@ -1090,12 +1095,12 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: var(--warm-cream);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .social-link:hover {
   color: white;
-  background-color: var(--brand-red);
+  background-color: var(--accent);
   transform: translateY(-3px);
 }
 
@@ -1108,24 +1113,24 @@ footer {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 6px 6px 0px rgba(201, 178, 248, 0.3);
+  box-shadow: 0 4px 20px rgba(26, 26, 46, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin-bottom: 2rem;
 }
 
 .blog-card:hover {
-  transform: translateY(2px);
-  box-shadow: 3px 3px 0px rgba(201, 178, 248, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(26, 26, 46, 0.1);
   color: inherit;
   text-decoration: none;
 }
 
 .blog-card:hover .blog-card-title {
-  color: var(--brand-red);
+  color: var(--accent);
 }
 
 .blog-card-placeholder {
-  background: rgba(74, 48, 109, 0.08);
+  background: rgba(26, 26, 46, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1221,7 +1226,7 @@ footer {
 }
 
 .blog-post-body {
-  background: rgba(74, 48, 109, 0.06);
+  background: rgba(26, 26, 46, 0.06);
   padding: 3rem 0 4rem;
 }
 
@@ -1248,7 +1253,8 @@ footer {
 }
 
 .blog-pullquote {
-  background: rgba(93, 204, 240, 0.12);
+  background: var(--surface-alt);
+  border-left: 4px solid var(--accent);
   border-radius: 8px;
   padding: 1.5rem 2rem;
   margin: 2rem 0;

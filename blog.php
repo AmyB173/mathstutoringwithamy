@@ -46,7 +46,7 @@
   </section>
 
   <!-- ================================================ POST LISTING -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.06);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-9">

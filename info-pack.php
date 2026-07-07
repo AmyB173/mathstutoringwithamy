@@ -61,7 +61,7 @@
     .feature-list li { margin-bottom: 0.6rem; }
     .feature-list li::before { content: "✓ "; color: var(--icon-neutral); font-weight: bold; }
     .pricing-table { --bs-table-bg: transparent; --bs-table-color: #1a1a1a; --bs-table-border-color: rgba(0,0,0,0.12); }
-    .pricing-table thead th { color: #1a1a1a; background: rgba(74,48,109,0.1); }
+    .pricing-table thead th { color: #1a1a1a; background: rgba(26, 26, 46,0.1); }
   </style>
 </head>
 
@@ -91,7 +91,6 @@
             <img src="/assets/images/amy-white-top.jpg" alt="Amy, qualified maths tutor with 11 years experience"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-blue); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
       </div>
@@ -99,7 +98,7 @@
   </section>
 
   <!-- ================================================ PLATFORM -->
-  <section class="section" style="background: rgba(74,48,109,0.06);">
+  <section class="section" style="background: rgba(26, 26, 46,0.06);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0 order-lg-0">
@@ -107,7 +106,6 @@
             <img src="/assets/images/pencil-lesson.png" alt="Interactive online maths lesson on Pencil Spaces"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-purple); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
         <div class="col-lg-7 ps-lg-5 order-lg-1">
@@ -142,7 +140,6 @@
             <img src="/assets/images/pencil-workings.png" alt="Student working on a shared digital whiteboard"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
       </div>
@@ -150,7 +147,7 @@
   </section>
 
   <!-- ================================================ 1:1 -->
-  <section class="section" style="background: rgba(93,204,240,0.1);">
+  <section class="section" style="background: rgba(26, 26, 46,0.1);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
@@ -158,7 +155,6 @@
             <img src="/assets/images/amy-crossed-arms.jpg" alt="Amy, 1:1 private maths tutoring"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-blue); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
         <div class="col-lg-7 ps-lg-5">

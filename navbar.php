@@ -45,7 +45,7 @@
           <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
-      <a href="/contact" class="btn btn-cta-pro d-none d-lg-block">Enquire Now</a>
+      <a href="/contact" class="btn btn-cta-pro d-none d-lg-block">Enquire now</a>
     </div>
   </div>
 </nav>

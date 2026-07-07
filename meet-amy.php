@@ -51,7 +51,7 @@
   <?php include 'navbar.php'; ?>
 
   <!-- ================================================ WHERE IT STARTED -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -67,7 +67,6 @@
             <img src="./assets/images/amy-red-jumper.webp" alt="Amy, qualified maths teacher and online tutor"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-blue); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
       </div>
@@ -83,7 +82,6 @@
             <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy, qualified maths teacher"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-purple); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
         </div>
 
@@ -114,7 +112,7 @@
   </section>
 
   <!-- ================================================ HOW I TEACH -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -134,13 +132,11 @@
             <img src="./assets/images/pencil-workings.png" alt="Interactive shared whiteboard on Pencil Spaces"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
           </div>
           <div class="position-relative">
             <img src="./assets/images/alevel-pencil-spaces-homework.png" alt="Video homework feedback on Pencil Spaces"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-purple); border-radius: 8px; z-index: 1; opacity: 0.2;"></div>
           </div>
           <p class="text-center mt-3" style="font-size: 0.85rem; color: #666; font-style: italic;">Lessons take place on Pencil Spaces, a shared interactive digital classroom.</p>
         </div>
@@ -157,7 +153,6 @@
             <img src="./assets/images/amy-and-dogs.webp" alt="Amy with her dogs Piper and Wyatt"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--soft-gold); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.9rem;">Piper and Wyatt, my two favourite walking companions.</p>
         </div>

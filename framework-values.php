@@ -46,8 +46,7 @@
                     <div class="position-relative">
                         <img src="./assets/images/amy-professional.jpg" alt="Amy, qualified maths teacher"
                              class="img-fluid position-relative"
-                             style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-                        <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--deep-purple); border-radius: 8px; z-index: 1; opacity: 0.15;"></div>
+                             style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
                     </div>
                 </div>
             </div>

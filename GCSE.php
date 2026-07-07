@@ -85,8 +85,7 @@
                     <div class="position-relative">
                         <img src="./assets/images/amy-crossed-arms.jpg" class="img-fluid position-relative"
                              alt="Amy, online GCSE Maths tutor with 12 years of teaching experience"
-                             style="border-radius: 12px; border: 1px solid #d1d5db; z-index: 2;">
-                        <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-purple); border-radius: 12px; z-index: 1; opacity: 0.25;"></div>
+                             style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
                     </div>
                     <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.9rem;">Amy, qualified maths teacher, 12 years of experience.</p>
                 </div>
@@ -95,7 +94,7 @@
     </section>
 
     <!-- ================================================ 2. CONFIDENCE IS KEY -->
-    <section class="section" style="background: rgba(74, 48, 109, 0.06);">
+    <section class="section" style="background: rgba(26, 26, 46, 0.06);">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-8">
@@ -137,8 +136,7 @@
                     <div class="position-relative">
                         <img src="./assets/images/pencil-workings.png" class="img-fluid position-relative"
                              alt="GCSE Maths session on the shared interactive whiteboard"
-                             style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-                        <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
+                             style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
                     </div>
                     <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.85rem;">Sessions take place on Pencil Spaces, a shared interactive digital classroom.</p>
                 </div>
@@ -166,7 +164,7 @@
     </section>
 
     <!-- ================================================ 4. TESTIMONIALS -->
-    <section class="section" style="background: rgba(93, 204, 240, 0.07);">
+    <section class="section" style="background: rgba(26, 26, 46, 0.07);">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-7">

@@ -40,7 +40,7 @@
         }
 
         .hero-section-v3 {
-            background: linear-gradient(135deg, var(--warm-blue) 0%, var(--deep-purple) 100%);
+            background: var(--ink);
             padding: 10px 0;
             color: white;
         }
@@ -67,7 +67,7 @@
 
         .final-benefit-item .icon {
             font-size: 2rem;
-            color: var(--warm-blue);
+            color: var(--ink);
             margin-bottom: 0.5rem;
         }
 
@@ -108,7 +108,7 @@
                     </p>
                     <div class="row flex-column  justify-content-center align-items-center">
                         <div class="col-lg-6">
-                            <a href="#download-form" class="btn btn-bright-pink btn-lg mt-4">Download The <strong><em><u>FREE</u></em></strong> Guide Now <i class="fas fa-rocket ms-2"></i></a>
+                            <a href="#download-form" class="btn-cta-pro btn-lg mt-4">Download the free guide <i class="fas fa-rocket ms-2"></i></a>
                         </div>
                         <div class="col-lg-8 flex-col align-items-center justify-contents--lg-center">
                             <!-- Social Proof Section -->
@@ -159,7 +159,7 @@
         </div>
     </section>
 
-    <section class="section fade-in bg-warm-cream">
+    <section class="section fade-in" style="background: var(--surface-alt);">
         <div class="container">
             <div class="section-title">
                 <h2>Go From Uncertainty To Absolute Certainty</h2>
@@ -217,11 +217,11 @@
                     </div>
                 </div>
             </div>
-            <div class="div d-flex justify-content-center"><a href="#download-form" class="btn btn-bright-pink btn-lg mt-4">Download The Free Guide Now <i class="fas fa-rocket ms-2"></i></a></div>
+            <div class="div d-flex justify-content-center"><a href="#download-form" class="btn-cta-pro btn-lg mt-4">Download the free guide <i class="fas fa-rocket ms-2"></i></a></div>
         </div>
     </section>
 
-    <section class="section fade-in bg-warm-cream">
+    <section class="section fade-in" style="background: var(--surface-alt);">
         <div class="container">
             <div class="section-title">
                 <h2>Did You Know Your Calculator Could...?</h2>
@@ -270,7 +270,7 @@
         </div>
     </section>
 
-    <section id="download-form" class="section fade-in bg-hero-gradient">
+    <section id="download-form" class="section fade-in" style="background: var(--surface-alt);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">

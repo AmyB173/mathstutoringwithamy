@@ -63,8 +63,7 @@
           <div class="position-relative">
             <img src="./assets/images/amy-green-top.jpg" class="img-fluid position-relative"
                  alt="Amy, A Level Maths tutor with 12 years of teaching experience"
-                 style="border-radius: 12px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 12px; z-index: 1; opacity: 0.3;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.9rem;">Amy, qualified maths teacher, 12 years of experience, Edexcel specialist.</p>
         </div>
@@ -73,7 +72,7 @@
   </section>
 
   <!-- ================================================ 2. THREE WAYS -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.06);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
@@ -90,7 +89,7 @@
           <a href="#one-to-one" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
         </div>
         <div class="col-md-4">
-          <i class="fas fa-users fs-2 mb-3" style="color: var(--warm-blue);"></i>
+          <i class="fas fa-users fs-2 mb-3" style="color: var(--ink);"></i>
           <h4 class="mb-2">Small Group Tutoring</h4>
           <p class="text-dark mb-3">Up to 4 students working through A Level content together. More affordable, still highly focused.</p>
           <a href="#small-group" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
@@ -106,7 +105,7 @@
   </section>
 
   <!-- ================================================ 3. WATCH ME TEACH -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-5">
@@ -161,8 +160,7 @@
           <div class="position-relative">
             <img src="./assets/images/amy-crossed-arms.jpg" class="img-fluid position-relative"
                  alt="Amy, A Level Maths tutor"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-purple); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
         </div>
       </div>
@@ -170,15 +168,14 @@
   </section>
 
   <!-- ================================================ 4. SMALL GROUP TUTORING -->
-  <section id="small-group" class="section" style="background: rgba(93, 204, 240, 0.07);">
+  <section id="small-group" class="section" style="background: rgba(26, 26, 46, 0.07);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
           <div class="position-relative">
             <img src="./assets/images/pencil-workings.png" class="img-fluid position-relative"
                  alt="A Level Maths session on the shared interactive whiteboard"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--warm-blue); border-radius: 8px; z-index: 1; opacity: 0.25;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
         </div>
 
@@ -245,8 +242,7 @@
           <div class="position-relative">
             <img src="./assets/images/alevel-pencil-spaces.png" class="img-fluid position-relative"
                  alt="A Level Maths Recovery Course session on the interactive whiteboard"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.85rem;">Sessions take place on Pencil Spaces, an interactive shared digital classroom.</p>
         </div>
@@ -255,7 +251,7 @@
   </section>
 
   <!-- ================================================ 6. TESTIMONIALS -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.06);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.06);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">

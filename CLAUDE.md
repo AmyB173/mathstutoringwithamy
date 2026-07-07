@@ -41,6 +41,31 @@ Warm. Assured. Unvarnished.
 
 ## Design
 
-- Pages follow the style established in `meet-amy.php`: alternating `white` and subtle tinted section backgrounds, images with a coloured offset shadow block behind them, text flowing directly in columns without unnecessary card wrappers.
-- No cream colours: avoid `var(--warm-cream)`, `var(--light-gold)`, and `var(--warm-white)` as section backgrounds. Use `white` or a low-opacity rgba tint of an accent colour instead.
+A disciplined single-accent system: coral is for actions, everything else is ink. Tokens are defined in `assets/css/style-new.css`.
+
+### Tokens
+
+- `--ink: #1a1a2e` - all headings and body text. Never pure black.
+- `--ink-soft: #4a4a5e` - secondary text: captions, attributions, quiet lines (trust bar, exam board lines, footer copy).
+- `--accent: #ff5757` - pulled from the logo's coral "A" mark. Actions only: buttons, links, interactive elements.
+- `--accent-dark: #cc4646` - darkened accent for hover states and for any accent text under 24px (passes WCAG AA on white).
+- `--surface: #ffffff` - main background.
+- `--surface-alt: #faf7f4` - subtle warm off-white for alternating sections.
+
+Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-green`, etc.) are aliased to the tokens above in `:root`, so old markup still resolves correctly, but new work should reference the named tokens directly.
+
+### Rules
+
+- **Coral is for actions only.** Buttons, links, and interactive elements get coral (`--accent` / `--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, or blue UI elements, and no coral headings or coral decoration.
+- **Buttons and CTAs are sentence case, never all caps.** "Book a free trial session", not "ENQUIRE NOW".
+- **Button copy says what happens.** Prefer "Enquire now" / "Download the free guide" over vague verbs.
+- **One photo treatment site-wide:** `border-radius: 12px`, `border: 1px solid #e5e7eb`, `box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14)`. No offset colour block behind photos.
+- **One card style site-wide:** white background, subtle border or soft shadow (not both stacked as a hard offset), generous padding. `.testimonial-card`, `.blog-card`, `.calendly-card` follow this.
+- **Headings use the established type scale** (h1 40px / h2 34px / h3 2rem / h4 1.75rem / h5 1.375rem), with the homepage hero as the exception: 56-64px desktop, scaling down on mobile.
+- **Exam boards and levels are listed as quiet text lines**, never pill badges: e.g. "GCSE, all exam boards: AQA · Edexcel · OCR · WJEC" in `.exam-boards-line` (ink-soft, small-caps).
+- **No em dashes anywhere** in any copy on this site (see Brand Voice above; this applies to code-level copy too).
 - Keep visual clutter low. Avoid label pills on every section, multiple different list styles on the same page, or `warm-card` wrappers where plain text will do.
+
+### Overall principle
+
+"Private tutor with a waiting list": restraint, whitespace, big type. Coral means action. Let the grade results carry the page through size and weight, not colour.

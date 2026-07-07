@@ -56,7 +56,7 @@
 
         <h2>Data Controller</h2>
         <p>The data controller for this website is <strong>Amy Bergstrom</strong>. You can contact us at
-          <a href="mailto:contact@mathstutoringwithamy.co.uk" style="color: var(--deep-purple); font-weight: 700; text-underline-offset: 3px;">contact@mathstutoringwithamy.co.uk</a>.</p>
+          <a href="mailto:contact@mathstutoringwithamy.co.uk" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">contact@mathstutoringwithamy.co.uk</a>.</p>
         <p>This privacy policy applies only to data collected through this website and our services. Third-party websites linked here have their own privacy policies.</p>
 
         <h2>1. Personal Data We Collect</h2>
@@ -134,7 +134,7 @@
           <li><strong>Right to withdraw consent:</strong> Withdraw any consent you have given for processing at any time</li>
         </ul>
         <p>To exercise these rights, please contact us at
-          <a href="mailto:contact@mathstutoringwithamy.co.uk" style="color: var(--deep-purple); font-weight: 700; text-underline-offset: 3px;">contact@mathstutoringwithamy.co.uk</a>.
+          <a href="mailto:contact@mathstutoringwithamy.co.uk" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">contact@mathstutoringwithamy.co.uk</a>.
           You also have the right to lodge a complaint with the Information Commissioner's Office (ICO).</p>
 
         <h2>7. Security</h2>

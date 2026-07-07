@@ -95,7 +95,7 @@
   </section>
 
   <!-- Social Proof Section -->
-  <section class="section fade-in" style="background: var(--warm-cream);">
+  <section class="section fade-in" style="background: var(--surface-alt);">
     <div class="container">
       <div class="section-title">
         <h2>
@@ -113,7 +113,7 @@
             <img src="./assets/images/testimonials/fb-review-sq-phone.png" alt="Review from parent of GCSE student"
               class="img-fluid review-screenshot d-lg-none" />
             <div class="mt-3">
-              <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">
+              <span class="badge" style="background: var(--surface-alt); color: var(--ink-soft);">
                 <i class="fab fa-facebook me-1"></i> Facebook Review
               </span>
             </div>
@@ -128,7 +128,7 @@
             <img src="./assets/images/testimonials/fb-review-jm-phone.png" alt="Review from A-Level math student"
               class="img-fluid review-screenshot d-lg-none" />
             <div class="mt-3">
-              <span class="badge" style="background: var(--success-green); color: var(--warm-dark);">
+              <span class="badge" style="background: var(--surface-alt); color: var(--ink-soft);">
                 <i class="fab fa-facebook me-1"></i> Facebook Review
               </span>
             </div>

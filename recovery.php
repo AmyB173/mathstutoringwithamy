@@ -112,7 +112,6 @@
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
           <div class="position-relative">
             <img src="./assets/images/amy-white-top.jpg" class="img-fluid position-relative" alt="Amy - A Level Maths Recovery Programme" style="z-index: 2; border-radius: 12px; border: 1px solid #d1d5db;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 12px; z-index: 1; opacity: 0.3;"></div>
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.95rem;">
             Hi, I'm Amy, qualified maths teacher with 12 years of experience.<br>
@@ -124,7 +123,7 @@
   </section>
 
   <!-- ================================================ 3. PROBLEM SECTION -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-8">
@@ -193,8 +192,7 @@
           <div class="position-relative">
             <img src="./assets/images/pencil-workings.png" alt="A Level Maths homework on Pencil Spaces"
                  class="img-fluid position-relative"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
         </div>
 
@@ -240,7 +238,7 @@
   </section>
 
   <!-- ================================================ 5. IS THIS RIGHT FOR YOUR CHILD -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
@@ -272,8 +270,7 @@
           <div class="position-relative">
             <img src="./assets/images/alevel-pencil-spaces.png" alt="Amy - A Level Maths Tutor"
                  class="img-fluid position-relative"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
         </div>
       </div>
@@ -338,7 +335,7 @@
   </section>
 
   <!-- ================================================ 7. ABOUT AMY -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6 order-lg-1">
@@ -348,7 +345,7 @@
             <p class="text-dark mb-4">After 10+ years teaching A Level Maths, I had my lightbulb moment watching a capable Grade 8 GCSE student get a D in summer Year 12, then work 'really hard' over the holidays... only to get another D in the resit. He was doing papers, making notes, putting in hours, but he wasn't truly learning.</p>
             <p class="text-dark mb-4">That's when I realised: these struggling students don't need more information, they need implementation support, mindset work, and confidence rebuilding. They don't need someone who says 'see you next week', they need accountability and encouragement throughout the week.</p>
 
-            <div class="mb-4 p-3" style="background: white; border-radius: 12px; border-left: 4px solid var(--warm-blue);">
+            <div class="mb-4 p-3" style="background: white; border-radius: 12px; border-left: 4px solid var(--accent);">
               <p class="mb-2"><strong>I'll be completely honest with you:</strong></p>
               <p class="mb-0">I only take on students I genuinely believe I can help succeed. During our consultation, I'll be upfront about what's realistic for your child's situation and whether this programme is the right fit.</p>
             </div>
@@ -377,8 +374,7 @@
           <div class="position-relative">
             <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy - Maths Tutor"
                  class="img-fluid position-relative"
-                 style="border-radius: 8px; border: 1px solid #d1d5db; z-index: 2;">
-            <div style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; background: var(--success-green); border-radius: 8px; z-index: 1; opacity: 0.3;"></div>
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
           </div>
         </div>
       </div>
@@ -454,7 +450,7 @@
   </section>
 
   <!-- ================================================ 9. FAQ -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -571,7 +567,7 @@
   </section>
 
   <!-- ================================================ 11. BOOK A CALL / CALENDLY -->
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);" id="book-call">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);" id="book-call">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">

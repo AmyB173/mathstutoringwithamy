@@ -42,7 +42,7 @@
       <div class="col-lg-6 hero-content">
         <div class="d-flex align-items-end mb-4">
           <img src="./assets/images/amy-green-top.jpg" alt="Amy, qualified maths teacher and online tutor"
-               style="width: 120px; height: 120px; border-radius: 15px; object-fit: cover; border: 1px solid #e5e7eb; box-shadow: 10px 10px 0px var(--success-green); margin-right: 20px;">
+               style="width: 120px; height: 120px; border-radius: 15px; object-fit: cover; border: 1px solid #e5e7eb; box-shadow: 0 10px 24px rgba(26, 26, 46, 0.16); margin-right: 20px;">
           <div>
              <h1 class="hero-title display-5 mb-1">Let's talk.</h1>
              <p class="mb-2 fw-bold text-dark">Amy | Qualified Maths Teacher</p>
@@ -79,7 +79,7 @@
   </div>
 </section>
 
-  <section class="section" style="background: rgba(74, 48, 109, 0.05);">
+  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">

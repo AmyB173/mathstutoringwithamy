@@ -58,8 +58,8 @@
           <h1 class="mb-2">Meet Amy</h1>
           <p class="text-dark mb-4">Hi, I'm Amy. I'm a qualified maths teacher and the person behind Maths Tutoring with Amy.</p>
           <h2 class="mb-4">From Wales to the classroom</h2>
-          <p class="text-dark">I grew up in Wales, deep in the Carmarthenshire countryside. It was the kind of childhood where you build dens in the forest and spend whole days at the beach. My primary school was Welsh-medium so my first maths lessons were actually in Welsh. Secondary was in English, and by the time I left Wales at 18 for university I'd had a foot in both worlds. The Welsh has faded a bit over the years but the roots have not.</p>
-          <p class="text-dark">After university my career took me into teaching, and that's where I discovered something I hadn't quite expected. I'd always been good at maths, but it was teaching it that made me fall in love with it. Watching a student go from stuck to confident, from <em>"I can't do this"</em> to <em>"oh, that's actually easy"</em>, is one of the most satisfying things I know.</p>
+          <p class="text-dark">I grew up in Wales, deep in the Carmarthenshire countryside. It was the kind of childhood where you build dens in the forest and spend whole days at the beach. My primary school was Welsh-medium so my first maths lessons were actually in Welsh. The Welsh has faded a bit over the years but the roots have not, and I regularly go back.</p>
+          <p class="text-dark">After university my career took me into teaching, and that's where I discovered something I hadn't quite expected. I'd always been good at maths, but it was teaching it that made me fall in love with it. There's something about teaching the subject that made me realise how fun and interesting and varied maths could be. Showing students that it doesn't have to be difficult and scary, and inspiring the ones who are interested to push themselves into new and interesting areas of maths, is what I love about teaching.</p>
         </div>
 
         <div class="col-lg-5">
@@ -120,11 +120,11 @@
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">No two lessons are the same</h2>
           <p class="text-dark">Every child is different and the approach that lights one student up will fall flat with another. I pay attention to what's working and adjust as we go.</p>
-          <p class="text-dark">If a student is bored I change tack. If they're tired or shy or having an off day I don't force it, I find a way back in. I'm friendly, positive and encouraging, and I work hard to make my explanations as clear as I can. There's no such thing as a silly question in my lessons, and I really mean that.</p>
+          <p class="text-dark">If a student is bored, I change tack. If they're tired or shy or having an off day I don't force it, I find a way back in. Whether that's a few minutes' break for a chat, or asking if they'd rather tackle a different topic that day and leave the harder one for when they're more focused. I'm friendly, positive and encouraging, and I work hard to make my explanations as clear as I can. There's no such thing as a silly question in my lessons, and I really mean that.</p>
 
           <div class="warm-card" style="border-color: #d1d5db;">
             <p class="text-dark mb-0" style="font-style: italic; font-size: 1.05rem; line-height: 1.7;">
-              "What I want more than anything is for my students to enjoy maths. Grades follow when a child feels capable and curious, and the best lessons are the ones where the student forgets they were ever worried about the subject at all."
+              "What I want more than anything is for my students to enjoy maths, or at least see how satisfying it can be when they find an approach that works for them. Grades follow when a child feels capable and curious, and really wants to be learning."
             </p>
           </div>
         </div>
@@ -164,7 +164,7 @@
 
         <div class="col-lg-7 ps-lg-5">
           <h2 class="mb-4">Outside of tutoring</h2>
-          <p class="text-dark">When I'm not teaching you'll usually find me outside. I spend a lot of time on walks with my partner and our two dogs, Piper and Wyatt. We camp when we can, and any excuse for a trip to the beach is a good one. I also do a bit of gardening, which is very much a work in progress.</p>
+          <p class="text-dark">When I'm not teaching, you'll usually find me outside doing something. I spend a lot of time on walks with my partner and our two dogs, Piper and Wyatt. We camp regularly, and any excuse for a trip to the beach is a good one. I also do a bit of gardening, which is very much a work in progress.</p>
         </div>
       </div>
     </div>

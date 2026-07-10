@@ -37,7 +37,7 @@
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
   <!-- Updated CSS -->
-  <link href="./assets/css/style-new.css" rel="stylesheet" />
+  <link href="./assets/css/style-new.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/assets/css/style-new.css'); ?>" rel="stylesheet" />
 </head>
 
 <body>

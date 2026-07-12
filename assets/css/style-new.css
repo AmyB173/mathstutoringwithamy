@@ -512,7 +512,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* ------------------------------------------------ TESTIMONIALS (index.php) */
 .testimonials-full {
-  background: rgba(26, 26, 46, 0.05);
+  background: var(--surface-alt);
 }
 
 .testimonial-screenshot {
@@ -526,6 +526,48 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .testimonial-screenshot:hover {
   transform: translateY(-5px);
+}
+
+/* Give the result cards some lift on hover so the grid feels alive, not static.
+   Scoped to this section only, since .warm-card is reused as a plain content
+   wrapper elsewhere on the site where a hover lift wouldn't make sense. */
+.testimonials-full .warm-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-full .warm-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Large quiet quote mark used as background texture on testimonial cards */
+.warm-card-quote-mark {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 3.5rem;
+  color: var(--ink);
+  opacity: 0.05;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* Fuller, more visible star rating (still the quiet gold token, just given more presence) */
+.star-rating {
+  font-size: 0.95rem;
+  letter-spacing: 3px;
+  opacity: 1;
+}
+
+/* Featured result card: larger type for the headline stat */
+.warm-card-featured .result-headline {
+  font-size: 2rem !important;
+}
+
+@media (max-width: 767.98px) {
+  .warm-card-featured .result-headline {
+    font-size: 1.5rem !important;
+  }
 }
 
 .screenshot-img {

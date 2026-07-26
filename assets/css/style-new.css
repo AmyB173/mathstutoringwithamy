@@ -1,7 +1,11 @@
 /* ================================================
    MATHS TUTORING WITH AMY: style-new.css
-   Scoped to: index.php, navbar.php, study-club.php, contact.php
+   Shared across all pages
    ================================================ */
+
+/* Fonts loaded here as well as via <link> on index.php, so every page that
+   includes this stylesheet gets the heading serif without markup changes */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap");
 
 /* ------------------------------------------------ CSS VARIABLES */
 :root {
@@ -16,7 +20,19 @@
   --accent-dark: #cc4646;
 
   --surface: #ffffff;
-  --surface-alt: #faf7f4;
+  /* Cool light grey (ink at 5%) for alternating sections, as on Meet Amy */
+  --surface-alt: rgba(26, 26, 46, 0.05);
+
+  /* Shared corner radius for all buttons and inputs; never fully-rounded pills */
+  --radius-control: 6px;
+
+  /* Section vertical padding rhythm */
+  --section-pad: 96px;
+  --section-pad-mobile: 64px;
+
+  /* Type: headings in the serif, everything else in the sans */
+  --font-heading: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", sans-serif;
 
   --soft-gold: #fcd36d;
 
@@ -44,31 +60,50 @@ body {
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
   font-weight: 400;
   color: var(--ink);
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.65;
   margin-bottom: 1.2rem;
   text-align: start;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
   color: var(--ink);
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 h1 { font-size: 40px; }
 h2 { font-size: 34px; }
 h3 { font-size: 2rem; }
 h4 { font-size: 1.75rem; }
-h5 { font-size: 1.375rem; font-weight: 700; }
+h5 { font-size: 1.375rem; }
 
 /* ------------------------------------------------ SECTIONS */
 .section {
-  padding: 6rem 0;
+  padding: var(--section-pad) 0;
+}
+
+/* One content max-width site-wide (Bootstrap goes to 1320px at xxl; cap it) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Cap prose measure at roughly 65-70 characters; centred text keeps its axis */
+.section p {
+  max-width: 68ch;
+}
+
+.section .text-center p,
+.section p.text-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title {
@@ -78,7 +113,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .section-title h2 {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -92,8 +127,15 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 /* ------------------------------------------------ COLOUR UTILITIES */
 .bg-accent-light {
   background-color: var(--surface-alt);
-  border-top: 1px solid #ece5df;
-  border-bottom: 1px solid #ece5df;
+  border-top: 1px solid rgba(26, 26, 46, 0.08);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+}
+
+/* The one site-wide photo treatment (photographs and review screenshots) */
+.photo-frame {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Neutral icon colour, replacing decorative mint-green icons (checkmarks etc.) */
@@ -110,14 +152,14 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 /* ------------------------------------------------ BUTTONS */
+/* One button system: coral, 6px radius, flat colour change on hover, no shadows */
 .btn {
-  border-radius: 25px;
-  font-family: 'Outfit', sans-serif;
+  border-radius: var(--radius-control);
+  font-family: var(--font-body);
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   padding: 14px 28px;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
   border: none;
 }
 
@@ -130,48 +172,41 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 .btn-cta-pro {
   background-color: var(--accent);
   color: #ffffff !important;
-  border-radius: 8px;
-  padding: 16px 32px;
-  font-weight: 700;
-  font-family: 'Outfit', sans-serif;
-  letter-spacing: -0.01em;
+  border-radius: var(--radius-control);
+  padding: 14px 28px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  letter-spacing: normal;
   border: none;
-  box-shadow: 0 4px 14px rgba(255, 87, 87, 0.25);
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease;
   text-decoration: none;
   display: inline-block;
 }
 
 .btn-cta-pro:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(255, 87, 87, 0.35);
   background-color: var(--accent-dark);
   color: #ffffff !important;
 }
 
-/* WhatsApp CTA, used on index.php. Kept in official WhatsApp green, matching .whatsapp-button below */
+/* WhatsApp CTA, used on index.php. Standard coral button; the white icon inside
+   communicates the channel, so no WhatsApp brand green */
 .btn-whatsapp-cta {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: #25D366;
+  background-color: var(--accent);
   color: #ffffff !important;
-  border-radius: 8px;
-  padding: 16px 32px;
-  font-weight: 700;
-  font-family: 'Outfit', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  border-radius: var(--radius-control);
+  padding: 14px 28px;
+  font-weight: 600;
+  font-family: var(--font-body);
   border: none;
-  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease;
   text-decoration: none;
 }
 
 .btn-whatsapp-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
-  background-color: #20BA5A;
+  background-color: var(--accent-dark);
   color: #ffffff !important;
 }
 
@@ -180,15 +215,31 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #25D366;
-  font-weight: 700;
+  color: var(--accent-dark);
+  font-weight: 600;
   font-size: 0.9rem;
   text-decoration: none;
 }
 
 .whatsapp-text-link:hover {
-  color: #20BA5A;
+  color: var(--accent-dark);
   text-decoration: underline;
+}
+
+/* Quiet secondary link, sits under a primary CTA (e.g. "Or book a free video call"):
+   ink text with a coral underline */
+.quiet-link {
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+.quiet-link:hover {
+  color: var(--accent-dark);
+  text-decoration-color: var(--accent-dark);
 }
 
 /* WhatsApp button, used on study-club.php (.whatsapp-button / .whatsapp-btn) */
@@ -197,24 +248,21 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background-color: #25D366;
+  background-color: var(--accent);
   color: white !important;
-  padding: 14px 32px;
+  padding: 14px 28px;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: var(--radius-control);
   font-weight: 600;
   font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  transition: background-color 0.2s ease;
   border: none;
 }
 
 .whatsapp-button:hover,
 .whatsapp-btn:hover {
-  background-color: #20BA5A;
+  background-color: var(--accent-dark);
   color: white !important;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   text-decoration: none;
 }
 
@@ -226,21 +274,24 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 .btn-cta-green {
   background-color: var(--accent);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--radius-control);
   padding: 14px 28px;
-  font-weight: 700;
-  font-family: 'Outfit', sans-serif;
-  letter-spacing: -0.01em;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 87, 87, 0.3);
+  font-weight: 600;
+  font-family: var(--font-body);
+  letter-spacing: normal;
+  transition: background-color 0.2s ease;
   color: #ffffff;
 }
 
 .btn-cta-green:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(255, 87, 87, 0.4);
   background-color: var(--accent-dark);
   color: #ffffff;
+}
+
+/* All form inputs share the control radius */
+.form-control,
+.form-select {
+  border-radius: var(--radius-control);
 }
 
 .btn-cta-green.btn-lg {
@@ -256,12 +307,14 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03) !important;
 }
 
+/* Brand logotype: heading serif in the brand coral, matching the logo mark */
 .logo-words {
   font-size: 22px;
-  font-weight: 700;
-  font-family: 'Outfit', sans-serif;
-  letter-spacing: -0.02em;
-  color: var(--ink);
+  font-weight: 600;
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+  color: var(--accent);
 }
 
 .navbar-brand img {
@@ -365,51 +418,31 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 .hero-title {
   font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
   margin-bottom: 1.75rem;
-  animation: slideInLeft 0.8s ease-out 0.2s both;
 }
 
 .hero-subtitle {
   font-size: 1.125rem;
   color: var(--ink-soft);
   margin-bottom: 2.5rem;
-  animation: slideInLeft 0.8s ease-out 0.4s both;
 }
 
-.hero-image {
-  position: relative;
-  animation: slideInRight 0.8s ease-out 0.8s both;
-}
-
-.hero-image img {
-  border-radius: 12px;
-  box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);
-  border: 1px solid #e5e7eb;
-  transition: transform 0.3s ease;
-}
-
-.hero-image:hover img {
-  transform: scale(1.02);
-}
-
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-50px); }
-  to   { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes slideInRight {
-  from { opacity: 0; transform: translateX(50px); }
-  to   { opacity: 1; transform: translateX(0); }
+/* Caption under a framed photo: quiet, close to the image */
+.photo-caption {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
 }
 
 /* Hero testimonial snippet */
 .hero-testimonial-snippet {
   font-style: italic;
-  color: #555;
-  border-left: 3px solid var(--deep-purple);
+  color: var(--ink-soft);
+  border-left: 3px solid var(--ink);
   padding-left: 15px;
   margin: 20px 0;
   font-size: 0.95rem;
@@ -441,7 +474,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 
 /* Quiet exam-board / level line, replaces the old pill badges */
 .exam-boards-line {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-body);
   font-variant: small-caps;
   letter-spacing: 0.04em;
   font-size: 0.95rem;
@@ -484,6 +517,10 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   background: var(--surface);
 }
 
+.section-alt {
+  background: var(--surface-alt);
+}
+
 
 .warm-card {
   background: #ffffff;
@@ -515,58 +552,68 @@ h5 { font-size: 1.375rem; font-weight: 700; }
   background: var(--surface-alt);
 }
 
-.testimonial-screenshot {
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+/* Card-free editorial testimonials: the result carries the block through size and
+   weight, the quote reads as plain prose, and blocks are separated by a hairline
+   rule rather than boxes. No borders, shadows, watermarks or star strips. */
+.testimonial-block {
+  padding: 0.5rem 0;
 }
 
-.testimonial-screenshot:hover {
-  transform: translateY(-5px);
-}
-
-/* Give the result cards some lift on hover so the grid feels alive, not static.
-   Scoped to this section only, since .warm-card is reused as a plain content
-   wrapper elsewhere on the site where a hover lift wouldn't make sense. */
-.testimonials-full .warm-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.testimonials-full .warm-card:hover {
-  transform: translateY(-6px);
-}
-
-/* Large quiet quote mark used as background texture on testimonial cards */
-.warm-card-quote-mark {
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
-  font-size: 3.5rem;
+.result-headline {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
   color: var(--ink);
-  opacity: 0.05;
-  line-height: 1;
-  pointer-events: none;
+  margin: 0 0 0.25rem;
 }
 
-/* Fuller, more visible star rating (still the quiet gold token, just given more presence) */
-.star-rating {
-  font-size: 0.95rem;
-  letter-spacing: 3px;
+/* Plain roman prose in ink; italic paragraphs read templated */
+.testimonial-quote {
+  font-size: 1.0625rem;
+  font-style: normal;
+  color: var(--ink);
+  line-height: 1.65;
+  margin: 1rem 0 0.75rem;
+}
+
+.testimonial-attribution {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* Quiet link under the review screenshots */
+.google-reviews-line {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0.25rem 0 0;
+}
+
+.google-reviews-line a {
+  color: var(--ink-soft);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.google-reviews-line a:hover {
+  color: var(--accent-dark);
+}
+
+.testimonial-rule {
+  border: 0;
+  border-top: 1px solid rgba(26, 26, 46, 0.12);
+  margin: 2.5rem 0;
   opacity: 1;
 }
 
-/* Featured result card: larger type for the headline stat */
-.warm-card-featured .result-headline {
-  font-size: 2rem !important;
-}
-
 @media (max-width: 767.98px) {
-  .warm-card-featured .result-headline {
-    font-size: 1.5rem !important;
+  .result-headline {
+    font-size: 1.6rem;
   }
 }
 
@@ -684,7 +731,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .signup-form-pro .form-control {
-  border-radius: 6px;
+  border-radius: var(--radius-control);
   border: 1px solid #ddd;
   padding: 0.75rem 1rem;
 }
@@ -771,7 +818,7 @@ h5 { font-size: 1.375rem; font-weight: 700; }
 }
 
 .alert-success {
-  background-color: #e8f3ee;
+  background-color: var(--surface-alt);
   color: var(--ink);
 }
 
@@ -906,17 +953,17 @@ footer {
   justify-content: center;
   width: 60px;
   height: 60px;
-  background-color: #25D366;
+  background-color: var(--accent);
   color: white;
   border-radius: 50%;
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
   font-size: 24px;
 }
 
 .whatsapp-float-button:hover {
-  transform: scale(1.1);
+  background-color: var(--accent-dark);
   color: white;
   text-decoration: none;
 }
@@ -938,7 +985,7 @@ footer {
   }
 
   .section {
-    padding: 4rem 0;
+    padding: var(--section-pad-mobile) 0;
   }
 
   .section-title h2 {
@@ -972,7 +1019,8 @@ footer {
   }
 }
 
-/* Quiet trust bar (index.php credentials strip) */
+/* Quiet trust bar (index.php credentials strip): one row of discrete items with
+   middot dividers, wrapping to two rows on tablet and stacking on mobile */
 .trust-bar-quiet {
   background: var(--surface-alt);
   border-top: 1px solid rgba(26, 26, 46, 0.08);
@@ -980,25 +1028,44 @@ footer {
   padding: 32px 0;
 }
 
-.trust-bar-quiet .trust-bar-icon {
-  font-size: 1.1rem;
-  margin-bottom: 6px;
+.trust-bar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
   color: var(--ink-soft);
-  opacity: 0.7;
 }
 
-.trust-bar-quiet .trust-bar-label {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 0.85rem;
-  color: var(--ink-soft);
+.trust-bar-list li {
+  white-space: nowrap;
 }
 
-.trust-bar-quiet .trust-bar-detail {
-  font-size: 0.78rem;
-  color: var(--ink-soft);
-  opacity: 0.7;
-  margin-top: 4px;
+.trust-bar-list li:not(:last-child)::after {
+  content: "\00B7";
+  margin: 0 0.9rem;
+}
+
+@media (max-width: 575.98px) {
+  .trust-bar-list {
+    flex-direction: column;
+    row-gap: 0.4rem;
+  }
+
+  .trust-bar-list li {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .trust-bar-list li:not(:last-child)::after {
+    content: none;
+  }
 }
 
 /* Rotating Trust Bar Styling */

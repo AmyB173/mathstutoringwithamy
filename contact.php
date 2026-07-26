@@ -60,7 +60,7 @@
       </div>
 
       <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
-        <div class="testimonial-card" style="transform: rotate(1deg); border-color: var(--deep-purple);">
+        <div class="testimonial-card" style="border-color: var(--deep-purple);">
           <div class="mb-3">
             <p style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--warm-dark); margin: 0;">Grade E <span style="color: var(--deep-purple);">&rarr;</span> Grade C</p>
             <p style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #444; margin: 5px 0 0;">GCSE Maths</p>

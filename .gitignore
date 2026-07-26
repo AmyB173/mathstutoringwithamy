@@ -12,3 +12,10 @@ webhook_log.txt
 
 # Social media graphics — local use only, not for the live site
 social-media.php
+
+# Temporary: revision tracker is still a work in progress, not ready to commit
+revision-tracker.php
+assets/css/revision-tracker.css
+assets/js/revision-tracker.js
+assets/js/revision-tracker-topics.js
+assets/js/revision-tracker-papers.js

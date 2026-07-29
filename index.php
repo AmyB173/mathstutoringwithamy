@@ -115,8 +115,8 @@
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-working.jpg" alt="Amy planning a personalised maths lesson"
-               class="img-fluid photo-frame" width="3380" height="2653" loading="lazy">
+          <img src="./assets/images/amy-red-jumper-writing-at-desk.png" alt="Amy planning a personalised maths lesson"
+               class="img-fluid photo-frame" width="867" height="747" loading="lazy">
         </div>
       </div>
 
@@ -225,8 +225,8 @@
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-white-top.jpg" alt="Amy - Professional Maths Tutor"
-               class="img-fluid photo-frame" width="3143" height="2950" loading="lazy">
+          <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy - Professional Maths Tutor"
+               class="img-fluid photo-frame" width="2497" height="2629" loading="lazy">
         </div>
       </div>
     </div>

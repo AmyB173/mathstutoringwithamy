@@ -66,6 +66,7 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 ### Rules
 
 - **Coral is for actions only.** Buttons, links, and interactive elements get coral (`--accent` / `--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, or blue UI elements, and no coral headings or coral decoration.
+- **Tick and cross lists are the one green/red exception.** `--yes: #2f6b4f` and `--no: #a33a3a` (deep and desaturated on purpose, so they read editorial rather than clip-art) colour the glyphs in a `.check-list` and nothing else. The text beside them stays ink. Do not use these tokens for text, backgrounds, borders, headings or any other UI, and do not add a third status colour.
 - **Buttons and CTAs are sentence case, never all caps.** "Book a free trial session", not "ENQUIRE NOW".
 - **Button copy says what happens.** Prefer "Enquire now" / "Download the free guide" over vague verbs.
 - **One photo treatment site-wide**, the `.photo-frame` utility class: `border-radius: 8px`, `border: 1px solid #d1d5db`, `box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)`. Modest, no dramatic drop shadows, no offset colour block behind photos. Photographs (and literal review screenshots, which are images) are the one legitimate frame on a page.

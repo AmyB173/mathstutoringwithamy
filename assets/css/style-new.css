@@ -47,6 +47,14 @@
 
   /* Neutral for decorative icons */
   --icon-neutral: #6b7280;
+
+  /* Yes/no icon pair, for tick and cross lists only. Deliberately deep and
+     desaturated so they read editorial rather than clip-art. This is the one
+     narrow exception to "coral for actions, ink for everything else": the two
+     glyphs take the colour, the text beside them stays ink. Do not use these
+     for text, backgrounds, borders or any other UI. */
+  --yes: #2f6b4f;
+  --no: #a33a3a;
 }
 
 /* ------------------------------------------------ BASE */
@@ -632,12 +640,35 @@ h5 { font-size: 1.375rem; }
   color: white;
 }
 
+/* Everything in the dark hero goes white. The headings need naming explicitly:
+   h1-h6 are set to var(--ink) globally, so a bare <h2> in here was rendering
+   ink on ink and disappearing completely. */
 .hero-section-study-hub .hero-title,
-.hero-section-study-hub .hero-subtitle {
+.hero-section-study-hub .hero-subtitle,
+.hero-section-study-hub h1,
+.hero-section-study-hub h2,
+.hero-section-study-hub h3,
+.hero-section-study-hub p {
   color: white;
 }
 
 /* ------------------------------------------------ STUDY CLUB: INLINE STYLES PROMOTED */
+
+/* Standalone landing pages use the branded header instead of the site navbar, so
+   they do not need the fixed-navbar top padding that body carries by default.
+   Pages that keep the navbar but still have the mobile sticky CTA use
+   .has-sticky-cta instead, which only adds the bottom clearance. Both bottom
+   rules live in the max-width 768px block further down. */
+body.study-club-page {
+  padding-top: 0;
+}
+
+/* In-page anchor targets stop below the fixed navbar rather than underneath it,
+   so the CTAs that scroll to #signup land on its heading and not on thin air. */
+#signup,
+#pricing {
+  scroll-margin-top: 100px;
+}
 
 /* Branded header */
 .branded-header {
@@ -748,6 +779,61 @@ h5 { font-size: 1.375rem; }
   border-radius: 8px;
   padding: 1rem;
   margin-top: 1.5rem;
+}
+
+/* Hero subheading: the line sitting directly under the main hero title. It is
+   deliberately the plain sans at a regular weight, so it reads as a second voice
+   rather than a second heading. As a bare <h2> it inherited Fraunces 600 and the
+   1.6 body line-height, which left it a near-twin of the h1 and gave it a taller
+   text block than the title it sits beneath. */
+.hero-subhead {
+  font-family: var(--font-body);
+  font-weight: 400;
+  /* Sizes itself rather than borrowing Bootstrap's .fs-1, whose !important made
+     it awkward to step down. Roughly 22px on a phone up to 32px on a desktop. */
+  font-size: clamp(1.375rem, 1rem + 1.4vw, 2rem);
+  letter-spacing: normal;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
+
+/* Benefit grid icons (Year 7 Accelerator). Same 60px footprint the study club's
+   PNG icons occupied, but drawn as glyphs so the whole set is one visual style
+   rather than three different stock illustration styles. */
+.benefit-icon {
+  font-size: 2.25rem;
+  line-height: 1;
+  color: var(--ink);
+  width: 60px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+/* Centred cross variant, for the "what this group does not do" row */
+.benefit-icon-no {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--no);
+}
+
+/* Standalone price line, replacing the study club's pricing card */
+.price-headline {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+.price-headline span {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--ink-soft);
 }
 
 /* Amy image, study club */
@@ -1000,7 +1086,8 @@ footer {
     display: block;
   }
 
-  body.study-club-page {
+  body.study-club-page,
+  body.has-sticky-cta {
     padding-bottom: 80px !important;
   }
 
@@ -1211,6 +1298,176 @@ footer {
   color: white;
   background-color: var(--accent);
   transform: translateY(-3px);
+}
+
+/* ------------------------------------------------ YEAR 7 ACCELERATOR (year-7-accelerator.php) */
+
+/* Landing-page hero: white like the homepage hero but a step down in scale, since
+   the big 56-64px hero is reserved for index.php */
+.hero-accelerator {
+  background: var(--surface);
+  padding: 7rem 0 5.5rem;
+}
+
+.hero-accelerator h1 {
+  font-size: 48px;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.hero-accelerator .hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Pull statement: the one big line in the page, carried by type alone.
+   Hairline rules above and below, no quote marks, no box, no colour. */
+.pull-statement {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: var(--ink);
+  max-width: 30ch;
+  border-top: 1px solid rgba(26, 26, 46, 0.15);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.15);
+  padding: 2rem 0;
+  margin: 2.75rem 0;
+}
+
+/* The one list style on the page: hairline separated rows, no bullets, no icons */
+.plain-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  max-width: 68ch;
+}
+
+.plain-list li {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(26, 26, 46, 0.12);
+}
+
+.plain-list li:first-child {
+  border-top: 1px solid rgba(26, 26, 46, 0.12);
+}
+
+.plain-list li strong {
+  font-weight: 600;
+}
+
+/* Tick and cross list: same hairline rows as .plain-list but at a larger size,
+   with a coloured glyph in a fixed column so the eye can scan the icons alone */
+.check-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-family: var(--font-body);
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--ink);
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(26, 26, 46, 0.12);
+}
+
+.check-list li:first-child {
+  border-top: 1px solid rgba(26, 26, 46, 0.12);
+}
+
+/* line-height matches the first text line's box so the glyph sits on it */
+.check-list i {
+  font-size: 22px;
+  line-height: 1.35;
+  flex-shrink: 0;
+}
+
+.check-list-yes i {
+  color: var(--yes);
+}
+
+.check-list-no i {
+  color: var(--no);
+}
+
+/* Small label above a list, e.g. "What it does" / "What it does not do" */
+.list-label {
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 0.75rem;
+}
+
+/* Numbered step heading in the "how a place works" section */
+.step-heading {
+  font-size: 1.375rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Column heading inside a two-column summary block. h3 semantics at a size that
+   sits under the section h2 rather than competing with it (the 2rem h3 default
+   is too close to the 34px h2 to read as subordinate) */
+.column-heading {
+  font-size: 1.375rem;
+  margin-bottom: 1rem;
+}
+
+/* Quiet qualifying line under a summary list, e.g. the "not for" caveat */
+.glance-note {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 1rem 0 0;
+}
+
+/* Remaining-places line in the accelerator hero. Weight rather than colour does
+   the work: this is a fact, not an action, so it stays ink like everything else */
+.places-line {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0.75rem 0 0;
+}
+
+@media (max-width: 767.98px) {
+  .hero-accelerator {
+    padding: 3.5rem 0 3rem;
+  }
+
+  .hero-accelerator h1 {
+    font-size: 32px;
+  }
+
+  .hero-accelerator .hero-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .pull-statement {
+    font-size: 24px;
+    max-width: none;
+  }
+
+  .check-list li {
+    font-size: 17.5px;
+  }
+
+  .check-list i {
+    font-size: 20px;
+  }
 }
 
 /* ------------------------------------------------ BLOG LISTING */

@@ -28,6 +28,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Services</a>
           <ul class="dropdown-menu border-0 shadow-sm">
+            <li><h6 class="dropdown-header">Key Stage 3</h6></li>
+            <li><a class="dropdown-item" href="/year-7-accelerator">Year 7 Accelerator</a></li>
+            <li><hr class="dropdown-divider"></li>
             <li><h6 class="dropdown-header">GCSE</h6></li>
             <li><a class="dropdown-item" href="/GCSE">GCSE/IGCSE Tutoring</a></li>
             <li><hr class="dropdown-divider"></li>

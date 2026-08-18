@@ -12,13 +12,13 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, and the 12-Week Recovery Course for Year 12 and Year 13 Edexcel students." />
+  <meta name="description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, the weekly Year 12 Mastery Group, and the 12-Week Recovery Course for Year 12 and Year 13 Edexcel students." />
   <title>A Level Maths Tutoring | 1:1, Small Group &amp; Recovery | Maths Tutoring with Amy</title>
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/a-level" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/a-level">
   <meta property="og:title" content="A Level Maths Tutoring | 1:1, Small Group &amp; Recovery | Maths Tutoring with Amy">
-  <meta property="og:description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, and the 12-Week Recovery Course for Year 12 and Year 13 students.">
+  <meta property="og:description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, the weekly Year 12 Mastery Group, and the 12-Week Recovery Course for Year 12 and Year 13 students.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
   <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
@@ -76,25 +76,31 @@
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
-          <h2 class="mb-3">Three ways to work with me</h2>
+          <h2 class="mb-3">Four ways to work with me</h2>
           <p class="text-dark">All sessions are online, using a shared interactive whiteboard so I can teach just as clearly as I would in a room together.</p>
         </div>
       </div>
 
       <div class="row g-5 text-center">
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
           <i class="fas fa-user fs-2 mb-3" style="color: var(--deep-purple);"></i>
           <h4 class="mb-2">1:1 Tutoring</h4>
           <p class="text-dark mb-3">Fully tailored sessions built around your child. Every lesson, every piece of feedback, designed for them.</p>
           <a href="#one-to-one" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
           <i class="fas fa-users fs-2 mb-3" style="color: var(--ink);"></i>
           <h4 class="mb-2">Small Group Tutoring</h4>
           <p class="text-dark mb-3">Up to 4 students working through A Level content together. More affordable, still highly focused.</p>
           <a href="#small-group" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
+          <i class="fas fa-calendar-check fs-2 mb-3 icon-neutral"></i>
+          <h4 class="mb-2">Year 12 Mastery Group</h4>
+          <p class="text-dark mb-3">A weekly Edexcel group for Year 12, capped at five students, building the foundation properly across the whole year.</p>
+          <a href="#year-12-group" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
+        </div>
+        <div class="col-md-6 col-lg-3">
           <i class="fas fa-chart-line fs-2 mb-3 icon-neutral"></i>
           <h4 class="mb-2">12-Week Recovery Course</h4>
           <p class="text-dark mb-3">A structured programme for Year 12 students who need to rebuild their foundations before Year 13.</p>
@@ -207,8 +213,50 @@
     </div>
   </section>
 
-  <!-- ================================================ 5. RECOVERY COURSE -->
-  <section id="recovery" class="section" style="background: white;">
+  <!-- ================================================ 5. YEAR 12 MASTERY GROUP -->
+  <section id="year-12-group" class="section" style="background: white;">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 class="mb-4">A Level Maths Mastery Group: Year 12</h2>
+          <p class="text-dark">A weekly Edexcel group for Year 12 (Lower Sixth), capped at five students, running from September through to the summer. It exists because the students who come unstuck in Year 12 are very often the ones who found September easy, and by the time that shows up in the mocks there is a year of catching up to do.</p>
+          <p class="text-dark">Every week there is a live hour on the shared whiteboard, an independent task your child marks themselves, and two to three exam questions I mark personally with video, audio or written feedback. <strong>It is the option to choose if you want the foundation built properly now rather than rescued in the spring.</strong></p>
+
+          <ul class="list-unstyled mt-4 mb-4">
+            <li class="mb-3 d-flex align-items-start">
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
+              <span>Edexcel A Level Maths, Year 12 (Lower Sixth) only</span>
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
+              <span>Tuesdays 6 to 7pm, maximum 5 students</span>
+            </li>
+            <li class="mb-3 d-flex align-items-start">
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
+              <span>Marked exam questions every week, included in the fee</span>
+            </li>
+            <li class="d-flex align-items-start">
+              <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
+              <span>Aimed at students working towards an A or a B</span>
+            </li>
+          </ul>
+
+          <a href="/year-12-a-level-group" class="btn-cta-pro">Find out more about the Year 12 group</a>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="position-relative">
+            <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid position-relative"
+                 alt="Amy at her desk with a laptop and graphics tablet, ready to teach the Year 12 group online"
+                 style="border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 20px 40px rgba(26, 26, 46, 0.14);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ 6. RECOVERY COURSE -->
+  <section id="recovery" class="section" style="background: rgba(26, 26, 46, 0.07);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
@@ -250,8 +298,8 @@
     </div>
   </section>
 
-  <!-- ================================================ 6. TESTIMONIALS -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.06);">
+  <!-- ================================================ 7. TESTIMONIALS -->
+  <section class="section" style="background: white;">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
@@ -308,7 +356,7 @@
     </div>
   </section>
 
-  <!-- ================================================ 7. CTA -->
+  <!-- ================================================ 8. CTA -->
   <section style="background: var(--deep-purple); padding: 60px 0;" id="contact-alevel">
     <div class="container text-center">
       <div class="row justify-content-center">

@@ -19,3 +19,6 @@ assets/css/revision-tracker.css
 assets/js/revision-tracker.js
 assets/js/revision-tracker-topics.js
 assets/js/revision-tracker-papers.js
+
+# Local Claude Code permissions, machine specific
+.claude/settings.local.json

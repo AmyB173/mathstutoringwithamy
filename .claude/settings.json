@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $files = @\\('assets\\\\images\\\\amy-green-top.jpg','assets\\\\images\\\\amy-working.jpg','assets\\\\images\\\\pencil-lesson-crop.png','assets\\\\images\\\\pencil-workings.png','assets\\\\images\\\\amy-white-top.jpg','assets\\\\images\\\\testimonials\\\\google-review-kr.png','assets\\\\images\\\\testimonials\\\\google-review-ha.png','assets\\\\images\\\\testimonials\\\\google-review-sp.png'\\); foreach \\($f in $files\\) { $p = Join-Path \\(Get-Location\\) $f; if \\(Test-Path $p\\) { $img = [System.Drawing.Image]::FromFile\\($p\\); \"{0}: {1}x{2}\" -f $f, $img.Width, $img.Height; $img.Dispose\\(\\) } else { \"$f MISSING\" } })"
+    ]
+  }
+}

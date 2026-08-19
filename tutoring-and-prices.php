@@ -138,7 +138,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
 </head>
 
 <body class="prices-page">
-    <?php $navTheme = 'light'; /* this page's hero is ink, so the bar stays white */ include 'navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 
     <!-- ================================================ 1. HERO
          Ink panel with white type, same treatment as the Year 7 and Year 12

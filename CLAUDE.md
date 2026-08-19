@@ -63,7 +63,7 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 - **Headings: Fraunces** (Google Fonts variable font with the optical size axis, weight 600, `--font-heading`), letter-spacing -0.01em, `font-optical-sizing: auto`. Serif is for headings only.
 - **Body: Inter** (`--font-body`), 17px base, line-height 1.65, weight 400 (500-700 for emphasis and UI). Buttons are Inter 600 with no letter-spacing.
 - Fonts load from Google Fonts with `font-display: swap`; the shared stylesheet also `@import`s them so every page gets the faces without markup changes. Outfit is retired: do not use it in new work.
-- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in **white**, because both the navbar and the footer panel are ink. Petrol is never used on the wordmark: it only reaches 2.2:1 on ink, and keeping it off leaves the accent doing one job, marking the thing to click.
+- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in `--accent`, matching the petrol logo mark; the footer overrides it to white on the dark panel. It is the one non-interactive thing that carries the accent, because it is the brand.
 
 ### Rules
 
@@ -88,12 +88,14 @@ Simple and restrained, like a nicely edited Word document with some colour: cora
 
 Note for a later pass: Meet Amy's two remaining `.warm-card` wrappers should be unwrapped to match (out of scope for the homepage work).
 
-### The navbar
+### The navbar and the hero ground
 
-The navbar is **ink**, fixed to the top of every page, matching the footer panel so each page is bookended by the same dark. This replaced a white bar, which left the white hero with nothing to sit against ("like paper, no anchor"). On pages whose hero is also ink the bar merges into the hero as one deliberate dark block rather than reading as a seam.
+The navbar is **white**, fixed to the top of every page: hairline bottom border, the faintest shadow, petrol wordmark and mark, ink nav links, petrol Enquire button. One variant only, no per-page switching.
 
-Inside the bar: wordmark and nav links in white, the logo mark in its white artwork (`logo-white.png`), and the Enquire button in petrol. That button is the only petrol on the bar, which is the point. Below the lg breakpoint the open menu carries the same ink ground down the screen rather than reverting to a white panel.
+**The hero carries `--surface-alt`, not white.** This is what stops the top of the page floating. A pure white hero under a white bar had no anchor and read "like paper"; a faint petrol-tinted ground gives the bar something to sit against without putting a dark slab across every page. An ink navbar was tried first and rejected as domineering and heavy: it is a permanent band on screen the whole time someone reads, not a hero treatment, and it reads heavier still at phone width. Fix the ground, not the bar.
 
-**The logo ships as two artwork files, not one inverted in CSS.** `logo-white.png` is used in the navbar and the footer, both of which are ink; a petrol version belongs anywhere on a light ground, including the favicon. A CSS `filter: brightness(0) invert(1)` was tried here and does not work: `brightness(0)` flattens every non-transparent pixel to black regardless of its original colour, so a two-tone mark (a disc with the letter knocked out) comes back as one solid white disc. That trick is only safe on a flat single-colour shape. Any future logo change needs both files re-exported.
+Where a tinted hero runs straight into a `--surface-alt` section (the homepage trust bar, [contact.php](contact.php), [recovery.php](recovery.php)) the two merge into one tinted region on purpose. Do not insert a white section to force alternation.
 
-**Two navbar variants.** Ink is the default and needs nothing. A page whose own hero is ink sets `$navTheme = 'light';` immediately before `include 'navbar.php'`, which puts `.nav-light` on the bar and swaps the mark to the petrol artwork; a dark bar above a dark hero has no edge, so those pages keep the white bar. Currently that is [tutoring-and-prices.php](tutoring-and-prices.php), [year-12-a-level-group.php](year-12-a-level-group.php) and [year-7-accelerator.php](year-7-accelerator.php), all of which use `.hero-section-study-hub`. Any new page built on that hero needs the same line. Pages using `.branded-header` instead of the site navbar are unaffected.
+`.hero-section-study-hub` still overrides the hero to ink and is unaffected, since it is defined later in the stylesheet.
+
+**The logo ships as two artwork files.** `logo-petrol-144.png` in the navbar, `logo-white-144.png` in the footer, `favicon-petrol-48.png` for the tab. Sized to their display size (45px at 3x), not full-resolution originals scaled down in the browser. A CSS `filter: brightness(0) invert(1)` was tried to derive white from petrol and does not work here: `brightness(0)` flattens every non-transparent pixel to black regardless of its original colour, so a two-tone mark (a disc with the letter knocked out) comes back as one solid white disc. That trick is only safe on a flat single-colour shape. Any future logo change needs both files re-exported.

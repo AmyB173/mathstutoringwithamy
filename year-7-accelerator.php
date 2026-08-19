@@ -89,7 +89,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
 </head>
 
 <body class="has-sticky-cta">
-    <?php $navTheme = 'light'; /* this page's hero is ink, so the bar stays white */ include 'navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section hero-section-study-hub">

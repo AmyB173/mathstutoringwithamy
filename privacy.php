@@ -15,7 +15,7 @@
   <meta name="description" content="Privacy policy for Maths Tutoring with Amy: what personal data we collect, how we use it, and your rights under GDPR.">
   <title>Privacy Policy | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="/assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/privacy" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/privacy">

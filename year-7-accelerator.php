@@ -36,7 +36,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
         content="Year 7 Accelerator: a weekly online maths group for able Year 7s who are bored of repeating Year 6. Algebra early, real problem solving, maximum 5 students." />
     <title>Year 7 Accelerator | Maths for Able Year 7s | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/year-7-accelerator" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/year-7-accelerator">
@@ -89,7 +89,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
 </head>
 
 <body class="has-sticky-cta">
-    <?php include 'navbar.php'; ?>
+    <?php $navTheme = 'light'; /* this page's hero is ink, so the bar stays white */ include 'navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section hero-section-study-hub">

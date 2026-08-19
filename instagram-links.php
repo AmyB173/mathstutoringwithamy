@@ -25,7 +25,7 @@
   <meta property="og:description" content="Quick links from Instagram | Maths Tutoring with Amy - Free A Level guide, recovery programme, and GCSE tutoring consultation booking.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png" />
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Google Fonts -->
@@ -178,15 +178,6 @@
       observer.observe(el);
     });
 
-    // Navbar background on scroll
-    window.addEventListener('scroll', () => {
-      const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 50) {
-        navbar.style.backgroundColor = 'rgba(255, 252, 247, 0.95)';
-      } else {
-        navbar.style.backgroundColor = 'var(--warm-white)';
-      }
-    });
   </script>
 
 </body>

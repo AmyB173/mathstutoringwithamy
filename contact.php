@@ -15,7 +15,7 @@
   <meta name="description" content="Contact Maths Tutoring with Amy | Enquire about online maths tutoring for KS3, GCSE and A Level. Build confidence and improve grades with 12 years' teaching experience." />
   <title>Contact | Maths Tutoring With Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/contact" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/contact">
@@ -79,7 +79,7 @@
   </div>
 </section>
 
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">

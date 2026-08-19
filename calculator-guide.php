@@ -16,7 +16,7 @@
         content="The comprehensive guide to your Edexcel A-Level calculator. Stop wasting time, eliminate panic, and know with 100% certainty that your answers are correct before you leave the exam." />
     <title>The Ultimate A-Level Calculator Guide | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/calculator-guide" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/calculator-guide">

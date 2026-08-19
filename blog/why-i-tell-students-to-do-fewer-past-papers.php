@@ -15,7 +15,7 @@
   <meta name="description" content="Students who do paper after paper often see no improvement, because the mark scheme is the most valuable thing in front of them and most students barely glance at it. Here's what to do instead." />
   <title>Why I tell my students to do fewer past papers | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="/assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/blog/why-i-tell-students-to-do-fewer-past-papers" />
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/blog/why-i-tell-students-to-do-fewer-past-papers">

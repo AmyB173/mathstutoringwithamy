@@ -1,7 +1,17 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<?php
+/* The bar is ink by default, which gives the white heroes something to sit
+   against. Pages whose own hero is ink set $navTheme = 'light' before including
+   this file, so the bar reverts to white and the mark to petrol rather than
+   merging into the hero. Anything else falls through to ink. */
+$navIsLight = (isset($navTheme) && $navTheme === 'light');
+$navLogo = $navIsLight
+  ? '/assets/images/logo-petrol-144.png'
+  : '/assets/images/logo-white-144.png';
+?>
+<nav class="navbar navbar-expand-lg fixed-top<?php echo $navIsLight ? ' nav-light' : ''; ?>">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="/assets/images/logo-red.png" height="45" alt="Maths tutoring with Amy logo" class="me-2" />
+      <img src="<?php echo $navLogo; ?>" width="45" height="45" alt="Maths tutoring with Amy logo" class="me-2" />
       <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
     </a>
 

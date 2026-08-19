@@ -21,7 +21,7 @@
   <meta property="og:description" content="Transform your child's struggling A Level journey into success. For students who achieved Grade 6+ at GCSE but are now facing disappointing grades.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -123,7 +123,7 @@
   </section>
 
   <!-- ================================================ 3. PROBLEM SECTION -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-8">
@@ -238,7 +238,7 @@
   </section>
 
   <!-- ================================================ 5. IS THIS RIGHT FOR YOUR CHILD -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
@@ -335,7 +335,7 @@
   </section>
 
   <!-- ================================================ 7. ABOUT AMY -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6 order-lg-1">
@@ -450,7 +450,7 @@
   </section>
 
   <!-- ================================================ 9. FAQ -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -567,7 +567,7 @@
   </section>
 
   <!-- ================================================ 11. BOOK A CALL / CALENDLY -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);" id="book-call">
+  <section class="section" style="background: var(--surface-alt);" id="book-call">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">

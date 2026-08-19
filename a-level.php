@@ -21,7 +21,7 @@
   <meta property="og:description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, the weekly Year 12 Mastery Group, and the 12-Week Recovery Course for Year 12 and Year 13 students.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -72,7 +72,7 @@
   </section>
 
   <!-- ================================================ 2. THREE WAYS -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.06);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-lg-7">
@@ -111,7 +111,7 @@
   </section>
 
   <!-- ================================================ 3. WATCH ME TEACH -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-5">
@@ -174,7 +174,7 @@
   </section>
 
   <!-- ================================================ 4. SMALL GROUP TUTORING -->
-  <section id="small-group" class="section" style="background: rgba(26, 26, 46, 0.07);">
+  <section id="small-group" class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
@@ -256,7 +256,7 @@
   </section>
 
   <!-- ================================================ 6. RECOVERY COURSE -->
-  <section id="recovery" class="section" style="background: rgba(26, 26, 46, 0.07);">
+  <section id="recovery" class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">

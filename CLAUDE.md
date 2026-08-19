@@ -41,16 +41,18 @@ Warm. Assured. Unvarnished.
 
 ## Design
 
-A disciplined single-accent system: coral is for actions, everything else is ink. Tokens are defined in `assets/css/style-new.css`.
+A disciplined single-colour system: petrol is the brand colour and the action colour, everything else is ink, ink-soft or a surface. Tokens are defined in `assets/css/style-new.css`.
+
+Petrol carries every interactive element. Coral has been retired: it fought with petrol (near-opposite hues, both fully saturated) and there is no longer a second colour anywhere on the site. On social media, where there is nothing to click, petrol is still the emphasis colour.
 
 ### Tokens
 
 - `--ink: #1a1a2e` - all headings and body text. Never pure black.
 - `--ink-soft: #4a4a5e` - secondary text: captions, attributions, quiet lines (trust bar, exam board lines, footer copy).
-- `--accent: #ff5757` - pulled from the logo's coral "A" mark. Actions only: buttons, links, interactive elements.
-- `--accent-dark: #cc4646` - darkened accent for hover states and for any accent text under 24px (passes WCAG AA on white).
+- `--accent: #105a75` - deep petrol, hue 198. The single colour on the site: the brand (logo and wordmark) and every action (buttons, links, interactive elements). White text on it passes WCAG AA at 7.7:1. Deliberately low-saturation: the earlier `#0a7ea4` was 88% saturated and read tech-y once it had to carry the wordmark as well as the buttons.
+- `--accent-dark: #0c4459` - darkened accent for hover states and for any accent text under 24px (10.6:1 on white).
 - `--surface: #ffffff` - main background.
-- `--surface-alt: rgba(26, 26, 46, 0.05)` - cool light grey (ink at 5%) for alternating sections, as on Meet Amy. No warm off-white anywhere.
+- `--surface-alt: #f1f5f8` - off-white for alternating sections: a faint petrol tint on white, so the bands belong to the scheme rather than reading as plain grey. Opaque on purpose, because it is also used as light text on the dark footer. No warm off-white anywhere.
 - `--radius-control: 6px` - all buttons and inputs use this radius; never fully-rounded pills.
 - `--section-pad: 96px` / `--section-pad-mobile: 64px` - section vertical padding, consistent across every section.
 
@@ -61,11 +63,12 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 - **Headings: Fraunces** (Google Fonts variable font with the optical size axis, weight 600, `--font-heading`), letter-spacing -0.01em, `font-optical-sizing: auto`. Serif is for headings only.
 - **Body: Inter** (`--font-body`), 17px base, line-height 1.65, weight 400 (500-700 for emphasis and UI). Buttons are Inter 600 with no letter-spacing.
 - Fonts load from Google Fonts with `font-display: swap`; the shared stylesheet also `@import`s them so every page gets the faces without markup changes. Outfit is retired: do not use it in new work.
-- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in brand coral, matching the logo mark. This is a deliberate branding exception to "coral is for actions only"; the footer overrides it to white on the dark panel. Do not extend coral to any other non-interactive text.
+- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in **white**, because both the navbar and the footer panel are ink. Petrol is never used on the wordmark: it only reaches 2.2:1 on ink, and keeping it off leaves the accent doing one job, marking the thing to click.
 
 ### Rules
 
-- **Coral is for actions only.** Buttons, links, and interactive elements get coral (`--accent` / `--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, or blue UI elements, and no coral headings or coral decoration.
+- **The accent is for the brand and for actions, nothing else.** The logo and wordmark carry it as identity; buttons, links and interactive elements carry it as "you can click this" (`--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, coral or red UI elements, and no accent headings or accent decoration.
+- **Rarity is what makes the accent work.** A colour that appears once on a screen is unmissable; a colour that appears eight times is wallpaper and stops reading as a signal. Prefer one primary action per section, with secondary links in ink. If a page is filling up with accent-coloured elements, cut some rather than reaching for a second colour.
 - **Tick and cross lists are the one green/red exception.** `--yes: #2f6b4f` and `--no: #a33a3a` (deep and desaturated on purpose, so they read editorial rather than clip-art) colour the glyphs in a `.check-list` and nothing else. The text beside them stays ink. Do not use these tokens for text, backgrounds, borders, headings or any other UI, and do not add a third status colour.
 - **Buttons and CTAs are sentence case, never all caps.** "Book a free trial session", not "ENQUIRE NOW".
 - **Button copy says what happens.** Prefer "Enquire now" / "Download the free guide" over vague verbs.
@@ -84,3 +87,13 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 Simple and restrained, like a nicely edited Word document with some colour: coral for actions, ink for everything else, whitespace and type doing the design work. "Private tutor with a waiting list": restraint, whitespace, big type. Let the grade results carry the page through size and weight, not colour.
 
 Note for a later pass: Meet Amy's two remaining `.warm-card` wrappers should be unwrapped to match (out of scope for the homepage work).
+
+### The navbar
+
+The navbar is **ink**, fixed to the top of every page, matching the footer panel so each page is bookended by the same dark. This replaced a white bar, which left the white hero with nothing to sit against ("like paper, no anchor"). On pages whose hero is also ink the bar merges into the hero as one deliberate dark block rather than reading as a seam.
+
+Inside the bar: wordmark and nav links in white, the logo mark in its white artwork (`logo-white.png`), and the Enquire button in petrol. That button is the only petrol on the bar, which is the point. Below the lg breakpoint the open menu carries the same ink ground down the screen rather than reverting to a white panel.
+
+**The logo ships as two artwork files, not one inverted in CSS.** `logo-white.png` is used in the navbar and the footer, both of which are ink; a petrol version belongs anywhere on a light ground, including the favicon. A CSS `filter: brightness(0) invert(1)` was tried here and does not work: `brightness(0)` flattens every non-transparent pixel to black regardless of its original colour, so a two-tone mark (a disc with the letter knocked out) comes back as one solid white disc. That trick is only safe on a flat single-colour shape. Any future logo change needs both files re-exported.
+
+**Two navbar variants.** Ink is the default and needs nothing. A page whose own hero is ink sets `$navTheme = 'light';` immediately before `include 'navbar.php'`, which puts `.nav-light` on the bar and swaps the mark to the petrol artwork; a dark bar above a dark hero has no edge, so those pages keep the white bar. Currently that is [tutoring-and-prices.php](tutoring-and-prices.php), [year-12-a-level-group.php](year-12-a-level-group.php) and [year-7-accelerator.php](year-7-accelerator.php), all of which use `.hero-section-study-hub`. Any new page built on that hero needs the same line. Pages using `.branded-header` instead of the site navbar are unaffected.

@@ -15,7 +15,7 @@
   <meta name="description" content="Meet Amy, qualified maths teacher with 12 years' experience, passionate about helping students build confidence in maths." />
   <title>Meet Amy | Online Maths Tutor | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/meet-amy" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/meet-amy">
@@ -51,7 +51,7 @@
   <?php include 'navbar.php'; ?>
 
   <!-- ================================================ WHERE IT STARTED -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -112,7 +112,7 @@
   </section>
 
   <!-- ================================================ HOW I TEACH -->
-  <section class="section" style="background: rgba(26, 26, 46, 0.05);">
+  <section class="section" style="background: var(--surface-alt);">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">

@@ -15,7 +15,7 @@
   <meta name="description" content="Expert online maths tutor for Year 6, KS3, GCSE and A Level. Qualified teacher with 12 years' experience building confidence." />
   <title>Online Maths Tutor | Year 6, KS3, GCSE &amp; A Level | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk">

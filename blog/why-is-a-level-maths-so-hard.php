@@ -15,7 +15,7 @@
   <meta name="description" content="Students who sailed through GCSE Maths are often surprised by how different A Level feels. Here are the real reasons it trips people up, and what actually helps." />
   <title>Why is A Level Maths so hard? | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/x-icon" href="/assets/images/logo-red.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/blog/why-is-a-level-maths-so-hard" />
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/blog/why-is-a-level-maths-so-hard">

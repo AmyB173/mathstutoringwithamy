@@ -19,7 +19,7 @@
         content="A Level Maths Study Club by Maths Tutoring With Amy: weekly masterclasses, mindset sessions, and Q&A support for Year 13 Edexcel students. Currently closed." />
     <title>Study Club | A Level Maths Tutoring | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/study-club" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/study-club">

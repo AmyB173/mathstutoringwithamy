@@ -42,7 +42,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
         content="A Level Maths Mastery Group for Year 12 (Lower Sixth): a small weekly online Edexcel group for students aiming for an A or a B. Maximum 5 students, exam questions marked personally every week." />
     <title>A Level Maths Mastery Group: Year 12 | Edexcel Group | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/year-12-a-level-group" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/year-12-a-level-group">
@@ -95,7 +95,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
 </head>
 
 <body class="has-sticky-cta">
-    <?php include 'navbar.php'; ?>
+    <?php $navTheme = 'light'; /* this page's hero is ink, so the bar stays white */ include 'navbar.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section hero-section-study-hub">

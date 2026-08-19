@@ -49,7 +49,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
         content="Every kind of maths tutoring I offer and what it costs, in small groups and one to one, across Key Stage 3, GCSE and A Level. Every price is on the page." />
     <title>All Tutoring and Prices | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/images/logo-red.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/tutoring-and-prices" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/tutoring-and-prices">
@@ -138,7 +138,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
 </head>
 
 <body class="prices-page">
-    <?php include 'navbar.php'; ?>
+    <?php $navTheme = 'light'; /* this page's hero is ink, so the bar stays white */ include 'navbar.php'; ?>
 
     <!-- ================================================ 1. HERO
          Ink panel with white type, same treatment as the Year 7 and Year 12

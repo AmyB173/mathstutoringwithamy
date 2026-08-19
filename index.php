@@ -77,7 +77,7 @@
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
-          <img src="./assets/images/amy-green-top.jpg" class="img-fluid photo-frame" alt="Amy tutoring GCSE maths online" width="3354" height="3072" />
+          <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" class="img-fluid photo-frame" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" width="2749" height="2146" />
           <p class="text-center photo-caption">
             <strong>Qualified secondary school maths teacher</strong> with 12 years in the classroom, now a full-time online tutor.
           </p>
@@ -115,8 +115,8 @@
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-red-jumper-writing-at-desk.png" alt="Amy planning a personalised maths lesson"
-               class="img-fluid photo-frame" width="867" height="747" loading="lazy">
+          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy planning a personalised maths lesson at her desk"
+               class="img-fluid photo-frame" width="2596" height="2928" loading="lazy">
         </div>
       </div>
 

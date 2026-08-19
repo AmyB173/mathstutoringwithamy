@@ -52,7 +52,7 @@ Petrol carries every interactive element. Coral has been retired: it fought with
 - `--accent: #105a75` - deep petrol, hue 198. The single colour on the site: the brand (logo and wordmark) and every action (buttons, links, interactive elements). White text on it passes WCAG AA at 7.7:1. Deliberately low-saturation: the earlier `#0a7ea4` was 88% saturated and read tech-y once it had to carry the wordmark as well as the buttons.
 - `--accent-dark: #0c4459` - darkened accent for hover states and for any accent text under 24px (10.6:1 on white).
 - `--surface: #ffffff` - main background.
-- `--surface-alt: #f1f5f8` - off-white for alternating sections: a faint petrol tint on white, so the bands belong to the scheme rather than reading as plain grey. Opaque on purpose, because it is also used as light text on the dark footer. No warm off-white anywhere.
+- `--surface-alt: #f6f5f2` - off-white for alternating sections and for the hero ground. **Barely warm**, roughly 2% toward yellow, and deliberately so: petrol, ink and white are all cool, and once the hero took this tint as well the page read cold. It is far too desaturated to fight petrol the way coral did. This reverses the earlier "no warm off-white anywhere" rule, which was written when the tint covered only a few bands. Opaque on purpose, because it is also used as light text on the dark footer.
 - `--radius-control: 6px` - all buttons and inputs use this radius; never fully-rounded pills.
 - `--section-pad: 96px` / `--section-pad-mobile: 64px` - section vertical padding, consistent across every section.
 
@@ -92,7 +92,7 @@ Note for a later pass: Meet Amy's two remaining `.warm-card` wrappers should be 
 
 The navbar is **white**, fixed to the top of every page: hairline bottom border, the faintest shadow, petrol wordmark and mark, ink nav links, petrol Enquire button. One variant only, no per-page switching.
 
-**The hero carries `--surface-alt`, not white.** This is what stops the top of the page floating. A pure white hero under a white bar had no anchor and read "like paper"; a faint petrol-tinted ground gives the bar something to sit against without putting a dark slab across every page. An ink navbar was tried first and rejected as domineering and heavy: it is a permanent band on screen the whole time someone reads, not a hero treatment, and it reads heavier still at phone width. Fix the ground, not the bar.
+**The hero carries `--surface-alt`, not white.** This is what stops the top of the page floating. A pure white hero under a white bar had no anchor and read "like paper"; a faint tinted ground gives the bar something to sit against without putting a dark slab across every page. An ink navbar was tried first and rejected as domineering and heavy: it is a permanent band on screen the whole time someone reads, not a hero treatment, and it reads heavier still at phone width. Fix the ground, not the bar.
 
 Where a tinted hero runs straight into a `--surface-alt` section (the homepage trust bar, [contact.php](contact.php), [recovery.php](recovery.php)) the two merge into one tinted region on purpose. Do not insert a white section to force alternation.
 

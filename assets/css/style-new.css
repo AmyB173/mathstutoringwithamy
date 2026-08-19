@@ -23,10 +23,12 @@
   --accent-dark: #0c4459;
 
   --surface: #ffffff;
-  /* Off-white for alternating sections: a faint petrol tint on white, so the
-     bands read as part of the scheme rather than plain grey. Opaque on purpose:
-     it is also used as light text on the dark footer. */
-  --surface-alt: #f1f5f8;
+  /* Off-white for alternating sections and the hero ground. Barely warm (about
+     2% toward yellow) as a deliberate counterweight: every other colour on the
+     site is cool, and once the hero took this tint too the page read cold. Too
+     desaturated to fight petrol. Opaque on purpose: it is also used as light
+     text on the dark footer. */
+  --surface-alt: #f6f5f2;
 
   /* Shared corner radius for all buttons and inputs; never fully-rounded pills */
   --radius-control: 6px;

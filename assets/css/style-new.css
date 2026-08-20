@@ -1852,3 +1852,32 @@ body.prices-page .hero-section-study-hub {
     text-align: left;
   }
 }
+
+/* Inline price line, sitting under a service description on a landing page.
+   Deliberately quieter than the standalone .price-headline: the A Level page
+   carries four of them, and four 3rem numbers on one page would shout. */
+.price-line {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 1.5rem 0 0;
+}
+
+.price-line span {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+/* Quiet note under a .price-line, for a range that needs a word of explanation */
+.price-line-note {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0.4rem 0 0;
+}

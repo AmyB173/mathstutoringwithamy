@@ -395,7 +395,7 @@
           <div class="warm-card text-center h-100">
             <i class="fas fa-chalkboard-teacher fs-2 icon-neutral mb-3"></i>
             <h5 class="fw-bold">Weekly Live Lessons</h5>
-            <p class="mb-0 text-muted">Focused on rebuilding Year 1 content with proper foundations and deep understanding. Maximum 6 students per group.</p>
+            <p class="mb-0 text-muted">Focused on rebuilding Year 1 content with proper foundations and deep understanding. Maximum 5 students per group.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">

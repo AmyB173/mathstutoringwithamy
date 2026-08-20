@@ -128,7 +128,7 @@
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">Small group lessons</h2>
-          <p class="text-dark">I limit my groups to a <strong>maximum of 4 students</strong>, grouped with others working at a similar grade level. The atmosphere is fantastic. Students encourage and learn from each other, and each student gets their own private whiteboard so they receive individual attention in a relaxed environment. Homework is set each week and marked on the platform.</p>
+          <p class="text-dark">I limit my groups to a <strong>maximum of 5 students</strong>, grouped with others working at a similar grade level. The atmosphere is fantastic. Students encourage and learn from each other, and each student gets their own private whiteboard so they receive individual attention in a relaxed environment. Homework is set each week and marked on the platform.</p>
 
           <div class="warm-card mt-4" style="border-color: #d1d5db;">
             <p class="text-dark mb-3"><strong>"Will my child get enough attention?"</strong><br>Absolutely. Every student has their own digital whiteboard. I monitor all boards simultaneously, giving individual feedback just like a 1:1 session, but with a more relaxed social dynamic.</p>

@@ -4,9 +4,9 @@
    The one page that lists every service and what it costs. Sits at the top of
    the Tutoring dropdown, so it is the map of everything else.
 
-   AMY: prices live in $prices below, nothing else. Change a number there and it
-   updates the fee row, the "from" lines and the structured data together, so
-   there is no second place to forget.
+   AMY: prices live in prices.php, nothing else. Change a number there and it
+   updates the fee rows and structured data here, and the price lines on the
+   A Level page, so there is no second place to forget.
 
    AMY: two things on this page have no landing page of their own yet, so their
    "find out more" links point at /contact: the GCSE group and KS3 one to one.
@@ -16,15 +16,7 @@
    has no price on its own page, so I have left it out rather than invent a fee.
    If it is still running, add a row for it in the small groups list.
    ========================================================================= */
-$prices = [
-    'ks3_group'    => 35,
-    'gcse_group'   => 40,
-    'alevel_group' => 50,
-    'ks3_solo'     => 65,
-    'gcse_solo'    => 75,
-    'alevel_solo'  => 85,
-    'recovery'     => 747,
-];
+require_once 'prices.php';
 
 $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask%20about%20tutoring%20and%20prices';
 ?>

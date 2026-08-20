@@ -1,3 +1,4 @@
+<?php require_once 'prices.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -91,7 +92,7 @@
         <div class="col-md-6 col-lg-3">
           <i class="fas fa-users fs-2 mb-3" style="color: var(--ink);"></i>
           <h4 class="mb-2">Small Group Tutoring</h4>
-          <p class="text-dark mb-3">Up to 4 students working through A Level content together. More affordable, still highly focused.</p>
+          <p class="text-dark mb-3">Up to 5 students working through A Level content together. More affordable, still highly focused.</p>
           <a href="#small-group" class="text-decoration-none fw-bold" style="color: var(--deep-purple);">Find out more &darr;</a>
         </div>
         <div class="col-md-6 col-lg-3">
@@ -140,7 +141,9 @@
         <div class="col-lg-6">
           <h2 class="mb-4">1:1 Tutoring</h2>
           <p class="text-dark">One-to-one sessions are the most focused way to work with me. Every lesson is built around your child: their gaps, their pace, their exam board. We go where they need to go, at the speed that works for them, without moving on before they're truly ready.</p>
-          <p class="text-dark">I work with Year 12 and Year 13 students on Edexcel, AQA, OCR, and MEI. Lessons are online through a shared interactive whiteboard, and students get homework after each session with personalised video feedback so the learning doesn't stop between lessons.</p>
+          <p class="text-dark">I work with Year 12 and Year 13 students on Edexcel, AQA, OCR, and MEI. Lessons are online through a shared interactive whiteboard, and students get weekly homework with personalised feedback (video, audio or written) so the learning doesn't stop between lessons.</p>
+
+          <p class="price-line">&pound;<?php echo $prices['alevel_solo']; ?> <span>per session</span></p>
 
           <ul class="list-unstyled mt-4 mb-0">
             <li class="mb-3 d-flex align-items-start">
@@ -153,7 +156,7 @@
             </li>
             <li class="mb-3 d-flex align-items-start">
               <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
-              <span>Homework with personalised video feedback every week</span>
+              <span>Weekly homework with personalised feedback (video, audio or written)</span>
             </li>
             <li class="d-flex align-items-start">
               <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
@@ -187,13 +190,15 @@
 
         <div class="col-lg-6">
           <h2 class="mb-4">Small Group Tutoring</h2>
-          <p class="text-dark">Small group sessions run with a maximum of 4 students, which means there's still plenty of time for questions and individual attention. Groups are kept small on purpose: small enough that no one gets left behind, and focused enough that the pace stays purposeful.</p>
-          <p class="text-dark">Many students find that hearing how someone else approaches the same problem is genuinely useful. There's also something reassuring about learning alongside peers who are working through the same material. Groups cover A Level content systematically, and students get homework with video feedback after each session.</p>
+          <p class="text-dark">Small group sessions run with a maximum of 5 students, which means there's still plenty of time for questions and individual attention. Groups are kept small on purpose: small enough that no one gets left behind, and focused enough that the pace stays purposeful.</p>
+          <p class="text-dark">Many students find that hearing how someone else approaches the same problem is genuinely useful. There's also something reassuring about learning alongside peers who are working through the same material. Groups cover A Level content systematically, and students get weekly homework with personalised feedback (video, audio or written).</p>
+
+          <p class="price-line">&pound;<?php echo $prices['alevel_group']; ?> <span>per session</span></p>
 
           <ul class="list-unstyled mt-4 mb-0">
             <li class="mb-3 d-flex align-items-start">
               <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
-              <span>Maximum 4 students per group</span>
+              <span>Maximum 5 students per group</span>
             </li>
             <li class="mb-3 d-flex align-items-start">
               <i class="fas fa-check-circle icon-neutral me-3 mt-1" style="flex-shrink: 0;"></i>
@@ -221,6 +226,9 @@
           <h2 class="mb-4">A Level Maths Mastery Group: Year 12</h2>
           <p class="text-dark">A weekly Edexcel group for Year 12 (Lower Sixth), capped at five students, running from September through to the summer. It exists because the students who come unstuck in Year 12 are very often the ones who found September easy, and by the time that shows up in the mocks there is a year of catching up to do.</p>
           <p class="text-dark">Every week there is a live hour on the shared whiteboard, an independent task your child marks themselves, and two to three exam questions I mark personally with video, audio or written feedback. <strong>It is the option to choose if you want the foundation built properly now rather than rescued in the spring.</strong></p>
+
+          <p class="price-line">&pound;<?php echo $prices['alevel_group'] * $blockMin; ?> to &pound;<?php echo $prices['alevel_group'] * $blockMax; ?> <span>per half term</span></p>
+          <p class="price-line-note">&pound;<?php echo $prices['alevel_group']; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from.</p>
 
           <ul class="list-unstyled mt-4 mb-4">
             <li class="mb-3 d-flex align-items-start">
@@ -262,7 +270,9 @@
         <div class="col-lg-6">
           <h2 class="mb-4">12-Week A Level Maths Recovery Course</h2>
           <p class="text-dark">If your child is in Year 12 and their A Level grades are slipping, the Recovery Course is a structured 12-week programme designed to put things right before Year 13 begins. It's not about trying to keep up with current school lessons. It goes back to Year 1 content, rebuilds it properly, and gives students the real understanding they need to take on the harder material with confidence.</p>
-          <p class="text-dark">The programme includes weekly live sessions, custom videos to watch between lessons, homework with personalised video feedback, and bi-weekly check-ins from me throughout the week. Starting dates run from March to June, and places are limited to a very small group.</p>
+          <p class="text-dark">The programme includes weekly live sessions, custom videos to watch between lessons, homework with personalised feedback (video, audio or written), and bi-weekly check-ins from me throughout the week. Starting dates run from March to June, and places are limited to a very small group.</p>
+
+          <p class="price-line">&pound;<?php echo $prices['recovery']; ?> <span>for the complete 12 weeks</span></p>
 
           <ul class="list-unstyled mt-4 mb-4">
             <li class="mb-3 d-flex align-items-start">

@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <p class="hero-subtitle">Whether you're ready to book a trial or just have a few questions about GCSE or A-Level support, I'm here to help.</p>
+        <p class="hero-subtitle">Whether you're ready to book a one-off lesson or just have a few questions about GCSE or A-Level support, I'm here to help.</p>
 
         <div class="d-flex flex-wrap gap-3 mt-4">
           <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"

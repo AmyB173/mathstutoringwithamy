@@ -135,7 +135,7 @@
                         <span class="fs-3 me-3">⭐</span>
                         <div>
                             <h4>Excellence, always</h4>
-                            <p class="mb-0">I work alongside a small team of qualified maths teachers, and between us we bring years of real classroom experience to every session, not just tutoring experience. That matters because experience is what lets you spot where a student's gap actually is, and it's what fine tunes how a lesson is taught as much as what's being taught. We keep our subject knowledge sharp and stay on top of exam board changes, so what's being taught is accurate and current, not something half remembered from a few years back. We hold every lesson we deliver, whether it's a first trial session or the fiftieth, to the same standard.</p>
+                            <p class="mb-0">I work alongside a small team of qualified maths teachers, and between us we bring years of real classroom experience to every session, not just tutoring experience. That matters because experience is what lets you spot where a student's gap actually is, and it's what fine tunes how a lesson is taught as much as what's being taught. We keep our subject knowledge sharp and stay on top of exam board changes, so what's being taught is accurate and current, not something half remembered from a few years back. We hold every lesson we deliver, whether it's a first one-off lesson or the fiftieth, to the same standard.</p>
                         </div>
                     </div>
                 </div>

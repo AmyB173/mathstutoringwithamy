@@ -207,13 +207,13 @@
     </div>
   </section>
 
-  <!-- ================================================ 6. TRIAL SESSION -->
+  <!-- ================================================ 6. THE RIGHT FIT -->
   <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">It has to be the right fit</h2>
-          <p class="text-dark mb-4">I can't stress how important it is that you choose a tutor your child gets on with and learns from. This is why I always offer a free trial lesson for you to see how my tutors and I teach before deciding to go ahead. I only want parents who feel completely happy and confident with the tutor they choose.</p>
+          <p class="text-dark mb-4">I can't stress how important it is that you choose a tutor your child gets on with and learns from. This is why I always suggest booking a one-off lesson first, so you can see how my tutors and I teach and make sure there is a good fit between tutor and student before you commit to anything more. That fit matters more than almost anything else, and I only want parents who feel completely happy and confident with the tutor they choose.</p>
 
           <div class="d-flex flex-column align-items-start gap-2">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"

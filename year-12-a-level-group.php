@@ -407,8 +407,8 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     </div>
 
                     <div class="mb-4">
-                        <h3 class="step-heading">2. A trial lesson</h3>
-                        <p class="mb-0">If it looks like the right fit, your child sits a trial lesson with the group before you commit to a block. You will just pay &pound;<?php echo $sessionPrice; ?> for the first lesson, and then decide if you want to commit to the whole block.</p>
+                        <h3 class="step-heading">2. A one-off lesson</h3>
+                        <p class="mb-0">If it looks like the right fit, I always suggest your child sits a one-off lesson with the group first, so we can make sure there is a good fit between tutor and student before you commit to a block. That fit is so important. You will just pay &pound;<?php echo $sessionPrice; ?> for that first lesson, and then decide if you want to commit to the whole block.</p>
                     </div>
 
                     <div>

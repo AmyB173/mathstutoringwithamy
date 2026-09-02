@@ -251,7 +251,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                 <div class="col-md-6 col-lg-4 text-center">
                     <i class="fas fa-times mb-3 benefit-icon benefit-icon-no" aria-hidden="true"></i>
                     <h5 class="fw-bold">Help Students Struggling with the Basics</h5>
-                    <p>This group is designed to push students beyond what they normally do in Year 7. To make sure your child is right for the group we will always have a talk together first, and do an initial trial lesson to see if the fit is right.</p>
+                    <p>This group is designed to push students beyond what they normally do in Year 7. To make sure your child is right for the group we will always have a talk together first, and I always suggest a one-off lesson so we can check there is a good fit between tutor and student before committing to more.</p>
                 </div>
             </div>
         </div>

@@ -205,7 +205,7 @@
 
           <h4 class="mt-4 mb-3">Payments &amp; policies</h4>
           <ul class="feature-list">
-            <li><strong>Trial lessons:</strong> The first few lessons can be booked individually on a trial basis to make sure the fit is right.</li>
+            <li><strong>One-off lessons:</strong> I always suggest starting with a one-off lesson, booked individually, to make sure there is a good fit between tutor and student. That fit is so important.</li>
             <li><strong>Ongoing invoicing:</strong> Once your child has a regular slot, lessons are invoiced on the <strong>1st of each month</strong> for the upcoming month.</li>
             <li><strong>Cancellation (1:1):</strong> 48 hours' notice required. I'll try to reschedule or roll the credit to the following month.</li>
             <li><strong>Cancellation (Group):</strong> Group sessions cannot be cancelled, but a recording will be made available and homework still set and marked.</li>

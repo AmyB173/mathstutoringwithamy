@@ -201,7 +201,7 @@
 
           <p class="text-dark mb-4"><strong>Live collaboration:</strong> A shared whiteboard where I see your child's workings in real time to catch mistakes early.</p>
           <p class="text-dark mb-4"><strong>Permanent workbooks:</strong> All notes, drawings and homework stay saved in their personal digital board for easy revision.</p>
-          <p class="text-dark mb-0"><strong>Video feedback for homework:</strong> Success is a result of what happens outside the classroom too. Weekly homework with personalised video feedback, all in one place.</p>
+          <p class="text-dark mb-0"><strong>Feedback on every homework:</strong> Success is a result of what happens outside the classroom too. Weekly homework with personalised feedback (video, audio or written), all in one place.</p>
         </div>
       </div>
     </div>

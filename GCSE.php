@@ -146,7 +146,7 @@
 
                     <div class="mb-4">
                         <h4 class="mb-2">1:1 or Small Group Tutoring</h4>
-                        <p class="text-dark">Sessions at different price points depending on the level of support your child needs. All lessons are 55 minutes and include weekly homework with personalised video feedback.</p>
+                        <p class="text-dark">Sessions at different price points depending on the level of support your child needs. All lessons are 55 minutes and include weekly homework with personalised feedback (video, audio or written).</p>
                     </div>
 
                     <div class="mb-4">

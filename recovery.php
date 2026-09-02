@@ -39,7 +39,7 @@
         "name": "We've already tried tutoring and it didn't work. How is this different?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "This isn't just a lesson once a week where you're left to figure things out on your own. It's a structured recovery programme with full wraparound support. Students get live weekly teaching, a follow-up video to watch in their own time, targeted homework, personalised video feedback, and check-ins from me twice a week to keep them on track. Traditional tutoring says 'see you next week.' I text twice weekly to make sure they're actually doing the work."
+          "text": "This isn't just a lesson once a week where you're left to figure things out on your own. It's a structured recovery programme with full wraparound support. Students get live weekly teaching, a follow-up video to watch in their own time, targeted homework, personalised feedback (video, audio or written), and check-ins from me twice a week to keep them on track. Traditional tutoring says 'see you next week.' I text twice weekly to make sure they're actually doing the work."
         }
       },
       {
@@ -219,8 +219,8 @@
               <li class="mb-3 d-flex align-items-start">
                 <i class="fas fa-comments icon-neutral me-3 mt-1"></i>
                 <div>
-                  <strong>Video Homework Feedback</strong>
-                  <span class="small d-block text-muted">Personal video feedback on every piece of homework, all saved in their Pencil Spaces board.</span>
+                  <strong>Personalised Homework Feedback</strong>
+                  <span class="small d-block text-muted">Personal feedback on every piece of homework (video, audio or written), all saved in their Pencil Spaces board.</span>
                 </div>
               </li>
               <li class="d-flex align-items-start">
@@ -408,8 +408,8 @@
         <div class="col-md-6 col-lg-4">
           <div class="warm-card text-center h-100">
             <i class="fas fa-comments fs-2 icon-neutral mb-3"></i>
-            <h5 class="fw-bold">Video-Marked Homework</h5>
-            <p class="mb-0 text-muted">Personalised video feedback on every homework assignment plus unlimited email support.</p>
+            <h5 class="fw-bold">Marked Homework</h5>
+            <p class="mb-0 text-muted">Personalised feedback (video, audio or written) on every homework assignment plus unlimited email support.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
@@ -467,7 +467,7 @@
               </h2>
               <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  This isn't just a lesson once a week where you're left to figure things out on your own. It's a structured recovery programme with full wraparound support. Students get live weekly teaching, a follow-up video to watch in their own time, targeted homework, personalised video feedback, and check-ins from me twice a week to keep them on track. Traditional tutoring says "see you next week." I text twice weekly to make sure they're actually doing the work.
+                  This isn't just a lesson once a week where you're left to figure things out on your own. It's a structured recovery programme with full wraparound support. Students get live weekly teaching, a follow-up video to watch in their own time, targeted homework, personalised feedback (video, audio or written), and check-ins from me twice a week to keep them on track. Traditional tutoring says "see you next week." I text twice weekly to make sure they're actually doing the work.
                 </div>
               </div>
             </div>

@@ -249,7 +249,7 @@
                         <img src="./assets/images/3.png" alt="" class="me-3" style="width: 60px; height: 60px; flex-shrink: 0;">
                         <div class="flex-grow-1">
                             <h5 class="fw-bold">Weekly Q&amp;A Support</h5>
-                            <p class="mb-0">Post your homework or revision questions with your working, and get personalised video feedback to help you understand exactly where you went wrong</p>
+                            <p class="mb-0">Post your homework or revision questions with your working, and get personalised feedback (video, audio or written) to help you understand exactly where you went wrong</p>
                         </div>
                     </div>
                 </div>

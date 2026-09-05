@@ -20,7 +20,8 @@
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
           <ul class="dropdown-menu border-0 shadow-sm">
             <li><a class="dropdown-item" href="/meet-amy">Meet Amy</a></li>
-            <li><a class="dropdown-item" href="/framework-values">Framework and Values</a></li>
+            <li><a class="dropdown-item" href="/one-off-lesson">Why start with a one-off lesson</a></li>
+            <li><a class="dropdown-item" href="/framework-values">Our values</a></li>
             <li><a class="dropdown-item" href="/info-pack">Tutoring Essential Information</a></li>
           </ul>
         </li>
@@ -35,6 +36,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><h6 class="dropdown-header">GCSE</h6></li>
             <li><a class="dropdown-item" href="/GCSE">GCSE/IGCSE Tutoring</a></li>
+            <li><a class="dropdown-item" href="/gcse-foundation-group">Foundation Group: Grade 5</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><h6 class="dropdown-header">A Level</h6></li>
             <li><a class="dropdown-item" href="/a-level">A Level Maths Tutoring</a></li>

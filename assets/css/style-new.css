@@ -17,18 +17,21 @@
   /* Accent: petrol. Actions only: buttons, links, interactive elements.
      This is now the only colour on the site: it is both the brand colour (logo
      and wordmark) and the action colour (buttons, links). Everything else is
-     ink, ink-soft or a surface. White text on it clears WCAG AA at 7.7:1. */
-  --accent: #105a75;
-  /* Darkened accent for hover states and for accent text under 24px (10.6:1 on white) */
-  --accent-dark: #0c4459;
+     ink, ink-soft or a surface. White text on it clears WCAG AA at 4.6:1, so it
+     cannot go lighter while buttons keep white labels. */
+  --accent: #0a7f9c;
+  /* Darkened accent for hover states and for accent text under 24px (10.1:1 on white) */
+  --accent-dark: #05485a;
 
   --surface: #ffffff;
-  /* Off-white for alternating sections and the hero ground. Barely warm (about
-     2% toward yellow) as a deliberate counterweight: every other colour on the
-     site is cool, and once the hero took this tint too the page read cold. Too
-     desaturated to fight petrol. Opaque on purpose: it is also used as light
-     text on the dark footer. */
-  --surface-alt: #f6f5f2;
+  /* Light grey for alternating sections and the hero ground. Faintly cool (a
+     whisper toward petrol) rather than warm: a warm tint was tried twice, and at
+     the near-white #f6f5f2 depth it did not read as alternation at all, while at
+     a depth that did read (#f1ede3) the yellow turned sickly. So the tint goes
+     neutral-cool and earns its depth instead. Deep enough that the white/tinted
+     section rhythm registers, still far too desaturated to fight petrol. Opaque
+     on purpose: it is also used as light text on the dark footer. */
+  --surface-alt: #e8ebee;
 
   /* Shared corner radius for all buttons and inputs; never fully-rounded pills */
   --radius-control: 6px;
@@ -98,6 +101,16 @@ h3 { font-size: 2rem; }
 h4 { font-size: 1.75rem; }
 h5 { font-size: 1.375rem; }
 
+/* Homepage section headings. Same Fraunces 600 and tracking as the site h2,
+   just larger (40px) with a little more space below, so each section reads as
+   its own chapter through scale alone, not weight and not colour. Scoped to the
+   homepage; every other page keeps the base scale. */
+body.home .section h2 {
+  font-size: 40px;
+  line-height: 1.15;
+  margin-bottom: 4rem;
+}
+
 /* ------------------------------------------------ SECTIONS */
 .section {
   padding: var(--section-pad) 0;
@@ -126,6 +139,7 @@ h5 { font-size: 1.375rem; }
   margin-bottom: 3.5rem;
 }
 
+.section-title h1,
 .section-title h2 {
   font-size: 2.5rem;
   font-weight: 600;
@@ -521,7 +535,7 @@ h5 { font-size: 1.375rem; }
 
 .hero-subtitle {
   font-size: 1.125rem;
-  color: var(--ink-soft);
+  color: var(--ink);
   margin-bottom: 2.5rem;
 }
 
@@ -535,8 +549,8 @@ h5 { font-size: 1.375rem; }
 
 /* Hero testimonial snippet */
 .hero-testimonial-snippet {
-  font-style: italic;
-  color: var(--ink-soft);
+  font-style: normal;
+  color: var(--ink);
   border-left: 3px solid var(--ink);
   padding-left: 15px;
   margin: 20px 0;
@@ -1165,6 +1179,10 @@ footer {
     font-size: 2rem;
   }
 
+  body.home .section h2 {
+    font-size: 2.125rem;
+  }
+
   .warm-card {
     padding: 1.5rem;
   }
@@ -1196,7 +1214,7 @@ footer {
 /* Quiet trust bar (index.php credentials strip): one row of discrete items with
    middot dividers, wrapping to two rows on tablet and stacking on mobile */
 .trust-bar-quiet {
-  background: var(--surface-alt);
+  background: var(--surface);
   border-top: 1px solid rgba(26, 26, 46, 0.08);
   border-bottom: 1px solid rgba(26, 26, 46, 0.08);
   padding: 32px 0;

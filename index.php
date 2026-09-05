@@ -56,7 +56,7 @@
   </script>
 </head>
 
-<body>
+<body class="home">
   <?php include 'navbar.php'; ?>
 
   <!-- ================================================ 1. HERO -->
@@ -65,7 +65,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
           <h1 class="hero-title display-4">Expert maths tutoring, planned around your child</h1>
-          <p class="hero-subtitle fs-5 text-dark">Whether they are chasing a top grade or rebuilding lost confidence, no two of my students get the same lesson. One to one and small group lessons for Year 6, KS3, GCSE and A Level, from a qualified teacher with 12 years in the classroom.</p>
+          <p class="hero-subtitle fs-5">Whether they are chasing a top grade or rebuilding lost confidence, no two of my students get the same lesson. One to one and small group lessons for Year 6, KS3, GCSE and A Level, from a qualified teacher with 12 years in the classroom.</p>
 
           <div class="d-flex flex-column align-items-start gap-2 mt-4">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
@@ -77,7 +77,7 @@
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
-          <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" class="img-fluid photo-frame" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" width="2749" height="2146" />
+          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid photo-frame" alt="Amy at her home desk, planning a maths lesson" width="2596" height="2928" />
           <p class="text-center photo-caption">
             <strong>Qualified secondary school maths teacher</strong> with 12 years in the classroom, now a full-time online tutor.
           </p>
@@ -100,42 +100,52 @@
     </div>
   </section>
 
-  <!-- ================================================ 3. HOW I TEACH -->
-  <section class="section section-white">
+  <!-- ================================================ 3. WHAT THE RIGHT TUTOR DOES -->
+  <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
-          <h2 class="mb-4">No two students get the same lesson</h2>
-          <p class="text-dark mb-4">Most children who come to me are not bad at maths. They have been moving at the pace of the class rather than their own, and the gaps that opened up have quietly knocked their confidence. So every child I teach gets lessons planned for them, not pulled from a generic scheme. Two children seemingly identical on paper (same grade, same target) can need very different approaches, so I get to know your child first and plan the learning around them.</p>
+          <h2 class="mb-4">What the right tutor can do for your child</h2>
+          <p class="text-dark mb-4">After working with hundreds of students, I have found the benefits fall into four areas.</p>
 
-          <div class="hero-testimonial-snippet">
-            "Amy finds the underlying cause of particular learning issues and plans tailored sessions which build up understanding in levels so that the concepts are fully understood and not just learnt by repetition."
-            <span class="d-block small fw-bold mt-2" style="color: var(--ink-soft); font-style: normal;">Nancy, GCSE Parent</span>
-          </div>
+          <p class="text-dark mb-4"><strong>Motivation.</strong> A good tutor connects with your child and keeps them motivated. For some students that is motivation they have been missing for years. For others it is being encouraged to push themselves further than they thought they could.</p>
+          <p class="text-dark mb-4"><strong>Confidence.</strong> You already tell your child they are doing well and that the ability is there, and often it lands on deaf ears. The same praise from someone neutral has a different effect, and I usually find that confidence carries across into their other subjects too, not just maths.</p>
+          <p class="text-dark mb-4"><strong>Structure and independence.</strong> A lot of students find it hard to organise their time and put revision off. A weekly lesson is an anchor: there is homework to prepare, they know each week what to work on, and a few weeks never slip by without any maths being done.</p>
+          <p class="text-dark mb-4"><strong>Seeing maths with a fresh set of eyes.</strong> Students often arrive fed up with the way it has been taught and not really understanding it. Hearing it explained directly to them, built around the way they think, is often the point it starts to turn around.</p>
+
+          <p class="text-dark mb-0">You might be thinking the real benefit of a tutor is results. It is, but results come downstream of all this: get these four right and the grade usually follows. Despite what some tutoring companies will tell you, no one can guarantee a result. What my tutors and I can do is put everything in place to give your child every chance of the grade they want, and usually they get it.</p>
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy planning a personalised maths lesson at her desk"
-               class="img-fluid photo-frame" width="2596" height="2928" loading="lazy">
-        </div>
-      </div>
-
-      <div class="row align-items-center mt-5">
-        <div class="col-lg-5 mb-5 mb-lg-0">
-          <img src="./assets/images/pencil-lesson-crop.png" alt="A student's personalised maths workings on Pencil Spaces"
-               class="img-fluid photo-frame" width="995" height="752" loading="lazy">
-        </div>
-
-        <div class="col-lg-7 ps-lg-5">
-          <p class="text-dark mb-4">This is also why I only group together students in small groups who I feel genuinely will work well together and benefit from similar approaches. They will not just be put in any group to fill them.</p>
-
-          <p class="text-dark mb-0">The other thing that matters just as much is whether a child feels comfortable with me, because a student who is relaxed will ask the questions they would never ask in class, and those are the ones worth asking. Parents often tell me their child has started to enjoy maths, which says more about the lessons than anything I could write here.</p>
+          <img src="./assets/images/amy-white-shirt-at-desk.webp" alt="Amy at her desk in a white shirt, working through a maths problem"
+               class="img-fluid photo-frame" width="3072" height="4080" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================================================ 4. RESULTS / TESTIMONIALS (editorial, card-free) -->
+  <!-- ================================================ 4. WHY CHOOSE ME AND MY TUTORS -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <img src="./assets/images/amy-brown-top.webp" alt="Amy, online maths tutor"
+               class="img-fluid photo-frame" width="3072" height="4080" loading="lazy">
+        </div>
+
+        <div class="col-lg-7 ps-lg-5">
+          <h2 class="mb-4">Why parents choose me and my tutors</h2>
+          <p class="text-dark mb-4">When you are choosing a tutor, it matters that you pick the right one for your child. I offer friendly, premium tutoring, and my tutors and I hold ourselves to a high standard in everything we do.</p>
+
+          <p class="text-dark mb-4"><strong>Experts in the subject.</strong> I know maths inside out after nearly 12 years of teaching, and I only take on tutors with the qualifications and experience I would want for my own child.</p>
+          <p class="text-dark mb-4"><strong>Interactive lessons.</strong> Your child will not sit and listen for long. Every lesson runs on a shared whiteboard, so they are actively involved and the tutor can see exactly what they are writing as they write it.</p>
+          <p class="text-dark mb-0"><strong>Genuinely lovely people.</strong> This is the one I would rather you saw for yourself. My tutors and I are warm, encouraging and easy to talk to. It is why I suggest booking a one-off lesson first: for a lot of children that first session is the spark that brings their motivation back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ 5. RESULTS / TESTIMONIALS (editorial, card-free) -->
   <section class="section testimonials-full">
     <div class="container">
       <div class="row align-items-center">
@@ -186,7 +196,7 @@
     </div>
   </section>
 
-  <!-- ================================================ 5. DIGITAL CLASSROOM -->
+  <!-- ================================================ 6. DIGITAL CLASSROOM -->
   <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
@@ -207,7 +217,7 @@
     </div>
   </section>
 
-  <!-- ================================================ 6. THE RIGHT FIT -->
+  <!-- ================================================ 7. THE RIGHT FIT -->
   <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">

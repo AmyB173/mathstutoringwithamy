@@ -223,7 +223,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
                         </li>
                     </ul>
 
-                    <p class="mb-0">Shorter lessons are available at the same rate pro-rata: a 30-minute lesson is half the price, a 45-minute lesson is three quarters. That suits a younger student whose concentration goes at the 40-minute mark better than stretching an hour thin.</p>
+                    <p class="mb-0">Shorter lessons are available at the same rate pro-rata: a 30-minute lesson is half the price, a 45-minute lesson is three quarters. That suits a younger student whose concentration goes at the 40-minute mark better than stretching a full lesson thin.</p>
                 </div>
             </div>
         </div>

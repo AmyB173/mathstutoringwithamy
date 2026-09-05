@@ -358,7 +358,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <p class="mb-4">Works out to &pound;<?php echo $sessionPrice; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from.</p>
 
                     <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly live hour, taught by me</li>
+                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly 55-minute live lesson, taught by me</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Maximum 5 students in the room</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Algebra and problem solving beyond the curriculum</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Join mid-block and pay pro-rata, catch-up included</li>
@@ -427,7 +427,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="faq-item">
                         <h5 class="faq-question">What do we need at home? <span class="arrow">&#9660;</span></h5>
                         <div class="faq-answer">
-                            <p>A laptop or tablet with a working microphone, and a quiet spot to sit for the hour. Lessons run on Pencil Spaces, a shared digital classroom including a video call, so your child writes on the same board I do. A cheap graphics tablet or an iPad is essential for writing on the screen.</p>
+                            <p>A laptop or tablet with a working microphone, and a quiet spot to sit for the lesson. Lessons run on Pencil Spaces, a shared digital classroom including a video call, so your child writes on the same board I do. A cheap graphics tablet or an iPad is essential for writing on the screen.</p>
                         </div>
                     </div>
                 </div>

@@ -225,7 +225,7 @@
         <div class="col-lg-6">
           <h2 class="mb-4">A Level Maths Mastery Group: Year 12</h2>
           <p class="text-dark">A weekly Edexcel group for Year 12 (Lower Sixth), capped at five students, running from September through to the summer. It exists because the students who come unstuck in Year 12 are very often the ones who found September easy, and by the time that shows up in the mocks there is a year of catching up to do.</p>
-          <p class="text-dark">Every week there is a live hour on the shared whiteboard, an independent task your child marks themselves, and two to three exam questions I mark personally with video, audio or written feedback. <strong>It is the option to choose if you want the foundation built properly now rather than rescued in the spring.</strong></p>
+          <p class="text-dark">Every week there is a live 55-minute lesson on the shared whiteboard, an independent task your child marks themselves, and two to three exam questions I mark personally with video, audio or written feedback. <strong>It is the option to choose if you want the foundation built properly now rather than rescued in the spring.</strong></p>
 
           <p class="price-line">&pound;<?php echo $prices['alevel_group'] * $blockMin; ?> to &pound;<?php echo $prices['alevel_group'] * $blockMax; ?> <span>per half term</span></p>
           <p class="price-line-note">&pound;<?php echo $prices['alevel_group']; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from.</p>

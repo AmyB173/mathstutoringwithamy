@@ -205,7 +205,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                         <i class="fas fa-video me-3 benefit-icon" aria-hidden="true"></i>
                         <div class="flex-grow-1">
                             <h5 class="fw-bold">Weekly Live Lesson</h5>
-                            <p class="mb-2">An hour taught live on a shared interactive whiteboard, so I see your child's working as they do it rather than just the final answer. Very interactive, not sitting and listening.</p>
+                            <p class="mb-2">Fifty-five minutes taught live on a shared interactive whiteboard, so I see your child's working as they do it rather than just the final answer. Very interactive, not sitting and listening.</p>
                             <div class="text-center py-2 px-3" style="background: white; border-radius: 6px; border: 2px solid var(--ink);">
                                 <span class="fw-bold" style="color: var(--ink);">Tuesdays 6 to 7pm</span>
                             </div>
@@ -378,7 +378,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <p class="mb-4">Works out to &pound;<?php echo $sessionPrice; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from. Billed per half term in advance.</p>
 
                     <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly live hour, Tuesdays 6 to 7pm, taught by me</li>
+                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly 55-minute live lesson, Tuesdays 6 to 7pm, taught by me</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Edexcel A Level Maths only</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Maximum 5 students in the room</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Homework and personally marked exam questions, included</li>
@@ -447,7 +447,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="faq-item">
                         <h5 class="faq-question">My child got a 7 and is finding the start fine. Surely they will be OK? <span class="arrow">&#9660;</span></h5>
                         <div class="faq-answer">
-                            <p>Finding the start manageable is normal, nearly everyone does, and it tells you almost nothing. The students who come unstuck in Year 12 are very often the ones who found the first term comfortable and assumed it would stay that way. A weekly hour of structured teaching, plus marked exam questions with real feedback, is a modest cost next to a year of catch-up one to one lessons once the gaps have compounded.</p>
+                            <p>Finding the start manageable is normal, nearly everyone does, and it tells you almost nothing. The students who come unstuck in Year 12 are very often the ones who found the first term comfortable and assumed it would stay that way. A weekly lesson of structured teaching, plus marked exam questions with real feedback, is a modest cost next to a year of catch-up one to one lessons once the gaps have compounded.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -489,7 +489,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="faq-item">
                         <h5 class="faq-question">What do we need at home? <span class="arrow">&#9660;</span></h5>
                         <div class="faq-answer">
-                            <p>A laptop or tablet with a working microphone, and a quiet spot to sit for the hour. Lessons run on Pencil Spaces, a shared digital classroom including a video call, so your child writes on the same board I do. A cheap graphics tablet or an iPad is essential for writing on the screen.</p>
+                            <p>A laptop or tablet with a working microphone, and a quiet spot to sit for the lesson. Lessons run on Pencil Spaces, a shared digital classroom including a video call, so your child writes on the same board I do. A cheap graphics tablet or an iPad is essential for writing on the screen.</p>
                         </div>
                     </div>
                 </div>

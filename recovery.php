@@ -63,7 +63,7 @@
         "name": "My child doesn't have time for another commitment",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "They'll need to commit a minimum of 3 hours per week: 60 minutes for the live session and around 2 hours for video review and homework. But think about it this way: 3 focused hours per week for 12 weeks, or continue struggling for the next 18 months? The time investment now saves massive stress later."
+          "text": "They'll need to commit a minimum of 3 hours per week: a 55-minute live session and around 2 hours for video review and homework. But think about it this way: 3 focused hours per week for 12 weeks, or continue struggling for the next 18 months? The time investment now saves massive stress later."
         }
       },
       {
@@ -506,7 +506,7 @@
               </h2>
               <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  They'll need to commit a minimum of 3 hours per week: 60 minutes for the live session and around 2 hours for video review and homework. But think about it this way: 3 focused hours per week for 12 weeks, or continue struggling for the next 18 months? The time investment now saves massive stress later.
+                  They'll need to commit a minimum of 3 hours per week: a 55-minute live session and around 2 hours for video review and homework. But think about it this way: 3 focused hours per week for 12 weeks, or continue struggling for the next 18 months? The time investment now saves massive stress later.
                 </div>
               </div>
             </div>

@@ -57,7 +57,7 @@
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h1 class="mb-2">Meet Amy</h1>
           <p class="text-dark mb-4">Hi, I'm Amy. I'm a qualified maths teacher and the person behind Maths Tutoring with Amy.</p>
-          <h2 class="mb-4">From Wales to the classroom</h2>
+          <h2 class="mb-4">I learned my first maths in Welsh</h2>
           <p class="text-dark">I grew up in Wales, deep in the Carmarthenshire countryside. It was the kind of childhood where you build dens in the forest and spend whole days at the beach. My primary school was Welsh-medium so my first maths lessons were actually in Welsh. The Welsh has faded a bit over the years but the roots have not, and I regularly go back.</p>
           <p class="text-dark">After university my career took me into teaching, and that's where I discovered something I hadn't quite expected. I'd always been good at maths, but it was teaching it that made me fall in love with it. There's something about teaching the subject that made me realise how fun and interesting and varied maths could be. Showing students that it doesn't have to be difficult and scary, and inspiring the ones who are interested to push themselves into new and interesting areas of maths, is what I love about teaching.</p>
         </div>
@@ -144,22 +144,50 @@
     </div>
   </section>
 
-  <!-- ================================================ OUTSIDE OF TUTORING -->
+  <!-- ================================================ CREDENTIALS -->
   <section class="section" style="background: white;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
+          <div class="position-relative">
+            <img src="./assets/images/amy-white-shirt-at-desk.webp" alt="Amy, qualified maths teacher, at her desk"
+                 class="img-fluid position-relative"
+                 style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
+          </div>
+        </div>
+
+        <div class="col-lg-7 ps-lg-5">
+          <h2 class="mb-4">My credentials</h2>
+          <p class="text-dark">For anyone who wants the formal side on paper:</p>
+          <ul class="plain-list">
+            <li><strong>Qualified secondary maths teacher</strong>, with twelve years teaching maths in schools, from Year 7 through to Year 13 (and now Year 6 too).</li>
+            <li><strong>Extensive experience</strong> teaching in independent and state schools.</li>
+            <li><strong>A*A*AA at A Level.</strong></li>
+            <li><strong>2:1</strong> from a Russell Group university.</li>
+            <li><strong>Distinction</strong> in my teaching qualification.</li>
+          </ul>
+          <p class="text-dark mb-0">I don't have any fancy teaching awards, management titles or extra-curricular offerings. Why? Because all I loved doing, and wanted to do, was teach maths, and teach it really well. I didn't put myself forward for awards, I didn't apply for promotions. I honed my skills, and I like to think I became a really good teacher from that.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ OUTSIDE OF TUTORING -->
+  <section class="section" style="background: var(--surface-alt);">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-5 mb-lg-0">
+          <h2 class="mb-4">Outside of tutoring</h2>
+          <p class="text-dark">When I'm not teaching, you'll usually find me outside doing something. I spend a lot of time on walks with my partner and our two dogs, Piper and Wyatt. We camp regularly, and any excuse for a trip to the beach is a good one. I also do a bit of gardening, which is very much a work in progress.</p>
+        </div>
+
+        <div class="col-lg-5">
           <div class="position-relative">
             <img src="./assets/images/amy-and-dogs.webp" alt="Amy with her dogs Piper and Wyatt"
                  class="img-fluid position-relative"
                  style="border-radius: 8px; border: 1px solid #d1d5db; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 2;">
           </div>
           <p class="text-center mt-3" style="font-style: italic; color: #555; font-size: 0.9rem;">Piper and Wyatt, my two favourite walking companions.</p>
-        </div>
-
-        <div class="col-lg-7 ps-lg-5">
-          <h2 class="mb-4">Outside of tutoring</h2>
-          <p class="text-dark">When I'm not teaching, you'll usually find me outside doing something. I spend a lot of time on walks with my partner and our two dogs, Piper and Wyatt. We camp regularly, and any excuse for a trip to the beach is a good one. I also do a bit of gardening, which is very much a work in progress.</p>
         </div>
       </div>
     </div>

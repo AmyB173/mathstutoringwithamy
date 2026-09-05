@@ -1,5 +1,11 @@
 # Maths Tutoring with Amy: Project Notes
 
+## Facts
+
+Business details that copy must stay consistent with. If a page contradicts one of these, the page is wrong.
+
+- **All lessons are 55 minutes.** Every lesson, every level, 1:1 and group. Shorter options exist (30 minutes at half price, 45 minutes at three-quarters price), but the standard length is always 55 minutes. Never describe a lesson as "an hour" or "60 minutes".
+
 ## Brand Voice
 
 A short reference for writing posts, captions and tutor-facing copy so everything sounds like Amy.
@@ -49,10 +55,10 @@ Petrol carries every interactive element. Coral has been retired: it fought with
 
 - `--ink: #1a1a2e` - all headings and body text. Never pure black.
 - `--ink-soft: #4a4a5e` - secondary text: captions, attributions, quiet lines (trust bar, exam board lines, footer copy).
-- `--accent: #105a75` - deep petrol, hue 198. The single colour on the site: the brand (logo and wordmark) and every action (buttons, links, interactive elements). White text on it passes WCAG AA at 7.7:1. Deliberately low-saturation: the earlier `#0a7ea4` was 88% saturated and read tech-y once it had to carry the wordmark as well as the buttons.
-- `--accent-dark: #0c4459` - darkened accent for hover states and for any accent text under 24px (10.6:1 on white).
+- `--accent: #0a7f9c` - petrol, hue 192, fully saturated (88%). The single colour on the site: the brand (logo and wordmark) and every action (buttons, links, interactive elements). White text on it passes WCAG AA at 4.6:1, so it cannot go any lighter while buttons keep white labels. The earlier muted `#105a75` was chosen to avoid looking tech-y, but as the only colour on the page it read grey and dull, so the saturation is back. This one is a touch greener and darker than the `#0a7ea4` that was rejected for tech-y-ness.
+- `--accent-dark: #05485a` - darkened accent for hover states and for any accent text under 24px (10.1:1 on white).
 - `--surface: #ffffff` - main background.
-- `--surface-alt: #f6f5f2` - off-white for alternating sections and for the hero ground. **Barely warm**, roughly 2% toward yellow, and deliberately so: petrol, ink and white are all cool, and once the hero took this tint as well the page read cold. It is far too desaturated to fight petrol the way coral did. This reverses the earlier "no warm off-white anywhere" rule, which was written when the tint covered only a few bands. Opaque on purpose, because it is also used as light text on the dark footer.
+- `--surface-alt: #e8ebee` - light grey for alternating sections and for the hero ground. **Faintly cool**, a whisper toward petrol, not warm. A warm off-white was tried twice: at the near-white `#f6f5f2` depth it did not read as alternation at all, and at a depth that did read (`#f1ede3`) the yellow cast turned sickly. So the tint is neutral-cool and earns its presence through depth instead: deep enough that the white/tinted section rhythm registers, still far too desaturated to fight petrol the way coral did. Opaque on purpose, because it is also used as light text on the dark footer.
 - `--radius-control: 6px` - all buttons and inputs use this radius; never fully-rounded pills.
 - `--section-pad: 96px` / `--section-pad-mobile: 64px` - section vertical padding, consistent across every section.
 
@@ -76,8 +82,8 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 - **No cards. This is the clearest case of the heavy-handed design this site avoids.** Content is prose and photographs; never wrap text in a card or box container. A white panel with a border, a radius and a drop shadow around a paragraph adds weight and adds nothing: it makes ordinary text look like it needs a frame to be taken seriously, which is the opposite of the confidence this site is going for. Whitespace and type do that job. Never add a new card wrapper, whatever it is called, and unwrap the ones you meet.
 - **Proof hierarchy: real screenshots (Google reviews, messages) are the primary proof**, in `.photo-frame` at consistent widths. Written testimonials are secondary: ink result headline, plain roman quote text, ink-soft attribution, hairline separators, no boxes, no italic paragraphs.
 - **No heavy-handed design.** No entrance animations, hover lifts or zooms, glow shadows, watermark icons, decorative quote marks, star strips, or emoji icons. Button hover is a flat colour change only.
-- **Headings use the established type scale** (h1 40px / h2 34px / h3 2rem / h4 1.75rem / h5 1.375rem), with the homepage hero as the exception: 56-64px desktop, scaling down on mobile. The hero's oversized type is deliberate; do not shrink it to match inner pages. Its *scale* is the deliberate part, not its background, which is `--surface-alt` (see The navbar and the hero ground).
-- **Predictable page structure.** The hero carries `--surface-alt`, then pages are a rhythm of sections alternating white and `--surface-alt`, each a simple two-column row of prose and a photograph. Where the hero runs straight into a tinted section the two merge on purpose; do not force alternation with a white band. Meet Amy is the reference for section structure (but not for the homepage hero).
+- **Headings use the established type scale** (h1 40px / h2 34px / h3 2rem / h4 1.75rem / h5 1.375rem), with the homepage hero as the exception: 56-64px desktop, scaling down on mobile. The hero's oversized type is deliberate; do not shrink it to match inner pages. Its *scale* is the deliberate part, not its background, which is `--surface-alt` (see The navbar and the hero ground). The homepage section headings (`body.home .section h2`) are a second, smaller exception: 40px rather than 34px, at the same Fraunces 600 weight and tracking, so each section reads as its own chapter through scale alone. Weight was tried at 700 and read too heavy. This is homepage-only and must never be done with colour: headings stay `--ink`, the "no accent headings" rule holds.
+- **Predictable page structure.** The hero carries `--surface-alt`, then pages are a rhythm of sections alternating white and `--surface-alt`, each a simple two-column row of prose and a photograph. Where the hero runs straight into a tinted section the two merge on purpose; do not force alternation with a white band (the homepage is the exception: its white trust bar deliberately separates the tinted hero from the tinted section below). Meet Amy is the reference for section structure (but not for the homepage hero).
 - **Exam boards and levels are listed as quiet text lines**, never pill badges: e.g. "GCSE, all exam boards: AQA · Edexcel · OCR · WJEC" in `.exam-boards-line` (ink-soft, small-caps).
 - **No em dashes anywhere** in any copy on this site (see Brand Voice above; this applies to code-level copy too).
 - Keep visual clutter low. Avoid label pills on every section, multiple different list styles on the same page, or box wrappers where plain text will do.
@@ -94,7 +100,7 @@ The navbar is **white**, fixed to the top of every page: hairline bottom border,
 
 **The hero carries `--surface-alt`, not white.** This is what stops the top of the page floating. A pure white hero under a white bar had no anchor and read "like paper"; a faint tinted ground gives the bar something to sit against without putting a dark slab across every page. An ink navbar was tried first and rejected as domineering and heavy: it is a permanent band on screen the whole time someone reads, not a hero treatment, and it reads heavier still at phone width. Fix the ground, not the bar.
 
-Where a tinted hero runs straight into a `--surface-alt` section (the homepage trust bar, [contact.php](contact.php), [recovery.php](recovery.php)) the two merge into one tinted region on purpose. Do not insert a white section to force alternation.
+Where a tinted hero runs straight into a `--surface-alt` section ([contact.php](contact.php), [recovery.php](recovery.php)) the two merge into one tinted region on purpose. Do not insert a white section to force alternation. The homepage is the exception: its trust bar is white, so the hero reads as a distinct tinted band above it and the sections alternate cleanly from there.
 
 `.hero-section-study-hub` still overrides the hero to ink and is unaffected, since it is defined later in the stylesheet.
 

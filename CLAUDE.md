@@ -1,5 +1,9 @@
 # Maths Tutoring with Amy: Project Notes
 
+## Maintenance
+
+- **Every new page must be added to [sitemap.xml](sitemap.xml).** Give it a `<lastmod>` and a `<priority>` in line with similar existing pages. Exceptions: pages marked `noindex` (e.g. `revision-tracker.php`, `success-study-club.php`) and non-page files (e.g. `prices.php`, `navbar.php`, `footer.php`).
+
 ## Facts
 
 Business details that copy must stay consistent with. If a page contradicts one of these, the page is wrong.

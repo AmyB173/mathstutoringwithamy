@@ -100,20 +100,21 @@
     </div>
   </section>
 
-  <!-- ================================================ 3. WHAT THE RIGHT TUTOR DOES -->
+  <!-- ================================================ 3. STRUGGLING WITH MATHS / MY APPROACH -->
   <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
-          <h2 class="mb-4">What the right tutor can do for your child</h2>
-          <p class="text-dark mb-4">After working with hundreds of students, I have found the benefits fall into four areas.</p>
+          <h2 class="mb-4">Struggling with maths can look very different for each child</h2>
+          <p class="text-dark mb-5">For one student, it is the frustration of not being able to get a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need.</p>
 
-          <p class="text-dark mb-4"><strong>Motivation.</strong> A good tutor connects with your child and keeps them motivated. For some students that is motivation they have been missing for years. For others it is being encouraged to push themselves further than they thought they could.</p>
-          <p class="text-dark mb-4"><strong>Confidence.</strong> You already tell your child they are doing well and that the ability is there, and often it lands on deaf ears. The same praise from someone neutral has a different effect, and I usually find that confidence carries across into their other subjects too, not just maths.</p>
-          <p class="text-dark mb-4"><strong>Structure and independence.</strong> A lot of students find it hard to organise their time and put revision off. A weekly lesson is an anchor: there is homework to prepare, they know each week what to work on, and a few weeks never slip by without any maths being done.</p>
-          <p class="text-dark mb-4"><strong>Seeing maths with a fresh set of eyes.</strong> Students often arrive fed up with the way it has been taught and not really understanding it. Hearing it explained directly to them, built around the way they think, is often the point it starts to turn around.</p>
+          <h3 class="mb-4">My approach to maths tutoring</h3>
+          <p class="text-dark mb-4">I make sessions as positive and uplifting as I can, picking out the progress your child is already making and the skills they already have, and showing them what they <em>can</em> actually do.</p>
+          <p class="text-dark mb-4"><strong>Coaching, not lecturing.</strong> Every session is interactive, with your child writing live on screen. There's no me talking while they sit and listen. We work <em>together</em>, and I guide them along the way.</p>
+          <p class="text-dark mb-5"><strong>Assess, fill, repeat.</strong> There's no big assessment at the start. We begin with a few foundational topics, find the gaps and work on them properly before moving on. It's a continual process that keeps progress moving in a simple, stress-free way.</p>
 
-          <p class="text-dark mb-0">You might be thinking the real benefit of a tutor is results. It is, but results come downstream of all this: get these four right and the grade usually follows. Despite what some tutoring companies will tell you, no one can guarantee a result. What my tutors and I can do is put everything in place to give your child every chance of the grade they want, and usually they get it.</p>
+          <h3 class="mb-4">What changes after a few sessions</h3>
+          <p class="text-dark mb-0">The feedback I hear most is that <strong>their motivation for maths comes back</strong>. They often start working harder at school too, and their confidence improves hugely. Knowing they have someone knowledgeable and encouraging <em>in their corner</em> means a lot.</p>
         </div>
 
         <div class="col-lg-5">
@@ -135,11 +136,11 @@
 
         <div class="col-lg-7 ps-lg-5">
           <h2 class="mb-4">Why parents choose me and my tutors</h2>
-          <p class="text-dark mb-4">When you are choosing a tutor, it matters that you pick the right one for your child. I offer friendly, premium tutoring, and my tutors and I hold ourselves to a high standard in everything we do.</p>
+          <p class="text-dark mb-4">Choosing the right tutor for your child matters, and my tutors and I hold ourselves to a high standard in everything we do.</p>
 
-          <p class="text-dark mb-4"><strong>Experts in the subject.</strong> I know maths inside out after nearly 12 years of teaching, and I only take on tutors with the qualifications and experience I would want for my own child.</p>
-          <p class="text-dark mb-4"><strong>Interactive lessons.</strong> Your child will not sit and listen for long. Every lesson runs on a shared whiteboard, so they are actively involved and the tutor can see exactly what they are writing as they write it.</p>
-          <p class="text-dark mb-0"><strong>Genuinely lovely people.</strong> This is the one I would rather you saw for yourself. My tutors and I are warm, encouraging and easy to talk to. It is why I suggest booking a one-off lesson first: for a lot of children that first session is the spark that brings their motivation back.</p>
+          <p class="text-dark mb-4"><strong>Experts in the subject.</strong> Every tutor on my team is a qualified, experienced teacher, not just someone who is good at maths. I choose each one myself, and I only take on people I would be happy to have teaching my own child. They go through the same safeguarding checks a school would carry out before they teach anyone.</p>
+          <p class="text-dark mb-4"><strong>Interactive lessons.</strong> Your child will not sit and listen for long. Every lesson runs on a shared whiteboard, so they are actively involved and their tutor can see their working as they write it.</p>
+          <p class="text-dark mb-0"><strong>Genuinely lovely people.</strong> This is the one I would rather you saw for yourself. My tutors and I are warm, encouraging and easy to talk to, and for a lot of children that first lesson is the spark that brings their motivation back.</p>
         </div>
       </div>
     </div>

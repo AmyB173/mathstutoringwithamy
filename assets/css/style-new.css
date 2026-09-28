@@ -720,6 +720,31 @@ body.home .section h2 {
   opacity: 1;
 }
 
+/* One parent's words given a section of their own: centred, Fraunces a size
+   up, whitespace doing the framing. No quote-mark ornament, no box. */
+.quote-band {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote-band blockquote {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0 0 1.25rem;
+}
+
+@media (max-width: 767px) {
+  .quote-band blockquote {
+    font-size: 1.375rem;
+  }
+}
+
 @media (max-width: 767.98px) {
   .result-headline {
     font-size: 1.6rem;
@@ -1230,7 +1255,7 @@ footer {
   align-items: center;
   row-gap: 0.5rem;
   font-family: var(--font-body);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--ink-soft);
 }

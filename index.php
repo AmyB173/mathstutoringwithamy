@@ -64,23 +64,19 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
-          <h1 class="hero-title display-4">Expert maths tutoring, planned around your child</h1>
-          <p class="hero-subtitle fs-5">Whether they are chasing a top grade or rebuilding lost confidence, no two of my students get the same lesson. One to one and small group lessons for Year 6, KS3, GCSE and A Level, from a qualified teacher with 12 years in the classroom.</p>
+          <h1 class="hero-title display-4">Hi, I'm Amy, a qualified maths teacher and lead tutor</h1>
+          <p class="hero-subtitle fs-5">My small team of tutors and I offer expert online maths tutoring, planned around your child, wherever they're starting from. <strong>A Level, GCSE, KS3 and Year 6.</strong></p>
 
           <div class="d-flex flex-column align-items-start gap-2 mt-4">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
                class="btn-whatsapp-cta">
               <i class="fab fa-whatsapp fs-5"></i> Message me on WhatsApp
             </a>
-            <a href="/contact" class="quiet-link">Or book a free video call</a>
           </div>
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
           <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid photo-frame" alt="Amy at her home desk, planning a maths lesson" width="2596" height="2928" />
-          <p class="text-center photo-caption">
-            <strong>Qualified secondary school maths teacher</strong> with 12 years in the classroom, now a full-time online tutor.
-          </p>
         </div>
       </div>
     </div>
@@ -125,8 +121,18 @@
     </div>
   </section>
 
-  <!-- ================================================ 4. WHY CHOOSE ME AND MY TUTORS -->
+  <!-- ================================================ 3b. ONE PARENT'S WORDS -->
   <section class="section section-white">
+    <div class="container">
+      <figure class="quote-band">
+        <blockquote>"Amy has developed a real friendship with our daughter, allowing her to be open about her difficulties and progress quicker than we thought possible."</blockquote>
+        <figcaption class="testimonial-attribution">Nancy, GCSE Parent, Grade 4 to Grade 6</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================================================ 4. WHY CHOOSE ME AND MY TUTORS -->
+  <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
@@ -147,7 +153,7 @@
   </section>
 
   <!-- ================================================ 5. RESULTS / TESTIMONIALS (editorial, card-free) -->
-  <section class="section testimonials-full">
+  <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -155,10 +161,10 @@
           <p class="text-dark mb-4">Real results from parents and students across the UK.</p>
 
           <div class="testimonial-block">
-            <p class="result-headline">Grade 4 to Grade 6</p>
+            <p class="result-headline">A love of maths she never had before</p>
             <p class="exam-boards-line">GCSE Maths</p>
-            <p class="testimonial-quote">"Amy has developed a real friendship with our daughter, allowing her to be open about her difficulties and progress quicker than we thought possible. My daughter now says she actually enjoys maths because Amy makes it fun. By finding the underlying cause of issues rather than relying on rote learning, Amy has been a significant advantage for our daughter who is dyslexic."</p>
-            <p class="testimonial-attribution">Nancy, GCSE Parent</p>
+            <p class="testimonial-quote">"Amy has even helped ignite a love for maths, something our daughter never had before. We have seen fantastic progress in a very short period of time."</p>
+            <p class="testimonial-attribution">Sian, GCSE Parent</p>
           </div>
 
           <hr class="testimonial-rule">
@@ -198,7 +204,7 @@
   </section>
 
   <!-- ================================================ 6. DIGITAL CLASSROOM -->
-  <section class="section section-white">
+  <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
@@ -219,7 +225,7 @@
   </section>
 
   <!-- ================================================ 7. THE RIGHT FIT -->
-  <section class="section section-alt">
+  <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">

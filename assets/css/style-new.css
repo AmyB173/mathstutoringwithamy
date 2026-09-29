@@ -739,8 +739,22 @@ body.home .section h2 {
   margin: 0 0 1.25rem;
 }
 
+/* The one line in a page of prose that the page hangs on, set in the same
+   Fraunces as the quote band but left-aligned in the text column. */
+.pull-line {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 2rem 0;
+}
+
 @media (max-width: 767px) {
-  .quote-band blockquote {
+  .quote-band blockquote,
+  .pull-line {
     font-size: 1.375rem;
   }
 }

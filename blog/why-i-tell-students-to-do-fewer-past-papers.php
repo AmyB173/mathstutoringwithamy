@@ -15,7 +15,7 @@
   <meta name="description" content="Students who do paper after paper often see no improvement, because the mark scheme is the most valuable thing in front of them and most students barely glance at it. Here's what to do instead." />
   <title>Why I tell my students to do fewer past papers | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/blog/why-i-tell-students-to-do-fewer-past-papers" />
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/blog/why-i-tell-students-to-do-fewer-past-papers">
@@ -82,7 +82,7 @@
 
         <h2>Two papers a week, and still a grade D</h2>
 
-        <p>He came to me for <a href="/a-level" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">A Level maths</a>. He was genuinely good at the subject and had a grade 8 at <a href="/GCSE" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">GCSE</a> to show for it. But he came out of his Year 12 mocks with a D, went back after the summer, resat, and got a D again.</p>
+        <p>He came to me for <a href="/a-level" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">A Level maths</a>. He was genuinely good at the subject and had a grade 8 at <a href="/GCSE" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE</a> to show for it. But he came out of his Year 12 mocks with a D, went back after the summer, resat, and got a D again.</p>
 
         <p>"But," he told me, "I did every single paper. Two papers a week."</p>
 
@@ -117,7 +117,7 @@
 
         <p>This is a lot of what I actually do with students: not just setting a paper, but sitting with them in the 40% and working out what it is telling us. It is also what I look for in the tutors on my team, because it is the difference between hours spent and grades earned.</p>
 
-        <p>If your son or daughter is putting in the work and not seeing it reflected in their results, that gap is usually fixable, and it is very often exactly this. My team and I work with students from KS3 through to <a href="/GCSE" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">GCSE</a> and <a href="/a-level" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">A Level</a>, one to one and in <a href="/study-club" style="color: var(--accent); font-weight: 700; text-underline-offset: 3px;">small groups</a>. If you would like to talk it through, do get in touch.</p>
+        <p>If your son or daughter is putting in the work and not seeing it reflected in their results, that gap is usually fixable, and it is very often exactly this. My team and I work with students from KS3 through to <a href="/GCSE" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE</a> and <a href="/a-level" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">A Level</a>, one to one and in <a href="/study-club" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">small groups</a>. If you would like to talk it through, do get in touch.</p>
 
       </div>
     </div>

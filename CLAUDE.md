@@ -51,18 +51,19 @@ Warm. Assured. Unvarnished.
 
 ## Design
 
-A disciplined single-colour system: petrol is the brand colour and the action colour, everything else is ink, ink-soft or a surface. Tokens are defined in `assets/css/style-new.css`.
+A disciplined one-hue system: a deep blue (`--accent`) for every action, the logo's lighter blue (`--accent-light`) for the logo and a handful of quiet echoes of it, and everything else ink, ink-soft or a surface. Tokens are defined in `assets/css/style-new.css`.
 
-Petrol carries every interactive element. Coral has been retired: it fought with petrol (near-opposite hues, both fully saturated) and there is no longer a second colour anywhere on the site. On social media, where there is nothing to click, petrol is still the emphasis colour.
+The deep blue carries every interactive element. Coral has been retired (it fought with the accent, near-opposite hues, both fully saturated), and petrol was replaced by the blues in October 2026. There is no second hue anywhere on the site. On social media, where there is nothing to click, the blues are the emphasis colour.
 
 ### Tokens
 
 - `--ink: #1a1a2e` - all headings and body text. Never pure black.
 - `--ink-soft: #4a4a5e` - secondary text: captions, attributions, quiet lines (trust bar, exam board lines, footer copy).
-- `--accent: #0a7f9c` - petrol, hue 192, fully saturated (88%). The single colour on the site: the brand (logo and wordmark) and every action (buttons, links, interactive elements). White text on it passes WCAG AA at 4.6:1, so it cannot go any lighter while buttons keep white labels. The earlier muted `#105a75` was chosen to avoid looking tech-y, but as the only colour on the page it read grey and dull, so the saturation is back. This one is a touch greener and darker than the `#0a7ea4` that was rejected for tech-y-ness.
-- `--accent-dark: #05485a` - darkened accent for hover states and for any accent text under 24px (10.1:1 on white).
+- `--accent: #1f5bb8` - deep blue, hue 216. The action colour: buttons (white labels, 6.5:1), links, focus rings, and the wordmark. It replaced petrol `#0a7f9c` in October 2026. A light-button version (`#7db1ff` fills with ink labels) was tried first and rejected: on white the buttons only stood apart at 2.2:1 and read as soft shapes, not the obvious next step.
+- `--accent-dark: #174a96` - darkened accent for hover states and small accent text (8.5:1 on white). `--accent-hover` aliases it.
+- `--accent-light: #7db1ff` - the logo mark's light blue, used for a few quiet echoes of the logo and nothing else: the 3px rule across the top of the footer, the footer social icons (and their hover fill, with an ink glyph), the 48px bar above `.quote-band`, the `.testimonial-rule` separators, `::selection`, and footer link hovers. **Never text on white** (2.2:1), never on anything clickable on a light ground (the deep blue means "click this"), never a heading, never a large fill. Adding a new use is a design decision, not a tidy-up: three or four touches per page look intentional, ten turn the site blue.
 - `--surface: #ffffff` - main background.
-- `--surface-alt: #e8ebee` - light grey for alternating sections and for the hero ground. **Faintly cool**, a whisper toward petrol, not warm. A warm off-white was tried twice: at the near-white `#f6f5f2` depth it did not read as alternation at all, and at a depth that did read (`#f1ede3`) the yellow cast turned sickly. So the tint is neutral-cool and earns its presence through depth instead: deep enough that the white/tinted section rhythm registers, still far too desaturated to fight petrol the way coral did. Opaque on purpose, because it is also used as light text on the dark footer.
+- `--surface-alt: #e9eef5` - light grey for alternating sections and for the hero ground. **Faintly cool**, a whisper toward the blue (hue 215), not warm. It was `#e8ebee`, tinted toward petrol, until the October 2026 colour change. A warm off-white was tried twice: at the near-white `#f6f5f2` depth it did not read as alternation at all, and at a depth that did read (`#f1ede3`) the yellow cast turned sickly. So the tint is neutral-cool and earns its presence through depth instead: deep enough that the white/tinted section rhythm registers, still far too desaturated to compete with the accent the way coral did. Opaque on purpose, because it is also used as light text on the dark footer.
 - `--radius-control: 6px` - all buttons and inputs use this radius; never fully-rounded pills.
 - `--section-pad: 96px` / `--section-pad-mobile: 64px` - section vertical padding, consistent across every section.
 
@@ -73,11 +74,11 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 - **Headings: Fraunces** (Google Fonts variable font with the optical size axis, weight 600, `--font-heading`), letter-spacing -0.01em, `font-optical-sizing: auto`. Serif is for headings only.
 - **Body: Inter** (`--font-body`), 17px base, line-height 1.65, weight 400 (500-700 for emphasis and UI). Buttons are Inter 600 with no letter-spacing.
 - Fonts load from Google Fonts with `font-display: swap`; the shared stylesheet also `@import`s them so every page gets the faces without markup changes. Outfit is retired: do not use it in new work.
-- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in `--accent`, matching the petrol logo mark; the footer overrides it to white on the dark panel. It is the one non-interactive thing that carries the accent, because it is the brand.
+- **The wordmark** ("Maths Tutoring with Amy" in `.logo-words`, navbar and footer) is Fraunces 600 in `--accent`, the same hue as the light blue logo mark (the light blue itself is too pale for text); the footer overrides it to white on the dark panel. It is the one non-interactive thing that carries the accent, because it is the brand.
 
 ### Rules
 
-- **The accent is for the brand and for actions, nothing else.** The logo and wordmark carry it as identity; buttons, links and interactive elements carry it as "you can click this" (`--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, coral or red UI elements, and no accent headings or accent decoration.
+- **The accent is for the brand and for actions, nothing else.** The logo and wordmark carry it as identity; buttons, links and interactive elements carry it as "you can click this" (`--accent-dark` on hover). Everything you read gets ink or ink-soft. Never introduce purple, green, coral or red UI elements, and no accent headings. The only decoration is the short, fixed list of `--accent-light` touches above.
 - **Rarity is what makes the accent work.** A colour that appears once on a screen is unmissable; a colour that appears eight times is wallpaper and stops reading as a signal. Prefer one primary action per section, with secondary links in ink. If a page is filling up with accent-coloured elements, cut some rather than reaching for a second colour.
 - **Tick and cross lists are the one green/red exception.** `--yes: #2f6b4f` and `--no: #a33a3a` (deep and desaturated on purpose, so they read editorial rather than clip-art) colour the glyphs in a `.check-list` and nothing else. The text beside them stays ink. Do not use these tokens for text, backgrounds, borders, headings or any other UI, and do not add a third status colour.
 - **Buttons and CTAs are sentence case, never all caps.** "Book a one-off lesson", not "ENQUIRE NOW".
@@ -94,13 +95,13 @@ Legacy variable names (`--deep-purple`, `--warm-dark`, `--brand-red`, `--cta-gre
 
 ### Overall principle
 
-Simple and restrained, like a nicely edited Word document with some colour: petrol for the brand and for actions, ink for everything else, whitespace and type doing the design work. "Private tutor with a waiting list": restraint, whitespace, big type. Let the grade results carry the page through size and weight, not colour.
+Simple and restrained, like a nicely edited Word document with some colour: blue for the brand and for actions, ink for everything else, whitespace and type doing the design work. "Private tutor with a waiting list": restraint, whitespace, big type. Let the grade results carry the page through size and weight, not colour.
 
 **Outstanding: `.warm-card` is still on the site and should come off.** It is the old card wrapper (white, 1px `#d1d5db`, 8px radius, 2rem padding, drop shadow) from before the no-cards rule. This is a real piece of work rather than a tidy-up: **32 wrappers across eight pages**, some carrying inline styles such as `border-top: 4px solid var(--deep-purple)` that need a plan of their own. [recovery.php](recovery.php) alone has 20 and is effectively a page redesign; a-level 3, GCSE 2, calculator-guide 2, meet-amy 2, contact 1, info-pack 1, success-study-club 1. Do it page by page when you are in one anyway, not as one sweep, and do not let the count tempt anyone into leaving it: the rule is no cards.
 
 ### The navbar and the hero ground
 
-The navbar is **white**, fixed to the top of every page: hairline bottom border, the faintest shadow, petrol wordmark and mark, ink nav links, petrol Enquire button. One variant only, no per-page switching.
+The navbar is **white**, fixed to the top of every page: hairline bottom border, the faintest shadow, deep blue wordmark beside the light blue mark, ink nav links, deep blue Enquire button with a white label. One variant only, no per-page switching.
 
 **The hero carries `--surface-alt`, not white.** This is what stops the top of the page floating. A pure white hero under a white bar had no anchor and read "like paper"; a faint tinted ground gives the bar something to sit against without putting a dark slab across every page. An ink navbar was tried first and rejected as domineering and heavy: it is a permanent band on screen the whole time someone reads, not a hero treatment, and it reads heavier still at phone width. Fix the ground, not the bar.
 
@@ -108,4 +109,4 @@ Where a tinted hero runs straight into a `--surface-alt` section ([contact.php](
 
 `.hero-section-study-hub` still overrides the hero to ink and is unaffected, since it is defined later in the stylesheet.
 
-**The logo ships as two artwork files.** `logo-petrol-144.png` in the navbar, `logo-white-144.png` in the footer, `favicon-petrol-48.png` for the tab. Sized to their display size (45px at 3x), not full-resolution originals scaled down in the browser. A CSS `filter: brightness(0) invert(1)` was tried to derive white from petrol and does not work here: `brightness(0)` flattens every non-transparent pixel to black regardless of its original colour, so a two-tone mark (a disc with the letter knocked out) comes back as one solid white disc. That trick is only safe on a flat single-colour shape. Any future logo change needs both files re-exported.
+**The logo ships as two artwork files.** `logo-accent-144.png` in the navbar, `logo-white-144.png` in the footer, `favicon-accent-48.png` for the tab. Sized to their display size (45px at 3x), not full-resolution originals scaled down in the browser. A CSS `filter: brightness(0) invert(1)` was tried to derive white from petrol and does not work here: `brightness(0)` flattens every non-transparent pixel to black regardless of its original colour, so a two-tone mark (a disc with the letter knocked out) comes back as one solid white disc. That trick is only safe on a flat single-colour shape. Any future logo change needs both files re-exported.

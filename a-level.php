@@ -22,7 +22,7 @@
   <meta property="og:description" content="Online A Level Maths tutoring with Amy. 1:1 sessions, small group tutoring, the weekly Year 12 Mastery Group, and the 12-Week Recovery Course for Year 12 and Year 13 students.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg">
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -15,7 +15,7 @@
   <meta name="description" content="Honest, practical writing about maths tutoring, A Level, GCSE, and how to help your child make real progress." />
   <title>Blog | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/blog" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/blog">

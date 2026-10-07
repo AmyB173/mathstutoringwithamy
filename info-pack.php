@@ -16,7 +16,7 @@
     content="Complete information on online maths tutoring with Amy. Year 6, KS3, GCSE (all boards), and A Level (Edexcel/AQA) lessons. Pricing, lesson formats, platform details, and how to get started." />
   <title>Tutoring Essential Information | Online Maths Lessons | Amy</title>
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/info-pack" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/info-pack">

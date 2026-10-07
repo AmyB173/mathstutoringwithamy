@@ -14,24 +14,28 @@
   /* Secondary text: captions, attributions, quiet lines */
   --ink-soft: #4a4a5e;
 
-  /* Accent: petrol. Actions only: buttons, links, interactive elements.
-     This is now the only colour on the site: it is both the brand colour (logo
-     and wordmark) and the action colour (buttons, links). Everything else is
-     ink, ink-soft or a surface. White text on it clears WCAG AA at 4.6:1, so it
-     cannot go lighter while buttons keep white labels. */
-  --accent: #0a7f9c;
-  /* Darkened accent for hover states and for accent text under 24px (10.1:1 on white) */
-  --accent-dark: #05485a;
+  /* Accent: deep blue. Actions only: buttons, links, interactive elements,
+     plus the wordmark. White text on it reads at 6.5:1. The logo mark itself
+     is the lighter #7db1ff (--accent-light), baked into logo-accent-144.png. */
+  --accent: #1f5bb8;
+  /* Darkened accent for hover states and small accent text (8.5:1 on white) */
+  --accent-dark: #174a96;
+  --accent-hover: var(--accent-dark);
+  /* The logo mark's light blue, for a few quiet echoes of the logo: the footer
+     top rule and social icons, the quote-band bar, testimonial separators and
+     text selection. Decoration only: never text on white (2.2:1), never on
+     anything clickable on white, never a heading or a large fill. */
+  --accent-light: #7db1ff;
 
   --surface: #ffffff;
   /* Light grey for alternating sections and the hero ground. Faintly cool (a
-     whisper toward petrol) rather than warm: a warm tint was tried twice, and at
+     whisper toward the blue, hue 215) rather than warm: a warm tint was tried twice, and at
      the near-white #f6f5f2 depth it did not read as alternation at all, while at
      a depth that did read (#f1ede3) the yellow turned sickly. So the tint goes
      neutral-cool and earns its depth instead. Deep enough that the white/tinted
-     section rhythm registers, still far too desaturated to fight petrol. Opaque
+     section rhythm registers, still far too desaturated to compete with the accent. Opaque
      on purpose: it is also used as light text on the dark footer. */
-  --surface-alt: #e8ebee;
+  --surface-alt: #e9eef5;
 
   /* Shared corner radius for all buttons and inputs; never fully-rounded pills */
   --radius-control: 6px;
@@ -53,7 +57,7 @@
   --deep-purple: var(--ink);
   --deep-purple-light: var(--accent-dark);
   --cta-green: var(--accent);
-  --cta-green-hover: var(--accent-dark);
+  --cta-green-hover: var(--accent-hover);
 
   /* Neutral for decorative icons */
   --icon-neutral: #6b7280;
@@ -68,6 +72,11 @@
 }
 
 /* ------------------------------------------------ BASE */
+::selection {
+  background: var(--accent-light);
+  color: var(--ink);
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--warm-white);
@@ -181,7 +190,7 @@ body.home .section h2 {
 }
 
 /* ------------------------------------------------ BUTTONS */
-/* One button system: coral, 6px radius, flat colour change on hover, no shadows */
+/* One button system: accent fill with white labels, 6px radius, flat colour change on hover, no shadows */
 .btn {
   border-radius: var(--radius-control);
   font-family: var(--font-body);
@@ -213,7 +222,7 @@ body.home .section h2 {
 }
 
 .btn-cta-pro:hover {
-  background-color: var(--accent-dark);
+  background-color: var(--accent-hover);
   color: #ffffff !important;
 }
 
@@ -235,7 +244,7 @@ body.home .section h2 {
 }
 
 .btn-whatsapp-cta:hover {
-  background-color: var(--accent-dark);
+  background-color: var(--accent-hover);
   color: #ffffff !important;
 }
 
@@ -278,7 +287,7 @@ body.home .section h2 {
   align-items: center;
   gap: 12px;
   background-color: var(--accent);
-  color: white !important;
+  color: #ffffff !important;
   padding: 14px 28px;
   text-decoration: none;
   border-radius: var(--radius-control);
@@ -290,8 +299,8 @@ body.home .section h2 {
 
 .whatsapp-button:hover,
 .whatsapp-btn:hover {
-  background-color: var(--accent-dark);
-  color: white !important;
+  background-color: var(--accent-hover);
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -313,7 +322,7 @@ body.home .section h2 {
 }
 
 .btn-cta-green:hover {
-  background-color: var(--accent-dark);
+  background-color: var(--accent-hover);
   color: #ffffff;
 }
 
@@ -336,9 +345,8 @@ body.home .section h2 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03) !important;
 }
 
-/* Brand logotype: heading serif in petrol, matching the logo mark. The navbar
-   is white, so the wordmark takes the accent here; the footer overrides it to
-   white on the dark panel, where petrol would only reach 2.2:1. */
+/* Brand logotype: heading serif in the deep accent, the same hue as the light
+   blue logo mark. The footer overrides it to white on the dark panel. */
 .logo-words {
   font-size: 22px;
   font-weight: 600;
@@ -715,17 +723,27 @@ body.home .section h2 {
 
 .testimonial-rule {
   border: 0;
-  border-top: 1px solid rgba(26, 26, 46, 0.12);
+  border-top: 1px solid var(--accent-light);
   margin: 2.5rem 0;
   opacity: 1;
 }
 
 /* One parent's words given a section of their own: centred, Fraunces a size
-   up, whitespace doing the framing. No quote-mark ornament, no box. */
+   up, whitespace doing the framing. No quote-mark ornament, no box: just a
+   short light-blue bar above for the quote to hang from. */
 .quote-band {
   max-width: 40rem;
   margin: 0 auto;
   text-align: center;
+}
+
+.quote-band::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin: 0 auto 2rem;
+  background: var(--accent-light);
 }
 
 .quote-band blockquote {
@@ -1050,7 +1068,7 @@ body.study-club-page {
 
 .alert-danger {
   background-color: var(--accent);
-  color: white;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------ FOOTER */
@@ -1077,7 +1095,7 @@ footer {
 .social-icon:hover {
   transform: translateY(-3px);
   background: var(--accent);
-  color: white;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------ SCROLL ANIMATION */
@@ -1180,7 +1198,7 @@ footer {
   width: 60px;
   height: 60px;
   background-color: var(--accent);
-  color: white;
+  color: #ffffff;
   border-radius: 50%;
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -1189,8 +1207,8 @@ footer {
 }
 
 .whatsapp-float-button:hover {
-  background-color: var(--accent-dark);
-  color: white;
+  background-color: var(--accent-hover);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1352,6 +1370,7 @@ footer {
 /* ------------------------------------------------ FOOTER ENHANCEMENTS */
 .site-footer {
   background-color: var(--ink);
+  border-top: 3px solid var(--accent-light);
   padding: 3rem 0;
 }
 
@@ -1409,7 +1428,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: var(--accent);
+  color: var(--accent-light);
 }
 
 .footer-social-links {
@@ -1425,7 +1444,7 @@ footer {
 }
 
 .social-link {
-  color: var(--surface-alt);
+  color: var(--accent-light);
   font-size: 1.25rem;
   transition: all 0.3s ease;
   text-decoration: none;
@@ -1439,9 +1458,8 @@ footer {
 }
 
 .social-link:hover {
-  color: white;
-  background-color: var(--accent);
-  transform: translateY(-3px);
+  color: var(--ink);
+  background-color: var(--accent-light);
 }
 
 /* ------------------------------------------------ YEAR 7 ACCELERATOR (year-7-accelerator.php) */
@@ -1636,7 +1654,7 @@ footer {
 }
 
 .blog-card:hover .blog-card-title {
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .blog-card-placeholder {
@@ -1806,7 +1824,7 @@ footer {
 }
 
 .blog-a-level-cta a:hover {
-  color: var(--brand-red);
+  color: var(--accent-dark);
 }
 
 /* ------------------------------------------------ PRICE LIST (tutoring-and-prices)

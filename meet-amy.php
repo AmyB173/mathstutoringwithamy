@@ -15,7 +15,7 @@
   <meta name="description" content="Meet Amy, qualified maths teacher with 12 years' experience, passionate about helping students build confidence in maths." />
   <title>Meet Amy | Online Maths Tutor | Maths Tutoring with Amy</title>
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/meet-amy" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/meet-amy">

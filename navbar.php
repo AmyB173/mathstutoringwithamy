@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src="/assets/images/logo-petrol-144.png" width="45" height="45" alt="Maths tutoring with Amy logo" class="me-2" />
+      <img src="/assets/images/logo-accent-144.png" width="45" height="45" alt="Maths tutoring with Amy logo" class="me-2" />
       <span class="logo-words d-none d-sm-block">Maths Tutoring with Amy</span>
     </a>
 

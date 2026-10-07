@@ -36,7 +36,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
         content="A small weekly online GCSE Foundation maths group for Year 11 students aiming for a grade 5. Edexcel and AQA, maximum 5 students, taught live by a qualified secondary maths teacher, with homework marked personally every week." />
     <title>GCSE Foundation Maths Group: Aiming for Grade 5 | Edexcel and AQA | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/gcse-foundation-group" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/gcse-foundation-group">

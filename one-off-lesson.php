@@ -35,7 +35,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20boo
         content="Why I suggest a single one-off lesson before your child takes a regular place: a normal 55-minute lesson, charged at the usual rate." />
     <title>Why Start With a One-Off Lesson | Maths Tutoring With Amy</title>
 
-    <link rel="icon" type="image/png" href="/assets/images/favicon-petrol-48.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
     <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/one-off-lesson" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/one-off-lesson">

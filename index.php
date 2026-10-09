@@ -64,7 +64,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
-          <h1 class="hero-title display-4">Hi, I'm Amy, a qualified maths teacher and lead tutor</h1>
+          <h1 class="hero-title display-4">Hi, I'm Amy, a qualified maths teacher and tutor</h1>
           <p class="hero-subtitle fs-5">My small team of tutors and I offer expert online maths tutoring, planned around your child, wherever they're starting from. <strong>A Level, GCSE, KS3 and Year 6.</strong></p>
 
           <div class="d-flex flex-column align-items-start gap-2 mt-4">
@@ -239,6 +239,8 @@
             </a>
             <a href="/contact" class="quiet-link">Or book a free video call</a>
           </div>
+
+          <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Practical questions about lessons, setting up and payments are answered in the <a href="/faq">frequently asked questions</a>.</p>
         </div>
 
         <div class="col-lg-5">

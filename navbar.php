@@ -22,7 +22,7 @@
             <li><a class="dropdown-item" href="/meet-amy">Meet Amy</a></li>
             <li><a class="dropdown-item" href="/one-off-lesson">Why start with a one-off lesson</a></li>
             <li><a class="dropdown-item" href="/framework-values">Our values</a></li>
-            <li><a class="dropdown-item" href="/info-pack">Tutoring Essential Information</a></li>
+            <li><a class="dropdown-item" href="/faq">Frequently asked questions</a></li>
           </ul>
         </li>
 

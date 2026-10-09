@@ -25,7 +25,8 @@ RewriteRule ^blog$ blog.php [L]
 
 # 2a. Specific redirects (must come before the generic .php rule)
 RewriteRule ^index\.php$ / [R=301,L]
-RewriteRule ^tutoring-information(\.php)?$ /info-pack [R=301,L]
+RewriteRule ^tutoring-information(\.php)?$ /faq [R=301,L]
+RewriteRule ^info-pack(\.php)?$ /faq [R=301,L]
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^index$ / [R=301,L]
 

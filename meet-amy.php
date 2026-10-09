@@ -163,10 +163,10 @@
             <li><strong>Qualified secondary maths teacher</strong>, with twelve years teaching maths in schools, from Year 7 through to Year 13 (and now Year 6 too).</li>
             <li><strong>Extensive experience</strong> teaching in independent and state schools.</li>
             <li><strong>A*A*AA at A Level.</strong></li>
-            <li><strong>2:1</strong> from a Russell Group university.</li>
+            <li><strong>2:1</strong> from the University of Bristol</li>
             <li><strong>Distinction</strong> in my teaching qualification.</li>
           </ul>
-          <p class="text-dark mb-0">I don't have any fancy teaching awards, management titles or extra-curricular offerings. Why? Because all I loved doing, and wanted to do, was teach maths, and teach it really well. I didn't put myself forward for awards, I didn't apply for promotions. I honed my skills, and I like to think I became a really good teacher from that.</p>
+          <p class="text-dark mb-0">When I was a teacher, all I loved doing, and wanted to do, was teach maths, and teach it really well. I put my full effort into my job, honed my skills, and I like to think I became a really good teacher from that.</p>
         </div>
       </div>
     </div>

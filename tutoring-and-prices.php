@@ -38,7 +38,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Every kind of maths tutoring I offer and what it costs, in small groups and one to one, across Key Stage 3, GCSE and A Level. Every price is on the page." />
+        content="Every kind of maths tutoring I offer and what it costs, one to one and in small groups, across Key Stage 3, GCSE and A Level. Every price is on the page." />
     <title>All Tutoring and Prices | Maths Tutoring With Amy</title>
 
     <link rel="icon" type="image/png" href="/assets/images/favicon-accent-48.png">
@@ -46,7 +46,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/tutoring-and-prices">
     <meta property="og:title" content="All Tutoring and Prices | Maths Tutoring With Amy">
-    <meta property="og:description" content="Every kind of maths tutoring I offer and what it costs, from Key Stage 3 through to A Level, in small groups and one to one.">
+    <meta property="og:description" content="Every kind of maths tutoring I offer and what it costs, from Key Stage 3 through to A Level, one to one and in small groups.">
     <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-at-desk-wearing-skirt-2026.jpg">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -78,26 +78,6 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
         "itemListElement": [
           {
             "@type": "Offer",
-            "name": "Key Stage 3 small group maths tutoring",
-            "price": "<?php echo $prices['ks3_group']; ?>",
-            "priceCurrency": "GBP",
-            "url": "https://www.mathstutoringwithamy.co.uk/year-7-accelerator"
-          },
-          {
-            "@type": "Offer",
-            "name": "GCSE small group maths tutoring",
-            "price": "<?php echo $prices['gcse_group']; ?>",
-            "priceCurrency": "GBP"
-          },
-          {
-            "@type": "Offer",
-            "name": "A Level small group maths tutoring",
-            "price": "<?php echo $prices['alevel_group']; ?>",
-            "priceCurrency": "GBP",
-            "url": "https://www.mathstutoringwithamy.co.uk/year-12-a-level-group"
-          },
-          {
-            "@type": "Offer",
             "name": "Key Stage 3 one to one maths tutoring",
             "price": "<?php echo $prices['ks3_solo']; ?>",
             "priceCurrency": "GBP"
@@ -115,6 +95,26 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
             "price": "<?php echo $prices['alevel_solo']; ?>",
             "priceCurrency": "GBP",
             "url": "https://www.mathstutoringwithamy.co.uk/a-level"
+          },
+          {
+            "@type": "Offer",
+            "name": "Key Stage 3 small group maths tutoring",
+            "price": "<?php echo $prices['ks3_group']; ?>",
+            "priceCurrency": "GBP",
+            "url": "https://www.mathstutoringwithamy.co.uk/year-7-accelerator"
+          },
+          {
+            "@type": "Offer",
+            "name": "GCSE small group maths tutoring",
+            "price": "<?php echo $prices['gcse_group']; ?>",
+            "priceCurrency": "GBP"
+          },
+          {
+            "@type": "Offer",
+            "name": "A Level small group maths tutoring",
+            "price": "<?php echo $prices['alevel_group']; ?>",
+            "priceCurrency": "GBP",
+            "url": "https://www.mathstutoringwithamy.co.uk/year-12-a-level-group"
           },
           {
             "@type": "Offer",
@@ -147,49 +147,8 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
         </div>
     </section>
 
-    <!-- ================================================ 2. SMALL GROUPS -->
-    <section id="small-groups" class="section bg-accent-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <h2 class="mb-3">Small group tutoring</h2>
-                    <p class="mb-4">A standard lesson is 55 minutes, taught live online on a shared interactive whiteboard. Groups are capped at five students, they run in half-term blocks through England term time.</p>
-
-                    <ul class="price-list mb-4">
-                        <li>
-                            <div class="price-item-main">
-                                <h3>Key Stage 3 group</h3>
-                                <p>The Year 7 Accelerator, for able Year 7s who are bored of repeating Year 6. New content they have not met before, taught live on Thursdays.</p>
-                                <a class="price-item-link" href="/year-7-accelerator">Read about the Year 7 Accelerator</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['ks3_group']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>GCSE group</h3>
-                                <p>A weekly group working through GCSE content and exam questions together. Message me for the current groups, the year they are aimed at and where there is space.</p>
-                                <a class="price-item-link" href="/contact">Ask about GCSE groups</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['gcse_group']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>A Level group</h3>
-                                <p>The A Level Maths Mastery Group for Year 12, Edexcel only, running September through to summer. Two to three exam questions marked personally every week.</p>
-                                <a class="price-item-link" href="/year-12-a-level-group">Read about the Year 12 group</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['alevel_group']; ?><span>per session</span></div>
-                        </li>
-                    </ul>
-
-                    <p class="mb-0">Groups are billed per half term in advance.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================ 3. ONE TO ONE -->
-    <section id="one-to-one" class="section" style="background: white;">
+    <!-- ================================================ 2. ONE TO ONE -->
+    <section id="one-to-one" class="section bg-accent-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
@@ -229,6 +188,47 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
         </div>
     </section>
 
+    <!-- ================================================ 3. SMALL GROUPS -->
+    <section id="small-groups" class="section" style="background: white;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <h2 class="mb-3">Small group tutoring</h2>
+                    <p class="mb-4">A standard lesson is 55 minutes, taught live online on a shared interactive whiteboard. Groups are capped at five students, they run in half-term blocks through England term time.</p>
+
+                    <ul class="price-list mb-4">
+                        <li>
+                            <div class="price-item-main">
+                                <h3>Key Stage 3 group</h3>
+                                <p>The Year 7 Accelerator, for able Year 7s who are bored of repeating Year 6. New content they have not met before, taught live on Thursdays.</p>
+                                <a class="price-item-link" href="/year-7-accelerator">Read about the Year 7 Accelerator</a>
+                            </div>
+                            <div class="price-item-fee">&pound;<?php echo $prices['ks3_group']; ?><span>per session</span></div>
+                        </li>
+                        <li>
+                            <div class="price-item-main">
+                                <h3>GCSE group</h3>
+                                <p>A weekly group working through GCSE content and exam questions together. Message me for the current groups, the year they are aimed at and where there is space.</p>
+                                <a class="price-item-link" href="/contact">Ask about GCSE groups</a>
+                            </div>
+                            <div class="price-item-fee">&pound;<?php echo $prices['gcse_group']; ?><span>per session</span></div>
+                        </li>
+                        <li>
+                            <div class="price-item-main">
+                                <h3>A Level group</h3>
+                                <p>The A Level Maths Mastery Group for Year 12, Edexcel only, running September through to summer. Two to three exam questions marked personally every week.</p>
+                                <a class="price-item-link" href="/year-12-a-level-group">Read about the Year 12 group</a>
+                            </div>
+                            <div class="price-item-fee">&pound;<?php echo $prices['alevel_group']; ?><span>per session</span></div>
+                        </li>
+                    </ul>
+
+                    <p class="mb-0">Groups are billed per half term in advance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ================================================ 4. RECOVERY PROGRAMME -->
     <section class="section bg-accent-light">
         <div class="container">
@@ -250,8 +250,8 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
     </section>
 
     <?php /* AMY: the old "Paying for it" section is gone, cut to keep this page
-       scannable. Cancellation, the 48 hours' notice, the refund on unused lessons
-       and the equipment list all still live on /info-pack, linked below. */ ?>
+       scannable. Cancellation, the week's notice, refunds
+       and the equipment list all live on /faq, linked below. */ ?>
 
     <!-- ================================================ 5. NOT SURE WHICH -->
     <section class="whatsapp-banner">
@@ -261,7 +261,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
                     <h3 class="mb-3">Not sure which one fits your child?</h3>
                     <p class="mb-4" style="font-size: 1.1rem;">Feel free to get in touch on WhatsApp and we can have a chat about where your child is at and what tutoring option might fit them.</p>
                     <a href="<?php echo $waLink; ?>" class="btn btn-cta-pro" target="_blank" rel="noopener">Message me on WhatsApp</a>
-                    <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Or <a href="/contact">send an enquiry</a>. Invoicing, cancellations and what your child needs to hand are all in the <a href="/info-pack">tutoring essential information</a>.</p>
+                    <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Or <a href="/contact">send an enquiry</a>. Invoicing, cancellations and what your child needs to hand are all in the <a href="/faq">frequently asked questions</a>.</p>
                 </div>
             </div>
         </div>

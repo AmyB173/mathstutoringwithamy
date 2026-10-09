@@ -1055,6 +1055,80 @@ body.study-club-page {
   display: block;
 }
 
+/* ------------------------------------------------ FAQ PAGE (faq.php)
+   Native <details> dropdowns, no boxes: group headings at the h2 scale,
+   questions between hairlines with a quiet plus/minus, flat colour change on
+   hover only. */
+.faq-jump {
+  color: var(--ink-soft);
+  margin-bottom: 3rem;
+}
+
+.faq-group {
+  margin-top: 3.5rem;
+  scroll-margin-top: 100px;
+}
+
+.faq-group h2 {
+  margin-bottom: 1rem;
+}
+
+.faq-q {
+  border-top: 1px solid #d1d5db;
+}
+
+.faq-q:last-child {
+  border-bottom: 1px solid #d1d5db;
+}
+
+.faq-q summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding: 1.1rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-q summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-q summary h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.faq-q summary::after {
+  content: "+";
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink-soft);
+}
+
+.faq-q[open] summary::after {
+  content: "\2212";
+}
+
+.faq-q summary:hover h3,
+.faq-q summary:hover::after {
+  color: var(--accent-dark);
+}
+
+.faq-q p,
+.faq-q ul {
+  margin: 0 0 1.25rem;
+}
+
+/* Answers with more than one paragraph: a tighter gap between them, the
+   full gap only after the last one. */
+.faq-q p:has(+ p, + ul),
+.faq-q ul:has(+ p) {
+  margin-bottom: 0.75rem;
+}
+
 /* ------------------------------------------------ ALERTS */
 .alert {
   border: none;

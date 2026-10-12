@@ -65,7 +65,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 hero-content">
           <h1 class="hero-title display-4">Hi, I'm Amy, a qualified maths teacher and tutor</h1>
-          <p class="hero-subtitle fs-5">My small team of tutors and I offer expert online maths tutoring, planned around your child, wherever they're starting from. <strong>A Level, GCSE, KS3 and Year 6.</strong></p>
+          <p class="hero-subtitle fs-5">My small team of experienced teachers and I take the time to get to know your child, understand how they learn best, and plan lessons they'll enjoy and make real progress in. <strong>A Level, GCSE, KS3 and Year 6.</strong></p>
 
           <div class="d-flex flex-column align-items-start gap-2 mt-4">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"

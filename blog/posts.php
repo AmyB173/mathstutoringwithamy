@@ -1,6 +1,14 @@
 <?php
 $posts = [
     [
+        'slug'      => 'i-didnt-expect-a-level-maths-to-be-this-hard',
+        'title'     => 'I didn’t expect A Level Maths to be this hard for my child',
+        'date'      => '2026-11-11',
+        'excerpt'   => 'A Level Maths is a big step up from GCSE, even for students who got a 7, 8 or 9. Here’s why it catches so many of them out, and what helps.',
+        'image'     => null,
+        'published' => true,
+    ],
+    [
         'slug'      => 'why-i-tell-students-to-do-fewer-past-papers',
         'title'     => 'Why I tell my students to do fewer past papers',
         'date'      => '2026-07-10',

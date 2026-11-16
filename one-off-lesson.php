@@ -6,7 +6,7 @@
 
    AMY: the site says "one-off lesson" everywhere now, not "trial lesson" (that
    wording came out on 2 Sep). If you want "trial" back, it changes here, in the
-   H1, the About dropdown label in navbar.php and the file name / URL.
+   H1, the footer link label in footer.php and the file name / URL.
 
    AMY: no price is stated on this page on purpose. The one-off lesson is charged
    at the normal single-lesson rate for the child's level, which lives on

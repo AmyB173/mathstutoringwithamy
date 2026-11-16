@@ -80,13 +80,13 @@
 
         <h2>The algebra jump from GCSE</h2>
 
-        <p>At <a href="/GCSE" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE Maths</a>, to get a good grade, you need to be good at algebra, but you don't need to be great at it. At A Level, it is all algebra, and every single GCSE algebra concept is expected to be understood at its hardest level from the moment you start.</p>
+        <p>At <a href="/gcse" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE Maths</a>, to get a good grade, you need to be good at algebra, but you don't need to be great at it. At A Level, it is all algebra, and every single GCSE algebra concept is expected to be understood at its hardest level from the moment you start.</p>
 
         <p>The problem is that, especially if you got a Grade 6 or 7, you can get away with not really learning much of the algebra you're going to need. Then you come to your first lesson where it's assumed you already know how to complete the square, for example, and you find yourself having to re-learn that from GCSE at the same time as taking on all the new concepts piled on top.</p>
 
         <h2>Rote learning doesn't cut it anymore</h2>
 
-        <p>At <a href="/GCSE" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE</a>, you can often get away with rote learning concepts without truly understanding them. At A Level, this will only take you so far. The exams are designed to test your understanding, not just a regurgitation of facts. Every year when students sit their exams, someone will say "but I've never seen a question like that before", and that is exactly what the exams are designed to do. They ask questions to test the underlying concepts, and there are many different ways they can do this that aren't predictable. If you understand the concepts fully, you should be able to apply them to any type of question. If you've only rote learnt facts and question types, you will really struggle once an exam comes around.</p>
+        <p>At <a href="/gcse" style="color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px;">GCSE</a>, you can often get away with rote learning concepts without truly understanding them. At A Level, this will only take you so far. The exams are designed to test your understanding, not just a regurgitation of facts. Every year when students sit their exams, someone will say "but I've never seen a question like that before", and that is exactly what the exams are designed to do. They ask questions to test the underlying concepts, and there are many different ways they can do this that aren't predictable. If you understand the concepts fully, you should be able to apply them to any type of question. If you've only rote learnt facts and question types, you will really struggle once an exam comes around.</p>
 
         <h2>It needs constant use to stay fresh</h2>
 
@@ -106,7 +106,7 @@
 
         <div class="blog-a-level-cta">
           <h4>A Level Maths tutoring with Amy</h4>
-          <p>This is what I specialise in. We rebuild the GCSE algebra that has gone shaky, set up a revision rhythm that keeps topics fresh, and spend lesson time making sure the concepts genuinely make sense rather than just drilling past papers. <a href="/a-level">Find out more about A Level Maths tutoring.</a></p>
+          <p>This is what I specialise in. We rebuild the GCSE algebra that has gone shaky, set up a revision rhythm that keeps topics fresh, and spend lesson time making sure the concepts genuinely make sense rather than just drilling past papers. <a href="/a-level">Find out more about A Level Maths tutoring</a>, or, if your child is in Year 12, the <a href="/year-12-a-level-group">Year 12 Mastery Group</a>.</p>
         </div>
 
         <h2>So how do you actually get on top of it?</h2>

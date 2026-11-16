@@ -14,9 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online GCSE Maths Tutor | AQA, Edexcel, OCR &amp; WJEC | Maths Tutoring with Amy</title>
     <meta name="description" content="Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards. Build confidence and improve grades with 12 years of teaching experience.">
-    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/GCSE" />
+    <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/gcse" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/GCSE">
+    <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/gcse">
     <meta property="og:title" content="Online GCSE Maths Tutor | AQA, Edexcel, OCR &amp; WJEC | Maths Tutoring with Amy">
     <meta property="og:description" content="Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards. Build confidence and improve grades with 12 years of teaching experience.">
     <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-crossed-arms.jpg">
@@ -39,13 +39,11 @@
         "@type": "EducationalOrganization",
         "name": "Maths Tutoring with Amy",
         "url": "https://www.mathstutoringwithamy.co.uk",
-        "sameAs": "https://share.google/PiqQQ8HetL8ChASgP",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": "6",
-          "bestRating": "5"
-        }
+        "sameAs": [
+          "https://www.facebook.com/GCSEandALevel.MathsTutoringWithAmy",
+          "https://www.instagram.com/mathstutoringwithamy/",
+          "https://www.youtube.com/@amythemathsteacher"
+        ]
       },
       "educationalLevel": "GCSE",
       "hasCourseInstance": {
@@ -146,12 +144,12 @@
 
                     <div class="mb-4">
                         <h4 class="mb-2">1:1 or Small Group Tutoring</h4>
-                        <p class="text-dark">Sessions at different price points depending on the level of support your child needs. All lessons are 55 minutes and include weekly homework with personalised feedback (video, audio or written).</p>
+                        <p class="text-dark">Sessions at different price points depending on the level of support your child needs. All lessons are 55 minutes and include weekly homework with personalised feedback (video, audio or written). Every price is on the <a href="/tutoring-and-prices">tutoring and prices</a> page.</p>
                     </div>
 
                     <div class="mb-4">
                         <h4 class="mb-2">Foundation Groups <span style="font-size: 0.85rem; font-weight: 500; color: #666;">(Grades 1-5)</span></h4>
-                        <p class="text-dark">For students who need to pass and deserve to. We work through core topics systematically, and I put real energy into making sure every small win gets noticed and built upon.</p>
+                        <p class="text-dark">For students who need to pass and deserve to. We work through core topics systematically, and I put real energy into making sure every small win gets noticed and built upon. This year's group is for Year 11: <a href="/gcse-foundation-group">read about the GCSE Foundation group</a>.</p>
                     </div>
 
                     <div class="mb-0">

@@ -13,44 +13,33 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto me-4 align-items-center">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About</a>
-          <ul class="dropdown-menu border-0 shadow-sm">
-            <li><a class="dropdown-item" href="/meet-amy">Meet Amy</a></li>
-            <li><a class="dropdown-item" href="/one-off-lesson">Why start with a one-off lesson</a></li>
-            <li><a class="dropdown-item" href="/framework-values">Our values</a></li>
-            <li><a class="dropdown-item" href="/faq">Frequently asked questions</a></li>
-          </ul>
-        </li>
-
+        <?php /* AMY: one dropdown only. Each level page links on to its own
+           groups in the body of the page, and the group pages also sit in the
+           footer. When the Year 6 and KS3 pages exist, add them at the top of
+           this list and move the Year 7 Accelerator onto the KS3 page. */ ?>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Tutoring</a>
           <ul class="dropdown-menu border-0 shadow-sm">
-            <li><a class="dropdown-item fw-bold" href="/tutoring-and-prices">All tutoring and prices</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><h6 class="dropdown-header">Key Stage 3</h6></li>
-            <li><a class="dropdown-item" href="/year-7-accelerator">Year 7 Accelerator</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><h6 class="dropdown-header">GCSE</h6></li>
-            <li><a class="dropdown-item" href="/GCSE">GCSE/IGCSE Tutoring</a></li>
-            <li><a class="dropdown-item" href="/gcse-foundation-group">Foundation Group: Grade 5</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><h6 class="dropdown-header">A Level</h6></li>
-            <li><a class="dropdown-item" href="/a-level">A Level Maths Tutoring</a></li>
-            <li><a class="dropdown-item" href="/year-12-a-level-group">Year 12 Group (Edexcel)</a></li>
-            <li><a class="dropdown-item" href="/recovery">Year 12 A Level Recovery</a></li>
+            <li><a class="dropdown-item" href="/year-7-accelerator">KS3: Year 7 Accelerator</a></li>
+            <li><a class="dropdown-item" href="/gcse">GCSE</a></li>
+            <li><a class="dropdown-item" href="/a-level">A Level</a></li>
           </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutoring-and-prices">Prices</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/meet-amy">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/faq">FAQ</a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link" href="/blog">Blog</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
       <a href="/contact" class="btn btn-cta-pro d-none d-lg-block">Enquire now</a>

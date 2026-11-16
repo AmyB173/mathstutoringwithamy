@@ -1536,6 +1536,27 @@ footer {
   background-color: var(--accent-light);
 }
 
+/* Plain text links across the top of the footer: the pages that are not in
+   the navbar. Quiet on purpose, same style as the Privacy Policy link. */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 28px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+a.contact-email {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a.contact-email:hover {
+  color: var(--accent-light);
+}
+
 /* ------------------------------------------------ YEAR 7 ACCELERATOR (year-7-accelerator.php) */
 
 /* Landing-page hero: white like the homepage hero but a step down in scale, since

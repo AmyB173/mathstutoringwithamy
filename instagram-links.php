@@ -17,6 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Quick links from Instagram | Maths Tutoring with Amy - Free A Level guide, recovery programme, and GCSE tutoring consultation booking." />
+  <meta name="robots" content="noindex, follow" />
   <title>Instagram Links | Maths Tutoring With Amy</title>
   <link rel="canonical" href="https://www.mathstutoringwithamy.co.uk/instagram-links" />
   <meta property="og:type" content="website">
@@ -80,14 +81,14 @@
                 <div class="info-box info-box-green">
                     <h4>A Level Recovery Programme</h4>
                     <p>The 12 Week A Level Recovery Programme for <strong>Year 12 students</strong> who are in need of a <strong>big turn around</strong></p>
-                    <a href="./recovery.php" class="btn btn-light mt-3">Intensive Support</a>
+                    <a href="/recovery" class="btn btn-light mt-3">Intensive Support</a>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="info-box info-box-blue">
                     <h4>GCSE Tutoring</h4>
                     <p>Looking for a GCSE tutor for your child in Year 10 or 11? Book a call here.</p>
-                     <a href="contact.php" class="btn btn-light mt-3">Free Consultation</a>
+                     <a href="/contact" class="btn btn-light mt-3">Free Consultation</a>
                 </div>
             </div>
         </div>

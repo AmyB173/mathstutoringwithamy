@@ -81,7 +81,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online",
-        "courseWorkload": "PT1H",
+        "courseWorkload": "PT55M",
         "maximumAttendeeCapacity": 5
       }
     }
@@ -115,7 +115,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                             </div>
                         </div>
                         <div class="col-lg-4 text-center mt-4 mt-lg-0">
-                            <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy, qualified maths teacher, at her desk with a laptop and graphics tablet ready to teach online" class="img-fluid" width="2596" height="2928" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
+                            <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy, qualified maths teacher, at her desk with a laptop and graphics tablet ready to teach online" class="img-fluid" width="1400" height="1579" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <p class="mb-0 fw-bold" style="font-size: 1.05rem;">Thursdays 6 to 7pm Live Online Lesson &middot; Maximum 5 Students &middot; Half-Term Blocks, England Term Time<?php
+                    <p class="mb-0 fw-bold" style="font-size: 1.05rem;">Thursdays 6pm Live Online Lesson &middot; Maximum 5 Students &middot; Half-Term Blocks, England Term Time<?php
                         if ($blockStart !== '') { echo ' &middot; Next Block Starts ' . htmlspecialchars($blockStart); }
                     ?></p>
                 </div>
@@ -201,7 +201,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                             <h5 class="fw-bold">Weekly Live Lesson</h5>
                             <p class="mb-2">A lesson taught live on a shared interactive whiteboard, so I see your child's working as they do it rather than just the final answer. Very interactive, not just sitting and listening.</p>
                             <div class="text-center py-2 px-3" style="background: white; border-radius: 6px; border: 2px solid var(--ink);">
-                                <span class="fw-bold" style="color: var(--ink);">Thursdays 6 to 7pm</span>
+                                <span class="fw-bold" style="color: var(--ink);">Thursdays 6pm</span>
                             </div>
                         </div>
                     </div>
@@ -315,7 +315,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="row align-items-center">
                         <div class="col-lg-5 mb-4 mb-lg-0">
                             <img src="./assets/images/pencil-lesson-crop.png" alt="A worked maths problem from a lesson" class="img-fluid photo-frame mb-4" width="995" height="752" loading="lazy">
-                            <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" class="img-fluid photo-frame" width="2749" height="2146" loading="lazy">
+                            <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" class="img-fluid photo-frame" width="1400" height="1093" loading="lazy">
                         </div>
                         <div class="col-lg-7 ps-lg-5">
                             <h2 class="mb-4">What We Cover</h2>
@@ -443,7 +443,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="text-center mb-4">
                         <h2>Ask About a Place</h2>
                         <p class="lead">Message me and tell me a bit about your child. We will work out together whether the group is right, and I will tell you honestly if it is not.</p>
-                        <p style="color: var(--ink-soft);">Thursdays 6 to 7pm &middot; Maximum 5 students &middot; <?php
+                        <p style="color: var(--ink-soft);">Thursdays 6pm &middot; Maximum 5 students &middot; <?php
                             if ($blockStart !== '') {
                                 echo 'Next block starts ' . htmlspecialchars($blockStart);
                             } else {

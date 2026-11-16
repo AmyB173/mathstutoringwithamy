@@ -175,6 +175,8 @@ $description = 'A Level Maths is a big step up from GCSE, even for students who 
 
         <p>They should start to feel less lost, because <strong>they know they always have someone to go to</strong> with questions and for reassurance.</p>
 
+        <p>If your child is in Year 12 and doing fine so far, the better time to act is now. The <a href="/year-12-a-level-group">Year 12 Mastery Group</a> is a small weekly Edexcel group built to stop this happening in the first place.</p>
+
         <h2>Got a question?</h2>
 
         <p>If this sounds like your child, message me on WhatsApp. I’m happy to give you a second opinion on where they are, whether or not you’re thinking about tutoring.</p>

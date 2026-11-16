@@ -3,6 +3,9 @@
 Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://assets.calendly.com https://www.googletagmanager.com https://connect.facebook.net https://code.jquery.com https://cdn.jsdelivr.net https://kit.fontawesome.com https://assets.flodesk.com *.mailerlite.com *.mlcdn.com; style-src 'self' 'unsafe-inline' https://assets.calendly.com https://cdn.jsdelivr.net https://fonts.googleapis.com *.mailerlite.com *.mlcdn.com; font-src 'self' https://assets.calendly.com https://fonts.gstatic.com https://ka-f.fontawesome.com *.mailerlite.com *.mlcdn.com; connect-src 'self' https://calendly.com https://*.calendly.com https://region1.google-analytics.com https://ka-f.fontawesome.com *.mailerlite.com *.mlcdn.com https://cdn.jsdelivr.net; img-src 'self' data: https://*.calendly.com https://www.facebook.com *.mailerlite.com; frame-src 'self' https://calendly.com https://*.calendly.com https://www.youtube.com *.mailerlite.com https://drive.google.com; upgrade-insecure-requests"
 AddType application/xml xml
 
+# Custom "page not found" page
+ErrorDocument 404 /404.php
+
 RewriteEngine On
 RewriteBase /
 
@@ -29,6 +32,13 @@ RewriteRule ^tutoring-information(\.php)?$ /faq [R=301,L]
 RewriteRule ^info-pack(\.php)?$ /faq [R=301,L]
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^index$ / [R=301,L]
+
+# 2b. Lower-case GCSE address. The page file is gcse.php; the old upper-case
+# URL (and GCSE.php) redirect to it. The match is case-sensitive on purpose.
+RewriteRule ^GCSE(\.php)?$ /gcse [R=301,L]
+
+# 2c. The Study Club is closed: send its old address to A Level tutoring
+RewriteRule ^study-club(\.php)?$ /a-level [R=301,L]
 
 # 2a. Redirect old .html URLs to clean URLs
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]

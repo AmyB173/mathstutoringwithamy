@@ -140,7 +140,7 @@
                 <div class="col-lg-8">
                     <div class="closed-notice">
                         <p class="fw-bold mb-1" style="color: var(--warm-purple);">The Study Club is currently closed.</p>
-                        <p class="mb-2">It may reopen in the future. Still need help with your A Level? <a href="./a-level.php">Tutoring might be an option.</a></p>
+                        <p class="mb-2">It may reopen in the future. Still need help with your A Level? <a href="/a-level">Tutoring might be an option.</a></p>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h2 class="mb-3">Still Need Help With Your A Level?</h2>
-                    <p class="lead mb-4">The Study Club is currently closed, but 1:1 tutoring is available. <a href="./a-level.php">Tutoring might be an option.</a></p>
+                    <p class="lead mb-4">The Study Club is currently closed, but 1:1 tutoring is available. <a href="/a-level">Tutoring might be an option.</a></p>
                 </div>
             </div>
         </div>

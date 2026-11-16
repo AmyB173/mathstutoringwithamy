@@ -37,7 +37,11 @@
     "@type": "EducationalOrganization",
     "name": "Maths Tutoring with Amy",
     "url": "https://www.mathstutoringwithamy.co.uk",
-    "sameAs": "https://share.google/PiqQQ8HetL8ChASgP",
+    "sameAs": [
+      "https://www.facebook.com/GCSEandALevel.MathsTutoringWithAmy",
+      "https://www.instagram.com/mathstutoringwithamy/",
+      "https://www.youtube.com/@amythemathsteacher"
+    ],
     "description": "Expert online maths tutor for Year 6, KS3, GCSE and A Level. Qualified teacher with 12 years' experience building confidence.",
     "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-green-top.jpg",
     "areaServed": ["England", "Wales"],
@@ -45,12 +49,6 @@
       "@type": "Person",
       "name": "Amy",
       "jobTitle": "Online Maths Tutor"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "6",
-      "bestRating": "5"
     }
   }
   </script>
@@ -76,7 +74,7 @@
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
-          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid photo-frame" alt="Amy at her home desk, planning a maths lesson" width="2596" height="2928" />
+          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid photo-frame" alt="Amy at her home desk, planning a maths lesson" width="1400" height="1579" />
         </div>
       </div>
     </div>
@@ -102,7 +100,7 @@
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">Struggling with maths can look very different for each child</h2>
-          <p class="text-dark mb-5">For one student, it is the frustration of not being able to get a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need.</p>
+          <p class="text-dark mb-5">For one student, it is the frustration of not being able to get a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need. You can read how my tutors and I work at each level on the <a href="/gcse">GCSE</a> and <a href="/a-level">A Level</a> pages, and every price is on the <a href="/tutoring-and-prices">tutoring and prices</a> page.</p>
 
           <h3 class="mb-4">My approach to maths tutoring</h3>
           <p class="text-dark mb-4">I make sessions as positive and uplifting as I can, picking out the progress your child is already making and the skills they already have, and showing them what they <em>can</em> actually do.</p>
@@ -115,7 +113,7 @@
 
         <div class="col-lg-5">
           <img src="./assets/images/amy-white-shirt-at-desk.webp" alt="Amy at her desk in a white shirt, working through a maths problem"
-               class="img-fluid photo-frame" width="3072" height="4080" loading="lazy">
+               class="img-fluid photo-frame" width="1400" height="1859" loading="lazy">
         </div>
       </div>
     </div>
@@ -137,7 +135,7 @@
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
           <img src="./assets/images/amy-brown-top.webp" alt="Amy, online maths tutor"
-               class="img-fluid photo-frame" width="3072" height="4080" loading="lazy">
+               class="img-fluid photo-frame" width="1400" height="1859" loading="lazy">
         </div>
 
         <div class="col-lg-7 ps-lg-5">
@@ -230,7 +228,7 @@
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">It has to be the right fit</h2>
-          <p class="text-dark mb-4">I can't stress how important it is that you choose a tutor your child gets on with and learns from. This is why I always suggest booking a one-off lesson first, so you can see how my tutors and I teach and make sure there is a good fit between tutor and student before you commit to anything more. That fit matters more than almost anything else, and I only want parents who feel completely happy and confident with the tutor they choose.</p>
+          <p class="text-dark mb-4">I can't stress how important it is that you choose a tutor your child gets on with and learns from. This is why I always suggest <a href="/one-off-lesson">booking a one-off lesson first</a>, so you can see how my tutors and I teach and make sure there is a good fit between tutor and student before you commit to anything more. That fit matters more than almost anything else, and I only want parents who feel completely happy and confident with the tutor they choose.</p>
 
           <div class="d-flex flex-column align-items-start gap-2">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20enquire%20about%20tutoring%20for%20my%20child"
@@ -240,12 +238,12 @@
             <a href="/contact" class="quiet-link">Or book a free video call</a>
           </div>
 
-          <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Practical questions about lessons, setting up and payments are answered in the <a href="/faq">frequently asked questions</a>.</p>
+          <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Practical questions about lessons, setting up and payments are answered in the <a href="/faq">frequently asked questions</a>. There are also small groups running this year: the <a href="/year-7-accelerator">Year 7 Accelerator</a>, the <a href="/gcse-foundation-group">Year 11 GCSE Foundation group</a>, the <a href="/year-12-a-level-group">Year 12 A Level group</a> and the <a href="/recovery">Year 12 A Level Recovery programme</a>.</p>
         </div>
 
         <div class="col-lg-5">
           <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy - Professional Maths Tutor"
-               class="img-fluid photo-frame" width="2497" height="2629" loading="lazy">
+               class="img-fluid photo-frame" width="1400" height="1474" loading="lazy">
         </div>
       </div>
     </div>
@@ -254,18 +252,6 @@
   <?php include 'footer.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    // Record WhatsApp clicks in GA4 so the conversion this page optimises for is measurable
-    document.querySelectorAll('a[href*="wa.me"]').forEach(function (link) {
-      link.addEventListener('click', function () {
-        if (typeof gtag === 'function') {
-          gtag('event', 'whatsapp_click', {
-            link_location: link.closest('section') ? link.closest('section').className : 'unknown'
-          });
-        }
-      });
-    });
-  </script>
 </body>
 
 </html>

@@ -87,7 +87,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online",
-        "courseWorkload": "PT1H",
+        "courseWorkload": "PT55M",
         "maximumAttendeeCapacity": 5
       }
     }
@@ -121,7 +121,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                             </div>
                         </div>
                         <div class="col-lg-4 text-center mt-4 mt-lg-0">
-                            <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy, qualified maths teacher, at her desk with a laptop and graphics tablet ready to teach online" class="img-fluid" width="2596" height="2928" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
+                            <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy, qualified maths teacher, at her desk with a laptop and graphics tablet ready to teach online" class="img-fluid" width="1400" height="1579" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); max-width: 300px;">
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <p class="mb-0 fw-bold" style="font-size: 1.05rem;">Tuesdays 6 to 7pm Live Online Lesson &middot; Edexcel A Level Maths &middot; Maximum 5 Students &middot; Half-Term Blocks, England Term Time<?php
+                    <p class="mb-0 fw-bold" style="font-size: 1.05rem;">Tuesdays 6pm Live Online Lesson &middot; Edexcel A Level Maths &middot; Maximum 5 Students &middot; Half-Term Blocks, England Term Time<?php
                         if ($blockStart !== '') { echo ' &middot; Next Block Starts ' . htmlspecialchars($blockStart); }
                     ?></p>
                 </div>
@@ -207,7 +207,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                             <h5 class="fw-bold">Weekly Live Lesson</h5>
                             <p class="mb-2">Fifty-five minutes taught live on a shared interactive whiteboard, so I see your child's working as they do it rather than just the final answer. Very interactive, not sitting and listening.</p>
                             <div class="text-center py-2 px-3" style="background: white; border-radius: 6px; border: 2px solid var(--ink);">
-                                <span class="fw-bold" style="color: var(--ink);">Tuesdays 6 to 7pm</span>
+                                <span class="fw-bold" style="color: var(--ink);">Tuesdays 6pm</span>
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                 <div class="col-md-6 col-lg-4 text-center">
                     <i class="fas fa-times mb-3 benefit-icon benefit-icon-no" aria-hidden="true"></i>
                     <h5 class="fw-bold">Rescue a Student Who Is Far Behind</h5>
-                    <p>This is a foundation, not a rescue service. If your child has already fallen a long way behind, the <a href="/recovery">Year 12 Recovery Course</a> or one to one lessons will do more for them. We can discuss this once you get in touch.</p>
+                    <p>This is a foundation, not a rescue service. If your child has already fallen a long way behind, the <a href="/recovery">Year 12 Recovery Course</a> or <a href="/a-level">one to one A Level lessons</a> will do more for them. We can discuss this once you get in touch.</p>
                 </div>
             </div>
         </div>
@@ -341,7 +341,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="row align-items-center">
                         <div class="col-lg-5 mb-4 mb-lg-0">
                             <img src="./assets/images/pencil-lesson-crop.png" alt="A worked maths problem from a lesson" class="img-fluid photo-frame mb-4" width="995" height="752" loading="lazy">
-                            <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" class="img-fluid photo-frame" width="2749" height="2146" loading="lazy">
+                            <img src="./assets/images/amy-desk-white-shirt-blue-trousers-2026.webp" alt="Amy at her home desk, with a maths problem open on the laptop and her graphics tablet beside the keyboard" class="img-fluid photo-frame" width="1400" height="1093" loading="lazy">
                         </div>
                         <div class="col-lg-7 ps-lg-5">
                             <h2 class="mb-4">How the Year Runs</h2>
@@ -378,7 +378,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <p class="mb-4">Works out to &pound;<?php echo $sessionPrice; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from. Billed per half term in advance.</p>
 
                     <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly 55-minute live lesson, Tuesdays 6 to 7pm, taught by me</li>
+                        <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Weekly 55-minute live lesson, Tuesdays 6pm, taught by me</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Edexcel A Level Maths only</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Maximum 5 students in the room</li>
                         <li class="mb-2"><i class="fas fa-check me-2" style="color: var(--yes);"></i> Homework and personally marked exam questions, included</li>
@@ -453,7 +453,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="faq-item">
                         <h5 class="faq-question">Would you continue with my child in Year 13? <span class="arrow">&#9660;</span></h5>
                         <div class="faq-answer">
-                            <p>If you want to continue beyond Year 12, we will have a conversation about what is most appropriate. That might be another group if one is running, or one to one tutoring with me or with one of my associate tutors. I have a Year 13 exam maths specialist I would happily hand a student to.</p>
+                            <p>If you want to continue beyond Year 12, we will have a conversation about what is most appropriate. That might be another group if one is running, or <a href="/a-level">one to one A Level tutoring</a> with me or with one of my associate tutors. I have a Year 13 exam maths specialist I would happily hand a student to.</p>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -505,7 +505,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
                     <div class="text-center mb-4">
                         <h2>Ask About a Place</h2>
                         <p class="lead">Message me and tell me a bit about your child, their GCSE grade (or predicted) and what they want from A Level. We will work out together whether the group is right, and I will tell you honestly if it is not.</p>
-                        <p style="color: var(--ink-soft);">Tuesdays 6 to 7pm &middot; Maximum 5 students &middot; <?php
+                        <p style="color: var(--ink-soft);">Tuesdays 6pm &middot; Maximum 5 students &middot; <?php
                             if ($blockStart !== '') {
                                 echo 'Next block starts ' . htmlspecialchars($blockStart);
                             } else {

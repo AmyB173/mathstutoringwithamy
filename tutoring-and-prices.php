@@ -1,8 +1,8 @@
 <?php
 /* ============================================================================
    ALL TUTORING AND PRICES
-   The one page that lists every service and what it costs. Sits at the top of
-   the Tutoring dropdown, so it is the map of everything else.
+   The one page that lists every service and what it costs. It is "Prices" in
+   the navbar, so it is the map of everything else.
 
    AMY: prices live in prices.php, nothing else. Change a number there and it
    updates the fee rows and structured data here, and the price lines on the
@@ -87,7 +87,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
             "name": "GCSE one to one maths tutoring",
             "price": "<?php echo $prices['gcse_solo']; ?>",
             "priceCurrency": "GBP",
-            "url": "https://www.mathstutoringwithamy.co.uk/GCSE"
+            "url": "https://www.mathstutoringwithamy.co.uk/gcse"
           },
           {
             "@type": "Offer",
@@ -168,7 +168,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
                             <div class="price-item-main">
                                 <h3>GCSE one to one</h3>
                                 <p>GCSE and IGCSE, foundation and higher, all exam boards: AQA, Edexcel, OCR and WJEC. Whether your child is chasing a 9 or needs a 4 to get onto the course they want.</p>
-                                <a class="price-item-link" href="/GCSE">Read about GCSE tutoring</a>
+                                <a class="price-item-link" href="/gcse">Read about GCSE tutoring</a>
                             </div>
                             <div class="price-item-fee">&pound;<?php echo $prices['gcse_solo']; ?><span>per session</span></div>
                         </li>

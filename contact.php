@@ -55,7 +55,7 @@
         </div>
 
         <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
-          <img src="./assets/images/amy-white-shirt-at-desk.webp" class="img-fluid photo-frame" alt="Amy at her desk in a white shirt, working through a maths problem" width="3072" height="4080" />
+          <img src="./assets/images/amy-white-shirt-at-desk.webp" class="img-fluid photo-frame" alt="Amy at her desk in a white shirt, working through a maths problem" width="1400" height="1859" />
         </div>
       </div>
     </div>
@@ -64,18 +64,6 @@
   <?php include 'footer.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    // Record WhatsApp and call-booking clicks in GA4
-    document.querySelectorAll('a[href*="wa.me"], a[href*="calendly.com"]').forEach(function (link) {
-      link.addEventListener('click', function () {
-        if (typeof gtag === 'function') {
-          gtag('event', link.href.indexOf('wa.me') !== -1 ? 'whatsapp_click' : 'call_booking_click', {
-            link_location: link.closest('section') ? link.closest('section').className : 'unknown'
-          });
-        }
-      });
-    });
-  </script>
 </body>
 
 </html>

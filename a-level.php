@@ -11,23 +11,23 @@ require_once 'prices.php';
 $faqs = [
     [
         'q' => 'When should my child start A Level maths tutoring?',
-        'a' => 'Earlier than most parents expect. Year 12 feels manageable in September, and that is exactly why the gaps go unnoticed until the mocks. If your child is in Year 12 and working towards an A or a B, the <a href="/year-12-a-level-group">Year 12 Mastery Group</a> is built for that moment. If they are already struggling, one to one lessons or the <a href="/recovery">12-Week Recovery Course</a> will do more for them.',
+        'a' => 'Earlier than most parents expect, to be honest. Year 12 often feels manageable in September, which is exactly why the gaps go unnoticed until the mocks, and by then there is a lot more to put right. If your child is in Year 12 and working towards an A or a B, the <a href="/year-12-a-level-group">Year 12 Mastery Group</a> is built for that. If they are already struggling, or they are in Year 13 and the exams are getting close, one to one lessons will do more for them, and for a Year 12 whose grades have really slipped there is the <a href="/recovery">12-Week Recovery Course</a>.',
     ],
     [
         'q' => 'Which A Level maths exam boards do you cover?',
-        'a' => 'Edexcel is my specialism, and the Year 12 Mastery Group is Edexcel only. One to one lessons also cover AQA, OCR and MEI.',
+        'a' => 'Edexcel is my specialism, and the Year 12 Mastery Group is Edexcel only, because everyone in it needs to be working through the same course. For one to one lessons I have A Level tutors on my team too, so between us we cover AQA, OCR and MEI as well.',
     ],
     [
         'q' => 'How much does A Level maths tutoring cost?',
-        'a' => 'One to one lessons are &pound;' . $prices['alevel_solo'] . ' per 55-minute session, and small group lessons are &pound;' . $prices['alevel_group'] . ' per session. The Year 12 Mastery Group is billed per half term, at &pound;' . ($prices['alevel_group'] * $blockMin) . ' to &pound;' . ($prices['alevel_group'] * $blockMax) . ' depending on how many sessions fall in it, and the Recovery Course is &pound;' . $prices['recovery'] . ' for the full 12 weeks. Every price is on the <a href="/tutoring-and-prices">tutoring and prices</a> page.',
+        'a' => 'One to one lessons are &pound;' . $prices['alevel_solo'] . ' each. The Year 12 Mastery Group is billed per half term, at &pound;' . ($prices['alevel_group'] * $blockMin) . ' to &pound;' . ($prices['alevel_group'] * $blockMax) . ' depending on how many sessions fall in it, which works out to &pound;' . $prices['alevel_group'] . ' per session, and the Recovery Course is &pound;' . $prices['recovery'] . ' for the full 12 weeks.',
     ],
     [
         'q' => 'Should my child have group lessons or one to one?',
-        'a' => 'It depends on where they are. A Year 12 student who got a 7 or an 8 at GCSE and wants the foundation built properly will usually do very well in the group, with harder questions and proper marking. A student with real gaps to close, or anyone in Year 13, is usually better with one to one lessons. If you are not sure, message me with the GCSE grade and what is going wrong, and I will tell you honestly which I would pick.',
+        'a' => 'It really depends on where they are. A Year 12 student who got a 7 or an 8 at GCSE and wants the foundation built properly will usually do very well in the group, where there are harder questions, proper marking and other students to keep pace with. A student with real gaps to close, or anyone in Year 13, is usually better off with one to one lessons. If you are not sure, message me with their GCSE grade and what seems to be going wrong, and I will tell you honestly which I would pick.',
     ],
     [
         'q' => 'How do the online lessons work?',
-        'a' => 'Lessons run on Pencil Spaces, a shared digital classroom, so your child writes on the same whiteboard as the teacher rather than just watching a screen. They need a laptop or tablet with a microphone and a quiet spot. A cheap graphics tablet or an iPad makes a real difference for writing maths.',
+        'a' => 'Lessons run on Pencil Spaces, which is a shared digital classroom, so your child writes on the same whiteboard as the teacher and isn&rsquo;t just watching a screen. They need a laptop or tablet with a microphone and somewhere quiet to sit, and an inexpensive graphics tablet or an iPad makes a real difference for writing maths. Every lesson is 55 minutes.',
     ],
 ];
 ?>
@@ -141,9 +141,9 @@ $faqs = [
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
           <h1 class="mb-4">A Level Maths Tutoring for Year 12 &amp; Year 13</h1>
-          <p>The jump from GCSE to A Level is bigger than most students expect. The pace is faster, the questions are harder, and memorising steps stops working. I've spent 12 years teaching secondary maths, and the pattern I see most is a student who found September easy and only discovers the gaps at the mocks, by which point there is a lot to catch up.</p>
-          <p class="exam-boards-line mb-4">A Level, all exam boards: Edexcel &middot; AQA &middot; OCR &middot; MEI</p>
-          <p class="mb-4">Everything is online, on a shared interactive whiteboard. Edexcel is my specialism, and the place I would start is the <a href="/year-12-a-level-group">Year 12 Mastery Group</a>.</p>
+          <p>Whether your child needs a guide to get them to the top grades, or they're finding A Level maths a lot harder than either of you expected, we can help get them where they need to be. The jump from GCSE really is that big, and it catches out plenty of students who have always found maths comfortable.</p>
+          <p>I've taught maths for 12 years, and whether it's Year 12 with the first tests coming back lower than anyone is used to, or Year 13 with the exams suddenly feeling close and the uncertainty around which grade they will get, the first job is always working out what your child actually needs and making a plan.</p>
+          <p class="mb-4"><a href="#one-to-one">One to one</a> and <a href="#year-12-group">small group</a> tutoring available.</p>
           <a href="/contact" class="btn-cta-pro">Enquire now</a>
         </div>
 
@@ -156,23 +156,35 @@ $faqs = [
     </div>
   </section>
 
+  <!-- ================================================ REVIEW HIGHLIGHT
+       Tinted like the hero on purpose, so the two read as one region. -->
+  <section class="section section-alt" style="padding-top: 0;">
+    <div class="container">
+      <figure class="quote-band">
+        <blockquote>"Amy helped my daughter increase her A level grade from a B to an A*, and boosted her confidence and knowledge tremendously."</blockquote>
+        <figcaption class="testimonial-attribution">Holly, Parent of an A Level Student</figcaption>
+      </figure>
+    </div>
+  </section>
+
   <!-- ================================================ 2. YEAR 12 MASTERY GROUP -->
   <section id="year-12-group" class="section" style="background: white;">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
           <h2 class="mb-4">A Level Maths Mastery Group: Year 12</h2>
-          <p>A weekly Edexcel group for Year 12 (Lower Sixth), capped at five students, running from September through to the summer. It exists because the students who come unstuck in Year 12 are very often the ones who found September easy, and by the time that shows up in the mocks there is a year of catching up to do.</p>
-          <p>Every week there is a live 55-minute lesson on the shared whiteboard, an independent task your child marks themselves, and two to three exam questions I mark personally with video, audio or written feedback. It is the one to choose if you want the foundation built properly now rather than rescued in the spring.</p>
+          <p>The start of Year 12 is a strange time, because for a lot of students it feels fine. The first few chapters look like GCSE again, the homework gets done and nobody is worried, so the habits A Level really needs never quite get built. Then the harder content arrives, and a student who has always been good at maths finds themselves not quite getting the top grades they hoped for.</p>
+          <p>This group is for ambitious students who know they want a high grade, but are finding it hard to know exactly how to show their skills in exams properly.</p>
+          <p>Each week there is a live lesson, a task they mark themselves, and two or three exam questions that I mark properly, with video, audio or written feedback, so you both know where they really are and not just where they feel they are. The group runs from September through to the summer.</p>
 
           <p class="price-line">&pound;<?php echo $prices['alevel_group'] * $blockMin; ?> to &pound;<?php echo $prices['alevel_group'] * $blockMax; ?> <span>per half term</span></p>
           <p class="price-line-note">&pound;<?php echo $prices['alevel_group']; ?> per session. A half term is <?php echo $blockMin; ?> to <?php echo $blockMax; ?> sessions, which is where the range comes from.</p>
 
           <ul class="plain-list mt-4">
             <li>Edexcel A Level Maths, Year 12 (Lower Sixth) only</li>
-            <li>Tuesdays 6pm, maximum 5 students</li>
-            <li>Marked exam questions every week, included in the fee</li>
             <li>For students who got a 7 or an 8 at GCSE and are aiming for an A or a B</li>
+            <li>Marked exam questions every week, included in the fee</li>
+            <li>Tuesdays at 6pm, 55 minutes, never more than 5 students</li>
           </ul>
 
           <a href="/year-12-a-level-group" class="btn-cta-pro">Find out more about the Year 12 group</a>
@@ -210,10 +222,10 @@ $faqs = [
 
         <div class="col-lg-6 order-lg-1">
           <h2 class="mb-4">One to one A Level tutoring</h2>
-          <p>One to one lessons are the most focused option. Every lesson is built around your child: their gaps, their pace and their exam board. We go where they need to go without moving on before they are ready, which matters on a course where every topic leans on the last.</p>
-          <p>It is the right choice for Year 13, for any student with real gaps to close, and for a Year 12 who needs something the group cannot give them. Lessons cover Edexcel, AQA, OCR and MEI, and every student gets weekly homework with personalised feedback so the learning carries on between lessons.</p>
+          <p>Some students need lessons that are entirely about them, and that is what one to one is for. We plan bespoke lessons that are designed around what your child needs to reach their goals.</p>
+          <p>One to one lessons are taught by me or by one of the A Level tutors on my team, who are all experienced teachers, and between us we cover Edexcel, AQA, OCR and MEI. Each lesson is planned around what your child needs that week, and there is homework with feedback so the work carries on in between.</p>
 
-          <p class="price-line">&pound;<?php echo $prices['alevel_solo']; ?> <span>per 55-minute session</span></p>
+          <p class="price-line">&pound;<?php echo $prices['alevel_solo']; ?> <span>per lesson</span></p>
 
           <ul class="plain-list mt-4 mb-0">
             <li>Tailored to your child's gaps and exam board</li>
@@ -226,35 +238,8 @@ $faqs = [
     </div>
   </section>
 
-  <!-- ================================================ 5. SMALL GROUP TUTORING -->
-  <section id="small-group" class="section section-alt">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <img src="./assets/images/pencil-workings.png" class="img-fluid photo-frame"
-               alt="A Level Maths session on the shared interactive whiteboard"
-               loading="lazy">
-        </div>
-
-        <div class="col-lg-6">
-          <h2 class="mb-4">Small group A Level tutoring</h2>
-          <p>Small group sessions run with a maximum of five students, so there is still plenty of time for questions and individual attention. The groups are small on purpose: small enough that nobody gets left behind, and focused enough that the pace stays purposeful.</p>
-          <p>Many students find that hearing how someone else approaches the same problem is genuinely useful, and it is reassuring to learn alongside people working through the same material. Students get weekly homework with personalised feedback (video, audio or written).</p>
-
-          <p class="price-line">&pound;<?php echo $prices['alevel_group']; ?> <span>per 55-minute session</span></p>
-
-          <ul class="plain-list mt-4 mb-0">
-            <li>Maximum 5 students per group</li>
-            <li>Year 12 and Year 13</li>
-            <li>More affordable than one to one, without losing quality</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ================================================ 6. RECOVERY COURSE -->
-  <section id="recovery" class="section" style="background: white;">
+  <section id="recovery" class="section section-alt">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-6 order-lg-2">
@@ -266,8 +251,8 @@ $faqs = [
 
         <div class="col-lg-6 order-lg-1">
           <h2 class="mb-4">12-Week A Level Maths Recovery Course</h2>
-          <p>If your child is in Year 12 and their grades are slipping, the Recovery Course is a structured 12-week programme to put things right before Year 13 begins. It is not about keeping up with current school lessons. It goes back to Year 1 content, rebuilds it properly, and gives your child the understanding they need to take on the harder material with confidence.</p>
-          <p>The programme includes weekly live sessions, custom videos to watch between lessons, homework with personalised feedback, and bi-weekly check-ins from me throughout the week. Starting dates run from March to June, and places are limited to a very small group.</p>
+          <p>If your child is in Year 12 and their grades have been slipping for a while, it is easy for everyone to start quietly panicking, and the temptation is to throw more past papers at it. What usually helps more is going backwards. The Recovery Course is 12 weeks of going back over the Year 1 content and rebuilding it properly, so that they start Year 13 understanding what they have been taught and not just hanging on.</p>
+          <p>It isn't about keeping up with whatever school is doing that week. There are weekly live sessions, videos I make for them to watch in between, homework with feedback, and regular check-ins from me, because the students who need this have often gone a bit quiet about how lost they feel. Start dates run from March to June and the group is kept very small.</p>
 
           <p class="price-line">&pound;<?php echo $prices['recovery']; ?> <span>for the complete 12 weeks</span></p>
 
@@ -285,12 +270,12 @@ $faqs = [
   </section>
 
   <!-- ================================================ 7. WATCH ME TEACH -->
-  <section class="section section-alt">
+  <section class="section" style="background: white;">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-5">
           <h2 class="mb-4">Watch me teach</h2>
-          <p class="mb-0">Here I work through an integration question from a past A Level paper. It is the style of teaching I stand by: step by step, and focused on understanding rather than just reaching the answer.</p>
+          <p class="mb-0">This is me working through an integration question from a past A Level paper, so you can see what the teaching looks like before you get in touch. I go step by step, and I care more about a student understanding why it works than about getting to the answer quickly.</p>
         </div>
         <div class="col-lg-7">
           <div class="ratio ratio-16x9 photo-frame" style="overflow: hidden;">
@@ -308,11 +293,12 @@ $faqs = [
   </section>
 
   <!-- ================================================ 8. REVIEWS -->
-  <section class="section" style="background: white;">
+  <section class="section section-alt">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="mb-5">What A Level families say</h2>
+          <img src="./assets/images/testimonials/google-review-hm.png" alt="5-star Google review from Holly Mitchell, whose daughter went from a B to an A* at A Level with Amy and whose son is now tutored by Parmjit on the team" class="img-fluid photo-frame mb-4" width="802" height="350" loading="lazy" />
           <img src="./assets/images/testimonials/google-review-ha.png" alt="5-star Google review from Helen Arb praising Amy's patient, well-structured A Level lessons and her son's growing belief in himself" class="img-fluid photo-frame mb-4" width="811" height="316" loading="lazy" />
           <img src="./assets/images/testimonials/google-review-kr.png" alt="5-star Google review from Katy Reeve praising Amy's clear, structured resources" class="img-fluid photo-frame mb-4" width="815" height="193" loading="lazy" />
           <img src="./assets/images/testimonials/google-review-ej.png" alt="5-star Google review from Ethan Jefferies, who achieved an A* in A Level Maths and went on to study a maths degree" class="img-fluid photo-frame mb-3" width="830" height="410" loading="lazy" />
@@ -323,7 +309,7 @@ $faqs = [
   </section>
 
   <!-- ================================================ 9. FAQ -->
-  <section id="faq" class="section section-alt">
+  <section id="faq" class="section" style="background: white;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -338,12 +324,12 @@ $faqs = [
   </section>
 
   <!-- ================================================ 10. CONTACT -->
-  <section id="contact-alevel" class="section" style="background: white;">
+  <section id="contact-alevel" class="section section-alt">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-center">
           <h2 class="mb-3">Not sure which option is right?</h2>
-          <p class="mb-4">Message me and tell me a bit about your child's situation, including their GCSE grade and what is feeling hard. I'll give you an honest answer about which option makes the most sense, or whether any of them is the right fit at all.</p>
+          <p class="mb-4">If you have read all of this and still aren't sure which one fits, that is completely normal, and it is usually quicker to just ask. Tell me a bit about your child, their GCSE grade and what is feeling hard at the moment, and I'll tell you honestly which option I think makes the most sense, or whether none of them is quite right.</p>
           <a href="/contact" class="btn-cta-pro">Get in touch</a>
           <p class="mt-4 mb-1">
             <a href="https://wa.me/447470932888?text=Hi%20Amy%2C%20I'm%20interested%20in%20A%20Level%20Maths%20tutoring%20for%20my%20child" class="quiet-link" target="_blank" rel="noopener">Or send me a WhatsApp message</a>

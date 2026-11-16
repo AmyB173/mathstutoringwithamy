@@ -99,8 +99,8 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
-          <h2 class="mb-4">Struggling with maths can look very different for each child</h2>
-          <p class="text-dark mb-5">For one student, it is the frustration of not being able to get a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need. You can read how my tutors and I work at each level on the <a href="/gcse">GCSE</a> and <a href="/a-level">A Level</a> pages, and every price is on the <a href="/tutoring-and-prices">tutoring and prices</a> page.</p>
+          <h2 class="mb-4">Every child needs something different from tutoring</h2>
+          <p class="text-dark mb-5">For one student, it is getting over the line to a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence, or one who is racing ahead and needs to be given an opportunity to excel. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need. You can read how my tutors and I work at each level on the <a href="/gcse">GCSE</a> and <a href="/a-level">A Level</a> pages, and every price is on the <a href="/tutoring-and-prices">tutoring and prices</a> page.</p>
 
           <h3 class="mb-4">My approach to maths tutoring</h3>
           <p class="text-dark mb-4">I make sessions as positive and uplifting as I can, picking out the progress your child is already making and the skills they already have, and showing them what they <em>can</em> actually do.</p>

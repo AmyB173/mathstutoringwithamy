@@ -11,7 +11,7 @@
             <a href="/recovery" class="footer-link">Year 12 A Level Recovery</a>
             <a href="/tutoring-and-prices" class="footer-link">All tutoring and prices</a>
             <a href="/one-off-lesson" class="footer-link">Why start with a one-off lesson</a>
-            <a href="/meet-amy" class="footer-link">Meet Amy</a>
+            <a href="/meet-amy" class="footer-link">About us</a>
             <a href="/framework-values" class="footer-link">Our values</a>
             <a href="/faq" class="footer-link">Frequently asked questions</a>
             <a href="/blog" class="footer-link">Blog</a>

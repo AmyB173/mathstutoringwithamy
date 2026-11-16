@@ -42,7 +42,7 @@
       "url": "https://www.mathstutoringwithamy.co.uk"
     },
     "description": "Qualified maths teacher with 12 years' experience, leading a team of experienced maths tutors for KS3, GCSE and A Level online.",
-    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp"
+    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-white-shirt-at-desk.webp"
   }
   </script>
 </head>
@@ -86,23 +86,23 @@
 
           <div class="row align-items-start pb-5 mb-5" style="border-bottom: 1px solid #d1d5db;">
             <div class="col-md-3 mb-4 mb-md-0">
-              <img src="./assets/images/alex-tutor.JPG" alt="Alexandra, maths tutor"
+              <img src="./assets/images/alexandra-tutor-660.jpg" alt="Alexandra, maths tutor" width="660" height="827" loading="lazy"
                    class="img-fluid photo-frame" style="width: 100%; max-width: 220px; aspect-ratio: 4 / 5; object-fit: cover;">
             </div>
             <div class="col-md-9">
               <h2 class="mb-3" style="font-size: 1.75rem;">Alexandra</h2>
-              <p class="text-dark mb-0">Alexandra was a Head of Mathematics for ten years and teaches A Level, GCSE, KS3 and Year 6. She takes the time to understand how each student learns, and creates a warm and welcoming atmosphere in tutoring. She also loves mixing maths with the arts and has a history running maths and music projects at a specialist music school.</p>
+              <p class="text-dark mb-0">Alexandra was a Head of Mathematics for ten years and teaches A Level, GCSE, KS3 and Year 6. She takes the time to understand how each student learns, and creates a warm and welcoming atmosphere in tutoring. She also loves mixing maths with the arts and has a history of running maths and music projects at a specialist music school.</p>
             </div>
           </div>
 
           <div class="row align-items-start">
             <div class="col-md-3 mb-4 mb-md-0">
-              <img src="./assets/images/parmjit-tutor.jpg" alt="Parmjit, maths tutor"
+              <img src="./assets/images/parmjit-tutor-660.jpg" alt="Parmjit, maths tutor" width="660" height="990" loading="lazy"
                    class="img-fluid photo-frame" style="width: 100%; max-width: 220px; aspect-ratio: 4 / 5; object-fit: cover;">
             </div>
             <div class="col-md-9">
               <h2 class="mb-3" style="font-size: 1.75rem;">Parmjit</h2>
-              <p class="text-dark mb-0">Parmjit is an excellent, experienced, qualified teacher who teaches A Level and GCSE, including Further Maths. He puts students at ease so they feel comfortable to ask questions and get in the right mindset to learn. He loves making statistics real, including experiments like a hypothesis test on whether anyone can tell branded crisps from supermarket ones.</p>
+              <p class="text-dark mb-0">Parmjit is an excellent, experienced, qualified teacher who teaches A Level and GCSE, including Further Maths. He puts students at ease so they feel comfortable asking questions and get in the right mindset to learn. He loves making statistics real, including experiments like a hypothesis test on whether anyone can tell branded crisps from supermarket ones.</p>
             </div>
           </div>
 

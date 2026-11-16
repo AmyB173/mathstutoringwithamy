@@ -143,21 +143,14 @@
           <p class="text-dark mb-4">Choosing the right tutor for your child matters, and my tutors and I hold ourselves to a high standard in everything we do.</p>
 
           <p class="text-dark mb-4"><strong>Experts in the subject.</strong> Every tutor on my team is a qualified, experienced teacher, not just someone who is good at maths. I choose each one myself, and I only take on people I would be happy to have teaching my own child. They go through the same safeguarding checks a school would carry out before they teach anyone.</p>
+          <figure class="mb-4" style="border-left: 3px solid var(--accent-light); padding-left: 1rem;">
+            <blockquote class="mb-1" style="font-size: 0.95rem; line-height: 1.55; color: var(--accent-dark);">"Maths Tutoring with Amy is professional, efficient, friendly, fantastic quality, and the tutors are passionate about Maths and helping children succeed!! Amazing!"</blockquote>
+            <figcaption class="testimonial-attribution" style="font-size: 0.85rem;">Holly, A Level Parent, B to A*</figcaption>
+          </figure>
           <p class="text-dark mb-4"><strong>Interactive lessons.</strong> Your child will not sit and listen for long. Every lesson runs on a shared whiteboard, so they are actively involved and their tutor can see their working as they write it.</p>
           <p class="text-dark mb-0"><strong>Genuinely lovely people.</strong> This is the one I would rather you saw for yourself. My tutors and I are warm, encouraging and easy to talk to, and for a lot of children that first lesson is the spark that brings their motivation back.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ================================================ 4b. A PARENT ON THE TUTORS
-       Tinted like section 4 on purpose, so the two read as one region. -->
-  <section class="section section-alt" style="padding-top: 0;">
-    <div class="container">
-      <figure class="quote-band">
-        <blockquote>"Maths Tutoring with Amy is professional, efficient, friendly, fantastic quality, and the tutors are passionate about Maths and helping children succeed!! Amazing!"</blockquote>
-        <figcaption class="testimonial-attribution">Holly, A Level Parent, B to A*</figcaption>
-      </figure>
     </div>
   </section>
 

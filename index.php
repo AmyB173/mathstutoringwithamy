@@ -150,6 +150,17 @@
     </div>
   </section>
 
+  <!-- ================================================ 4b. A PARENT ON THE TUTORS
+       Tinted like section 4 on purpose, so the two read as one region. -->
+  <section class="section section-alt" style="padding-top: 0;">
+    <div class="container">
+      <figure class="quote-band">
+        <blockquote>"Maths Tutoring with Amy is professional, efficient, friendly, fantastic quality, and the tutors are passionate about Maths and helping children succeed!! Amazing!"</blockquote>
+        <figcaption class="testimonial-attribution">Holly, A Level Parent, B to A*</figcaption>
+      </figure>
+    </div>
+  </section>
+
   <!-- ================================================ 5. RESULTS / TESTIMONIALS (editorial, card-free) -->
   <section class="section section-white">
     <div class="container">

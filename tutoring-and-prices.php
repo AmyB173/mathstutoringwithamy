@@ -249,6 +249,16 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
         </div>
     </section>
 
+    <!-- ================================================ A PARENT'S WORDS -->
+    <section class="section" style="background: white;">
+        <div class="container">
+            <figure class="quote-band">
+                <blockquote>"Maths Tutoring with Amy is professional, efficient, friendly, fantastic quality, and the tutors are passionate about Maths and helping children succeed!! Amazing!"</blockquote>
+                <figcaption class="testimonial-attribution">Holly, A Level Parent, B to A*</figcaption>
+            </figure>
+        </div>
+    </section>
+
     <?php /* AMY: the old "Paying for it" section is gone, cut to keep this page
        scannable. Cancellation, the week's notice, refunds
        and the equipment list all live on /faq, linked below. */ ?>

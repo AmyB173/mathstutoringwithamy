@@ -1,6 +1,14 @@
 <?php
 $posts = [
     [
+        'slug'      => 'is-your-bright-year-7-bored-of-maths',
+        'title'     => 'Is your bright Year 7 child suddenly bored of maths?',
+        'date'      => '2026-11-17',
+        'excerpt'   => 'Bright Year 7s often spend the first term repeating primary school work and lose their enthusiasm. Here is why fluent algebra early changes that, and what it looks like in a lesson.',
+        'image'     => null,
+        'published' => true,
+    ],
+    [
         'slug'      => 'i-didnt-expect-a-level-maths-to-be-this-hard',
         'title'     => 'I didn’t expect A Level Maths to be this hard for my child',
         'date'      => '2026-11-11',

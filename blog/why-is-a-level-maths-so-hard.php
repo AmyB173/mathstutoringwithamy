@@ -23,6 +23,7 @@
   <meta property="og:description" content="Students who sailed through GCSE Maths are often surprised by how different A Level feels. Here are the real reasons it trips people up, and what actually helps.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp">
 
+  <?php require_once __DIR__ . '/../site-schema.php'; ?>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,16 +31,10 @@
     "headline": "Why is A Level Maths so hard?",
     "description": "Students who sailed through GCSE Maths are often surprised by how different A Level feels. Here are the real reasons it trips people up, and what actually helps.",
     "datePublished": "2026-07-02",
-    "author": {
-      "@type": "Person",
-      "name": "Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk/meet-amy"
-    },
-    "publisher": {
-      "@type": "EducationalOrganization",
-      "name": "Maths Tutoring with Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk"
-    },
+    "dateModified": "2026-08-19",
+    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp",
+    "author": <?php echo schema_json($schemaAmyRef); ?>,
+    "publisher": <?php echo schema_json($schemaOrgRef); ?>,
     "url": "https://www.mathstutoringwithamy.co.uk/blog/why-is-a-level-maths-so-hard"
   }
   </script>

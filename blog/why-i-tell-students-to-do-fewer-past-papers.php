@@ -23,6 +23,7 @@
   <meta property="og:description" content="Students who do paper after paper often see no improvement, because the mark scheme is the most valuable thing in front of them and most students barely glance at it. Here's what to do instead.">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp">
 
+  <?php require_once __DIR__ . '/../site-schema.php'; ?>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,16 +31,10 @@
     "headline": "Why I tell my students to do fewer past papers",
     "description": "Students who do paper after paper often see no improvement, because the mark scheme is the most valuable thing in front of them and most students barely glance at it. Here's what to do instead.",
     "datePublished": "2026-07-10",
-    "author": {
-      "@type": "Person",
-      "name": "Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk/meet-amy"
-    },
-    "publisher": {
-      "@type": "EducationalOrganization",
-      "name": "Maths Tutoring with Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk"
-    },
+    "dateModified": "2026-08-19",
+    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp",
+    "author": <?php echo schema_json($schemaAmyRef); ?>,
+    "publisher": <?php echo schema_json($schemaOrgRef); ?>,
     "url": "https://www.mathstutoringwithamy.co.uk/blog/why-i-tell-students-to-do-fewer-past-papers"
   }
   </script>

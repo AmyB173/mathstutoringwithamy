@@ -21,6 +21,7 @@
   <meta property="og:url" content="https://www.mathstutoringwithamy.co.uk/blog">
   <meta property="og:title" content="Blog | Maths Tutoring with Amy">
   <meta property="og:description" content="Honest, practical writing about maths tutoring, A Level, GCSE, and how to help your child make real progress.">
+  <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/css/style-new.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/assets/css/style-new.css'); ?>" rel="stylesheet" />

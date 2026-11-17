@@ -65,6 +65,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
        study club. If you run Meta ads at this page, copy the fbq block from
        study-club.php lines 42 to 70 into this spot. */ ?>
 
+    <?php require_once __DIR__ . '/site-schema.php'; ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -73,11 +74,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
       "description": "A weekly online small group for Year 12 Edexcel A Level Maths students, building a secure foundation across the Year 12 course with personally marked exam questions every week.",
       "url": "https://www.mathstutoringwithamy.co.uk/year-12-a-level-group",
       "educationalLevel": "A Level",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Maths Tutoring With Amy",
-        "sameAs": "https://www.mathstutoringwithamy.co.uk"
-      },
+      "provider": <?php echo schema_json($schemaOrgRef); ?>,
       "offers": {
         "@type": "Offer",
         "price": "<?php echo $sessionPrice; ?>",

@@ -54,6 +54,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
     <!-- FontAwesome in the head so the icons do not flash in -->
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
+    <?php require_once __DIR__ . '/site-schema.php'; ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -62,11 +63,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20fin
       "description": "A weekly online small group for Year 11 GCSE Foundation tier maths students aiming for a grade 5, teaching the topics that move a grade 3 or 4 up to a 5, with homework marked personally every week.",
       "url": "https://www.mathstutoringwithamy.co.uk/gcse-foundation-group",
       "educationalLevel": "GCSE",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Maths Tutoring With Amy",
-        "sameAs": "https://www.mathstutoringwithamy.co.uk"
-      },
+      "provider": <?php echo schema_json($schemaOrgRef); ?>,
       "offers": {
         "@type": "Offer",
         "price": "<?php echo $sessionPrice; ?>",

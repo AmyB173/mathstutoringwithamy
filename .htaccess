@@ -22,6 +22,12 @@ RewriteRule ^ https://www.%1%{REQUEST_URI} [L,R=301,NE]
 RewriteCond %{REQUEST_URI} ^/studyclub/webhook\.php$ [NC]
 RewriteRule ^ - [L]
 
+# 1a. Trailing slash: /gcse/ redirects to /gcse. Without this, rule 4 below
+# rewrites "gcse/" to "gcse/.php" and the server answers with a 500 error.
+# Real folders (/blog/, /assets/) are left alone; /blog/ has its own rule next.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
 # 2. Blog: trailing slash redirect and listing page
 RewriteRule ^blog/$ /blog [R=301,L]
 RewriteRule ^blog$ blog.php [L]

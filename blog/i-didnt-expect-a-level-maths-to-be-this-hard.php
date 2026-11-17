@@ -49,6 +49,7 @@ $description = 'A Level Maths is a big step up from GCSE, even for students who 
   <meta property="og:description" content="<?php echo htmlspecialchars($description); ?>">
   <meta property="og:image" content="https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp">
 
+  <?php require_once __DIR__ . '/../site-schema.php'; ?>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -56,16 +57,10 @@ $description = 'A Level Maths is a big step up from GCSE, even for students who 
     "headline": "I didn’t expect A Level Maths to be this hard for my child",
     "description": <?php echo json_encode($description, JSON_UNESCAPED_UNICODE); ?>,
     "datePublished": "2026-11-11",
-    "author": {
-      "@type": "Person",
-      "name": "Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk/meet-amy"
-    },
-    "publisher": {
-      "@type": "EducationalOrganization",
-      "name": "Maths Tutoring with Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk"
-    },
+    "dateModified": "2026-11-11",
+    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-red-jumper.webp",
+    "author": <?php echo schema_json($schemaAmyRef); ?>,
+    "publisher": <?php echo schema_json($schemaOrgRef); ?>,
     "url": "https://www.mathstutoringwithamy.co.uk/blog/i-didnt-expect-a-level-maths-to-be-this-hard"
   }
   </script>

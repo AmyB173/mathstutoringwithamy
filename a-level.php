@@ -62,6 +62,7 @@ $faqs = [
   <link href="assets/css/style-new.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/assets/css/style-new.css'); ?>" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
+  <?php require_once __DIR__ . '/site-schema.php'; ?>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -76,11 +77,7 @@ $faqs = [
       "@type": "EducationalAudience",
       "educationalRole": "student"
     },
-    "provider": {
-      "@type": "EducationalOrganization",
-      "name": "Maths Tutoring with Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk"
-    },
+    "provider": <?php echo schema_json($schemaOrgRef); ?>,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "A Level Maths tutoring",

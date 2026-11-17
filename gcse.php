@@ -29,31 +29,19 @@
     <link rel="stylesheet" href="assets/css/style-new.css?v=<?php echo filemtime($_SERVER['DOCUMENT_ROOT'] . '/assets/css/style-new.css'); ?>">
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
+    <?php require_once __DIR__ . '/site-schema.php'; ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "Online GCSE Maths Tutoring",
       "description": "Expert GCSE Maths tutoring for Foundation and Higher tiers. Supporting AQA, Edexcel, OCR, and WJEC boards.",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Maths Tutoring with Amy",
-        "url": "https://www.mathstutoringwithamy.co.uk",
-        "sameAs": [
-          "https://www.facebook.com/GCSEandALevel.MathsTutoringWithAmy",
-          "https://www.instagram.com/mathstutoringwithamy/",
-          "https://www.youtube.com/@amythemathsteacher"
-        ]
-      },
+      "provider": <?php echo schema_json($schemaOrgRef); ?>,
       "educationalLevel": "GCSE",
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online",
-        "instructor": {
-          "@type": "Person",
-          "name": "Amy",
-          "jobTitle": "Online Maths Tutor"
-        }
+        "instructor": <?php echo schema_json($schemaAmyRef); ?>
       }
     }
     </script>

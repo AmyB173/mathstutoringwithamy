@@ -59,6 +59,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
     <!-- FontAwesome in the head so the footer icons do not flash in -->
     <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
+    <?php require_once __DIR__ . '/site-schema.php'; ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -67,11 +68,7 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
       "serviceType": "Maths tutoring",
       "url": "https://www.mathstutoringwithamy.co.uk/tutoring-and-prices",
       "areaServed": "GB",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Maths Tutoring With Amy",
-        "sameAs": "https://www.mathstutoringwithamy.co.uk"
-      },
+      "provider": <?php echo schema_json($schemaOrgRef); ?>,
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Maths tutoring and prices",

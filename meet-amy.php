@@ -30,20 +30,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/9f7f10393d.js" crossorigin="anonymous"></script>
 
+  <?php require_once __DIR__ . '/site-schema.php'; ?>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Amy",
-    "jobTitle": "Lead Tutor",
-    "worksFor": {
-      "@type": "EducationalOrganization",
-      "name": "Maths Tutoring with Amy",
-      "url": "https://www.mathstutoringwithamy.co.uk"
-    },
-    "description": "Qualified maths teacher with 12 years' experience, leading a team of experienced maths tutors for KS3, GCSE and A Level online.",
-    "image": "https://www.mathstutoringwithamy.co.uk/assets/images/amy-white-shirt-at-desk.webp"
-  }
+  <?php echo schema_json($schemaAmy, true); ?>
+
   </script>
 </head>
 

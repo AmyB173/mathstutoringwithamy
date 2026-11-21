@@ -12,6 +12,11 @@
    "find out more" links point at /contact: the GCSE group and KS3 one to one.
    When you build either page, swap the link in $services.
 
+   AMY: the page is now a plain table (levels down the side, one to one and
+   small group across), with the recovery course in a second small table. The
+   old descriptions and the parent quote were cut to keep it scannable; the
+   detail lives on each level's own page.
+
    AMY: the Study Club is deliberately not listed. It is not in the navbar and
    has no price on its own page, so I have left it out rather than invent a fee.
    If it is still running, add a row for it in the small groups list.
@@ -129,146 +134,82 @@ $waLink = 'https://wa.me/447470932888?text=Hi%20Amy%2C%20I%27d%20like%20to%20ask
 <body class="prices-page">
     <?php include 'navbar.php'; ?>
 
-    <!-- ================================================ 1. HERO
-         Ink panel with white type, same treatment as the Year 7 and Year 12
-         group pages. Title and one subheading, nothing else: someone landing
-         here wants the numbers, and they are one scroll away. -->
-    <section class="hero-section hero-section-study-hub">
+    <!-- ================================================ 1. TITLE
+         Tinted like every other hero, so the white navbar has a ground to sit
+         against. Title and one line, nothing else. -->
+    <section class="hero-section" style="padding: 8rem 0 3.5rem;">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <h1 class="hero-title">All tutoring and prices</h1>
-                    <p class="hero-subtitle mb-0">Below is a list of all the tutoring options there are available this year. All lessons are taught by me or one of my highly qualified team of tutors.</p>
+                <div class="col-lg-8">
+                    <h1 class="mb-3">Tutoring and prices</h1>
+                    <p class="mb-0">Every lesson is 55 minutes, live online, with me or one of my team.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ================================================ 2. ONE TO ONE -->
-    <section id="one-to-one" class="section bg-accent-light">
+    <!-- ================================================ 2. THE PRICE TABLE -->
+    <section id="prices" class="section" style="background: white;">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <h2 class="mb-3">One to one tutoring</h2>
-                    <p class="mb-4">A standard lesson is 55 minutes, taught live online on a shared interactive whiteboard. Every lesson is built around your child: their exam board, their gaps, the topic they have a mock on in a fortnight. A regular weekly slot, invoiced monthly.</p>
+                <div class="col-lg-8">
+                    <table class="price-table">
+                        <thead>
+                            <tr>
+                                <th scope="col"><span class="visually-hidden">Level</span></th>
+                                <th scope="col">One to one</th>
+                                <th scope="col">Small group</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Key Stage 3</th>
+                                <td>&pound;<?php echo $prices['ks3_solo']; ?></td>
+                                <td>&pound;<?php echo $prices['ks3_group']; ?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">GCSE</th>
+                                <td>&pound;<?php echo $prices['gcse_solo']; ?></td>
+                                <td>&pound;<?php echo $prices['gcse_group']; ?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A Level</th>
+                                <td>&pound;<?php echo $prices['alevel_solo']; ?></td>
+                                <td>&pound;<?php echo $prices['alevel_group']; ?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Year 12 A Level Recovery</th>
+                                <td colspan="2">&pound;<?php echo $prices['recovery']; ?> for the complete 12 weeks, starting March to June</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                    <ul class="price-list mb-4">
-                        <li>
-                            <div class="price-item-main">
-                                <h3>Key Stage 3 one to one</h3>
-                                <p>Years 7 to 9, whether that is filling in gaps left over from primary, keeping up with a fast set, or getting ahead before GCSE starts.</p>
-                                <a class="price-item-link" href="/contact">Ask about Key Stage 3 tutoring</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['ks3_solo']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>GCSE one to one</h3>
-                                <p>GCSE and IGCSE, foundation and higher, all exam boards: AQA, Edexcel, OCR and WJEC. Whether your child is chasing a 9 or needs a 4 to get onto the course they want.</p>
-                                <a class="price-item-link" href="/gcse">Read about GCSE tutoring</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['gcse_solo']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>A Level one to one</h3>
-                                <p>Year 12 and Year 13, pure and applied, with Edexcel as my specialism. We also take on students with other exam boards. Marked homework every week.</p>
-                                <a class="price-item-link" href="/a-level">Read about A Level tutoring</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['alevel_solo']; ?><span>per session</span></div>
-                        </li>
-                    </ul>
-
-                    <p class="mb-0">Shorter lessons are available at the same rate pro-rata: a 30-minute lesson is half the price, a 45-minute lesson is three quarters. That suits a younger student whose concentration goes at the 40-minute mark better than stretching a full lesson thin.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================ 3. SMALL GROUPS -->
-    <section id="small-groups" class="section" style="background: white;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <h2 class="mb-3">Small group tutoring</h2>
-                    <p class="mb-4">A standard lesson is 55 minutes, taught live online on a shared interactive whiteboard. Groups are capped at five students, they run in half-term blocks through England term time.</p>
-
-                    <ul class="price-list mb-4">
-                        <li>
-                            <div class="price-item-main">
-                                <h3>Key Stage 3 group</h3>
-                                <p>The Year 7 Accelerator, for able Year 7s who are bored of repeating Year 6. New content they have not met before, taught live on Thursdays.</p>
-                                <a class="price-item-link" href="/year-7-accelerator">Read about the Year 7 Accelerator</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['ks3_group']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>GCSE group</h3>
-                                <p>A weekly group working through GCSE content and exam questions together. Message me for the current groups, the year they are aimed at and where there is space.</p>
-                                <a class="price-item-link" href="/contact">Ask about GCSE groups</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['gcse_group']; ?><span>per session</span></div>
-                        </li>
-                        <li>
-                            <div class="price-item-main">
-                                <h3>A Level group</h3>
-                                <p>The A Level Maths Mastery Group for Year 12, Edexcel only, running September through to summer. Two to three exam questions marked personally every week.</p>
-                                <a class="price-item-link" href="/year-12-a-level-group">Read about the Year 12 group</a>
-                            </div>
-                            <div class="price-item-fee">&pound;<?php echo $prices['alevel_group']; ?><span>per session</span></div>
-                        </li>
-                    </ul>
-
-                    <p class="mb-0">Groups are billed per half term in advance.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================ 4. RECOVERY PROGRAMME -->
-    <section class="section bg-accent-light">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-7">
-                    <h2 class="mb-3">Year 12 A Level Recovery</h2>
-                    <p>One fixed programme rather than an ongoing arrangement: 12 weeks for Year 12 students who are genuinely struggling, designed to get them back onto steady ground before Year 13 starts. A weekly live session plus video review and homework, so it asks for about three hours a week from your child. Start dates run from March to June.</p>
-                    <p class="price-headline">&pound;<?php echo $prices['recovery']; ?> <span>for the complete 12 weeks</span></p>
-                    <a class="price-item-link" href="/recovery">Read about the recovery programme</a>
-                </div>
-                <div class="col-lg-5">
-                    <img src="./assets/images/pencil-workings.png" class="img-fluid photo-frame"
-                         alt="A shared interactive whiteboard showing a student's handwritten maths workings"
-                         width="1018" height="910" loading="lazy">
-                    <p class="text-center photo-caption">Lessons run on Pencil Spaces, a shared digital classroom.</p>
+                    <p class="price-table-note mb-2">Prices are per session. One to one is invoiced monthly. Groups have a maximum of five students and are billed per half term in advance. Shorter lessons are available: 30 minutes is half price and 45 minutes is three quarters.</p>
+                    <p class="price-table-note mb-0">Find out more: <a href="/gcse">GCSE</a> · <a href="/a-level">A Level</a> · <a href="/year-7-accelerator">Year 7 Accelerator</a> · <a href="/year-12-a-level-group">Year 12 Mastery Group</a> · <a href="/recovery">Recovery course</a></p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ================================================ A PARENT'S WORDS -->
-    <section class="section" style="background: white;">
+    <section class="section section-alt">
         <div class="container">
             <figure class="quote-band">
-                <blockquote>"Maths Tutoring with Amy is professional, efficient, friendly, fantastic quality, and the tutors are passionate about Maths and helping children succeed!! Amazing!"</blockquote>
-                <figcaption class="testimonial-attribution">Holly, A Level Parent, B to A*</figcaption>
+                <blockquote>"Amy has developed a real friendship with our daughter, allowing her to be open about her difficulties and progress quicker than we thought possible."</blockquote>
+                <figcaption class="testimonial-attribution">Nancy, GCSE Parent, Grade 4 to Grade 6</figcaption>
             </figure>
         </div>
     </section>
 
-    <?php /* AMY: the old "Paying for it" section is gone, cut to keep this page
-       scannable. Cancellation, the week's notice, refunds
-       and the equipment list all live on /faq, linked below. */ ?>
-
-    <!-- ================================================ 5. NOT SURE WHICH -->
+    <!-- ================================================ 4. NOT SURE WHICH -->
     <section class="whatsapp-banner">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h3 class="mb-3">Not sure which one fits your child?</h3>
-                    <p class="mb-4" style="font-size: 1.1rem;">Feel free to get in touch on WhatsApp and we can have a chat about where your child is at and what tutoring option might fit them.</p>
+                    <p class="mb-4" style="font-size: 1.1rem;">Message me on WhatsApp and we can have a chat about where your child is at.</p>
                     <a href="<?php echo $waLink; ?>" class="btn btn-cta-pro" target="_blank" rel="noopener">Message me on WhatsApp</a>
-                    <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Or <a href="/contact">send an enquiry</a>. Invoicing, cancellations and what your child needs to hand are all in the <a href="/faq">frequently asked questions</a>.</p>
+                    <p class="mt-4 mb-0" style="color: var(--ink-soft); font-size: 0.95rem;">Or <a href="/contact">send an enquiry</a>. Invoicing, cancellations and equipment are in the <a href="/faq">frequently asked questions</a>.</p>
                 </div>
             </div>
         </div>

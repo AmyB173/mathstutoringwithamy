@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-lg-6 hero-image mt-5 mt-lg-0">
-          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" class="img-fluid photo-frame" alt="Amy at her home desk, planning a maths lesson" width="1400" height="1579" />
+          <img src="./assets/images/amy-office-professional-warm-1400.webp" class="img-fluid photo-frame" alt="Amy, a qualified maths teacher and tutor" width="1400" height="1859" />
         </div>
       </div>
     </div>
@@ -78,33 +78,45 @@
     </div>
   </section>
 
-  <!-- ================================================ 3. STRUGGLING WITH MATHS / MY APPROACH -->
+  <!-- ================================================ 2b. PROOF UNDER THE TRUST BAR -->
   <section class="section section-alt">
+    <div class="container">
+      <figure class="quote-band mb-0">
+        <blockquote>"Amy helped my daughter increase her A level grade from a B to an A*, and boosted her confidence and knowledge tremendously."</blockquote>
+        <figcaption class="testimonial-attribution">Holly, Parent of an A Level Student</figcaption>
+        <p class="google-reviews-line mt-3 mb-0"><a href="https://share.google/PiqQQ8HetL8ChASgP" target="_blank" rel="noopener">More five-star reviews on Google</a></p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================================================ 3. STRUGGLING WITH MATHS / MY APPROACH -->
+  <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <h2 class="mb-4">Every child needs something different from tutoring</h2>
-          <p class="text-dark mb-5">For one student, it is getting over the line to a Grade 4 at GCSE. For another, it's knowing an A at A Level is <em>possible</em> but not being able to show it in tests. Or it could be a Year 6 student who has slowly fallen behind and lost their confidence, or one who is racing ahead and needs to be given an opportunity to excel. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need. You can read how my tutors and I work at each level on the <a href="/gcse">GCSE</a> and <a href="/a-level">A Level</a> pages.</p>
+          <p class="text-dark mb-5">Your child may need a Grade 4 at GCSE and needs their confidence building to get there. Or perhaps your confident child is now worrying about getting the A they need at A Level. Or perhaps your Year 6 child is falling behind and you want them to feel confident and secure entering secondary school. That's why <strong>no two lessons I teach are the same</strong>: each one is planned around the child and what they need. You can read how my tutors and I work at each level on the <a href="/gcse">GCSE</a> and <a href="/a-level">A Level</a> pages.</p>
 
           <h3 class="mb-4">My approach to maths tutoring</h3>
-          <p class="text-dark mb-4">I make sessions as positive and uplifting as I can, picking out the progress your child is already making and the skills they already have, and showing them what they <em>can</em> actually do.</p>
-          <p class="text-dark mb-4"><strong>Coaching, not lecturing.</strong> Every session is interactive, with your child writing live on screen. There's no me talking while they sit and listen. We work <em>together</em>, and I guide them along the way.</p>
-          <p class="text-dark mb-5"><strong>Assess, fill, repeat.</strong> There's no big assessment at the start. We begin with a few foundational topics, find the gaps and work on them properly before moving on. It's a continual process that keeps progress moving in a simple, stress-free way.</p>
+          <p class="text-dark mb-4">I believe if we can help a child feel capable and curious, they will learn more than a child who is being pushed, and that the grades follow from that.</p>
+          <p class="text-dark mb-4">What differentiates us here at Maths Tutoring with Amy is the unique blend of the high standard we have for teaching maths correctly with warm, student-centred sessions.</p>
+          <p class="text-dark mb-4"><strong>We are invested in your child's success.</strong> We don't just teach and leave. We keep in contact between sessions, set them work to do and take an interest in them beyond what they are learning in our classes.</p>
+          <p class="text-dark mb-5"><strong>Working together, not lecturing.</strong> Every session is interactive, with your child writing live on screen. Often they will be working, writing and talking more than I do, which makes the 55 minutes more fun, helps with long term memory and gets in a tremendous amount of practice.</p>
 
           <h3 class="mb-4">What changes after a few sessions</h3>
-          <p class="text-dark mb-0">The feedback I hear most is that <strong>their motivation for maths comes back</strong>. They often start working harder at school too, and their confidence improves hugely. Knowing they have someone knowledgeable and encouraging <em>in their corner</em> means a lot.</p>
+          <p class="text-dark mb-0">The feedback I hear most is that <strong>their motivation for maths comes back</strong>. They often start working harder at school too, and their confidence improves hugely.</p>
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-white-shirt-at-desk.webp" alt="Amy at her desk in a white shirt, working through a maths problem"
-               class="img-fluid photo-frame" width="1400" height="1859" loading="lazy">
+          <img src="./assets/images/amy-at-desk-wearing-skirt-2026.jpg" alt="Amy at her home desk, planning a maths lesson"
+               class="img-fluid photo-frame" width="1400" height="1579" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
   <!-- ================================================ 3b. ONE PARENT'S WORDS -->
-  <section class="section section-white">
+  <section class="section section-alt">
     <div class="container">
       <figure class="quote-band">
         <blockquote>"Amy has developed a real friendship with our daughter, allowing her to be open about her difficulties and progress quicker than we thought possible."</blockquote>
@@ -114,11 +126,11 @@
   </section>
 
   <!-- ================================================ 4. WHY CHOOSE ME AND MY TUTORS -->
-  <section class="section section-alt">
+  <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
-          <img src="./assets/images/amy-brown-top.webp" alt="Amy, online maths tutor"
+          <img src="./assets/images/amy-white-shirt-at-desk.webp" alt="Amy at her desk in a white shirt, working through a maths problem"
                class="img-fluid photo-frame" width="1400" height="1859" loading="lazy">
         </div>
 
@@ -139,7 +151,7 @@
   </section>
 
   <!-- ================================================ 5. RESULTS / TESTIMONIALS (editorial, card-free) -->
-  <section class="section section-white">
+  <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -190,7 +202,7 @@
   </section>
 
   <!-- ================================================ 6. DIGITAL CLASSROOM -->
-  <section class="section section-alt">
+  <section class="section section-white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0">
@@ -211,7 +223,7 @@
   </section>
 
   <!-- ================================================ 7. THE RIGHT FIT -->
-  <section class="section section-white">
+  <section class="section section-alt">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
@@ -230,8 +242,8 @@
         </div>
 
         <div class="col-lg-5">
-          <img src="./assets/images/amy-crossed-arms.jpg" alt="Amy - Professional Maths Tutor"
-               class="img-fluid photo-frame" width="1400" height="1474" loading="lazy">
+          <img src="./assets/images/amy-brown-top.webp" alt="Amy, online maths tutor"
+               class="img-fluid photo-frame" width="1400" height="1859" loading="lazy">
         </div>
       </div>
     </div>

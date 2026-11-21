@@ -56,9 +56,15 @@
   </url>
 
   <url>
-    <loc>https://www.mathstutoringwithamy.co.uk/meet-amy</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.mathstutoringwithamy.co.uk/meet-the-tutors</loc>
+    <lastmod>2026-11-21</lastmod>
     <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mathstutoringwithamy.co.uk/meet-amy</loc>
+    <lastmod>2026-11-21</lastmod>
+    <priority>0.70</priority>
   </url>
 
   <url>

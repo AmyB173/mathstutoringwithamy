@@ -2070,6 +2070,94 @@ body.prices-page .hero-section-study-hub {
   }
 }
 
+/* PRICE TABLE (tutoring-and-prices)
+   A plain table: one size, one colour, hairline rules. Header cells are bold,
+   links are underlined ink. Nothing else. */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.0625rem;
+}
+
+.price-table th,
+.price-table td {
+  padding: 1rem 0.75rem 1rem 0;
+  border-bottom: 1px solid rgba(26, 26, 46, 0.12);
+  vertical-align: top;
+  text-align: left;
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.price-table thead th,
+.price-table tbody th {
+  font-weight: 600;
+}
+
+.price-table thead th {
+  padding-top: 0;
+}
+
+.price-table a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.price-table a:hover {
+  color: var(--accent-dark);
+}
+
+.price-fig {
+  font-weight: 400;
+}
+
+.price-table-link {
+  margin-left: 0.5rem;
+}
+
+.price-table-note {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.price-table-note + .price-table-note {
+  margin-top: 0;
+}
+
+.price-table-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.price-table-note a:hover {
+  color: var(--accent-dark);
+}
+
+.price-table thead th:first-child,
+.price-table tbody th {
+  width: 40%;
+}
+
+@media (max-width: 575.98px) {
+  .price-table {
+    font-size: 1rem;
+  }
+
+  .price-table th,
+  .price-table td {
+    padding: 0.875rem 0.5rem 0.875rem 0;
+  }
+
+  .price-table-link {
+    display: block;
+    margin-left: 0;
+  }
+}
+
 /* Inline price line, sitting under a service description on a landing page.
    Deliberately quieter than the standalone .price-headline: the A Level page
    carries four of them, and four 3rem numbers on one page would shout. */
